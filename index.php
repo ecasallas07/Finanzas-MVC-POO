@@ -13,6 +13,14 @@ ini_set("error_log", "/var/www/html/expense-app/php-error.log");
 error_log( "Hello, errors!" ); //Imprimir errores de log, en un documento independiente
 
 
-require_once 'libs/app.php';
+require_once 'libs/App.php';
+require_once 'libs/Controller.php';
+require_once 'libs/Model.php';
+require_once 'libs/View.php';
+require_once 'libs/Database.php';
+
+require_once 'config/config.php';
+
+
 
 $app = new \libs\App(); // Al tener la logica de URL en el constructor se va ejecutar apenas sea instanciado el obejto

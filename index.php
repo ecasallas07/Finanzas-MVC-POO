@@ -17,9 +17,11 @@ error_log( "Hello, errors!" ); //Imprimir errores de log, en un documento indepe
 require_once 'libs/Controller.php';
 require_once 'libs/Model.php';
 require_once 'libs/View.php';
+require_once 'classes/SessionController.php';
 require_once 'libs/Database.php';
 
 require_once 'config/config.php';
+
 //require_once 'controllers/Errores.php';
 
 require_once 'libs/App.php';

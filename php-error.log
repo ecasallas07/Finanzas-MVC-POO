@@ -163,3 +163,677 @@ Stack trace:
 [29-Sep-2023 15:57:38 UTC] Errores::controller-> Errores
 [29-Sep-2023 15:57:43 UTC] Hello, errors!
 [29-Sep-2023 15:57:43 UTC] Errores::controller-> Errores
+[29-Sep-2023 21:02:12 UTC] Hello, errors!
+[29-Sep-2023 21:02:12 UTC] PHP Fatal error:  Uncaught Error: Class "SessionController" not found in C:\laragon\www\Finanzas\controllers\Loguin.php:6
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\App.php(4): require_once()
+#1 C:\laragon\www\Finanzas\index.php(25): require_once('C:\\laragon\\www\\...')
+#2 {main}
+  thrown in C:\laragon\www\Finanzas\controllers\Loguin.php on line 6
+[29-Sep-2023 21:02:13 UTC] Hello, errors!
+[29-Sep-2023 21:02:13 UTC] PHP Fatal error:  Uncaught Error: Class "SessionController" not found in C:\laragon\www\Finanzas\controllers\Loguin.php:6
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\App.php(4): require_once()
+#1 C:\laragon\www\Finanzas\index.php(25): require_once('C:\\laragon\\www\\...')
+#2 {main}
+  thrown in C:\laragon\www\Finanzas\controllers\Loguin.php on line 6
+[29-Sep-2023 21:03:53 UTC] Hello, errors!
+[29-Sep-2023 21:03:53 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:03:53 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:03:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function iseet() in C:\laragon\www\Finanzas\classes\Session.php:26
+Stack trace:
+#0 C:\laragon\www\Finanzas\classes\SessionController.php(70): Session->exists()
+#1 C:\laragon\www\Finanzas\classes\SessionController.php(42): SessionController->existsSession()
+#2 C:\laragon\www\Finanzas\classes\SessionController.php(28): SessionController->validateSession()
+#3 C:\laragon\www\Finanzas\classes\SessionController.php(18): SessionController->init()
+#4 C:\laragon\www\Finanzas\controllers\Loguin.php(9): SessionController->__construct()
+#5 C:\laragon\www\Finanzas\libs\App.php(18): Loguin->__construct()
+#6 C:\laragon\www\Finanzas\index.php(28): App->__construct()
+#7 {main}
+  thrown in C:\laragon\www\Finanzas\classes\Session.php on line 26
+[29-Sep-2023 21:03:54 UTC] Hello, errors!
+[29-Sep-2023 21:03:54 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:03:54 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:03:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function iseet() in C:\laragon\www\Finanzas\classes\Session.php:26
+Stack trace:
+#0 C:\laragon\www\Finanzas\classes\SessionController.php(70): Session->exists()
+#1 C:\laragon\www\Finanzas\classes\SessionController.php(42): SessionController->existsSession()
+#2 C:\laragon\www\Finanzas\classes\SessionController.php(28): SessionController->validateSession()
+#3 C:\laragon\www\Finanzas\classes\SessionController.php(18): SessionController->init()
+#4 C:\laragon\www\Finanzas\controllers\Loguin.php(9): SessionController->__construct()
+#5 C:\laragon\www\Finanzas\libs\App.php(18): Loguin->__construct()
+#6 C:\laragon\www\Finanzas\index.php(28): App->__construct()
+#7 {main}
+  thrown in C:\laragon\www\Finanzas\classes\Session.php on line 26
+[29-Sep-2023 21:04:47 UTC] Hello, errors!
+[29-Sep-2023 21:04:47 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:04:47 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:04:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function iseet() in C:\laragon\www\Finanzas\classes\Session.php:26
+Stack trace:
+#0 C:\laragon\www\Finanzas\classes\SessionController.php(70): Session->exists()
+#1 C:\laragon\www\Finanzas\classes\SessionController.php(42): SessionController->existsSession()
+#2 C:\laragon\www\Finanzas\classes\SessionController.php(28): SessionController->validateSession()
+#3 C:\laragon\www\Finanzas\classes\SessionController.php(18): SessionController->init()
+#4 C:\laragon\www\Finanzas\controllers\Loguin.php(9): SessionController->__construct()
+#5 C:\laragon\www\Finanzas\libs\App.php(18): Loguin->__construct()
+#6 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#7 {main}
+  thrown in C:\laragon\www\Finanzas\classes\Session.php on line 26
+[29-Sep-2023 21:04:49 UTC] Hello, errors!
+[29-Sep-2023 21:04:49 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:04:49 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:04:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function iseet() in C:\laragon\www\Finanzas\classes\Session.php:26
+Stack trace:
+#0 C:\laragon\www\Finanzas\classes\SessionController.php(70): Session->exists()
+#1 C:\laragon\www\Finanzas\classes\SessionController.php(42): SessionController->existsSession()
+#2 C:\laragon\www\Finanzas\classes\SessionController.php(28): SessionController->validateSession()
+#3 C:\laragon\www\Finanzas\classes\SessionController.php(18): SessionController->init()
+#4 C:\laragon\www\Finanzas\controllers\Loguin.php(9): SessionController->__construct()
+#5 C:\laragon\www\Finanzas\libs\App.php(18): Loguin->__construct()
+#6 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#7 {main}
+  thrown in C:\laragon\www\Finanzas\classes\Session.php on line 26
+[29-Sep-2023 21:04:50 UTC] Hello, errors!
+[29-Sep-2023 21:04:50 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:04:50 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:04:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function iseet() in C:\laragon\www\Finanzas\classes\Session.php:26
+Stack trace:
+#0 C:\laragon\www\Finanzas\classes\SessionController.php(70): Session->exists()
+#1 C:\laragon\www\Finanzas\classes\SessionController.php(42): SessionController->existsSession()
+#2 C:\laragon\www\Finanzas\classes\SessionController.php(28): SessionController->validateSession()
+#3 C:\laragon\www\Finanzas\classes\SessionController.php(18): SessionController->init()
+#4 C:\laragon\www\Finanzas\controllers\Loguin.php(9): SessionController->__construct()
+#5 C:\laragon\www\Finanzas\libs\App.php(18): Loguin->__construct()
+#6 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#7 {main}
+  thrown in C:\laragon\www\Finanzas\classes\Session.php on line 26
+[29-Sep-2023 21:04:52 UTC] Hello, errors!
+[29-Sep-2023 21:04:52 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:04:52 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:04:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function iseet() in C:\laragon\www\Finanzas\classes\Session.php:26
+Stack trace:
+#0 C:\laragon\www\Finanzas\classes\SessionController.php(70): Session->exists()
+#1 C:\laragon\www\Finanzas\classes\SessionController.php(42): SessionController->existsSession()
+#2 C:\laragon\www\Finanzas\classes\SessionController.php(28): SessionController->validateSession()
+#3 C:\laragon\www\Finanzas\classes\SessionController.php(18): SessionController->init()
+#4 C:\laragon\www\Finanzas\controllers\Loguin.php(9): SessionController->__construct()
+#5 C:\laragon\www\Finanzas\libs\App.php(18): Loguin->__construct()
+#6 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#7 {main}
+  thrown in C:\laragon\www\Finanzas\classes\Session.php on line 26
+[29-Sep-2023 21:04:52 UTC] Hello, errors!
+[29-Sep-2023 21:04:52 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:04:52 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:04:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function iseet() in C:\laragon\www\Finanzas\classes\Session.php:26
+Stack trace:
+#0 C:\laragon\www\Finanzas\classes\SessionController.php(70): Session->exists()
+#1 C:\laragon\www\Finanzas\classes\SessionController.php(42): SessionController->existsSession()
+#2 C:\laragon\www\Finanzas\classes\SessionController.php(28): SessionController->validateSession()
+#3 C:\laragon\www\Finanzas\classes\SessionController.php(18): SessionController->init()
+#4 C:\laragon\www\Finanzas\controllers\Loguin.php(9): SessionController->__construct()
+#5 C:\laragon\www\Finanzas\libs\App.php(18): Loguin->__construct()
+#6 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#7 {main}
+  thrown in C:\laragon\www\Finanzas\classes\Session.php on line 26
+[29-Sep-2023 21:07:02 UTC] Hello, errors!
+[29-Sep-2023 21:07:02 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:07:02 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:07:02 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:07:02 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:07:02 UTC] Session controller -> get Current page
+[29-Sep-2023 21:07:02 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:07:02 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:07:02 UTC] Error de loguin
+[29-Sep-2023 21:07:02 UTC] Hello, errors!
+[29-Sep-2023 21:07:02 UTC] Errores::controller-> Errores
+[29-Sep-2023 21:08:17 UTC] Hello, errors!
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:17 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:17 UTC] Error de loguin
+[29-Sep-2023 21:08:17 UTC] Hello, errors!
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:17 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:17 UTC] Error de loguin
+[29-Sep-2023 21:08:17 UTC] Hello, errors!
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:17 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:17 UTC] Error de loguin
+[29-Sep-2023 21:08:17 UTC] Hello, errors!
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:17 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:17 UTC] Error de loguin
+[29-Sep-2023 21:08:17 UTC] Hello, errors!
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:17 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:17 UTC] Error de loguin
+[29-Sep-2023 21:08:17 UTC] Hello, errors!
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:17 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:17 UTC] Error de loguin
+[29-Sep-2023 21:08:17 UTC] Hello, errors!
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:17 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:17 UTC] Error de loguin
+[29-Sep-2023 21:08:17 UTC] Hello, errors!
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:17 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:17 UTC] Error de loguin
+[29-Sep-2023 21:08:17 UTC] Hello, errors!
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:17 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:17 UTC] Error de loguin
+[29-Sep-2023 21:08:17 UTC] Hello, errors!
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:17 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:17 UTC] Error de loguin
+[29-Sep-2023 21:08:17 UTC] Hello, errors!
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:17 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:17 UTC] Error de loguin
+[29-Sep-2023 21:08:17 UTC] Hello, errors!
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:17 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:17 UTC] Error de loguin
+[29-Sep-2023 21:08:17 UTC] Hello, errors!
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:17 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:17 UTC] Error de loguin
+[29-Sep-2023 21:08:17 UTC] Hello, errors!
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:17 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:17 UTC] Error de loguin
+[29-Sep-2023 21:08:17 UTC] Hello, errors!
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:17 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:17 UTC] Error de loguin
+[29-Sep-2023 21:08:17 UTC] Hello, errors!
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:17 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:17 UTC] Error de loguin
+[29-Sep-2023 21:08:17 UTC] Hello, errors!
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:17 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:17 UTC] Error de loguin
+[29-Sep-2023 21:08:17 UTC] Hello, errors!
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:17 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:17 UTC] Error de loguin
+[29-Sep-2023 21:08:17 UTC] Hello, errors!
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:17 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:17 UTC] Error de loguin
+[29-Sep-2023 21:08:17 UTC] Hello, errors!
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:17 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:17 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:17 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:17 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:17 UTC] Error de loguin
+[29-Sep-2023 21:08:18 UTC] Hello, errors!
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:18 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:18 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:18 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:18 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:18 UTC] Error de loguin
+[29-Sep-2023 21:08:18 UTC] Hello, errors!
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:18 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:18 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:18 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:18 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:18 UTC] Error de loguin
+[29-Sep-2023 21:08:18 UTC] Hello, errors!
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:18 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:18 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:18 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:18 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:18 UTC] Error de loguin
+[29-Sep-2023 21:08:18 UTC] Hello, errors!
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:18 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:18 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:18 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:18 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:18 UTC] Error de loguin
+[29-Sep-2023 21:08:18 UTC] Hello, errors!
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:18 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:18 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:18 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:18 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:18 UTC] Error de loguin
+[29-Sep-2023 21:08:18 UTC] Hello, errors!
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:18 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:18 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:18 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:18 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:18 UTC] Error de loguin
+[29-Sep-2023 21:08:18 UTC] Hello, errors!
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:18 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:18 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:18 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:18 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:18 UTC] Error de loguin
+[29-Sep-2023 21:08:18 UTC] Hello, errors!
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:18 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:18 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:18 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:18 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:18 UTC] Error de loguin
+[29-Sep-2023 21:08:18 UTC] Hello, errors!
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:18 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:18 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:18 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:18 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:18 UTC] Error de loguin
+[29-Sep-2023 21:08:18 UTC] Hello, errors!
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:18 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:18 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:18 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:18 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:18 UTC] Error de loguin
+[29-Sep-2023 21:08:18 UTC] Hello, errors!
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:18 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:18 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:18 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:18 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:18 UTC] Error de loguin
+[29-Sep-2023 21:08:18 UTC] Hello, errors!
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:18 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:18 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:18 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:18 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:18 UTC] Error de loguin
+[29-Sep-2023 21:08:18 UTC] Hello, errors!
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:18 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:18 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:18 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:18 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:18 UTC] Error de loguin
+[29-Sep-2023 21:08:18 UTC] Hello, errors!
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:18 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:18 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:18 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:18 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:18 UTC] Error de loguin
+[29-Sep-2023 21:08:18 UTC] Hello, errors!
+[29-Sep-2023 21:08:18 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:19 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:19 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:19 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:19 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:19 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:19 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:19 UTC] Error de loguin
+[29-Sep-2023 21:08:19 UTC] Hello, errors!
+[29-Sep-2023 21:08:19 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:19 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:19 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:19 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:19 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:19 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:19 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:19 UTC] Error de loguin
+[29-Sep-2023 21:08:19 UTC] Hello, errors!
+[29-Sep-2023 21:08:19 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:19 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:19 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:19 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:19 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:19 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:19 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:19 UTC] Error de loguin
+[29-Sep-2023 21:08:19 UTC] Hello, errors!
+[29-Sep-2023 21:08:19 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:19 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:19 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:19 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:19 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:19 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:19 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:19 UTC] Error de loguin
+[29-Sep-2023 21:08:19 UTC] Hello, errors!
+[29-Sep-2023 21:08:19 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:19 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:19 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:19 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:19 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:19 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:19 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:19 UTC] Error de loguin
+[29-Sep-2023 21:08:19 UTC] Hello, errors!
+[29-Sep-2023 21:08:19 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:19 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:19 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:19 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:19 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:19 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:19 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:19 UTC] Error de loguin
+[29-Sep-2023 21:08:24 UTC] Hello, errors!
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:24 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:24 UTC] Error de loguin
+[29-Sep-2023 21:08:24 UTC] Hello, errors!
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:24 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:24 UTC] Error de loguin
+[29-Sep-2023 21:08:24 UTC] Hello, errors!
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:24 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:24 UTC] Error de loguin
+[29-Sep-2023 21:08:24 UTC] Hello, errors!
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:24 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:24 UTC] Error de loguin
+[29-Sep-2023 21:08:24 UTC] Hello, errors!
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:24 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:24 UTC] Error de loguin
+[29-Sep-2023 21:08:24 UTC] Hello, errors!
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:24 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:24 UTC] Error de loguin
+[29-Sep-2023 21:08:24 UTC] Hello, errors!
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:24 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:24 UTC] Error de loguin
+[29-Sep-2023 21:08:24 UTC] Hello, errors!
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:24 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:24 UTC] Error de loguin
+[29-Sep-2023 21:08:24 UTC] Hello, errors!
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:24 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:24 UTC] Error de loguin
+[29-Sep-2023 21:08:24 UTC] Hello, errors!
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:24 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:24 UTC] Error de loguin
+[29-Sep-2023 21:08:24 UTC] Hello, errors!
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:24 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:24 UTC] Error de loguin
+[29-Sep-2023 21:08:24 UTC] Hello, errors!
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:24 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:24 UTC] Error de loguin
+[29-Sep-2023 21:08:24 UTC] Hello, errors!
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:24 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:24 UTC] Error de loguin
+[29-Sep-2023 21:08:24 UTC] Hello, errors!
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:24 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:24 UTC] Error de loguin
+[29-Sep-2023 21:08:24 UTC] Hello, errors!
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:24 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:24 UTC] Error de loguin
+[29-Sep-2023 21:08:24 UTC] Hello, errors!
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:24 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:24 UTC] Error de loguin
+[29-Sep-2023 21:08:24 UTC] Hello, errors!
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:24 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:24 UTC] Error de loguin
+[29-Sep-2023 21:08:24 UTC] Hello, errors!
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:24 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:24 UTC] Error de loguin
+[29-Sep-2023 21:08:24 UTC] Hello, errors!
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:24 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:24 UTC] Error de loguin
+[29-Sep-2023 21:08:24 UTC] Hello, errors!
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:24 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:24 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:24 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:24 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:24 UTC] Error de loguin
+[29-Sep-2023 21:08:54 UTC] Hello, errors!
+[29-Sep-2023 21:08:54 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 21:08:54 UTC] sessionController-> validateSession()
+[29-Sep-2023 21:08:54 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:54 UTC] PHP Deprecated:  error_log(): Passing null to parameter #2 ($message_type) of type int is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 109
+[29-Sep-2023 21:08:54 UTC] Session controller -> get Current page
+[29-Sep-2023 21:08:54 UTC] PHP Warning:  Undefined array key 2 in C:\laragon\www\Finanzas\classes\SessionController.php on line 110
+[29-Sep-2023 21:08:54 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 93
+[29-Sep-2023 21:08:54 UTC] Error de loguin
+[29-Sep-2023 21:08:54 UTC] Hello, errors!
+[29-Sep-2023 21:08:54 UTC] Errores::controller-> Errores

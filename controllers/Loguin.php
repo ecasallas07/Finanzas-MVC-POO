@@ -2,8 +2,8 @@
 
 require_once './libs/Controller.php';
 
-
-class Loguin extends Controller
+//TODO: Extendemos de ssion controller porque session controller ya tiene como herencia a controller
+class Loguin extends SessionController
 {
     function __construct(){
         parent::__construct();

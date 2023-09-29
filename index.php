@@ -8,19 +8,20 @@ ini_set('display_errors', FALSE); // Error/Exception display, use FALSE only in 
 
 ini_set('log_errors', TRUE); // Error/Exception file logging engine.
 
-ini_set("error_log", "/var/www/html/expense-app/php-error.log");
+ini_set("error_log", "php-error.log");
 
 error_log( "Hello, errors!" ); //Imprimir errores de log, en un documento independiente
 
 
-require_once 'libs/App.php';
+
 require_once 'libs/Controller.php';
 require_once 'libs/Model.php';
 require_once 'libs/View.php';
 require_once 'libs/Database.php';
 
 require_once 'config/config.php';
+//require_once 'controllers/Errores.php';
 
+require_once 'libs/App.php';
 
-
-$app = new \libs\App(); // Al tener la logica de URL en el constructor se va ejecutar apenas sea instanciado el obejto
+$app = new App(); // Al tener la logica de URL en el constructor se va ejecutar apenas sea instanciado el obejto

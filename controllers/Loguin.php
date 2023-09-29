@@ -1,8 +1,7 @@
 <?php
 
-namespace controllers;
+require_once './libs/Controller.php';
 
-use libs\Controller;
 
 class Loguin extends Controller
 {

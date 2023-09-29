@@ -1,9 +1,10 @@
 <?php
 
-namespace libs;
 
 class View
 {
+
+    public $d;
     function __construct(){
 
     }

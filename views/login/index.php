@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login</title>
-    <link rel="stylesheet" href="<?php echo constant('URL'); ?>public/css/login.css">
+    <link rel="stylesheet" href="<?php echo constant('URL'); ?>public/css/loguin.css">
 </head>
 <body>
-<?php require 'views/header.php'; ?>
-<?php $this->showMessages();?>
+<?php //require 'views/header.php'; ?>
+<?php //$this->showMessages();?>
 <div id="login-main">
     <form action="<?php echo constant('URL'); ?>login/authenticate" method="POST">
         <div><?php (isset($this->errorMessage))?  $this->errorMessage : '' ?></div>

@@ -1,0 +1,165 @@
+[27-Sep-2023 22:50:19 UTC] Hello, errors!
+[27-Sep-2023 22:50:19 UTC] PHP Fatal error:  Uncaught Error: Class "App" not found in C:\laragon\www\Finanzas\index.php:26
+Stack trace:
+#0 {main}
+  thrown in C:\laragon\www\Finanzas\index.php on line 26
+[27-Sep-2023 22:51:56 UTC] Hello, errors!
+[27-Sep-2023 22:51:56 UTC] PHP Fatal error:  Uncaught Error: Class "Errores" not found in C:\laragon\www\Finanzas\libs\App.php:54
+Stack trace:
+#0 C:\laragon\www\Finanzas\index.php(27): App->__construct()
+#1 {main}
+  thrown in C:\laragon\www\Finanzas\libs\App.php on line 54
+[27-Sep-2023 22:51:57 UTC] Hello, errors!
+[27-Sep-2023 22:51:57 UTC] PHP Fatal error:  Uncaught Error: Class "Errores" not found in C:\laragon\www\Finanzas\libs\App.php:54
+Stack trace:
+#0 C:\laragon\www\Finanzas\index.php(27): App->__construct()
+#1 {main}
+  thrown in C:\laragon\www\Finanzas\libs\App.php on line 54
+[27-Sep-2023 22:52:03 UTC] Hello, errors!
+[27-Sep-2023 22:52:03 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 10
+[27-Sep-2023 22:52:03 UTC] Error de loguin
+[27-Sep-2023 22:52:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method View::showMessages() in C:\laragon\www\Finanzas\views\login\index.php:13
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(14): require()
+#1 C:\laragon\www\Finanzas\controllers\Loguin.php(14): View->render('login/index')
+#2 C:\laragon\www\Finanzas\libs\App.php(19): Loguin->render()
+#3 C:\laragon\www\Finanzas\index.php(27): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\login\index.php on line 13
+[27-Sep-2023 22:52:03 UTC] Hello, errors!
+[27-Sep-2023 22:52:03 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 10
+[27-Sep-2023 22:52:03 UTC] Error de loguin
+[27-Sep-2023 22:52:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method View::showMessages() in C:\laragon\www\Finanzas\views\login\index.php:13
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(14): require()
+#1 C:\laragon\www\Finanzas\controllers\Loguin.php(14): View->render('login/index')
+#2 C:\laragon\www\Finanzas\libs\App.php(19): Loguin->render()
+#3 C:\laragon\www\Finanzas\index.php(27): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\login\index.php on line 13
+[27-Sep-2023 22:52:03 UTC] Hello, errors!
+[27-Sep-2023 22:52:03 UTC] PHP Fatal error:  Uncaught Error: Class "Errores" not found in C:\laragon\www\Finanzas\libs\App.php:54
+Stack trace:
+#0 C:\laragon\www\Finanzas\index.php(27): App->__construct()
+#1 {main}
+  thrown in C:\laragon\www\Finanzas\libs\App.php on line 54
+[27-Sep-2023 22:52:03 UTC] Hello, errors!
+[27-Sep-2023 22:52:03 UTC] PHP Fatal error:  Uncaught Error: Class "Errores" not found in C:\laragon\www\Finanzas\libs\App.php:54
+Stack trace:
+#0 C:\laragon\www\Finanzas\index.php(27): App->__construct()
+#1 {main}
+  thrown in C:\laragon\www\Finanzas\libs\App.php on line 54
+[27-Sep-2023 22:55:15 UTC] Hello, errors!
+[27-Sep-2023 22:55:15 UTC] PHP Warning:  require_once(C:\laragon\www\Finanzas): Failed to open stream: Permission denied in C:\laragon\www\Finanzas\libs\App.php on line 6
+[27-Sep-2023 22:55:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\Finanzas\libs\App.php:6
+Stack trace:
+#0 C:\laragon\www\Finanzas\index.php(25): require_once()
+#1 {main}
+  thrown in C:\laragon\www\Finanzas\libs\App.php on line 6
+[27-Sep-2023 22:55:16 UTC] Hello, errors!
+[27-Sep-2023 22:55:16 UTC] PHP Warning:  require_once(C:\laragon\www\Finanzas): Failed to open stream: Permission denied in C:\laragon\www\Finanzas\libs\App.php on line 6
+[27-Sep-2023 22:55:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\Finanzas\libs\App.php:6
+Stack trace:
+#0 C:\laragon\www\Finanzas\index.php(25): require_once()
+#1 {main}
+  thrown in C:\laragon\www\Finanzas\libs\App.php on line 6
+[27-Sep-2023 22:55:53 UTC] Hello, errors!
+[27-Sep-2023 22:55:53 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 12
+[27-Sep-2023 22:55:53 UTC] Error de loguin
+[27-Sep-2023 22:55:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method View::showMessages() in C:\laragon\www\Finanzas\views\login\index.php:13
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(14): require()
+#1 C:\laragon\www\Finanzas\controllers\Loguin.php(14): View->render('login/index')
+#2 C:\laragon\www\Finanzas\libs\App.php(21): Loguin->render()
+#3 C:\laragon\www\Finanzas\index.php(27): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\login\index.php on line 13
+[27-Sep-2023 22:55:53 UTC] Hello, errors!
+[27-Sep-2023 22:55:53 UTC] Hello, errors!
+[27-Sep-2023 22:55:54 UTC] Hello, errors!
+[27-Sep-2023 22:55:54 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 12
+[27-Sep-2023 22:55:54 UTC] Error de loguin
+[27-Sep-2023 22:55:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method View::showMessages() in C:\laragon\www\Finanzas\views\login\index.php:13
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(14): require()
+#1 C:\laragon\www\Finanzas\controllers\Loguin.php(14): View->render('login/index')
+#2 C:\laragon\www\Finanzas\libs\App.php(21): Loguin->render()
+#3 C:\laragon\www\Finanzas\index.php(27): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\login\index.php on line 13
+[27-Sep-2023 22:55:54 UTC] Hello, errors!
+[27-Sep-2023 22:55:54 UTC] Hello, errors!
+[28-Sep-2023 00:21:47 UTC] Hello, errors!
+[28-Sep-2023 00:21:48 UTC] Hello, errors!
+[28-Sep-2023 01:19:10 UTC] Hello, errors!
+[28-Sep-2023 01:19:10 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[28-Sep-2023 01:19:10 UTC] Error de loguin
+[28-Sep-2023 01:19:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method View::showMessages() in C:\laragon\www\Finanzas\views\login\index.php:13
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(14): require()
+#1 C:\laragon\www\Finanzas\controllers\Loguin.php(14): View->render('login/index')
+#2 C:\laragon\www\Finanzas\libs\App.php(20): Loguin->render()
+#3 C:\laragon\www\Finanzas\index.php(27): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\login\index.php on line 13
+[28-Sep-2023 01:19:11 UTC] Hello, errors!
+[28-Sep-2023 01:19:11 UTC] Hello, errors!
+[28-Sep-2023 03:07:10 UTC] Hello, errors!
+[28-Sep-2023 03:07:11 UTC] Hello, errors!
+[28-Sep-2023 03:10:18 UTC] Hello, errors!
+[28-Sep-2023 03:10:18 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[28-Sep-2023 03:10:18 UTC] Error de loguin
+[28-Sep-2023 03:10:18 UTC] Hello, errors!
+[28-Sep-2023 03:10:18 UTC] Hello, errors!
+[28-Sep-2023 03:22:15 UTC] Hello, errors!
+[28-Sep-2023 03:22:15 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[28-Sep-2023 03:22:15 UTC] Error de loguin
+[28-Sep-2023 03:22:16 UTC] Hello, errors!
+[28-Sep-2023 03:36:11 UTC] Hello, errors!
+[28-Sep-2023 03:36:15 UTC] Hello, errors!
+[28-Sep-2023 03:44:07 UTC] Hello, errors!
+[28-Sep-2023 03:44:07 UTC] Hello, errors!
+[28-Sep-2023 03:44:08 UTC] Hello, errors!
+[28-Sep-2023 03:44:08 UTC] Hello, errors!
+[28-Sep-2023 03:44:08 UTC] Hello, errors!
+[28-Sep-2023 03:44:08 UTC] Hello, errors!
+[28-Sep-2023 03:44:08 UTC] Hello, errors!
+[28-Sep-2023 03:44:09 UTC] Hello, errors!
+[28-Sep-2023 03:44:54 UTC] Hello, errors!
+[28-Sep-2023 03:44:54 UTC] Hello, errors!
+[28-Sep-2023 03:44:55 UTC] Hello, errors!
+[28-Sep-2023 03:44:55 UTC] Hello, errors!
+[28-Sep-2023 03:44:55 UTC] Hello, errors!
+[28-Sep-2023 03:44:55 UTC] Hello, errors!
+[28-Sep-2023 03:44:55 UTC] Hello, errors!
+[28-Sep-2023 03:44:55 UTC] Hello, errors!
+[28-Sep-2023 03:44:57 UTC] Hello, errors!
+[28-Sep-2023 03:44:57 UTC] Hello, errors!
+[28-Sep-2023 03:45:11 UTC] Hello, errors!
+[28-Sep-2023 03:45:11 UTC] Hello, errors!
+[28-Sep-2023 03:47:08 UTC] Hello, errors!
+[28-Sep-2023 03:47:08 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[28-Sep-2023 03:47:08 UTC] Error de loguin
+[28-Sep-2023 03:47:09 UTC] Hello, errors!
+[28-Sep-2023 03:48:40 UTC] Hello, errors!
+[28-Sep-2023 03:48:40 UTC] Errores::controller-> Errores
+[28-Sep-2023 03:48:40 UTC] Hello, errors!
+[28-Sep-2023 03:48:40 UTC] Errores::controller-> Errores
+[28-Sep-2023 21:06:17 UTC] Hello, errors!
+[28-Sep-2023 21:06:17 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[28-Sep-2023 21:06:17 UTC] Error de loguin
+[28-Sep-2023 21:06:18 UTC] Hello, errors!
+[28-Sep-2023 21:06:18 UTC] Errores::controller-> Errores
+[28-Sep-2023 22:17:05 UTC] Hello, errors!
+[28-Sep-2023 22:17:05 UTC] Errores::controller-> Errores
+[29-Sep-2023 15:18:06 UTC] Hello, errors!
+[29-Sep-2023 15:18:06 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[29-Sep-2023 15:18:06 UTC] Error de loguin
+[29-Sep-2023 15:18:07 UTC] Hello, errors!
+[29-Sep-2023 15:18:07 UTC] Errores::controller-> Errores
+[29-Sep-2023 15:57:38 UTC] Hello, errors!
+[29-Sep-2023 15:57:38 UTC] Errores::controller-> Errores
+[29-Sep-2023 15:57:38 UTC] Hello, errors!
+[29-Sep-2023 15:57:38 UTC] Errores::controller-> Errores
+[29-Sep-2023 15:57:43 UTC] Hello, errors!
+[29-Sep-2023 15:57:43 UTC] Errores::controller-> Errores

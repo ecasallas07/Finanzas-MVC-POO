@@ -1,9 +1,11 @@
 <?php
 
-namespace libs;
 
+require_once 'Database.php';
+require_once 'imodel.php';
 class Model
 {
+    private $db;
     function __construct(){
         $this->db = new Database();
     }

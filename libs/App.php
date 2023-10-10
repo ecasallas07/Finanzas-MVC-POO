@@ -7,7 +7,7 @@ require_once './controllers/Errores.php';
 class App
 {
     function __construct(){
-        $url = isset($_GET['url']) ? $_GET['url'] : null; //url lo traemos del archivo .htaccess donde esta declarada
+        $url = $_GET['url'] ?? null; //url lo traemos del archivo .htaccess donde esta declarada
         $url = rtrim($url,'/'); //Borra el slash principal
         $url = explode('/',$url);
 
@@ -22,7 +22,7 @@ class App
         }
 
         $archiverController = 'controllers/'. $url[0] . '.php';
-        print_r($archiverController);
+//        print_r($archiverController);
         if(file_exists($archiverController)){
             require_once $archiverController;
             $controller = new $url[0];

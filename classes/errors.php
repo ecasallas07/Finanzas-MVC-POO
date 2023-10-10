@@ -1,6 +1,6 @@
 <?php
 
-class errors
+class Errors
 {
     //ERROR|SUCCESS
     //Controller

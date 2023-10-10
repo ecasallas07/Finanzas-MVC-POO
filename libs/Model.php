@@ -10,11 +10,16 @@ class Model
         $this->db = new Database();
     }
 
-    public function query($sql){
+   public function query($sql): bool|PDOStatement
+   {
         return $this->db->connect()->query($sql);
+
     }
 
-    public function prepare($query){
+   public function prepare($query): bool|PDOStatement
+   {
         return $this->db->connect()->prepare($query);
+
+
     }
 }

@@ -46,18 +46,18 @@ class Controller
     public function getPost($name){
         return $_POST[$name];
     }
-    public function redirect($page,$mensajes){
+    public function redirect($page,$mensajes = []){
         $data = [];
         $params='';
         foreach ($mensajes as $key => $mensaje){
             array_push($data, $key."=". $mensaje);
         }
         $params = join('&',$data);
-        //Se visualizaria la url con parametros asi ?nombre=Marcos&apellido
+        //TODO: Se visualizaria la url con parametros asi ?nombre=Marcos&apellido
         if($params != ''){
             $params = '?'.$params;
         }
-        header('locations'.constant('URL') . $page .$params);
+        header('location:'.constant('URL') . '/' .$page .$params);
     }
 
 }

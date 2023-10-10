@@ -1,37 +1,82 @@
-
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Login</title>
-    <link rel="stylesheet" href="<?php echo constant('URL'); ?>public/css/loguin.css">
+  <link rel="stylesheet" href="<?php echo constant('URL'); ?>public/css/login.css?>">
 </head>
-<body>
-<?php //require 'views/header.php'; ?>
-<?php //$this->showMessages();?>
-<div id="login-main">
-    <form action="<?php echo constant('URL'); ?>login/authenticate" method="POST">
-        <div><?php (isset($this->errorMessage))?  $this->errorMessage : '' ?></div>
-        <h2>Iniciar sesión</h2>
+<div class="form">
 
-        <p>
-            <label for="username">Username</label>
-            <input type="text" name="username" id="username" autocomplete="off">
-        </p>
-        <p>
-            <label for="password">password</label>
-            <input type="password" name="password" id="password" autocomplete="off">
-        </p>
-        <p>
-            <input type="submit" value="Iniciar sesión" />
-        </p>
+      <ul class="tab-group">
+        <li class="tab active"><a href="login" data-tab="login">Log In</a></li>
+        <li class="tab"><a href="<?php echo constant('URL');?>signup" data-tab="signup">Sign Up</a></li>
+      </ul>
 
-        <p>
-            ¿No tienes cuenta? <a href="<?php echo constant('URL'); ?>signup">Registrarse</a>
-        </p>
-    </form>
-</div>
-</body>
-</html>
+      <div class="tab-contents">
+        <div id="login"  class="tab-content">
+          <h1>Welcome Back!</h1>
+
+          <form action="<?php echo constant('URL'); ?>loguin/authenticate" method="post">
+
+            <div class="field-wrap">
+              <label>Email Address<span class="req">*</span>
+              </label>
+              <input type="email"autocomplete="off" name="username"/>
+            </div>
+
+            <div class="field-wrap">
+              <label>Password<span class="req">*</span>
+              </label>
+              <input type="password"autocomplete="off" name="password"/>
+            </div>
+
+            <p class="forgot"><a href="#">Forgot Password?</a></p>
+
+            <button class="button button-block"/>Log In</button>
+
+          </form>
+
+        </div>
+
+        <div id="signup" class="tab-content">
+          <h1>Sign Up for Free</h1>
+
+          <form action="/" method="post">
+
+          <div class="top-row">
+            <div class="field-wrap">
+              <label>First Name<span class="req">*</span>
+              </label>
+              <input name="first_name" type="text" required autocomplete="off" />
+            </div>
+
+            <div class="field-wrap">
+              <label>Last Name<span class="req">*</span>
+              </label>
+              <input type="text"required autocomplete="off" name="last_name"/>
+            </div>
+          </div>
+
+          <div class="field-wrap">
+            <label>Email Address<span class="req">*</span>
+            </label>
+            <input type="email"required autocomplete="off" name="email"/>
+          </div>
+
+          <div class="field-wrap">
+            <label>Set A Password<span class="req">*</span>
+            </label>
+            <input type="password"required autocomplete="off" name="password"/>
+          </div>
+
+          <button type="submit" class="button button-block"/>Get Started</button>
+            <p>
+              ¿Tienes una cuenta? <a href="<?php echo constant('URL'); ?>">Iniciar sesion</a>
+            </p>
+
+          </form>
+
+        </div>
+
+      </div><!-- tab-content -->
+
+</div> <!-- /form -->
+<!--<script src="--><?php //=assets('login.js')?><!--">-->
+
+</script>

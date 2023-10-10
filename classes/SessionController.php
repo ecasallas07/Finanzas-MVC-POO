@@ -1,5 +1,6 @@
 <?php
 require_once 'Session.php';
+require_once './Models/UserModel.php';
 class SessionController extends Controller
 {
     private $userSession;
@@ -81,19 +82,21 @@ class SessionController extends Controller
 
     private function getUserSessionData()
     {
-        $id = $this->userId;
+        $this->session = new Session();
+        $id = $this->session->getCurrentUser();
         $this->user = new UserModel();
         $this->user->get($id);
         error_log('Session controller-> getUserSession Data' . $this->user->getUsername());
         return $this->user;
     }
-    public function isPublic()
+    private function isPublic()
     {
         $currentURL = $this->getCurrentPage();
-        $currentURL = preg_replace('/\?.*/','',$currentURL); // PHP interpreta / / estas dos linea como expresiones regulares
+        error_log("sessionController::isPublic(): currentURL => " . $currentURL);
+        $currentURL = preg_replace("/\?.*/","",$currentURL); // PHP interpreta / / estas dos linea como expresiones regulares
         //Recorro el json para validar que existan los parametros
         for($i=0; $i < sizeof($this->sites);$i++){
-            if($currentURL == $this->sites[$i]['site'] && $this->sites[$i]['access'] =='public'){
+            if($currentURL == $this->sites[$i]['site'] && $this->sites[$i]['access'] ==='public'){
                 return true;
             }
 
@@ -102,13 +105,34 @@ class SessionController extends Controller
 
     }
 
+//    private function getCurrentPage()
+//    {
+//        $actualLink = trim("$_SERVER[REQUEST_URI]");
+////        print_r($actualLink);
+//        $url = explode('/',$actualLink);
+//        error_log('Session controller -> get Current page'. $actualLink . ", url => " . $url[2]);
+//        return $url[2];
+//    }
     private function getCurrentPage()
     {
-        $actualLink = trim("$_SERVER[REQUEST_URI]");
-        $url = explode('/',$actualLink);
-        error_log('Session controller -> get Current page', $url[2]);
-        return $url[2];
+        if (isset($_SERVER['REQUEST_URI'])) {
+            $actualLink = trim($_SERVER['REQUEST_URI']);
+            $url = explode('/', $actualLink);
+
+            // Verificar si el índice existe antes de acceder a él
+            if (isset($url[2])) {
+                error_log('Session controller -> getCurrentPage: ' . $actualLink . ', url => ' . $url[2]);
+                return $url[2];
+            } else {
+                // Puedes manejar esto de alguna manera si $url[2] no está definido
+                return null; // O un valor predeterminado, dependiendo de tus necesidades
+            }
+        } else {
+            // Manejar el caso en el que $_SERVER['REQUEST_URI'] no está definido
+            return null; // O un valor predeterminado, dependiendo de tus necesidades
+        }
     }
+
 
     private function redirectDefaultByRoles(string $role)
     {

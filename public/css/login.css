@@ -1,3 +1,20 @@
+:root{
+    font-size: 14px;
+    --primary-color: rgb(38, 132, 214);
+    --hover-color: rgb(17, 80, 136);
+    --secondary-color: rgb(24, 92, 151);
+    --hover-menu: #eee;
+
+    --color-1:#001f2e;
+    --color-2: #00435b;
+    --color-3:  #007494;
+    --color-4: #00b1d8;
+}
+
+p{
+    color:whitesmoke;;
+}
+
 *,
 *:before,
 *:after {
@@ -9,7 +26,7 @@ html {
 }
 
 body {
-    background: #c1bdba;
+    background: #CCD2E4;
     font-family: "Titillium Web", sans-serif;
 }
 
@@ -19,11 +36,11 @@ a {
     transition: 0.5s ease;
 }
 a:hover {
-    color: #179b77;
+    color: var(--color-4);
 }
 
 .form {
-    background: rgba(19, 35, 47, 0.9);
+    background: var(--color-1);
     padding: 40px;
     max-width: 600px;
     margin: 40px auto;
@@ -32,7 +49,7 @@ a:hover {
     height: 530px;
 }
 .form_signup {
-    background: rgba(19, 35, 47, 0.9);
+    background: var(--color-1);
     padding: 40px;
     max-width: 600px;
     margin: 40px auto;
@@ -66,11 +83,11 @@ a:hover {
     transition: 0.5s ease;
 }
 .tab-group li a:hover {
-    background: #179b77;
+    background: var(--color-3);
     color: #ffffff;
 }
 .tab-group .active a {
-    background: #1ab188;
+    background: var(--color-3);
     color: #ffffff;
 }
 
@@ -104,7 +121,7 @@ label {
 }
 label .req {
     margin: 2px;
-    color: #1ab188;
+    color: var(--color-3);
 }
 
 label.active {
@@ -136,7 +153,7 @@ textarea {
 input:focus,
 textarea:focus {
     outline: 0;
-    border-color: #1ab188;
+    border-color: var(--color-3);
 }
 select option{
     background-color: #222222;
@@ -175,13 +192,13 @@ textarea {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    background: #1ab188;
+    background: var(--color-3);
     color: #ffffff;
     transition: all 0.5s ease;
     -webkit-appearance: none;
 }
 .button:hover, .button:focus {
-    background: #179b77;
+    background: var(--color-4);
 }
 
 .button-block {

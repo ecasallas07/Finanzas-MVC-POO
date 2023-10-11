@@ -179,6 +179,7 @@ class SessionController extends Controller
         $this->session->closeSession();
     }
     public function initialize($user){
+        $this->session = new Session();
         $this->session->setCurrentUser($user->getId());
         $this->authorizedAccess($user->getRole());
     }

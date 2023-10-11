@@ -5910,3 +5910,1473 @@ Stack trace:
 [11-Oct-2023 04:10:43 UTC] Error de loguin
 [11-Oct-2023 04:10:44 UTC] Hello, errors!
 [11-Oct-2023 04:10:44 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:15:47 UTC] Hello, errors!
+[11-Oct-2023 04:15:47 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:15:47 UTC] Session controller -> getCurrentPage: /loguin/authenticate, url => authenticate
+[11-Oct-2023 04:15:47 UTC] sessionController::isPublic(): currentURL => authenticate
+[11-Oct-2023 04:15:47 UTC] Error de loguin
+[11-Oct-2023 04:15:47 UTC] login: inicio
+[11-Oct-2023 04:15:47 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 135
+[11-Oct-2023 04:15:47 UTC] login: user id 11
+[11-Oct-2023 04:15:47 UTC] login: success
+[11-Oct-2023 04:15:47 UTC] Login::authenticate() passed
+[11-Oct-2023 04:15:47 UTC] Hello, errors!
+[11-Oct-2023 04:15:48 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:15:48 UTC] Hello, errors!
+[11-Oct-2023 04:15:48 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:16:07 UTC] Hello, errors!
+[11-Oct-2023 04:16:07 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[11-Oct-2023 04:16:07 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:16:07 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 04:16:07 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:16:07 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 04:16:07 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 04:16:07 UTC] Error de loguin
+[11-Oct-2023 04:16:08 UTC] Hello, errors!
+[11-Oct-2023 04:16:08 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:21:32 UTC] Hello, errors!
+[11-Oct-2023 04:21:32 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:21:32 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 04:21:32 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:21:32 UTC] Session controller -> getCurrentPage: /loguin/authenticate, url => authenticate
+[11-Oct-2023 04:21:32 UTC] sessionController::isPublic(): currentURL => authenticate
+[11-Oct-2023 04:21:32 UTC] Session controller -> getCurrentPage: /loguin/authenticate, url => authenticate
+[11-Oct-2023 04:21:32 UTC] Error de loguin
+[11-Oct-2023 04:21:32 UTC] login: inicio
+[11-Oct-2023 04:21:32 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 135
+[11-Oct-2023 04:21:32 UTC] login: user id 11
+[11-Oct-2023 04:21:32 UTC] login: success
+[11-Oct-2023 04:21:32 UTC] Login::authenticate() passed
+[11-Oct-2023 04:21:32 UTC] Hello, errors!
+[11-Oct-2023 04:21:32 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:21:32 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 04:21:32 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:21:32 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[11-Oct-2023 04:21:32 UTC] sessionController::isPublic(): currentURL => admin
+[11-Oct-2023 04:21:32 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[11-Oct-2023 04:21:32 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:21:32 UTC] PHP Warning:  Undefined property: View::$a in C:\laragon\www\Finanzas\views\admin\admin.php on line 2
+[11-Oct-2023 04:21:32 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\laragon\www\Finanzas\views\admin\admin.php on line 2
+[11-Oct-2023 04:21:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in C:\laragon\www\Finanzas\views\admin\admin.php:18
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Admin.php(14): View->render('admin/admin', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Admin->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\admin.php on line 18
+[11-Oct-2023 04:21:32 UTC] Hello, errors!
+[11-Oct-2023 04:21:32 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:22:05 UTC] Hello, errors!
+[11-Oct-2023 04:22:05 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:22:05 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 04:22:05 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:22:05 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[11-Oct-2023 04:22:05 UTC] sessionController::isPublic(): currentURL => admin
+[11-Oct-2023 04:22:05 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[11-Oct-2023 04:22:06 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:22:06 UTC] Hello, errors!
+[11-Oct-2023 04:22:06 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:23:16 UTC] Hello, errors!
+[11-Oct-2023 04:23:16 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:23:16 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 04:23:16 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:23:16 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:23:16 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 04:23:16 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:23:16 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:23:16 UTC] Hello, errors!
+[11-Oct-2023 04:23:16 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:23:17 UTC] Hello, errors!
+[11-Oct-2023 04:23:17 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:23:17 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 04:23:17 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:23:17 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:23:17 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 04:23:17 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:23:17 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:23:17 UTC] Hello, errors!
+[11-Oct-2023 04:23:17 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:23:17 UTC] Hello, errors!
+[11-Oct-2023 04:23:17 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:23:17 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 04:23:17 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:23:17 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:23:17 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 04:23:17 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:23:18 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:23:18 UTC] Hello, errors!
+[11-Oct-2023 04:23:18 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:37:24 UTC] Hello, errors!
+[11-Oct-2023 04:37:24 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:37:24 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 04:37:24 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:37:24 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:37:24 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 04:37:24 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:37:24 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:37:24 UTC] Hello, errors!
+[11-Oct-2023 04:37:24 UTC] Hello, errors!
+[11-Oct-2023 04:37:24 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:37:24 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:37:24 UTC] Hello, errors!
+[11-Oct-2023 04:37:24 UTC] Hello, errors!
+[11-Oct-2023 04:37:24 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:37:24 UTC] Hello, errors!
+[11-Oct-2023 04:37:24 UTC] Hello, errors!
+[11-Oct-2023 04:37:24 UTC] Hello, errors!
+[11-Oct-2023 04:37:24 UTC] Hello, errors!
+[11-Oct-2023 04:37:24 UTC] Hello, errors!
+[11-Oct-2023 04:37:24 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:37:24 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:37:24 UTC] Hello, errors!
+[11-Oct-2023 04:37:24 UTC] Hello, errors!
+[11-Oct-2023 04:37:24 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:37:24 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:37:24 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:37:24 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:37:24 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:37:24 UTC] Hello, errors!
+[11-Oct-2023 04:37:24 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:37:24 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:37:24 UTC] Hello, errors!
+[11-Oct-2023 04:37:24 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:38:04 UTC] Hello, errors!
+[11-Oct-2023 04:38:04 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:38:04 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 04:38:04 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:38:04 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:38:04 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 04:38:04 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:38:04 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:38:04 UTC] Hello, errors!
+[11-Oct-2023 04:38:04 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:38:04 UTC] Hello, errors!
+[11-Oct-2023 04:38:04 UTC] Hello, errors!
+[11-Oct-2023 04:38:04 UTC] Hello, errors!
+[11-Oct-2023 04:38:04 UTC] Hello, errors!
+[11-Oct-2023 04:38:04 UTC] Hello, errors!
+[11-Oct-2023 04:38:04 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:38:04 UTC] Hello, errors!
+[11-Oct-2023 04:38:04 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:38:04 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:38:04 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:38:04 UTC] Hello, errors!
+[11-Oct-2023 04:38:04 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:38:04 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:38:04 UTC] Hello, errors!
+[11-Oct-2023 04:38:04 UTC] Hello, errors!
+[11-Oct-2023 04:38:04 UTC] Hello, errors!
+[11-Oct-2023 04:38:04 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:38:04 UTC] Hello, errors!
+[11-Oct-2023 04:38:04 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:38:04 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:38:04 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:38:04 UTC] Hello, errors!
+[11-Oct-2023 04:38:04 UTC] Hello, errors!
+[11-Oct-2023 04:38:04 UTC] Hello, errors!
+[11-Oct-2023 04:38:04 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:38:04 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:38:04 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:38:04 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:38:04 UTC] Hello, errors!
+[11-Oct-2023 04:38:04 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:39:10 UTC] Hello, errors!
+[11-Oct-2023 04:39:10 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:39:10 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 04:39:10 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:39:10 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:39:10 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 04:39:10 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:39:10 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:39:10 UTC] Hello, errors!
+[11-Oct-2023 04:39:10 UTC] Hello, errors!
+[11-Oct-2023 04:39:10 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:39:10 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:39:10 UTC] Hello, errors!
+[11-Oct-2023 04:39:10 UTC] Hello, errors!
+[11-Oct-2023 04:39:10 UTC] Hello, errors!
+[11-Oct-2023 04:39:10 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:39:10 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:39:10 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:39:10 UTC] Hello, errors!
+[11-Oct-2023 04:39:10 UTC] Hello, errors!
+[11-Oct-2023 04:39:10 UTC] Hello, errors!
+[11-Oct-2023 04:39:10 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:39:10 UTC] Hello, errors!
+[11-Oct-2023 04:39:10 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:39:10 UTC] Hello, errors!
+[11-Oct-2023 04:39:10 UTC] Hello, errors!
+[11-Oct-2023 04:39:10 UTC] Hello, errors!
+[11-Oct-2023 04:39:10 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:39:10 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:39:10 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:39:10 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:39:10 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:39:10 UTC] Hello, errors!
+[11-Oct-2023 04:39:10 UTC] Hello, errors!
+[11-Oct-2023 04:39:10 UTC] Hello, errors!
+[11-Oct-2023 04:39:10 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:39:10 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:39:10 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:39:11 UTC] Hello, errors!
+[11-Oct-2023 04:39:11 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:39:11 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 04:39:11 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:39:11 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:39:11 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 04:39:11 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:39:11 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:39:11 UTC] Hello, errors!
+[11-Oct-2023 04:39:11 UTC] Hello, errors!
+[11-Oct-2023 04:39:11 UTC] Hello, errors!
+[11-Oct-2023 04:39:11 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:39:11 UTC] Hello, errors!
+[11-Oct-2023 04:39:11 UTC] Hello, errors!
+[11-Oct-2023 04:39:11 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:39:11 UTC] Hello, errors!
+[11-Oct-2023 04:39:11 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:39:11 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:39:11 UTC] Hello, errors!
+[11-Oct-2023 04:39:11 UTC] Hello, errors!
+[11-Oct-2023 04:39:11 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:39:11 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:39:11 UTC] Hello, errors!
+[11-Oct-2023 04:39:11 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:39:11 UTC] Hello, errors!
+[11-Oct-2023 04:39:11 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:39:11 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:39:11 UTC] Hello, errors!
+[11-Oct-2023 04:39:11 UTC] Hello, errors!
+[11-Oct-2023 04:39:11 UTC] Hello, errors!
+[11-Oct-2023 04:39:11 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:39:11 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:39:11 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:39:11 UTC] Hello, errors!
+[11-Oct-2023 04:39:11 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:39:11 UTC] Hello, errors!
+[11-Oct-2023 04:39:11 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:39:11 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:41:48 UTC] Hello, errors!
+[11-Oct-2023 04:41:48 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:41:48 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 04:41:48 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:41:48 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:41:48 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 04:41:48 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:41:48 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:41:48 UTC] Hello, errors!
+[11-Oct-2023 04:41:48 UTC] Hello, errors!
+[11-Oct-2023 04:41:48 UTC] Hello, errors!
+[11-Oct-2023 04:41:48 UTC] Hello, errors!
+[11-Oct-2023 04:41:48 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:41:48 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:41:48 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:41:48 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:41:48 UTC] Hello, errors!
+[11-Oct-2023 04:41:48 UTC] Hello, errors!
+[11-Oct-2023 04:41:48 UTC] Hello, errors!
+[11-Oct-2023 04:41:48 UTC] Hello, errors!
+[11-Oct-2023 04:41:48 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:41:48 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:41:48 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:41:48 UTC] Hello, errors!
+[11-Oct-2023 04:41:48 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:41:48 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:41:48 UTC] Hello, errors!
+[11-Oct-2023 04:41:48 UTC] Hello, errors!
+[11-Oct-2023 04:41:48 UTC] Hello, errors!
+[11-Oct-2023 04:41:48 UTC] Hello, errors!
+[11-Oct-2023 04:41:48 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:41:48 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:41:48 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:41:48 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:41:49 UTC] Hello, errors!
+[11-Oct-2023 04:41:49 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:43:06 UTC] Hello, errors!
+[11-Oct-2023 04:43:06 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:43:06 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 04:43:06 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:43:06 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:43:06 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 04:43:06 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:43:06 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:43:06 UTC] Hello, errors!
+[11-Oct-2023 04:43:06 UTC] Hello, errors!
+[11-Oct-2023 04:43:06 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:43:06 UTC] Hello, errors!
+[11-Oct-2023 04:43:06 UTC] Hello, errors!
+[11-Oct-2023 04:43:06 UTC] Hello, errors!
+[11-Oct-2023 04:43:06 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:43:06 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:43:06 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:43:06 UTC] Hello, errors!
+[11-Oct-2023 04:43:06 UTC] Hello, errors!
+[11-Oct-2023 04:43:06 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:43:06 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:43:06 UTC] Hello, errors!
+[11-Oct-2023 04:43:06 UTC] Hello, errors!
+[11-Oct-2023 04:43:06 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:43:06 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:43:06 UTC] Hello, errors!
+[11-Oct-2023 04:43:06 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:43:06 UTC] Hello, errors!
+[11-Oct-2023 04:43:06 UTC] Hello, errors!
+[11-Oct-2023 04:43:06 UTC] Hello, errors!
+[11-Oct-2023 04:43:06 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:43:06 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:43:06 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:43:06 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:43:06 UTC] Hello, errors!
+[11-Oct-2023 04:43:06 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:43:33 UTC] Hello, errors!
+[11-Oct-2023 04:43:33 UTC] Hello, errors!
+[11-Oct-2023 04:43:33 UTC] Hello, errors!
+[11-Oct-2023 04:43:33 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:43:33 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:43:33 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:43:33 UTC] Hello, errors!
+[11-Oct-2023 04:43:33 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:45:54 UTC] Hello, errors!
+[11-Oct-2023 04:45:54 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:45:54 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 04:45:54 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:45:54 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:45:54 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 04:45:54 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:45:54 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:45:54 UTC] Hello, errors!
+[11-Oct-2023 04:45:54 UTC] Hello, errors!
+[11-Oct-2023 04:45:54 UTC] Hello, errors!
+[11-Oct-2023 04:45:54 UTC] Hello, errors!
+[11-Oct-2023 04:45:54 UTC] Hello, errors!
+[11-Oct-2023 04:45:54 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:45:54 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:45:54 UTC] Hello, errors!
+[11-Oct-2023 04:45:54 UTC] Hello, errors!
+[11-Oct-2023 04:45:54 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:45:54 UTC] Hello, errors!
+[11-Oct-2023 04:45:54 UTC] Hello, errors!
+[11-Oct-2023 04:45:54 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:45:54 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:45:54 UTC] Hello, errors!
+[11-Oct-2023 04:45:54 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:45:54 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:45:54 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:45:54 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:45:54 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:45:56 UTC] Hello, errors!
+[11-Oct-2023 04:45:56 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:46:09 UTC] Hello, errors!
+[11-Oct-2023 04:46:09 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:46:31 UTC] Hello, errors!
+[11-Oct-2023 04:46:31 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:46:31 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 04:46:31 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:46:31 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:46:31 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 04:46:31 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:46:31 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:46:31 UTC] Hello, errors!
+[11-Oct-2023 04:46:31 UTC] Hello, errors!
+[11-Oct-2023 04:46:31 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:46:31 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:46:31 UTC] Hello, errors!
+[11-Oct-2023 04:46:31 UTC] Hello, errors!
+[11-Oct-2023 04:46:31 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:46:31 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:46:31 UTC] Hello, errors!
+[11-Oct-2023 04:46:31 UTC] Hello, errors!
+[11-Oct-2023 04:46:31 UTC] Hello, errors!
+[11-Oct-2023 04:46:31 UTC] Hello, errors!
+[11-Oct-2023 04:46:31 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:46:31 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:46:31 UTC] Hello, errors!
+[11-Oct-2023 04:46:31 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:46:31 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:46:31 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:46:31 UTC] Hello, errors!
+[11-Oct-2023 04:46:31 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:46:32 UTC] Hello, errors!
+[11-Oct-2023 04:46:32 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:46:32 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 04:46:32 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:46:32 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:46:32 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 04:46:32 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:46:32 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:46:32 UTC] Hello, errors!
+[11-Oct-2023 04:46:32 UTC] Hello, errors!
+[11-Oct-2023 04:46:32 UTC] Hello, errors!
+[11-Oct-2023 04:46:32 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:46:32 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:46:32 UTC] Hello, errors!
+[11-Oct-2023 04:46:32 UTC] Hello, errors!
+[11-Oct-2023 04:46:32 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:46:32 UTC] Hello, errors!
+[11-Oct-2023 04:46:32 UTC] Hello, errors!
+[11-Oct-2023 04:46:32 UTC] Hello, errors!
+[11-Oct-2023 04:46:32 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:46:32 UTC] Hello, errors!
+[11-Oct-2023 04:46:32 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:46:32 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:46:32 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:46:32 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:46:32 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:46:32 UTC] Hello, errors!
+[11-Oct-2023 04:46:32 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:47:29 UTC] Hello, errors!
+[11-Oct-2023 04:47:29 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:47:29 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 04:47:29 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:47:29 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:47:29 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 04:47:29 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:47:29 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:47:29 UTC] Hello, errors!
+[11-Oct-2023 04:47:29 UTC] Hello, errors!
+[11-Oct-2023 04:47:29 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:47:29 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:47:29 UTC] Hello, errors!
+[11-Oct-2023 04:47:29 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:47:29 UTC] Hello, errors!
+[11-Oct-2023 04:47:29 UTC] Hello, errors!
+[11-Oct-2023 04:47:29 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:47:29 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:47:30 UTC] Hello, errors!
+[11-Oct-2023 04:47:30 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:47:41 UTC] Hello, errors!
+[11-Oct-2023 04:47:41 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:47:41 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 04:47:41 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:47:41 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:47:41 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 04:47:41 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:47:42 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:47:42 UTC] Hello, errors!
+[11-Oct-2023 04:47:42 UTC] Hello, errors!
+[11-Oct-2023 04:47:42 UTC] Hello, errors!
+[11-Oct-2023 04:47:42 UTC] Hello, errors!
+[11-Oct-2023 04:47:42 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:47:42 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:47:42 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:47:42 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:47:42 UTC] Hello, errors!
+[11-Oct-2023 04:47:42 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:47:42 UTC] Hello, errors!
+[11-Oct-2023 04:47:42 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:47:42 UTC] Hello, errors!
+[11-Oct-2023 04:47:42 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:47:42 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 04:47:42 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:47:42 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:47:42 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 04:47:42 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:47:42 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:47:42 UTC] Hello, errors!
+[11-Oct-2023 04:47:42 UTC] Hello, errors!
+[11-Oct-2023 04:47:42 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:47:42 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:47:42 UTC] Hello, errors!
+[11-Oct-2023 04:47:42 UTC] Hello, errors!
+[11-Oct-2023 04:47:42 UTC] Hello, errors!
+[11-Oct-2023 04:47:42 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:47:42 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:47:42 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:47:43 UTC] Hello, errors!
+[11-Oct-2023 04:47:43 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:47:43 UTC] Hello, errors!
+[11-Oct-2023 04:47:43 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:47:43 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 04:47:43 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:47:43 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:47:43 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 04:47:43 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:47:43 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:47:43 UTC] Hello, errors!
+[11-Oct-2023 04:47:43 UTC] Hello, errors!
+[11-Oct-2023 04:47:43 UTC] Hello, errors!
+[11-Oct-2023 04:47:43 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:47:43 UTC] Hello, errors!
+[11-Oct-2023 04:47:43 UTC] Hello, errors!
+[11-Oct-2023 04:47:43 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:47:43 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:47:43 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:47:43 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:47:43 UTC] Hello, errors!
+[11-Oct-2023 04:47:43 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:48:25 UTC] Hello, errors!
+[11-Oct-2023 04:48:25 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:48:25 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 04:48:25 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:48:25 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:48:25 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 04:48:25 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:48:25 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:48:25 UTC] Hello, errors!
+[11-Oct-2023 04:48:25 UTC] Hello, errors!
+[11-Oct-2023 04:48:25 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:48:25 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:48:25 UTC] Hello, errors!
+[11-Oct-2023 04:48:25 UTC] Hello, errors!
+[11-Oct-2023 04:48:25 UTC] Hello, errors!
+[11-Oct-2023 04:48:25 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:48:25 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:48:25 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:48:25 UTC] Hello, errors!
+[11-Oct-2023 04:48:25 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:50:27 UTC] Hello, errors!
+[11-Oct-2023 04:50:27 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:50:27 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 04:50:27 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:50:27 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:50:27 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 04:50:27 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:50:27 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:50:27 UTC] Hello, errors!
+[11-Oct-2023 04:50:27 UTC] Hello, errors!
+[11-Oct-2023 04:50:27 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:50:27 UTC] Hello, errors!
+[11-Oct-2023 04:50:27 UTC] Hello, errors!
+[11-Oct-2023 04:50:27 UTC] Hello, errors!
+[11-Oct-2023 04:50:27 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:50:27 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:50:27 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:50:27 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:50:28 UTC] Hello, errors!
+[11-Oct-2023 04:50:28 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:50:29 UTC] Hello, errors!
+[11-Oct-2023 04:50:29 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:50:30 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 04:50:30 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:50:30 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:50:30 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 04:50:30 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 04:50:30 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 04:50:30 UTC] Hello, errors!
+[11-Oct-2023 04:50:30 UTC] Hello, errors!
+[11-Oct-2023 04:50:30 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:50:30 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:50:30 UTC] Hello, errors!
+[11-Oct-2023 04:50:30 UTC] Hello, errors!
+[11-Oct-2023 04:50:30 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:50:30 UTC] Hello, errors!
+[11-Oct-2023 04:50:30 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:50:30 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:50:30 UTC] Hello, errors!
+[11-Oct-2023 04:50:30 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:10:52 UTC] Hello, errors!
+[11-Oct-2023 05:10:52 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:10:53 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:10:53 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:10:53 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:10:53 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 05:10:53 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:10:53 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:10:53 UTC] Hello, errors!
+[11-Oct-2023 05:10:53 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:10:53 UTC] Hello, errors!
+[11-Oct-2023 05:10:53 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:11:02 UTC] Hello, errors!
+[11-Oct-2023 05:11:02 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:11:02 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:11:02 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:11:02 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:11:02 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 05:11:02 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:11:02 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:11:02 UTC] Hello, errors!
+[11-Oct-2023 05:11:02 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:11:02 UTC] Hello, errors!
+[11-Oct-2023 05:11:02 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:11:07 UTC] Hello, errors!
+[11-Oct-2023 05:11:07 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:11:08 UTC] Hello, errors!
+[11-Oct-2023 05:11:08 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:11:08 UTC] Hello, errors!
+[11-Oct-2023 05:11:08 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:11:10 UTC] Hello, errors!
+[11-Oct-2023 05:11:10 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:11:11 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:11:11 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:11:11 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:11:11 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 05:11:11 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:11:11 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:11:11 UTC] Hello, errors!
+[11-Oct-2023 05:11:11 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:11:41 UTC] Hello, errors!
+[11-Oct-2023 05:11:41 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:11:41 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:11:41 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:11:41 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:11:41 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 05:11:41 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:11:41 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:11:41 UTC] Hello, errors!
+[11-Oct-2023 05:11:41 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:11:42 UTC] Hello, errors!
+[11-Oct-2023 05:11:42 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:11:42 UTC] Hello, errors!
+[11-Oct-2023 05:11:42 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:11:43 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:11:43 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:11:43 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:11:43 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 05:11:43 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:11:43 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:11:43 UTC] Hello, errors!
+[11-Oct-2023 05:11:43 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:11:43 UTC] Hello, errors!
+[11-Oct-2023 05:11:43 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:12:18 UTC] Hello, errors!
+[11-Oct-2023 05:12:18 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:12:18 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:12:18 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:12:18 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:12:18 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 05:12:18 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:12:18 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:12:18 UTC] Hello, errors!
+[11-Oct-2023 05:12:18 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:12:18 UTC] Hello, errors!
+[11-Oct-2023 05:12:18 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:12:19 UTC] Hello, errors!
+[11-Oct-2023 05:12:19 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:12:20 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:12:20 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:12:20 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:12:20 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 05:12:20 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:12:20 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:12:20 UTC] Hello, errors!
+[11-Oct-2023 05:12:20 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:12:20 UTC] Hello, errors!
+[11-Oct-2023 05:12:20 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:12:27 UTC] Hello, errors!
+[11-Oct-2023 05:12:27 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:12:28 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:12:28 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:12:28 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:12:28 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 05:12:28 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:12:28 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:12:28 UTC] Hello, errors!
+[11-Oct-2023 05:12:28 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:12:28 UTC] Hello, errors!
+[11-Oct-2023 05:12:28 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:12:29 UTC] Hello, errors!
+[11-Oct-2023 05:12:29 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:12:29 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:12:29 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:12:29 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:12:29 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 05:12:29 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:12:29 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:12:29 UTC] Hello, errors!
+[11-Oct-2023 05:12:29 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:12:29 UTC] Hello, errors!
+[11-Oct-2023 05:12:29 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:12:57 UTC] Hello, errors!
+[11-Oct-2023 05:12:57 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:12:57 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:12:57 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:12:57 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:12:57 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 05:12:57 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:12:57 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:12:57 UTC] Hello, errors!
+[11-Oct-2023 05:12:57 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:12:57 UTC] Hello, errors!
+[11-Oct-2023 05:12:57 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:12:58 UTC] Hello, errors!
+[11-Oct-2023 05:12:58 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:12:58 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:12:58 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:12:58 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:12:58 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 05:12:58 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:12:58 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:12:58 UTC] Hello, errors!
+[11-Oct-2023 05:12:58 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:12:58 UTC] Hello, errors!
+[11-Oct-2023 05:12:58 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:13:31 UTC] Hello, errors!
+[11-Oct-2023 05:13:31 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:13:32 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:13:32 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:13:32 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:13:32 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 05:13:32 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:13:32 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:13:32 UTC] Hello, errors!
+[11-Oct-2023 05:13:32 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:13:32 UTC] Hello, errors!
+[11-Oct-2023 05:13:32 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:14:30 UTC] Hello, errors!
+[11-Oct-2023 05:14:30 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:14:30 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:14:30 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:14:30 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:14:30 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 05:14:30 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:14:30 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:14:30 UTC] Hello, errors!
+[11-Oct-2023 05:14:30 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:16:49 UTC] Hello, errors!
+[11-Oct-2023 05:16:49 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:16:49 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:16:49 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:16:49 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:16:49 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 05:16:49 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:16:49 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:16:49 UTC] Hello, errors!
+[11-Oct-2023 05:16:49 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:16:51 UTC] Hello, errors!
+[11-Oct-2023 05:16:51 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:16:51 UTC] Hello, errors!
+[11-Oct-2023 05:16:51 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:16:53 UTC] Hello, errors!
+[11-Oct-2023 05:16:53 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:16:53 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:16:53 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:16:53 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:16:53 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 05:16:53 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:16:53 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:16:54 UTC] Hello, errors!
+[11-Oct-2023 05:16:54 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:17:51 UTC] Hello, errors!
+[11-Oct-2023 05:17:51 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:17:51 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:17:51 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:17:51 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:17:51 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 05:17:51 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:17:51 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:17:51 UTC] Hello, errors!
+[11-Oct-2023 05:17:51 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:18:17 UTC] Hello, errors!
+[11-Oct-2023 05:18:17 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:18:18 UTC] Hello, errors!
+[11-Oct-2023 05:18:18 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:19:04 UTC] Hello, errors!
+[11-Oct-2023 05:19:04 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:19:04 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:19:04 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:19:04 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:19:04 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 05:19:04 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:19:04 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:19:04 UTC] Hello, errors!
+[11-Oct-2023 05:19:04 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:19:34 UTC] Hello, errors!
+[11-Oct-2023 05:19:34 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:19:34 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:19:34 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:19:34 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:19:34 UTC] sessionController::isPublic(): currentURL => admin?
+[11-Oct-2023 05:19:34 UTC] Session controller -> getCurrentPage: //admin?, url => admin?
+[11-Oct-2023 05:19:34 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:19:34 UTC] Hello, errors!
+[11-Oct-2023 05:19:34 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:24:38 UTC] Hello, errors!
+[11-Oct-2023 05:24:38 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[11-Oct-2023 05:24:38 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:24:38 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:24:38 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:24:38 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:24:38 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:24:38 UTC] Error de loguin
+[11-Oct-2023 05:24:39 UTC] Hello, errors!
+[11-Oct-2023 05:24:39 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:25:49 UTC] Hello, errors!
+[11-Oct-2023 05:25:49 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[11-Oct-2023 05:25:49 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:25:49 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:25:49 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:25:49 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:25:49 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:25:49 UTC] Error de loguin
+[11-Oct-2023 05:25:49 UTC] Hello, errors!
+[11-Oct-2023 05:25:49 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:25:50 UTC] Hello, errors!
+[11-Oct-2023 05:25:50 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[11-Oct-2023 05:25:50 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:25:50 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:25:50 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:25:50 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:25:50 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:25:50 UTC] Error de loguin
+[11-Oct-2023 05:25:50 UTC] Hello, errors!
+[11-Oct-2023 05:25:50 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:25:50 UTC] Hello, errors!
+[11-Oct-2023 05:25:50 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[11-Oct-2023 05:25:50 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:25:51 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:25:51 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:25:51 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:25:51 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:25:51 UTC] Error de loguin
+[11-Oct-2023 05:25:51 UTC] Hello, errors!
+[11-Oct-2023 05:25:51 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:25:54 UTC] Hello, errors!
+[11-Oct-2023 05:25:54 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[11-Oct-2023 05:25:54 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:25:54 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:25:54 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:25:54 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:25:54 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:25:54 UTC] Error de loguin
+[11-Oct-2023 05:25:54 UTC] Hello, errors!
+[11-Oct-2023 05:25:54 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:25:55 UTC] Hello, errors!
+[11-Oct-2023 05:25:55 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[11-Oct-2023 05:25:55 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:25:55 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:25:55 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:25:55 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:25:55 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:25:55 UTC] Error de loguin
+[11-Oct-2023 05:25:55 UTC] Hello, errors!
+[11-Oct-2023 05:25:55 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:26:17 UTC] Hello, errors!
+[11-Oct-2023 05:26:17 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[11-Oct-2023 05:26:17 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:26:17 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:26:17 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:26:17 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:26:17 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:26:17 UTC] Error de loguin
+[11-Oct-2023 05:26:17 UTC] Hello, errors!
+[11-Oct-2023 05:26:17 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:26:53 UTC] Hello, errors!
+[11-Oct-2023 05:26:54 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[11-Oct-2023 05:26:54 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:26:54 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:26:54 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:26:54 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:26:54 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:26:54 UTC] Error de loguin
+[11-Oct-2023 05:26:54 UTC] Hello, errors!
+[11-Oct-2023 05:26:54 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:27:25 UTC] Hello, errors!
+[11-Oct-2023 05:27:25 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[11-Oct-2023 05:27:25 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:27:25 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:27:25 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:27:25 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:27:25 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:27:25 UTC] Error de loguin
+[11-Oct-2023 05:27:25 UTC] Hello, errors!
+[11-Oct-2023 05:27:25 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:27:52 UTC] Hello, errors!
+[11-Oct-2023 05:27:52 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:27:52 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:27:52 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:27:52 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:27:52 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:27:52 UTC] Hello, errors!
+[11-Oct-2023 05:27:52 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:28:17 UTC] Hello, errors!
+[11-Oct-2023 05:28:17 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:28:18 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:28:18 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:28:18 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:28:18 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:28:18 UTC] Hello, errors!
+[11-Oct-2023 05:28:18 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:28:29 UTC] Hello, errors!
+[11-Oct-2023 05:28:29 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:28:29 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:28:29 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:28:29 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:28:29 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:28:29 UTC] Hello, errors!
+[11-Oct-2023 05:28:29 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:29:37 UTC] Hello, errors!
+[11-Oct-2023 05:29:37 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:29:37 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:29:37 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:29:37 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:29:37 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:29:37 UTC] Hello, errors!
+[11-Oct-2023 05:29:37 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:30:04 UTC] Hello, errors!
+[11-Oct-2023 05:30:04 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:30:04 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:30:04 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:30:04 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:30:04 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:30:04 UTC] Hello, errors!
+[11-Oct-2023 05:30:04 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:30:05 UTC] Hello, errors!
+[11-Oct-2023 05:30:05 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:30:05 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:30:05 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:30:05 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:30:05 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:30:05 UTC] Hello, errors!
+[11-Oct-2023 05:30:05 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:30:05 UTC] Hello, errors!
+[11-Oct-2023 05:30:05 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:30:05 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:30:05 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:30:05 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:30:05 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:30:05 UTC] Hello, errors!
+[11-Oct-2023 05:30:05 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:30:24 UTC] Hello, errors!
+[11-Oct-2023 05:30:24 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:30:24 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:30:24 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:30:24 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:30:24 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:30:24 UTC] Hello, errors!
+[11-Oct-2023 05:30:24 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:30:46 UTC] Hello, errors!
+[11-Oct-2023 05:30:46 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:30:46 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:30:46 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:30:46 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:30:46 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:30:47 UTC] Hello, errors!
+[11-Oct-2023 05:30:47 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:30:59 UTC] Hello, errors!
+[11-Oct-2023 05:30:59 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:30:59 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:30:59 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:30:59 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:30:59 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:30:59 UTC] Hello, errors!
+[11-Oct-2023 05:30:59 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:31:05 UTC] Hello, errors!
+[11-Oct-2023 05:31:05 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:31:05 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:31:05 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:31:05 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:31:05 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:31:05 UTC] Hello, errors!
+[11-Oct-2023 05:31:05 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:31:12 UTC] Hello, errors!
+[11-Oct-2023 05:31:12 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[11-Oct-2023 05:31:12 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:31:12 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:31:12 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:31:12 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:31:12 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:31:12 UTC] Error de loguin
+[11-Oct-2023 05:31:13 UTC] Hello, errors!
+[11-Oct-2023 05:31:13 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:31:33 UTC] Hello, errors!
+[11-Oct-2023 05:31:33 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:31:34 UTC] Hello, errors!
+[11-Oct-2023 05:31:34 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:31:34 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:31:34 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:31:34 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:31:34 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:31:34 UTC] Hello, errors!
+[11-Oct-2023 05:31:34 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:31:35 UTC] Hello, errors!
+[11-Oct-2023 05:31:35 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:31:35 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:31:35 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:31:35 UTC] Session controller -> getCurrentPage: /signup/newUser, url => newUser
+[11-Oct-2023 05:31:35 UTC] sessionController::isPublic(): currentURL => newUser
+[11-Oct-2023 05:31:35 UTC] Session controller -> getCurrentPage: /signup/newUser, url => newUser
+[11-Oct-2023 05:31:35 UTC] Existe Parametros
+[11-Oct-2023 05:31:36 UTC] Hello, errors!
+[11-Oct-2023 05:31:36 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:31:36 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:31:36 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:31:36 UTC] Session controller -> getCurrentPage: //signup?error=a74accfd26e06d012266810952678cf3, url => signup?error=a74accfd26e06d012266810952678cf3
+[11-Oct-2023 05:31:36 UTC] sessionController::isPublic(): currentURL => signup?error=a74accfd26e06d012266810952678cf3
+[11-Oct-2023 05:31:36 UTC] View::handleError() existsKey =>El nombre de usuario ya existe, selecciona otro
+[11-Oct-2023 05:31:36 UTC] Hello, errors!
+[11-Oct-2023 05:31:36 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:32:57 UTC] Hello, errors!
+[11-Oct-2023 05:32:57 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:32:57 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:32:57 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:32:57 UTC] Session controller -> getCurrentPage: //signup?error=a74accfd26e06d012266810952678cf3, url => signup?error=a74accfd26e06d012266810952678cf3
+[11-Oct-2023 05:32:57 UTC] sessionController::isPublic(): currentURL => signup?error=a74accfd26e06d012266810952678cf3
+[11-Oct-2023 05:32:57 UTC] View::handleError() existsKey =>El nombre de usuario ya existe, selecciona otro
+[11-Oct-2023 05:32:57 UTC] Hello, errors!
+[11-Oct-2023 05:32:57 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:33:15 UTC] Hello, errors!
+[11-Oct-2023 05:33:15 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:33:15 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:33:15 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:33:15 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:33:15 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:33:16 UTC] Hello, errors!
+[11-Oct-2023 05:33:16 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:33:16 UTC] Hello, errors!
+[11-Oct-2023 05:33:16 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[11-Oct-2023 05:33:16 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:33:16 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:33:16 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:33:16 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:33:16 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:33:16 UTC] Error de loguin
+[11-Oct-2023 05:33:17 UTC] Hello, errors!
+[11-Oct-2023 05:33:17 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:33:25 UTC] Hello, errors!
+[11-Oct-2023 05:33:25 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:33:25 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:33:25 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:33:25 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:33:25 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:33:26 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:33:26 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:33:26 UTC] Dashboard::constructor() bicaqemizo@mailinator.com
+[11-Oct-2023 05:33:26 UTC] Hello, errors!
+[11-Oct-2023 05:33:26 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:33:26 UTC] Hello, errors!
+[11-Oct-2023 05:33:26 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:33:39 UTC] Hello, errors!
+[11-Oct-2023 05:33:39 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:33:39 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:33:39 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:33:39 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:33:39 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:33:39 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:33:39 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:33:39 UTC] Hello, errors!
+[11-Oct-2023 05:33:39 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:33:40 UTC] Hello, errors!
+[11-Oct-2023 05:33:40 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:34:24 UTC] Hello, errors!
+[11-Oct-2023 05:34:24 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:34:24 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:34:24 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:34:24 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:34:24 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:34:24 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:34:24 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:34:24 UTC] Hello, errors!
+[11-Oct-2023 05:34:24 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:34:25 UTC] Hello, errors!
+[11-Oct-2023 05:34:25 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:34:26 UTC] Hello, errors!
+[11-Oct-2023 05:34:26 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:34:26 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:34:26 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:34:26 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:34:26 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:34:27 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:34:27 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:34:27 UTC] Hello, errors!
+[11-Oct-2023 05:34:27 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:34:27 UTC] Hello, errors!
+[11-Oct-2023 05:34:27 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:34:35 UTC] Hello, errors!
+[11-Oct-2023 05:34:35 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:34:35 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:34:35 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:34:35 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:34:35 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:34:35 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:34:35 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:34:35 UTC] Hello, errors!
+[11-Oct-2023 05:34:35 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:34:36 UTC] Hello, errors!
+[11-Oct-2023 05:34:36 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:34:46 UTC] Hello, errors!
+[11-Oct-2023 05:34:46 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:34:46 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:34:46 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:34:46 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:34:46 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:34:46 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:34:46 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:34:46 UTC] Hello, errors!
+[11-Oct-2023 05:34:46 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:34:46 UTC] Hello, errors!
+[11-Oct-2023 05:34:46 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:34:55 UTC] Hello, errors!
+[11-Oct-2023 05:34:55 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:34:56 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:34:56 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:34:56 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:34:56 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:34:56 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:34:56 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:34:56 UTC] Hello, errors!
+[11-Oct-2023 05:34:56 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:34:56 UTC] Hello, errors!
+[11-Oct-2023 05:34:56 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:35:22 UTC] Hello, errors!
+[11-Oct-2023 05:35:22 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:35:22 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:35:22 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:35:22 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:35:22 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:35:22 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:35:22 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:35:22 UTC] Hello, errors!
+[11-Oct-2023 05:35:22 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:35:22 UTC] Hello, errors!
+[11-Oct-2023 05:35:22 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:35:24 UTC] Hello, errors!
+[11-Oct-2023 05:35:24 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:35:25 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:35:25 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:35:25 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:35:25 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:35:25 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:35:25 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:35:25 UTC] Hello, errors!
+[11-Oct-2023 05:35:25 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:35:25 UTC] Hello, errors!
+[11-Oct-2023 05:35:25 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:35:50 UTC] Hello, errors!
+[11-Oct-2023 05:35:50 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:35:50 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:35:50 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:35:50 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:35:50 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:35:50 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:35:50 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:35:50 UTC] Hello, errors!
+[11-Oct-2023 05:35:50 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:35:50 UTC] Hello, errors!
+[11-Oct-2023 05:35:50 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:35:56 UTC] Hello, errors!
+[11-Oct-2023 05:35:56 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:35:56 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:35:56 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:35:56 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:35:56 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:35:57 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:35:57 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:35:57 UTC] Hello, errors!
+[11-Oct-2023 05:35:57 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:35:57 UTC] Hello, errors!
+[11-Oct-2023 05:35:57 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:36:04 UTC] Hello, errors!
+[11-Oct-2023 05:36:04 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:36:04 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:36:04 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:36:04 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:36:04 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:36:05 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:36:05 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:36:05 UTC] Hello, errors!
+[11-Oct-2023 05:36:05 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:36:05 UTC] Hello, errors!
+[11-Oct-2023 05:36:05 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:36:16 UTC] Hello, errors!
+[11-Oct-2023 05:36:16 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:36:16 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:36:16 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:36:16 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:36:16 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:36:16 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:36:16 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:36:16 UTC] Hello, errors!
+[11-Oct-2023 05:36:16 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:36:17 UTC] Hello, errors!
+[11-Oct-2023 05:36:17 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:36:37 UTC] Hello, errors!
+[11-Oct-2023 05:36:37 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:36:37 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:36:37 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:36:37 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:36:37 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:36:37 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:36:37 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:36:37 UTC] Hello, errors!
+[11-Oct-2023 05:36:37 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:36:37 UTC] Hello, errors!
+[11-Oct-2023 05:36:37 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:37:05 UTC] Hello, errors!
+[11-Oct-2023 05:37:05 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:37:06 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:37:06 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:37:06 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:37:06 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:37:06 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:37:06 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:37:06 UTC] Hello, errors!
+[11-Oct-2023 05:37:06 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:37:06 UTC] Hello, errors!
+[11-Oct-2023 05:37:06 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:37:56 UTC] Hello, errors!
+[11-Oct-2023 05:37:56 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:37:56 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:37:56 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:37:56 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:37:56 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:37:56 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:37:56 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:37:56 UTC] Hello, errors!
+[11-Oct-2023 05:37:56 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:37:57 UTC] Hello, errors!
+[11-Oct-2023 05:37:57 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:38:03 UTC] Hello, errors!
+[11-Oct-2023 05:38:03 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:38:03 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:38:03 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:38:03 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:38:03 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:38:03 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:38:03 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:38:03 UTC] Hello, errors!
+[11-Oct-2023 05:38:03 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:38:04 UTC] Hello, errors!
+[11-Oct-2023 05:38:04 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:38:09 UTC] Hello, errors!
+[11-Oct-2023 05:38:09 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:38:09 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:38:09 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:38:09 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:38:09 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:38:09 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:38:09 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:38:09 UTC] Hello, errors!
+[11-Oct-2023 05:38:09 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:38:09 UTC] Hello, errors!
+[11-Oct-2023 05:38:09 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:38:33 UTC] Hello, errors!
+[11-Oct-2023 05:38:33 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:38:33 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:38:33 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:38:33 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:38:33 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:38:33 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:38:33 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:38:33 UTC] Hello, errors!
+[11-Oct-2023 05:38:33 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:38:34 UTC] Hello, errors!
+[11-Oct-2023 05:38:34 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:39:07 UTC] Hello, errors!
+[11-Oct-2023 05:39:07 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:39:08 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:39:08 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:39:08 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:39:08 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:39:08 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:39:08 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:39:08 UTC] Hello, errors!
+[11-Oct-2023 05:39:08 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:39:08 UTC] Hello, errors!
+[11-Oct-2023 05:39:08 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:39:10 UTC] Hello, errors!
+[11-Oct-2023 05:39:10 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:39:10 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:39:10 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:39:10 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:39:10 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:39:10 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:39:10 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:39:10 UTC] Hello, errors!
+[11-Oct-2023 05:39:10 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:39:11 UTC] Hello, errors!
+[11-Oct-2023 05:39:11 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:39:16 UTC] Hello, errors!
+[11-Oct-2023 05:39:16 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:39:16 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:39:16 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:39:16 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:39:16 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:39:16 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:39:16 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:39:16 UTC] Hello, errors!
+[11-Oct-2023 05:39:16 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:39:16 UTC] Hello, errors!
+[11-Oct-2023 05:39:16 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:39:30 UTC] Hello, errors!
+[11-Oct-2023 05:39:30 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:39:30 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:39:30 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:39:30 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:39:30 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:39:30 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:39:30 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:39:30 UTC] Hello, errors!
+[11-Oct-2023 05:39:30 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:39:30 UTC] Hello, errors!
+[11-Oct-2023 05:39:30 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:39:33 UTC] Hello, errors!
+[11-Oct-2023 05:39:33 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:39:33 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:39:33 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:39:33 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:39:33 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:39:33 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:39:33 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:39:33 UTC] Hello, errors!
+[11-Oct-2023 05:39:33 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:39:34 UTC] Hello, errors!
+[11-Oct-2023 05:39:34 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:40:00 UTC] Hello, errors!
+[11-Oct-2023 05:40:00 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:40:00 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:40:00 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:40:00 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:40:00 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:40:00 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:40:00 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:40:00 UTC] Hello, errors!
+[11-Oct-2023 05:40:00 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:40:01 UTC] Hello, errors!
+[11-Oct-2023 05:40:01 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:40:04 UTC] Hello, errors!
+[11-Oct-2023 05:40:04 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:40:04 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:40:04 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:40:04 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:40:04 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:40:04 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:40:04 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:40:04 UTC] Hello, errors!
+[11-Oct-2023 05:40:04 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:40:05 UTC] Hello, errors!
+[11-Oct-2023 05:40:05 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:40:19 UTC] Hello, errors!
+[11-Oct-2023 05:40:19 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:40:19 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:40:19 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:40:19 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:40:19 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:40:19 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:40:19 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:40:20 UTC] Hello, errors!
+[11-Oct-2023 05:40:20 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:40:20 UTC] Hello, errors!
+[11-Oct-2023 05:40:20 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:40:23 UTC] Hello, errors!
+[11-Oct-2023 05:40:23 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:40:23 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:40:23 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:40:23 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:40:23 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:40:23 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:40:23 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:40:23 UTC] Hello, errors!
+[11-Oct-2023 05:40:23 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:40:24 UTC] Hello, errors!
+[11-Oct-2023 05:40:24 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:40:54 UTC] Hello, errors!
+[11-Oct-2023 05:40:54 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:40:54 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:40:54 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:40:54 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:40:54 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:40:55 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:40:55 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:40:55 UTC] Hello, errors!
+[11-Oct-2023 05:40:55 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:40:55 UTC] Hello, errors!
+[11-Oct-2023 05:40:55 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:41:15 UTC] Hello, errors!
+[11-Oct-2023 05:41:15 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:41:15 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:41:15 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:41:15 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:41:15 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:41:15 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:41:15 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:41:15 UTC] Hello, errors!
+[11-Oct-2023 05:41:15 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:41:15 UTC] Hello, errors!
+[11-Oct-2023 05:41:15 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:42:25 UTC] Hello, errors!
+[11-Oct-2023 05:42:25 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:42:25 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:42:25 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:42:25 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:42:25 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:42:25 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:42:25 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:42:25 UTC] Hello, errors!
+[11-Oct-2023 05:42:25 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:42:26 UTC] Hello, errors!
+[11-Oct-2023 05:42:26 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:43:07 UTC] Hello, errors!
+[11-Oct-2023 05:43:07 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:43:07 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:43:07 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:43:07 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:43:07 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:43:07 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:43:07 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:43:07 UTC] Hello, errors!
+[11-Oct-2023 05:43:07 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:43:08 UTC] Hello, errors!
+[11-Oct-2023 05:43:08 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:43:48 UTC] Hello, errors!
+[11-Oct-2023 05:43:48 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:43:48 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:43:48 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:43:48 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:43:48 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:43:48 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:43:48 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:43:48 UTC] Hello, errors!
+[11-Oct-2023 05:43:48 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:43:48 UTC] Hello, errors!
+[11-Oct-2023 05:43:48 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:44:01 UTC] Hello, errors!
+[11-Oct-2023 05:44:01 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:44:01 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:44:01 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:44:01 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:44:01 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:44:01 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:44:01 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:44:01 UTC] Hello, errors!
+[11-Oct-2023 05:44:01 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:44:02 UTC] Hello, errors!
+[11-Oct-2023 05:44:02 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:45:01 UTC] Hello, errors!
+[11-Oct-2023 05:45:01 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:45:01 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:45:01 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:45:01 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:45:01 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:45:01 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:45:01 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:45:02 UTC] Hello, errors!
+[11-Oct-2023 05:45:02 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:45:02 UTC] Hello, errors!
+[11-Oct-2023 05:45:02 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:45:37 UTC] Hello, errors!
+[11-Oct-2023 05:45:37 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:45:37 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:45:37 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:45:37 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:45:37 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:45:38 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:45:38 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:45:38 UTC] Hello, errors!
+[11-Oct-2023 05:45:38 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:45:38 UTC] Hello, errors!
+[11-Oct-2023 05:45:38 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:45:56 UTC] Hello, errors!
+[11-Oct-2023 05:45:56 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:45:56 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:45:56 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:45:56 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:45:56 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:45:56 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:45:56 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:45:56 UTC] Hello, errors!
+[11-Oct-2023 05:45:56 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:45:56 UTC] Hello, errors!
+[11-Oct-2023 05:45:56 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:47:23 UTC] Hello, errors!
+[11-Oct-2023 05:47:23 UTC] sessionController-> validateSession()
+[11-Oct-2023 05:47:23 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:47:23 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:47:23 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 05:47:23 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 05:47:23 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[11-Oct-2023 05:47:23 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[11-Oct-2023 05:47:23 UTC] Hello, errors!
+[11-Oct-2023 05:47:23 UTC] Errores::controller-> Errores
+[11-Oct-2023 05:47:24 UTC] Hello, errors!
+[11-Oct-2023 05:47:24 UTC] Errores::controller-> Errores

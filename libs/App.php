@@ -21,8 +21,10 @@ class App
             return false;
         }
 
+        //TODO: Direccion del archivo donde se encuentra el controllador que se pasa por la URL
         $archiverController = 'controllers/'. $url[0] . '.php';
 //        print_r($archiverController);
+
         if(file_exists($archiverController)){
             require_once $archiverController;
             $controller = new $url[0];

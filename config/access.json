@@ -17,7 +17,7 @@
 
     },
     {
-      "site": "expenses",
+      "site": "home",
       "access": "private",
       "role": "user"
     },

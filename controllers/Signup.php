@@ -13,9 +13,12 @@ class Signup extends SessionController
     }
 
     public function newUser(){
-        if($this->existPost(['username','password'])){
+        if($this->existPost(['username','password','role','phone','user_name'])){
             $username = $this->getPost('username');
             $password = $this->getPost('password');
+            $role = $this->getPost('role');
+            $phone = $this->getPost('phone');
+            $user_name = $this->getPost('user_name');
             if($username == '' || empty($username) || $password == '' || empty($password)){
                 error_log('Existe Parametros');
                 $this->redirect('signup',['error'=>Errors::ERROR_SIGNUP_NEWUSER_EMPTY]);
@@ -23,7 +26,9 @@ class Signup extends SessionController
             $user = new UserModel();
             $user->setUsername($username);
             $user->setPassword($password);
-            $user->setRole("user");
+            $user->setRole($role);
+            $user->setPhone($phone);
+            $user->setName($user_name);
 
             if($user->exists($username)){
 
@@ -39,6 +44,7 @@ class Signup extends SessionController
             }
 
         }else{
+            error_log('Ingreso aqui ahora mismo');
             $this->redirect('signup',['error'=>Errors::ERROR_SIGNUP_NEWUSER_EMPTY]);
         }
     }

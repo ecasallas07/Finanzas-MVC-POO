@@ -12,7 +12,7 @@
 
     <div id="profile-container">
         <a href="<?php echo constant('URL');?>user">
-            <div class="name"><?php echo $user->getName(); ?></div>
+            <div class="name"><?php echo $user->getUsername(); ?></div>
             <div class="photo">
                 <?php  if($user->getPhoto() == ''){?>
                     <i class="material-icons">account_circle</i>

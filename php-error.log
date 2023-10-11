@@ -4679,3 +4679,1234 @@ Stack trace:
 [10-Oct-2023 03:39:26 UTC] Errores::controller-> Errores
 [10-Oct-2023 03:39:27 UTC] Hello, errors!
 [10-Oct-2023 03:39:27 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:48:19 UTC] Hello, errors!
+[10-Oct-2023 03:48:19 UTC] sessionController-> validateSession()
+[10-Oct-2023 03:48:19 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:48:19 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:48:19 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 03:48:19 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:48:19 UTC] Dashboard::constructor() 
+[10-Oct-2023 03:48:19 UTC] Dashboard::RENDER() 
+[10-Oct-2023 03:48:19 UTC] PHP Warning:  Undefined array key "expenses" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 2
+[10-Oct-2023 03:48:19 UTC] PHP Warning:  Undefined array key "totalAmountThisMonth" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 3
+[10-Oct-2023 03:48:19 UTC] PHP Warning:  Undefined array key "maxExpensesThisMonth" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 4
+[10-Oct-2023 03:48:19 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 5
+[10-Oct-2023 03:48:19 UTC] PHP Warning:  Undefined array key "categories" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 6
+[10-Oct-2023 03:48:19 UTC] Hello, errors!
+[10-Oct-2023 03:48:19 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:48:20 UTC] Hello, errors!
+[10-Oct-2023 03:48:20 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:48:22 UTC] Hello, errors!
+[10-Oct-2023 03:48:22 UTC] sessionController-> validateSession()
+[10-Oct-2023 03:48:22 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:48:22 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:48:22 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 03:48:22 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:48:22 UTC] Dashboard::constructor() 
+[10-Oct-2023 03:48:22 UTC] Dashboard::RENDER() 
+[10-Oct-2023 03:48:22 UTC] PHP Warning:  Undefined array key "expenses" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 2
+[10-Oct-2023 03:48:22 UTC] PHP Warning:  Undefined array key "totalAmountThisMonth" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 3
+[10-Oct-2023 03:48:22 UTC] PHP Warning:  Undefined array key "maxExpensesThisMonth" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 4
+[10-Oct-2023 03:48:22 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 5
+[10-Oct-2023 03:48:22 UTC] PHP Warning:  Undefined array key "categories" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 6
+[10-Oct-2023 03:48:22 UTC] Hello, errors!
+[10-Oct-2023 03:48:22 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:48:22 UTC] Hello, errors!
+[10-Oct-2023 03:48:22 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:48:31 UTC] Hello, errors!
+[10-Oct-2023 03:48:31 UTC] sessionController-> validateSession()
+[10-Oct-2023 03:48:31 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:48:31 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:48:31 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 03:48:31 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:48:31 UTC] Dashboard::constructor() 
+[10-Oct-2023 03:48:31 UTC] Dashboard::RENDER() 
+[10-Oct-2023 03:48:31 UTC] PHP Warning:  Undefined array key "expenses" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 2
+[10-Oct-2023 03:48:31 UTC] PHP Warning:  Undefined array key "totalAmountThisMonth" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 3
+[10-Oct-2023 03:48:31 UTC] PHP Warning:  Undefined array key "maxExpensesThisMonth" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 4
+[10-Oct-2023 03:48:31 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 5
+[10-Oct-2023 03:48:31 UTC] PHP Warning:  Undefined array key "categories" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 6
+[10-Oct-2023 03:48:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in C:\laragon\www\Finanzas\views\dashboard\header.php:15
+Stack trace:
+#0 C:\laragon\www\Finanzas\views\dashboard\index.php(16): require()
+#1 C:\laragon\www\Finanzas\libs\View.php(16): require('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Finanzas\controllers\Dashboard.php(22): View->render('dashboard/index')
+#3 C:\laragon\www\Finanzas\libs\App.php(51): Dashboard->render()
+#4 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#5 {main}
+  thrown in C:\laragon\www\Finanzas\views\dashboard\header.php on line 15
+[10-Oct-2023 03:48:31 UTC] Hello, errors!
+[10-Oct-2023 03:48:31 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:48:41 UTC] Hello, errors!
+[10-Oct-2023 03:48:41 UTC] sessionController-> validateSession()
+[10-Oct-2023 03:48:41 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:48:41 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:48:41 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 03:48:41 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:48:41 UTC] Dashboard::constructor() 
+[10-Oct-2023 03:48:41 UTC] Dashboard::RENDER() 
+[10-Oct-2023 03:48:41 UTC] PHP Warning:  Undefined array key "expenses" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 2
+[10-Oct-2023 03:48:41 UTC] PHP Warning:  Undefined array key "totalAmountThisMonth" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 3
+[10-Oct-2023 03:48:41 UTC] PHP Warning:  Undefined array key "maxExpensesThisMonth" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 4
+[10-Oct-2023 03:48:41 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 5
+[10-Oct-2023 03:48:41 UTC] PHP Warning:  Undefined array key "categories" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 6
+[10-Oct-2023 03:48:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in C:\laragon\www\Finanzas\views\dashboard\header.php:15
+Stack trace:
+#0 C:\laragon\www\Finanzas\views\dashboard\index.php(16): require()
+#1 C:\laragon\www\Finanzas\libs\View.php(16): require('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Finanzas\controllers\Dashboard.php(22): View->render('dashboard/index')
+#3 C:\laragon\www\Finanzas\libs\App.php(51): Dashboard->render()
+#4 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#5 {main}
+  thrown in C:\laragon\www\Finanzas\views\dashboard\header.php on line 15
+[10-Oct-2023 03:48:41 UTC] Hello, errors!
+[10-Oct-2023 03:48:41 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:48:46 UTC] Hello, errors!
+[10-Oct-2023 03:48:46 UTC] sessionController-> validateSession()
+[10-Oct-2023 03:48:46 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:48:46 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:48:46 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 03:48:46 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:48:46 UTC] Dashboard::constructor() 
+[10-Oct-2023 03:48:46 UTC] Dashboard::RENDER() 
+[10-Oct-2023 03:48:46 UTC] PHP Warning:  Undefined array key "expenses" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 2
+[10-Oct-2023 03:48:46 UTC] PHP Warning:  Undefined array key "totalAmountThisMonth" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 3
+[10-Oct-2023 03:48:46 UTC] PHP Warning:  Undefined array key "maxExpensesThisMonth" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 4
+[10-Oct-2023 03:48:46 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 5
+[10-Oct-2023 03:48:46 UTC] PHP Warning:  Undefined array key "categories" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 6
+[10-Oct-2023 03:48:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in C:\laragon\www\Finanzas\views\dashboard\header.php:15
+Stack trace:
+#0 C:\laragon\www\Finanzas\views\dashboard\index.php(16): require()
+#1 C:\laragon\www\Finanzas\libs\View.php(16): require('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Finanzas\controllers\Dashboard.php(22): View->render('dashboard/index')
+#3 C:\laragon\www\Finanzas\libs\App.php(51): Dashboard->render()
+#4 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#5 {main}
+  thrown in C:\laragon\www\Finanzas\views\dashboard\header.php on line 15
+[10-Oct-2023 03:48:46 UTC] Hello, errors!
+[10-Oct-2023 03:48:46 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:48:47 UTC] Hello, errors!
+[10-Oct-2023 03:48:47 UTC] sessionController-> validateSession()
+[10-Oct-2023 03:48:47 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:48:47 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:48:47 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 03:48:47 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:48:47 UTC] Dashboard::constructor() 
+[10-Oct-2023 03:48:47 UTC] Dashboard::RENDER() 
+[10-Oct-2023 03:48:47 UTC] PHP Warning:  Undefined array key "expenses" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 2
+[10-Oct-2023 03:48:47 UTC] PHP Warning:  Undefined array key "totalAmountThisMonth" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 3
+[10-Oct-2023 03:48:47 UTC] PHP Warning:  Undefined array key "maxExpensesThisMonth" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 4
+[10-Oct-2023 03:48:47 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 5
+[10-Oct-2023 03:48:47 UTC] PHP Warning:  Undefined array key "categories" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 6
+[10-Oct-2023 03:48:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in C:\laragon\www\Finanzas\views\dashboard\header.php:15
+Stack trace:
+#0 C:\laragon\www\Finanzas\views\dashboard\index.php(16): require()
+#1 C:\laragon\www\Finanzas\libs\View.php(16): require('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Finanzas\controllers\Dashboard.php(22): View->render('dashboard/index')
+#3 C:\laragon\www\Finanzas\libs\App.php(51): Dashboard->render()
+#4 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#5 {main}
+  thrown in C:\laragon\www\Finanzas\views\dashboard\header.php on line 15
+[10-Oct-2023 03:48:47 UTC] Hello, errors!
+[10-Oct-2023 03:48:47 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:48:47 UTC] Hello, errors!
+[10-Oct-2023 03:48:47 UTC] sessionController-> validateSession()
+[10-Oct-2023 03:48:47 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:48:47 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:48:47 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 03:48:47 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:48:47 UTC] Dashboard::constructor() 
+[10-Oct-2023 03:48:47 UTC] Dashboard::RENDER() 
+[10-Oct-2023 03:48:47 UTC] PHP Warning:  Undefined array key "expenses" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 2
+[10-Oct-2023 03:48:47 UTC] PHP Warning:  Undefined array key "totalAmountThisMonth" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 3
+[10-Oct-2023 03:48:47 UTC] PHP Warning:  Undefined array key "maxExpensesThisMonth" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 4
+[10-Oct-2023 03:48:47 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 5
+[10-Oct-2023 03:48:47 UTC] PHP Warning:  Undefined array key "categories" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 6
+[10-Oct-2023 03:48:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in C:\laragon\www\Finanzas\views\dashboard\header.php:15
+Stack trace:
+#0 C:\laragon\www\Finanzas\views\dashboard\index.php(16): require()
+#1 C:\laragon\www\Finanzas\libs\View.php(16): require('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Finanzas\controllers\Dashboard.php(22): View->render('dashboard/index')
+#3 C:\laragon\www\Finanzas\libs\App.php(51): Dashboard->render()
+#4 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#5 {main}
+  thrown in C:\laragon\www\Finanzas\views\dashboard\header.php on line 15
+[10-Oct-2023 03:48:47 UTC] Hello, errors!
+[10-Oct-2023 03:48:47 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:48:47 UTC] Hello, errors!
+[10-Oct-2023 03:48:47 UTC] sessionController-> validateSession()
+[10-Oct-2023 03:48:47 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:48:47 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:48:47 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 03:48:47 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:48:47 UTC] Dashboard::constructor() 
+[10-Oct-2023 03:48:47 UTC] Dashboard::RENDER() 
+[10-Oct-2023 03:48:47 UTC] PHP Warning:  Undefined array key "expenses" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 2
+[10-Oct-2023 03:48:47 UTC] PHP Warning:  Undefined array key "totalAmountThisMonth" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 3
+[10-Oct-2023 03:48:47 UTC] PHP Warning:  Undefined array key "maxExpensesThisMonth" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 4
+[10-Oct-2023 03:48:47 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 5
+[10-Oct-2023 03:48:47 UTC] PHP Warning:  Undefined array key "categories" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 6
+[10-Oct-2023 03:48:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in C:\laragon\www\Finanzas\views\dashboard\header.php:15
+Stack trace:
+#0 C:\laragon\www\Finanzas\views\dashboard\index.php(16): require()
+#1 C:\laragon\www\Finanzas\libs\View.php(16): require('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Finanzas\controllers\Dashboard.php(22): View->render('dashboard/index')
+#3 C:\laragon\www\Finanzas\libs\App.php(51): Dashboard->render()
+#4 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#5 {main}
+  thrown in C:\laragon\www\Finanzas\views\dashboard\header.php on line 15
+[10-Oct-2023 03:48:47 UTC] Hello, errors!
+[10-Oct-2023 03:48:47 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:48:47 UTC] Hello, errors!
+[10-Oct-2023 03:48:47 UTC] sessionController-> validateSession()
+[10-Oct-2023 03:48:48 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:48:48 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:48:48 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 03:48:48 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:48:48 UTC] Dashboard::constructor() 
+[10-Oct-2023 03:48:48 UTC] Dashboard::RENDER() 
+[10-Oct-2023 03:48:48 UTC] PHP Warning:  Undefined array key "expenses" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 2
+[10-Oct-2023 03:48:48 UTC] PHP Warning:  Undefined array key "totalAmountThisMonth" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 3
+[10-Oct-2023 03:48:48 UTC] PHP Warning:  Undefined array key "maxExpensesThisMonth" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 4
+[10-Oct-2023 03:48:48 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 5
+[10-Oct-2023 03:48:48 UTC] PHP Warning:  Undefined array key "categories" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 6
+[10-Oct-2023 03:48:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in C:\laragon\www\Finanzas\views\dashboard\header.php:15
+Stack trace:
+#0 C:\laragon\www\Finanzas\views\dashboard\index.php(16): require()
+#1 C:\laragon\www\Finanzas\libs\View.php(16): require('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Finanzas\controllers\Dashboard.php(22): View->render('dashboard/index')
+#3 C:\laragon\www\Finanzas\libs\App.php(51): Dashboard->render()
+#4 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#5 {main}
+  thrown in C:\laragon\www\Finanzas\views\dashboard\header.php on line 15
+[10-Oct-2023 03:48:48 UTC] Hello, errors!
+[10-Oct-2023 03:48:48 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:48:48 UTC] Hello, errors!
+[10-Oct-2023 03:48:48 UTC] sessionController-> validateSession()
+[10-Oct-2023 03:48:48 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:48:48 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:48:48 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 03:48:48 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:48:48 UTC] Dashboard::constructor() 
+[10-Oct-2023 03:48:48 UTC] Dashboard::RENDER() 
+[10-Oct-2023 03:48:48 UTC] PHP Warning:  Undefined array key "expenses" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 2
+[10-Oct-2023 03:48:48 UTC] PHP Warning:  Undefined array key "totalAmountThisMonth" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 3
+[10-Oct-2023 03:48:48 UTC] PHP Warning:  Undefined array key "maxExpensesThisMonth" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 4
+[10-Oct-2023 03:48:48 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 5
+[10-Oct-2023 03:48:48 UTC] PHP Warning:  Undefined array key "categories" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 6
+[10-Oct-2023 03:48:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in C:\laragon\www\Finanzas\views\dashboard\header.php:15
+Stack trace:
+#0 C:\laragon\www\Finanzas\views\dashboard\index.php(16): require()
+#1 C:\laragon\www\Finanzas\libs\View.php(16): require('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Finanzas\controllers\Dashboard.php(22): View->render('dashboard/index')
+#3 C:\laragon\www\Finanzas\libs\App.php(51): Dashboard->render()
+#4 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#5 {main}
+  thrown in C:\laragon\www\Finanzas\views\dashboard\header.php on line 15
+[10-Oct-2023 03:48:48 UTC] Hello, errors!
+[10-Oct-2023 03:48:48 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:48:56 UTC] Hello, errors!
+[10-Oct-2023 03:48:56 UTC] sessionController-> validateSession()
+[10-Oct-2023 03:48:56 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:48:56 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:48:56 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 03:48:56 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:48:56 UTC] Dashboard::constructor() 
+[10-Oct-2023 03:48:56 UTC] Dashboard::RENDER() 
+[10-Oct-2023 03:48:56 UTC] PHP Warning:  Undefined array key "expenses" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 2
+[10-Oct-2023 03:48:56 UTC] PHP Warning:  Undefined array key "totalAmountThisMonth" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 3
+[10-Oct-2023 03:48:56 UTC] PHP Warning:  Undefined array key "maxExpensesThisMonth" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 4
+[10-Oct-2023 03:48:56 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 5
+[10-Oct-2023 03:48:56 UTC] PHP Warning:  Undefined array key "categories" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 6
+[10-Oct-2023 03:48:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in C:\laragon\www\Finanzas\views\dashboard\index.php:26
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Dashboard.php(22): View->render('dashboard/index')
+#2 C:\laragon\www\Finanzas\libs\App.php(51): Dashboard->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\dashboard\index.php on line 26
+[10-Oct-2023 03:48:56 UTC] Hello, errors!
+[10-Oct-2023 03:48:56 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:48:58 UTC] Hello, errors!
+[10-Oct-2023 03:48:58 UTC] sessionController-> validateSession()
+[10-Oct-2023 03:48:58 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:48:58 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:48:58 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 03:48:58 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:48:58 UTC] Dashboard::constructor() 
+[10-Oct-2023 03:48:58 UTC] Dashboard::RENDER() 
+[10-Oct-2023 03:48:58 UTC] PHP Warning:  Undefined array key "expenses" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 2
+[10-Oct-2023 03:48:58 UTC] PHP Warning:  Undefined array key "totalAmountThisMonth" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 3
+[10-Oct-2023 03:48:58 UTC] PHP Warning:  Undefined array key "maxExpensesThisMonth" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 4
+[10-Oct-2023 03:48:58 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 5
+[10-Oct-2023 03:48:58 UTC] PHP Warning:  Undefined array key "categories" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 6
+[10-Oct-2023 03:48:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in C:\laragon\www\Finanzas\views\dashboard\index.php:26
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Dashboard.php(22): View->render('dashboard/index')
+#2 C:\laragon\www\Finanzas\libs\App.php(51): Dashboard->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\dashboard\index.php on line 26
+[10-Oct-2023 03:48:58 UTC] Hello, errors!
+[10-Oct-2023 03:48:58 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:48:58 UTC] Hello, errors!
+[10-Oct-2023 03:48:58 UTC] sessionController-> validateSession()
+[10-Oct-2023 03:48:58 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:48:58 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:48:58 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 03:48:58 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:48:58 UTC] Dashboard::constructor() 
+[10-Oct-2023 03:48:58 UTC] Dashboard::RENDER() 
+[10-Oct-2023 03:48:58 UTC] PHP Warning:  Undefined array key "expenses" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 2
+[10-Oct-2023 03:48:58 UTC] PHP Warning:  Undefined array key "totalAmountThisMonth" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 3
+[10-Oct-2023 03:48:58 UTC] PHP Warning:  Undefined array key "maxExpensesThisMonth" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 4
+[10-Oct-2023 03:48:58 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 5
+[10-Oct-2023 03:48:58 UTC] PHP Warning:  Undefined array key "categories" in C:\laragon\www\Finanzas\views\dashboard\index.php on line 6
+[10-Oct-2023 03:48:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in C:\laragon\www\Finanzas\views\dashboard\index.php:26
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Dashboard.php(22): View->render('dashboard/index')
+#2 C:\laragon\www\Finanzas\libs\App.php(51): Dashboard->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\dashboard\index.php on line 26
+[10-Oct-2023 03:48:58 UTC] Hello, errors!
+[10-Oct-2023 03:48:58 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:55:08 UTC] Hello, errors!
+[10-Oct-2023 03:55:08 UTC] sessionController-> validateSession()
+[10-Oct-2023 03:55:08 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:55:08 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:55:08 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 03:55:08 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:55:08 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:55:08 UTC] Dashboard::constructor() 
+[10-Oct-2023 03:55:08 UTC] Dashboard::RENDER() 
+[10-Oct-2023 03:55:08 UTC] PHP Warning:  Undefined variable $expenses in C:\laragon\www\Finanzas\controllers\Dashboard.php on line 24
+[10-Oct-2023 03:55:08 UTC] PHP Warning:  Undefined variable $totalThisMonth in C:\laragon\www\Finanzas\controllers\Dashboard.php on line 25
+[10-Oct-2023 03:55:08 UTC] PHP Warning:  Undefined variable $maxExpensesThisMonth in C:\laragon\www\Finanzas\controllers\Dashboard.php on line 26
+[10-Oct-2023 03:55:08 UTC] PHP Warning:  Undefined variable $categories in C:\laragon\www\Finanzas\controllers\Dashboard.php on line 27
+[10-Oct-2023 03:55:08 UTC] Hello, errors!
+[10-Oct-2023 03:55:08 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:55:08 UTC] Hello, errors!
+[10-Oct-2023 03:55:08 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:55:44 UTC] Hello, errors!
+[10-Oct-2023 03:55:44 UTC] sessionController-> validateSession()
+[10-Oct-2023 03:55:44 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:55:44 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:55:44 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 03:55:44 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:55:44 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:55:44 UTC] Dashboard::constructor() 
+[10-Oct-2023 03:55:44 UTC] Dashboard::RENDER() 
+[10-Oct-2023 03:55:44 UTC] Hello, errors!
+[10-Oct-2023 03:55:44 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:55:44 UTC] Hello, errors!
+[10-Oct-2023 03:55:44 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:55:45 UTC] Hello, errors!
+[10-Oct-2023 03:55:45 UTC] sessionController-> validateSession()
+[10-Oct-2023 03:55:45 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:55:45 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:55:45 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 03:55:45 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:55:45 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:55:45 UTC] Dashboard::constructor() 
+[10-Oct-2023 03:55:45 UTC] Dashboard::RENDER() 
+[10-Oct-2023 03:55:45 UTC] Hello, errors!
+[10-Oct-2023 03:55:45 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:55:45 UTC] Hello, errors!
+[10-Oct-2023 03:55:45 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:55:45 UTC] Hello, errors!
+[10-Oct-2023 03:55:45 UTC] sessionController-> validateSession()
+[10-Oct-2023 03:55:45 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:55:45 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:55:45 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 03:55:45 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:55:45 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:55:45 UTC] Dashboard::constructor() 
+[10-Oct-2023 03:55:45 UTC] Dashboard::RENDER() 
+[10-Oct-2023 03:55:45 UTC] Hello, errors!
+[10-Oct-2023 03:55:45 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:55:45 UTC] Hello, errors!
+[10-Oct-2023 03:55:45 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:55:45 UTC] Hello, errors!
+[10-Oct-2023 03:55:45 UTC] sessionController-> validateSession()
+[10-Oct-2023 03:55:45 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:55:45 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:55:45 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 03:55:45 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:55:46 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:55:46 UTC] Dashboard::constructor() 
+[10-Oct-2023 03:55:46 UTC] Dashboard::RENDER() 
+[10-Oct-2023 03:55:46 UTC] Hello, errors!
+[10-Oct-2023 03:55:46 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:55:46 UTC] Hello, errors!
+[10-Oct-2023 03:55:46 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:55:46 UTC] Hello, errors!
+[10-Oct-2023 03:55:46 UTC] sessionController-> validateSession()
+[10-Oct-2023 03:55:46 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:55:46 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:55:46 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 03:55:46 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:55:46 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:55:46 UTC] Dashboard::constructor() 
+[10-Oct-2023 03:55:46 UTC] Dashboard::RENDER() 
+[10-Oct-2023 03:55:46 UTC] Hello, errors!
+[10-Oct-2023 03:55:46 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:55:46 UTC] Hello, errors!
+[10-Oct-2023 03:55:46 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:55:46 UTC] Hello, errors!
+[10-Oct-2023 03:55:46 UTC] sessionController-> validateSession()
+[10-Oct-2023 03:55:46 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:55:46 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:55:46 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 03:55:46 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:55:46 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:55:46 UTC] Dashboard::constructor() 
+[10-Oct-2023 03:55:46 UTC] Dashboard::RENDER() 
+[10-Oct-2023 03:55:46 UTC] Hello, errors!
+[10-Oct-2023 03:55:46 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:55:46 UTC] Hello, errors!
+[10-Oct-2023 03:55:46 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:55:47 UTC] Hello, errors!
+[10-Oct-2023 03:55:47 UTC] sessionController-> validateSession()
+[10-Oct-2023 03:55:47 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:55:47 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:55:47 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 03:55:47 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:55:47 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:55:47 UTC] Dashboard::constructor() 
+[10-Oct-2023 03:55:47 UTC] Dashboard::RENDER() 
+[10-Oct-2023 03:55:47 UTC] Hello, errors!
+[10-Oct-2023 03:55:47 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:55:47 UTC] Hello, errors!
+[10-Oct-2023 03:55:47 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:55:47 UTC] Hello, errors!
+[10-Oct-2023 03:55:47 UTC] sessionController-> validateSession()
+[10-Oct-2023 03:55:47 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:55:47 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:55:47 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 03:55:47 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:55:47 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:55:47 UTC] Dashboard::constructor() 
+[10-Oct-2023 03:55:47 UTC] Dashboard::RENDER() 
+[10-Oct-2023 03:55:47 UTC] Hello, errors!
+[10-Oct-2023 03:55:47 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:55:47 UTC] Hello, errors!
+[10-Oct-2023 03:55:47 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:55:47 UTC] Hello, errors!
+[10-Oct-2023 03:55:47 UTC] sessionController-> validateSession()
+[10-Oct-2023 03:55:47 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:55:47 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:55:47 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 03:55:47 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:55:47 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:55:47 UTC] Dashboard::constructor() 
+[10-Oct-2023 03:55:47 UTC] Dashboard::RENDER() 
+[10-Oct-2023 03:55:47 UTC] Hello, errors!
+[10-Oct-2023 03:55:47 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:55:47 UTC] Hello, errors!
+[10-Oct-2023 03:55:47 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:55:48 UTC] Hello, errors!
+[10-Oct-2023 03:55:48 UTC] sessionController-> validateSession()
+[10-Oct-2023 03:55:48 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:55:48 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:55:48 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 03:55:48 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:55:48 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:55:48 UTC] Dashboard::constructor() 
+[10-Oct-2023 03:55:48 UTC] Dashboard::RENDER() 
+[10-Oct-2023 03:55:48 UTC] Hello, errors!
+[10-Oct-2023 03:55:48 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:55:48 UTC] Hello, errors!
+[10-Oct-2023 03:55:48 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:57:29 UTC] Hello, errors!
+[10-Oct-2023 03:57:29 UTC] sessionController-> validateSession()
+[10-Oct-2023 03:57:29 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:57:29 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:57:29 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 03:57:29 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:57:29 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:57:29 UTC] Dashboard::constructor() 
+[10-Oct-2023 03:57:29 UTC] PHP Fatal error:  Uncaught Error: Object of class UserModel could not be converted to string in C:\laragon\www\Finanzas\controllers\Dashboard.php:21
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\App.php(51): Dashboard->render()
+#1 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#2 {main}
+  thrown in C:\laragon\www\Finanzas\controllers\Dashboard.php on line 21
+[10-Oct-2023 03:59:33 UTC] Hello, errors!
+[10-Oct-2023 03:59:33 UTC] sessionController-> validateSession()
+[10-Oct-2023 03:59:34 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:59:34 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:59:34 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 03:59:34 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 03:59:34 UTC] Session controller-> getUserSession Dataadmin@gmail.com
+[10-Oct-2023 03:59:34 UTC] Dashboard::constructor() 
+[10-Oct-2023 03:59:34 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\Finanzas\controllers\Dashboard.php on line 21
+[10-Oct-2023 03:59:34 UTC] Dashboard::RENDER() Array
+[10-Oct-2023 03:59:34 UTC] Hello, errors!
+[10-Oct-2023 03:59:34 UTC] Errores::controller-> Errores
+[10-Oct-2023 03:59:34 UTC] Hello, errors!
+[10-Oct-2023 03:59:34 UTC] Errores::controller-> Errores
+[10-Oct-2023 04:01:36 UTC] Hello, errors!
+[10-Oct-2023 04:01:36 UTC] sessionController-> validateSession()
+[10-Oct-2023 04:01:36 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 04:01:36 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 04:01:36 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 04:01:36 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 04:01:36 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 04:01:36 UTC] PHP Fatal error:  Uncaught Error: Object of class UserModel could not be converted to string in C:\laragon\www\Finanzas\controllers\Dashboard.php:11
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\App.php(28): Dashboard->__construct()
+#1 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#2 {main}
+  thrown in C:\laragon\www\Finanzas\controllers\Dashboard.php on line 11
+[10-Oct-2023 04:05:13 UTC] Hello, errors!
+[10-Oct-2023 04:05:13 UTC] sessionController-> validateSession()
+[10-Oct-2023 04:05:13 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 04:05:13 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 04:05:13 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 04:05:13 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 04:05:13 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 04:05:13 UTC] Dashboard::constructor() admin@gmail.com
+[10-Oct-2023 04:05:13 UTC] Hello, errors!
+[10-Oct-2023 04:05:13 UTC] Errores::controller-> Errores
+[10-Oct-2023 04:05:13 UTC] Hello, errors!
+[10-Oct-2023 04:05:13 UTC] Errores::controller-> Errores
+[10-Oct-2023 04:06:08 UTC] Hello, errors!
+[10-Oct-2023 04:06:08 UTC] sessionController-> validateSession()
+[10-Oct-2023 04:06:08 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 04:06:08 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 04:06:08 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 04:06:08 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 04:06:08 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 04:06:08 UTC] Dashboard::constructor() admin@gmail.com
+[10-Oct-2023 04:06:08 UTC] Hello, errors!
+[10-Oct-2023 04:06:08 UTC] Errores::controller-> Errores
+[10-Oct-2023 04:06:08 UTC] Hello, errors!
+[10-Oct-2023 04:06:08 UTC] Errores::controller-> Errores
+[10-Oct-2023 04:07:00 UTC] Hello, errors!
+[10-Oct-2023 04:07:00 UTC] sessionController-> validateSession()
+[10-Oct-2023 04:07:00 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 04:07:00 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 04:07:00 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 04:07:00 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 04:07:00 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 04:07:00 UTC] Dashboard::constructor() admin@gmail.com
+[10-Oct-2023 04:07:00 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type UserModel as array in C:\laragon\www\Finanzas\views\dashboard\index.php:4
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Dashboard.php(22): View->render('dashboard/index', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(51): Dashboard->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\dashboard\index.php on line 4
+[10-Oct-2023 04:07:21 UTC] Hello, errors!
+[10-Oct-2023 04:07:21 UTC] sessionController-> validateSession()
+[10-Oct-2023 04:07:21 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 04:07:21 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 04:07:21 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 04:07:21 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 04:07:21 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 04:07:21 UTC] Dashboard::constructor() admin@gmail.com
+[10-Oct-2023 04:07:21 UTC] Hello, errors!
+[10-Oct-2023 04:07:21 UTC] Errores::controller-> Errores
+[10-Oct-2023 04:07:22 UTC] Hello, errors!
+[10-Oct-2023 04:07:22 UTC] Errores::controller-> Errores
+[10-Oct-2023 04:07:54 UTC] Hello, errors!
+[10-Oct-2023 04:07:54 UTC] sessionController-> validateSession()
+[10-Oct-2023 04:07:54 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 04:07:54 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 04:07:54 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 04:07:54 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 04:07:54 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 04:07:54 UTC] Dashboard::constructor() admin@gmail.com
+[10-Oct-2023 04:07:54 UTC] Hello, errors!
+[10-Oct-2023 04:07:54 UTC] Errores::controller-> Errores
+[10-Oct-2023 04:07:54 UTC] Hello, errors!
+[10-Oct-2023 04:07:54 UTC] Errores::controller-> Errores
+[10-Oct-2023 04:08:34 UTC] Hello, errors!
+[10-Oct-2023 04:08:34 UTC] sessionController-> validateSession()
+[10-Oct-2023 04:08:34 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 04:08:34 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 04:08:34 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 04:08:34 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 04:08:34 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 04:08:34 UTC] Dashboard::constructor() admin@gmail.com
+[10-Oct-2023 04:08:34 UTC] Hello, errors!
+[10-Oct-2023 04:08:34 UTC] Errores::controller-> Errores
+[10-Oct-2023 04:08:34 UTC] Hello, errors!
+[10-Oct-2023 04:08:34 UTC] Errores::controller-> Errores
+[10-Oct-2023 04:31:17 UTC] Hello, errors!
+[10-Oct-2023 04:31:17 UTC] sessionController-> validateSession()
+[10-Oct-2023 04:31:17 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 04:31:17 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 04:31:17 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 04:31:17 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 04:31:18 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 04:31:18 UTC] Dashboard::constructor() admin@gmail.com
+[10-Oct-2023 04:31:18 UTC] Hello, errors!
+[10-Oct-2023 04:31:18 UTC] Errores::controller-> Errores
+[10-Oct-2023 04:31:18 UTC] Hello, errors!
+[10-Oct-2023 04:31:18 UTC] Errores::controller-> Errores
+[10-Oct-2023 04:31:23 UTC] Hello, errors!
+[10-Oct-2023 04:31:23 UTC] sessionController-> validateSession()
+[10-Oct-2023 04:31:23 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 04:31:23 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 04:31:23 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 04:31:23 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 04:31:23 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 04:31:23 UTC] Dashboard::constructor() admin@gmail.com
+[10-Oct-2023 04:31:23 UTC] Hello, errors!
+[10-Oct-2023 04:31:23 UTC] Errores::controller-> Errores
+[10-Oct-2023 04:31:23 UTC] Hello, errors!
+[10-Oct-2023 04:31:23 UTC] Errores::controller-> Errores
+[10-Oct-2023 04:32:07 UTC] Hello, errors!
+[10-Oct-2023 04:32:07 UTC] sessionController-> validateSession()
+[10-Oct-2023 04:32:07 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 04:32:07 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 04:32:07 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 04:32:07 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 04:32:07 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 04:32:07 UTC] Dashboard::constructor() admin@gmail.com
+[10-Oct-2023 04:32:07 UTC] Hello, errors!
+[10-Oct-2023 04:32:07 UTC] Errores::controller-> Errores
+[10-Oct-2023 04:32:07 UTC] Hello, errors!
+[10-Oct-2023 04:32:07 UTC] Errores::controller-> Errores
+[10-Oct-2023 04:32:17 UTC] Hello, errors!
+[10-Oct-2023 04:32:17 UTC] Errores::controller-> Errores
+[10-Oct-2023 04:32:18 UTC] Hello, errors!
+[10-Oct-2023 04:32:18 UTC] Errores::controller-> Errores
+[10-Oct-2023 04:32:20 UTC] Hello, errors!
+[10-Oct-2023 04:32:20 UTC] sessionController-> validateSession()
+[10-Oct-2023 04:32:20 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 04:32:20 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 04:32:20 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 04:32:20 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 04:32:20 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 04:32:20 UTC] Dashboard::constructor() admin@gmail.com
+[10-Oct-2023 04:32:20 UTC] Hello, errors!
+[10-Oct-2023 04:32:20 UTC] Errores::controller-> Errores
+[10-Oct-2023 04:33:50 UTC] Hello, errors!
+[10-Oct-2023 04:33:50 UTC] sessionController-> validateSession()
+[10-Oct-2023 04:33:51 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 04:33:51 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 04:33:51 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 04:33:51 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 04:33:51 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 04:33:51 UTC] Dashboard::constructor() admin@gmail.com
+[10-Oct-2023 04:33:51 UTC] Hello, errors!
+[10-Oct-2023 04:33:51 UTC] Errores::controller-> Errores
+[10-Oct-2023 04:33:51 UTC] Hello, errors!
+[10-Oct-2023 04:33:51 UTC] Errores::controller-> Errores
+[10-Oct-2023 20:53:47 UTC] Hello, errors!
+[10-Oct-2023 20:53:47 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[10-Oct-2023 20:53:47 UTC] sessionController-> validateSession()
+[10-Oct-2023 20:53:47 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 20:53:47 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 20:53:47 UTC] Error de loguin
+[10-Oct-2023 20:53:48 UTC] Hello, errors!
+[10-Oct-2023 20:53:48 UTC] Errores::controller-> Errores
+[10-Oct-2023 20:55:10 UTC] Hello, errors!
+[10-Oct-2023 20:55:10 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:00:15 UTC] Hello, errors!
+[10-Oct-2023 21:00:15 UTC] sessionController-> validateSession()
+[10-Oct-2023 21:00:15 UTC] Session controller -> getCurrentPage: /loguin/authenticate, url => authenticate
+[10-Oct-2023 21:00:15 UTC] sessionController::isPublic(): currentURL => authenticate
+[10-Oct-2023 21:00:15 UTC] Error de loguin
+[10-Oct-2023 21:00:15 UTC] login: inicio
+[10-Oct-2023 21:00:15 UTC] login: user id 10
+[10-Oct-2023 21:00:15 UTC] login: success
+[10-Oct-2023 21:00:15 UTC] Login::authenticate() passed
+[10-Oct-2023 21:00:15 UTC] Hello, errors!
+[10-Oct-2023 21:00:15 UTC] sessionController-> validateSession()
+[10-Oct-2023 21:00:15 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:00:15 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 21:00:15 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 21:00:15 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 21:00:15 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:00:15 UTC] Dashboard::constructor() admin@gmail.com
+[10-Oct-2023 21:00:16 UTC] Hello, errors!
+[10-Oct-2023 21:00:16 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:00:16 UTC] Hello, errors!
+[10-Oct-2023 21:00:16 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:00:35 UTC] Hello, errors!
+[10-Oct-2023 21:00:35 UTC] sessionController-> validateSession()
+[10-Oct-2023 21:00:35 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:00:35 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 21:00:35 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 21:00:35 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:00:35 UTC] Dashboard::constructor() admin@gmail.com
+[10-Oct-2023 21:00:35 UTC] Hello, errors!
+[10-Oct-2023 21:00:35 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:00:35 UTC] Hello, errors!
+[10-Oct-2023 21:00:35 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:02:29 UTC] Hello, errors!
+[10-Oct-2023 21:02:29 UTC] sessionController-> validateSession()
+[10-Oct-2023 21:02:29 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:02:29 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 21:02:29 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 21:02:29 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:02:29 UTC] Dashboard::constructor() admin@gmail.com
+[10-Oct-2023 21:02:29 UTC] Hello, errors!
+[10-Oct-2023 21:02:29 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:02:29 UTC] Hello, errors!
+[10-Oct-2023 21:02:29 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:02:43 UTC] Hello, errors!
+[10-Oct-2023 21:02:43 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:02:44 UTC] Hello, errors!
+[10-Oct-2023 21:02:44 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:02:47 UTC] Hello, errors!
+[10-Oct-2023 21:02:47 UTC] sessionController-> validateSession()
+[10-Oct-2023 21:02:47 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:02:47 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 21:02:47 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 21:02:48 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:02:48 UTC] Dashboard::constructor() admin@gmail.com
+[10-Oct-2023 21:02:48 UTC] Hello, errors!
+[10-Oct-2023 21:02:48 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:04:01 UTC] Hello, errors!
+[10-Oct-2023 21:04:01 UTC] sessionController-> validateSession()
+[10-Oct-2023 21:04:01 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:04:01 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 21:04:01 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 21:04:01 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:04:01 UTC] Dashboard::constructor() admin@gmail.com
+[10-Oct-2023 21:04:01 UTC] Hello, errors!
+[10-Oct-2023 21:04:01 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:04:01 UTC] Hello, errors!
+[10-Oct-2023 21:04:01 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:04:13 UTC] Hello, errors!
+[10-Oct-2023 21:04:13 UTC] sessionController-> validateSession()
+[10-Oct-2023 21:04:13 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:04:13 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 21:04:13 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 21:04:13 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:04:13 UTC] Dashboard::constructor() admin@gmail.com
+[10-Oct-2023 21:04:13 UTC] Hello, errors!
+[10-Oct-2023 21:04:13 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:04:14 UTC] Hello, errors!
+[10-Oct-2023 21:04:14 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:05:20 UTC] Hello, errors!
+[10-Oct-2023 21:05:20 UTC] sessionController-> validateSession()
+[10-Oct-2023 21:05:20 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:05:20 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 21:05:20 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 21:05:20 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:05:20 UTC] Dashboard::constructor() admin@gmail.com
+[10-Oct-2023 21:05:21 UTC] Hello, errors!
+[10-Oct-2023 21:05:21 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:05:21 UTC] Hello, errors!
+[10-Oct-2023 21:05:21 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:06:47 UTC] Hello, errors!
+[10-Oct-2023 21:06:48 UTC] sessionController-> validateSession()
+[10-Oct-2023 21:06:48 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:06:48 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 21:06:48 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 21:06:48 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:06:48 UTC] Dashboard::constructor() admin@gmail.com
+[10-Oct-2023 21:06:48 UTC] Hello, errors!
+[10-Oct-2023 21:06:48 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:06:48 UTC] Hello, errors!
+[10-Oct-2023 21:06:48 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:06:49 UTC] Hello, errors!
+[10-Oct-2023 21:06:49 UTC] sessionController-> validateSession()
+[10-Oct-2023 21:06:49 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:06:49 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 21:06:49 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 21:06:49 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:06:49 UTC] Dashboard::constructor() admin@gmail.com
+[10-Oct-2023 21:06:49 UTC] Hello, errors!
+[10-Oct-2023 21:06:49 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:06:49 UTC] Hello, errors!
+[10-Oct-2023 21:06:49 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:06:55 UTC] Hello, errors!
+[10-Oct-2023 21:06:55 UTC] sessionController-> validateSession()
+[10-Oct-2023 21:06:55 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:06:55 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 21:06:55 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 21:06:55 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:06:55 UTC] Dashboard::constructor() admin@gmail.com
+[10-Oct-2023 21:06:55 UTC] Hello, errors!
+[10-Oct-2023 21:06:55 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:06:55 UTC] Hello, errors!
+[10-Oct-2023 21:06:55 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:06:56 UTC] Hello, errors!
+[10-Oct-2023 21:06:56 UTC] sessionController-> validateSession()
+[10-Oct-2023 21:06:56 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:06:56 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 21:06:56 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 21:06:56 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:06:56 UTC] Dashboard::constructor() admin@gmail.com
+[10-Oct-2023 21:06:56 UTC] Hello, errors!
+[10-Oct-2023 21:06:56 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:06:56 UTC] Hello, errors!
+[10-Oct-2023 21:06:56 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:07:05 UTC] Hello, errors!
+[10-Oct-2023 21:07:05 UTC] sessionController-> validateSession()
+[10-Oct-2023 21:07:05 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:07:05 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 21:07:05 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 21:07:05 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:07:05 UTC] Dashboard::constructor() admin@gmail.com
+[10-Oct-2023 21:07:05 UTC] Hello, errors!
+[10-Oct-2023 21:07:05 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:07:05 UTC] Hello, errors!
+[10-Oct-2023 21:07:05 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:07:06 UTC] Hello, errors!
+[10-Oct-2023 21:07:06 UTC] sessionController-> validateSession()
+[10-Oct-2023 21:07:06 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:07:06 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 21:07:06 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 21:07:06 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:07:06 UTC] Dashboard::constructor() admin@gmail.com
+[10-Oct-2023 21:07:06 UTC] Hello, errors!
+[10-Oct-2023 21:07:06 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:07:06 UTC] Hello, errors!
+[10-Oct-2023 21:07:06 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:09:35 UTC] Hello, errors!
+[10-Oct-2023 21:09:35 UTC] sessionController-> validateSession()
+[10-Oct-2023 21:09:35 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:09:35 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 21:09:35 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 21:09:35 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:09:35 UTC] Dashboard::constructor() admin@gmail.com
+[10-Oct-2023 21:09:35 UTC] Hello, errors!
+[10-Oct-2023 21:09:35 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:09:35 UTC] Hello, errors!
+[10-Oct-2023 21:09:35 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:48:33 UTC] Hello, errors!
+[10-Oct-2023 21:48:33 UTC] sessionController-> validateSession()
+[10-Oct-2023 21:48:33 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:48:33 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 21:48:33 UTC] sessionController::isPublic(): currentURL => dashboard
+[10-Oct-2023 21:48:33 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[10-Oct-2023 21:48:33 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:48:33 UTC] Dashboard::constructor() admin@gmail.com
+[10-Oct-2023 21:48:34 UTC] Hello, errors!
+[10-Oct-2023 21:48:34 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:48:35 UTC] Hello, errors!
+[10-Oct-2023 21:48:35 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[10-Oct-2023 21:48:35 UTC] sessionController-> validateSession()
+[10-Oct-2023 21:48:35 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:48:35 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 21:48:35 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 21:48:35 UTC] Error de loguin
+[10-Oct-2023 21:48:36 UTC] Hello, errors!
+[10-Oct-2023 21:48:36 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:52:22 UTC] Hello, errors!
+[10-Oct-2023 21:52:22 UTC] sessionController-> validateSession()
+[10-Oct-2023 21:52:23 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:52:23 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 21:52:23 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 21:52:23 UTC] Hello, errors!
+[10-Oct-2023 21:52:23 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:52:26 UTC] Hello, errors!
+[10-Oct-2023 21:52:26 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[10-Oct-2023 21:52:26 UTC] sessionController-> validateSession()
+[10-Oct-2023 21:52:26 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:52:26 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 21:52:26 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 21:52:26 UTC] Error de loguin
+[10-Oct-2023 21:52:26 UTC] Hello, errors!
+[10-Oct-2023 21:52:26 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:52:28 UTC] Hello, errors!
+[10-Oct-2023 21:52:28 UTC] sessionController-> validateSession()
+[10-Oct-2023 21:52:28 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:52:28 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 21:52:28 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 21:52:28 UTC] Hello, errors!
+[10-Oct-2023 21:52:28 UTC] Errores::controller-> Errores
+[10-Oct-2023 21:52:30 UTC] Hello, errors!
+[10-Oct-2023 21:52:30 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[10-Oct-2023 21:52:30 UTC] sessionController-> validateSession()
+[10-Oct-2023 21:52:31 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 21:52:31 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 21:52:31 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 21:52:31 UTC] Error de loguin
+[10-Oct-2023 21:52:31 UTC] Hello, errors!
+[10-Oct-2023 21:52:31 UTC] Errores::controller-> Errores
+[10-Oct-2023 22:23:13 UTC] Hello, errors!
+[10-Oct-2023 22:23:13 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[10-Oct-2023 22:23:13 UTC] sessionController-> validateSession()
+[10-Oct-2023 22:23:13 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 22:23:13 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 22:23:13 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 22:23:13 UTC] Error de loguin
+[10-Oct-2023 22:23:14 UTC] Hello, errors!
+[10-Oct-2023 22:23:14 UTC] Errores::controller-> Errores
+[10-Oct-2023 22:24:29 UTC] Hello, errors!
+[10-Oct-2023 22:24:29 UTC] sessionController-> validateSession()
+[10-Oct-2023 22:24:29 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 22:24:29 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 22:24:29 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 22:24:29 UTC] Hello, errors!
+[10-Oct-2023 22:24:29 UTC] Errores::controller-> Errores
+[10-Oct-2023 22:50:23 UTC] Hello, errors!
+[10-Oct-2023 22:50:23 UTC] sessionController-> validateSession()
+[10-Oct-2023 22:50:23 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 22:50:23 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 22:50:23 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 22:50:24 UTC] Hello, errors!
+[10-Oct-2023 22:50:24 UTC] Errores::controller-> Errores
+[10-Oct-2023 22:54:51 UTC] Hello, errors!
+[10-Oct-2023 22:54:51 UTC] sessionController-> validateSession()
+[10-Oct-2023 22:54:52 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 22:54:52 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 22:54:52 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 22:54:52 UTC] Hello, errors!
+[10-Oct-2023 22:54:52 UTC] Errores::controller-> Errores
+[10-Oct-2023 22:54:58 UTC] Hello, errors!
+[10-Oct-2023 22:54:58 UTC] sessionController-> validateSession()
+[10-Oct-2023 22:54:59 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 22:54:59 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 22:54:59 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 22:54:59 UTC] Hello, errors!
+[10-Oct-2023 22:54:59 UTC] Errores::controller-> Errores
+[10-Oct-2023 22:58:49 UTC] Hello, errors!
+[10-Oct-2023 22:58:49 UTC] sessionController-> validateSession()
+[10-Oct-2023 22:58:49 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 22:58:49 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 22:58:49 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 22:58:49 UTC] Hello, errors!
+[10-Oct-2023 22:58:49 UTC] Errores::controller-> Errores
+[10-Oct-2023 22:59:47 UTC] Hello, errors!
+[10-Oct-2023 22:59:47 UTC] sessionController-> validateSession()
+[10-Oct-2023 22:59:47 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 22:59:47 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 22:59:47 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 22:59:47 UTC] Hello, errors!
+[10-Oct-2023 22:59:47 UTC] Errores::controller-> Errores
+[10-Oct-2023 22:59:48 UTC] Hello, errors!
+[10-Oct-2023 22:59:48 UTC] sessionController-> validateSession()
+[10-Oct-2023 22:59:48 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 22:59:48 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 22:59:48 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 22:59:48 UTC] Hello, errors!
+[10-Oct-2023 22:59:48 UTC] Errores::controller-> Errores
+[10-Oct-2023 22:59:48 UTC] Hello, errors!
+[10-Oct-2023 22:59:48 UTC] sessionController-> validateSession()
+[10-Oct-2023 22:59:48 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 22:59:48 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 22:59:48 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 22:59:48 UTC] Hello, errors!
+[10-Oct-2023 22:59:48 UTC] Errores::controller-> Errores
+[10-Oct-2023 22:59:48 UTC] Hello, errors!
+[10-Oct-2023 22:59:48 UTC] sessionController-> validateSession()
+[10-Oct-2023 22:59:48 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 22:59:48 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 22:59:48 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 22:59:48 UTC] Hello, errors!
+[10-Oct-2023 22:59:48 UTC] Errores::controller-> Errores
+[10-Oct-2023 22:59:48 UTC] Hello, errors!
+[10-Oct-2023 22:59:48 UTC] sessionController-> validateSession()
+[10-Oct-2023 22:59:48 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 22:59:48 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 22:59:48 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 22:59:48 UTC] Hello, errors!
+[10-Oct-2023 22:59:48 UTC] Errores::controller-> Errores
+[10-Oct-2023 23:00:05 UTC] Hello, errors!
+[10-Oct-2023 23:00:05 UTC] sessionController-> validateSession()
+[10-Oct-2023 23:00:05 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 23:00:05 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 23:00:05 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 23:00:05 UTC] Hello, errors!
+[10-Oct-2023 23:00:05 UTC] Errores::controller-> Errores
+[10-Oct-2023 23:01:06 UTC] Hello, errors!
+[10-Oct-2023 23:01:06 UTC] sessionController-> validateSession()
+[10-Oct-2023 23:01:06 UTC] Session controller-> getUserSession Data  admin@gmail.com
+[10-Oct-2023 23:01:06 UTC] sessionController::isPublic(): currentURL => 
+[10-Oct-2023 23:01:06 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[10-Oct-2023 23:01:06 UTC] Hello, errors!
+[10-Oct-2023 23:01:06 UTC] Errores::controller-> Errores
+[11-Oct-2023 00:00:31 UTC] Hello, errors!
+[11-Oct-2023 00:00:31 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[11-Oct-2023 00:00:31 UTC] sessionController-> validateSession()
+[11-Oct-2023 00:00:31 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 00:00:31 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 00:00:31 UTC] Error de loguin
+[11-Oct-2023 00:00:34 UTC] Hello, errors!
+[11-Oct-2023 00:00:34 UTC] Errores::controller-> Errores
+[11-Oct-2023 00:00:38 UTC] Hello, errors!
+[11-Oct-2023 00:00:38 UTC] sessionController-> validateSession()
+[11-Oct-2023 00:00:38 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 00:00:38 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 00:00:41 UTC] Hello, errors!
+[11-Oct-2023 00:00:41 UTC] Errores::controller-> Errores
+[11-Oct-2023 00:07:54 UTC] Hello, errors!
+[11-Oct-2023 00:07:54 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[11-Oct-2023 00:07:54 UTC] sessionController-> validateSession()
+[11-Oct-2023 00:07:54 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 00:07:54 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 00:07:54 UTC] Error de loguin
+[11-Oct-2023 00:07:54 UTC] Hello, errors!
+[11-Oct-2023 00:07:54 UTC] Errores::controller-> Errores
+[11-Oct-2023 03:35:02 UTC] Hello, errors!
+[11-Oct-2023 03:35:02 UTC] sessionController-> validateSession()
+[11-Oct-2023 03:35:02 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 03:35:02 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 03:35:03 UTC] Hello, errors!
+[11-Oct-2023 03:35:03 UTC] Errores::controller-> Errores
+[11-Oct-2023 03:49:25 UTC] Hello, errors!
+[11-Oct-2023 03:49:25 UTC] sessionController-> validateSession()
+[11-Oct-2023 03:49:25 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 03:49:25 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 03:49:26 UTC] Hello, errors!
+[11-Oct-2023 03:49:26 UTC] Errores::controller-> Errores
+[11-Oct-2023 03:50:11 UTC] Hello, errors!
+[11-Oct-2023 03:50:11 UTC] sessionController-> validateSession()
+[11-Oct-2023 03:50:11 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 03:50:11 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 03:50:11 UTC] Hello, errors!
+[11-Oct-2023 03:50:11 UTC] Errores::controller-> Errores
+[11-Oct-2023 03:50:25 UTC] Hello, errors!
+[11-Oct-2023 03:50:25 UTC] sessionController-> validateSession()
+[11-Oct-2023 03:50:25 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 03:50:25 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 03:50:25 UTC] Hello, errors!
+[11-Oct-2023 03:50:25 UTC] Errores::controller-> Errores
+[11-Oct-2023 03:50:25 UTC] Hello, errors!
+[11-Oct-2023 03:50:25 UTC] sessionController-> validateSession()
+[11-Oct-2023 03:50:25 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 03:50:25 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 03:50:25 UTC] Hello, errors!
+[11-Oct-2023 03:50:25 UTC] Errores::controller-> Errores
+[11-Oct-2023 03:50:25 UTC] Hello, errors!
+[11-Oct-2023 03:50:25 UTC] sessionController-> validateSession()
+[11-Oct-2023 03:50:25 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 03:50:25 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 03:50:26 UTC] Hello, errors!
+[11-Oct-2023 03:50:26 UTC] Errores::controller-> Errores
+[11-Oct-2023 03:50:28 UTC] Hello, errors!
+[11-Oct-2023 03:50:28 UTC] sessionController-> validateSession()
+[11-Oct-2023 03:50:28 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 03:50:28 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 03:50:29 UTC] Hello, errors!
+[11-Oct-2023 03:50:29 UTC] Errores::controller-> Errores
+[11-Oct-2023 03:50:34 UTC] Hello, errors!
+[11-Oct-2023 03:50:34 UTC] sessionController-> validateSession()
+[11-Oct-2023 03:50:34 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 03:50:34 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 03:50:38 UTC] Hello, errors!
+[11-Oct-2023 03:50:38 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[11-Oct-2023 03:50:38 UTC] sessionController-> validateSession()
+[11-Oct-2023 03:50:38 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 03:50:38 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 03:50:38 UTC] Error de loguin
+[11-Oct-2023 03:50:38 UTC] Hello, errors!
+[11-Oct-2023 03:50:38 UTC] Errores::controller-> Errores
+[11-Oct-2023 03:50:40 UTC] Hello, errors!
+[11-Oct-2023 03:50:40 UTC] sessionController-> validateSession()
+[11-Oct-2023 03:50:40 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 03:50:40 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 03:50:41 UTC] Hello, errors!
+[11-Oct-2023 03:50:41 UTC] Errores::controller-> Errores
+[11-Oct-2023 03:50:49 UTC] Hello, errors!
+[11-Oct-2023 03:50:49 UTC] sessionController-> validateSession()
+[11-Oct-2023 03:50:49 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 03:50:49 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 03:50:49 UTC] Hello, errors!
+[11-Oct-2023 03:50:49 UTC] Errores::controller-> Errores
+[11-Oct-2023 03:51:40 UTC] Hello, errors!
+[11-Oct-2023 03:51:40 UTC] sessionController-> validateSession()
+[11-Oct-2023 03:51:40 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 03:51:40 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 03:51:40 UTC] Hello, errors!
+[11-Oct-2023 03:51:40 UTC] Errores::controller-> Errores
+[11-Oct-2023 03:51:45 UTC] Hello, errors!
+[11-Oct-2023 03:51:45 UTC] sessionController-> validateSession()
+[11-Oct-2023 03:51:45 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 03:51:45 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 03:51:45 UTC] Hello, errors!
+[11-Oct-2023 03:51:45 UTC] Errores::controller-> Errores
+[11-Oct-2023 03:51:52 UTC] Hello, errors!
+[11-Oct-2023 03:51:52 UTC] sessionController-> validateSession()
+[11-Oct-2023 03:51:52 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 03:51:52 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 03:51:52 UTC] Hello, errors!
+[11-Oct-2023 03:51:52 UTC] Errores::controller-> Errores
+[11-Oct-2023 03:51:56 UTC] Hello, errors!
+[11-Oct-2023 03:51:56 UTC] sessionController-> validateSession()
+[11-Oct-2023 03:51:56 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 03:51:56 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 03:51:56 UTC] Hello, errors!
+[11-Oct-2023 03:51:56 UTC] Errores::controller-> Errores
+[11-Oct-2023 03:52:06 UTC] Hello, errors!
+[11-Oct-2023 03:52:06 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[11-Oct-2023 03:52:06 UTC] sessionController-> validateSession()
+[11-Oct-2023 03:52:06 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 03:52:06 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 03:52:06 UTC] Error de loguin
+[11-Oct-2023 03:52:06 UTC] Hello, errors!
+[11-Oct-2023 03:52:06 UTC] Errores::controller-> Errores
+[11-Oct-2023 03:52:08 UTC] Hello, errors!
+[11-Oct-2023 03:52:08 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[11-Oct-2023 03:52:08 UTC] sessionController-> validateSession()
+[11-Oct-2023 03:52:08 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 03:52:08 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 03:52:08 UTC] Error de loguin
+[11-Oct-2023 03:52:08 UTC] Hello, errors!
+[11-Oct-2023 03:52:08 UTC] Errores::controller-> Errores
+[11-Oct-2023 03:52:11 UTC] Hello, errors!
+[11-Oct-2023 03:52:11 UTC] sessionController-> validateSession()
+[11-Oct-2023 03:52:11 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 03:52:11 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 03:52:11 UTC] Hello, errors!
+[11-Oct-2023 03:52:11 UTC] Errores::controller-> Errores
+[11-Oct-2023 03:58:12 UTC] Hello, errors!
+[11-Oct-2023 03:58:12 UTC] sessionController-> validateSession()
+[11-Oct-2023 03:58:12 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 03:58:12 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 03:58:12 UTC] Hello, errors!
+[11-Oct-2023 03:58:12 UTC] Errores::controller-> Errores
+[11-Oct-2023 03:58:36 UTC] Hello, errors!
+[11-Oct-2023 03:58:36 UTC] sessionController-> validateSession()
+[11-Oct-2023 03:58:36 UTC] Session controller -> getCurrentPage: /signup/newUser, url => newUser
+[11-Oct-2023 03:58:36 UTC] sessionController::isPublic(): currentURL => newUser
+[11-Oct-2023 03:58:36 UTC] Controller::existPost => no existe el parametro
+[11-Oct-2023 03:58:36 UTC] Hello, errors!
+[11-Oct-2023 03:58:36 UTC] sessionController-> validateSession()
+[11-Oct-2023 03:58:36 UTC] Session controller -> getCurrentPage: //signup?error=a5bcd7089d83f45e17e989fbc86003ed, url => signup?error=a5bcd7089d83f45e17e989fbc86003ed
+[11-Oct-2023 03:58:36 UTC] sessionController::isPublic(): currentURL => signup?error=a5bcd7089d83f45e17e989fbc86003ed
+[11-Oct-2023 03:58:36 UTC] View::handleError() existsKey =>Los campos no pueden estar vacíos
+[11-Oct-2023 03:58:36 UTC] Hello, errors!
+[11-Oct-2023 03:58:36 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:00:30 UTC] Hello, errors!
+[11-Oct-2023 04:00:30 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:00:30 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 04:00:30 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 04:00:30 UTC] Hello, errors!
+[11-Oct-2023 04:00:30 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:00:33 UTC] Hello, errors!
+[11-Oct-2023 04:00:33 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:00:33 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 04:00:33 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 04:00:33 UTC] Hello, errors!
+[11-Oct-2023 04:00:33 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:00:51 UTC] Hello, errors!
+[11-Oct-2023 04:00:51 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:00:51 UTC] Session controller -> getCurrentPage: /signup/newUser, url => newUser
+[11-Oct-2023 04:00:51 UTC] sessionController::isPublic(): currentURL => newUser
+[11-Oct-2023 04:00:51 UTC] Controller::existPost => no existe el parametro
+[11-Oct-2023 04:00:51 UTC] Hello, errors!
+[11-Oct-2023 04:00:51 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:00:51 UTC] Session controller -> getCurrentPage: //signup?error=a5bcd7089d83f45e17e989fbc86003ed, url => signup?error=a5bcd7089d83f45e17e989fbc86003ed
+[11-Oct-2023 04:00:51 UTC] sessionController::isPublic(): currentURL => signup?error=a5bcd7089d83f45e17e989fbc86003ed
+[11-Oct-2023 04:00:51 UTC] View::handleError() existsKey =>Los campos no pueden estar vacíos
+[11-Oct-2023 04:00:51 UTC] Hello, errors!
+[11-Oct-2023 04:00:51 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:02:23 UTC] Hello, errors!
+[11-Oct-2023 04:02:23 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:02:23 UTC] Session controller -> getCurrentPage: //signup?error=a5bcd7089d83f45e17e989fbc86003ed, url => signup?error=a5bcd7089d83f45e17e989fbc86003ed
+[11-Oct-2023 04:02:23 UTC] sessionController::isPublic(): currentURL => signup?error=a5bcd7089d83f45e17e989fbc86003ed
+[11-Oct-2023 04:02:23 UTC] View::handleError() existsKey =>Los campos no pueden estar vacíos
+[11-Oct-2023 04:02:24 UTC] Hello, errors!
+[11-Oct-2023 04:02:24 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:02:27 UTC] Hello, errors!
+[11-Oct-2023 04:02:27 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:02:27 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 04:02:27 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 04:02:27 UTC] Hello, errors!
+[11-Oct-2023 04:02:27 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:02:31 UTC] Hello, errors!
+[11-Oct-2023 04:02:31 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:02:31 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 04:02:31 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 04:02:31 UTC] Hello, errors!
+[11-Oct-2023 04:02:31 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:02:33 UTC] Hello, errors!
+[11-Oct-2023 04:02:33 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:02:33 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 04:02:33 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 04:02:33 UTC] Hello, errors!
+[11-Oct-2023 04:02:33 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:02:45 UTC] Hello, errors!
+[11-Oct-2023 04:02:45 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:02:45 UTC] Session controller -> getCurrentPage: /signup/newUser, url => newUser
+[11-Oct-2023 04:02:45 UTC] sessionController::isPublic(): currentURL => newUser
+[11-Oct-2023 04:02:45 UTC] Controller::existPost => no existe el parametro
+[11-Oct-2023 04:02:45 UTC] Hello, errors!
+[11-Oct-2023 04:02:45 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:02:45 UTC] Session controller -> getCurrentPage: //signup?error=a5bcd7089d83f45e17e989fbc86003ed, url => signup?error=a5bcd7089d83f45e17e989fbc86003ed
+[11-Oct-2023 04:02:45 UTC] sessionController::isPublic(): currentURL => signup?error=a5bcd7089d83f45e17e989fbc86003ed
+[11-Oct-2023 04:02:45 UTC] View::handleError() existsKey =>Los campos no pueden estar vacíos
+[11-Oct-2023 04:02:45 UTC] Hello, errors!
+[11-Oct-2023 04:02:45 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:06:53 UTC] Hello, errors!
+[11-Oct-2023 04:06:53 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:06:53 UTC] Session controller -> getCurrentPage: //signup?error=a5bcd7089d83f45e17e989fbc86003ed, url => signup?error=a5bcd7089d83f45e17e989fbc86003ed
+[11-Oct-2023 04:06:53 UTC] sessionController::isPublic(): currentURL => signup?error=a5bcd7089d83f45e17e989fbc86003ed
+[11-Oct-2023 04:06:53 UTC] View::handleError() existsKey =>Los campos no pueden estar vacíos
+[11-Oct-2023 04:06:53 UTC] Hello, errors!
+[11-Oct-2023 04:06:53 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:07:39 UTC] Hello, errors!
+[11-Oct-2023 04:07:39 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:07:39 UTC] Session controller -> getCurrentPage: /signup/newUser, url => newUser
+[11-Oct-2023 04:07:39 UTC] sessionController::isPublic(): currentURL => newUser
+[11-Oct-2023 04:07:39 UTC] Controller::existPost => no existe el parametro
+[11-Oct-2023 04:07:39 UTC] Ingreso aqui ahora mismo
+[11-Oct-2023 04:07:39 UTC] Hello, errors!
+[11-Oct-2023 04:07:39 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:07:39 UTC] Session controller -> getCurrentPage: //signup?error=a5bcd7089d83f45e17e989fbc86003ed, url => signup?error=a5bcd7089d83f45e17e989fbc86003ed
+[11-Oct-2023 04:07:39 UTC] sessionController::isPublic(): currentURL => signup?error=a5bcd7089d83f45e17e989fbc86003ed
+[11-Oct-2023 04:07:39 UTC] View::handleError() existsKey =>Los campos no pueden estar vacíos
+[11-Oct-2023 04:07:40 UTC] Hello, errors!
+[11-Oct-2023 04:07:40 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:10:30 UTC] Hello, errors!
+[11-Oct-2023 04:10:30 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:10:30 UTC] Session controller -> getCurrentPage: /signup/newUser, url => newUser
+[11-Oct-2023 04:10:30 UTC] sessionController::isPublic(): currentURL => newUser
+[11-Oct-2023 04:10:30 UTC] Controller::existPost => no existe el parametro
+[11-Oct-2023 04:10:30 UTC] Ingreso aqui ahora mismo
+[11-Oct-2023 04:10:30 UTC] Hello, errors!
+[11-Oct-2023 04:10:30 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:10:30 UTC] Session controller -> getCurrentPage: //signup?error=a5bcd7089d83f45e17e989fbc86003ed, url => signup?error=a5bcd7089d83f45e17e989fbc86003ed
+[11-Oct-2023 04:10:30 UTC] sessionController::isPublic(): currentURL => signup?error=a5bcd7089d83f45e17e989fbc86003ed
+[11-Oct-2023 04:10:30 UTC] View::handleError() existsKey =>Los campos no pueden estar vacíos
+[11-Oct-2023 04:10:30 UTC] Hello, errors!
+[11-Oct-2023 04:10:30 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:10:33 UTC] Hello, errors!
+[11-Oct-2023 04:10:33 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:10:33 UTC] Session controller -> getCurrentPage: //signup?error=a5bcd7089d83f45e17e989fbc86003ed, url => signup?error=a5bcd7089d83f45e17e989fbc86003ed
+[11-Oct-2023 04:10:33 UTC] sessionController::isPublic(): currentURL => signup?error=a5bcd7089d83f45e17e989fbc86003ed
+[11-Oct-2023 04:10:33 UTC] View::handleError() existsKey =>Los campos no pueden estar vacíos
+[11-Oct-2023 04:10:33 UTC] Hello, errors!
+[11-Oct-2023 04:10:33 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:10:34 UTC] Hello, errors!
+[11-Oct-2023 04:10:34 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:10:34 UTC] Session controller -> getCurrentPage: //signup?error=a5bcd7089d83f45e17e989fbc86003ed, url => signup?error=a5bcd7089d83f45e17e989fbc86003ed
+[11-Oct-2023 04:10:34 UTC] sessionController::isPublic(): currentURL => signup?error=a5bcd7089d83f45e17e989fbc86003ed
+[11-Oct-2023 04:10:34 UTC] View::handleError() existsKey =>Los campos no pueden estar vacíos
+[11-Oct-2023 04:10:34 UTC] Hello, errors!
+[11-Oct-2023 04:10:34 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:10:34 UTC] Hello, errors!
+[11-Oct-2023 04:10:34 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:10:34 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 04:10:34 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 04:10:34 UTC] Hello, errors!
+[11-Oct-2023 04:10:34 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:10:36 UTC] Hello, errors!
+[11-Oct-2023 04:10:36 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:10:36 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 04:10:36 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 04:10:36 UTC] Hello, errors!
+[11-Oct-2023 04:10:36 UTC] Errores::controller-> Errores
+[11-Oct-2023 04:10:43 UTC] Hello, errors!
+[11-Oct-2023 04:10:43 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:10:43 UTC] Session controller -> getCurrentPage: /signup/newUser, url => newUser
+[11-Oct-2023 04:10:43 UTC] sessionController::isPublic(): currentURL => newUser
+[11-Oct-2023 04:10:43 UTC] PHP Fatal error:  Uncaught Error: Class "Success" not found in C:\laragon\www\Finanzas\controllers\Signup.php:39
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\App.php(46): Signup->newUser()
+#1 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#2 {main}
+  thrown in C:\laragon\www\Finanzas\controllers\Signup.php on line 39
+[11-Oct-2023 04:10:43 UTC] Hello, errors!
+[11-Oct-2023 04:10:43 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[11-Oct-2023 04:10:43 UTC] sessionController-> validateSession()
+[11-Oct-2023 04:10:43 UTC] sessionController::isPublic(): currentURL => 
+[11-Oct-2023 04:10:43 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[11-Oct-2023 04:10:43 UTC] Error de loguin
+[11-Oct-2023 04:10:44 UTC] Hello, errors!
+[11-Oct-2023 04:10:44 UTC] Errores::controller-> Errores

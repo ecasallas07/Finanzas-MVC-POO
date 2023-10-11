@@ -80,13 +80,13 @@ class SessionController extends Controller
 
     //TODO: En esta funcion traigo los datos de la session, es buena practica solo guardar el id en la SESSION
 
-    private function getUserSessionData()
+    public function getUserSessionData()
     {
         $this->session = new Session();
         $id = $this->session->getCurrentUser();
         $this->user = new UserModel();
         $this->user->get($id);
-        error_log('Session controller-> getUserSession Data' . $this->user->getUsername());
+        error_log('Session controller-> getUserSession Data  ' . $this->user->getUsername());
         return $this->user;
     }
     private function isPublic()
@@ -94,7 +94,7 @@ class SessionController extends Controller
         $currentURL = $this->getCurrentPage();
         error_log("sessionController::isPublic(): currentURL => " . $currentURL);
         $currentURL = preg_replace("/\?.*/","",$currentURL); // PHP interpreta / / estas dos linea como expresiones regulares
-        //Recorro el json para validar que existan los parametros
+        //TODO: sizeof es el alias de count
         for($i=0; $i < sizeof($this->sites);$i++){
             if($currentURL == $this->sites[$i]['site'] && $this->sites[$i]['access'] ==='public'){
                 return true;

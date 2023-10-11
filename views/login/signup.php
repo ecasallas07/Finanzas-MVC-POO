@@ -7,7 +7,7 @@
 </head>
 <body>
 <?php $this->showMessages();?>
-<div class="form">
+<div class="form_signup">
     <div class="tab-contents">
             <div id="signup" class="tab-content">
                 <h1>Sign Up for Free</h1>
@@ -24,6 +24,27 @@
                         <label>Set A Password<span class="req">*</span>
                         </label>
                         <input type="password"  autocomplete="off" name="password"/>
+                    </div>
+
+                    <div class="field-wrap">
+                        <label>Set A Role<span class="req">*</span>
+                        </label>
+                        <select name="role">
+                            <option value="" selected></option>
+                            <option value="user" >User</option>
+                            <option value="admin" >Admin</option>
+
+                        </select>
+                    </div>
+                    <div class="field-wrap">
+                        <label>Set A Phone Number<span class="req">*</span>
+                        </label>
+                        <input type="number"  autocomplete="off" name="phone"/>
+                    </div>
+                    <div class="field-wrap">
+                        <label>Set A Name of User<span class="req">*</span>
+                        </label>
+                        <input type="text"  autocomplete="off" name="user_name"/>
                     </div>
 
                     <button type="submit" class="button button-block"/>Get Started</button>

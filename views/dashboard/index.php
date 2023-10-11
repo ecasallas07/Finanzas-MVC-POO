@@ -1,11 +1,9 @@
 <?php
-////$expenses               = $this->d['expenses'];
-////$totalThisMonth         = $this->d['totalAmountThisMonth'];
-////$maxExpensesThisMonth   = $this->d['maxExpensesThisMonth'];
-////$user                   = $this->d['user'];
-////$categories             = $this->d['categories'];
-////
-////?>
+
+$user = $this->d['user'];
+
+
+?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,17 +11,17 @@
     <title>Expense App - Dashboard</title>
 </head>
 <body>
-<?php //require 'header.php'; ?>
+<?php require 'header.php'; ?>
 
 <div id="main-container">
-<!--    --><?php //$this->showMessages();?>
+    <?php $this->showMessages();?>
     <div id="expenses-container" class="container">
 
         <div id="left-container">
 
             <div id="expenses-summary">
                 <div>
-<!--                    <h2>Bienvenido --><?php //echo $user->getName() ?><!--</h2>-->
+                    <h2>Bienvenido <?php echo $user->getUsername() ?></h2>
                 </div>
                 <div class="cards-container">
                     <div class="card w-100">

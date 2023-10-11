@@ -52,7 +52,11 @@ class Controller
         foreach ($mensajes as $key => $mensaje){
             array_push($data, $key."=". $mensaje);
         }
+
+        //El join es el alias de la funcion implode
         $params = join('&',$data);
+
+
         //TODO: Se visualizaria la url con parametros asi ?nombre=Marcos&apellido
         if($params != ''){
             $params = '?'.$params;

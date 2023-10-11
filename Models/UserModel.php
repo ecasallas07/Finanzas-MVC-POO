@@ -6,7 +6,7 @@ class UserModel extends Model implements IModel
     private $username;
     private $password;
     private $role;
-    private $budget;
+    private $phone;
     private $photo;
     private $name;
 
@@ -17,7 +17,7 @@ class UserModel extends Model implements IModel
            $this->username = '';
            $this->password ='';
            $this->role='';
-           $this->budget= 0.0;
+           $this->phone= 0;
            $this->photo='';
            $this->name='';
     }
@@ -25,12 +25,12 @@ class UserModel extends Model implements IModel
     public function save()
     {
         try {
-            $query = $this->prepare('INSERT INTO users (username,password,role,budget,photo,name) VALUES (:username,:password,:role,:budget,:photo,:name)');
+            $query = $this->prepare('INSERT INTO users (username,password,role,telefono,photo,name) VALUES (:username,:password,:role,:phone,:photo,:name)');
             $query->execute([
                 'username'=> $this->username,
                 'password'=> $this->password,
                 'role' => $this->role,
-                'budget' => $this->budget,
+                'phone' => $this->phone,
                 'photo'=> $this->photo,
                 'name'=> $this->name
             ]);
@@ -52,7 +52,7 @@ class UserModel extends Model implements IModel
                 $item->setId($p['id']);
                 $item->setUsername($p['username']);
                 $item->setPassword($p['password']);
-                $item->setBudget($p['budget']);
+                $item->setPhone($p['phone']);
                 $item->setRole($p['role']);
                 $item->setPhoto($p['photo']);
                 $item->setName($p['name']);
@@ -78,7 +78,7 @@ class UserModel extends Model implements IModel
             $this->setId($user['id']);
             $this->setUsername($user['username']);
             $this->setPassword($user['password']);
-            $this->setBudget($user['budget']);
+            $this->setPhone($user['phone']);
             $this->setRole($user['role']);
             $this->setPhoto($user['photo']);
             $this->setName($user['name']);
@@ -108,13 +108,13 @@ class UserModel extends Model implements IModel
     public function update()
     {
         try {
-            $query =$this->prepare('UPDATE users SET  username = :username, password= :password , budget =:budget , role =:role , photo = :photo, name =:name  WHERE id= :id');
+            $query =$this->prepare('UPDATE users SET  username = :username, password= :password , phone =:phone , role =:role , photo = :photo, name =:name  WHERE id= :id');
             $query->execute([
                 'id'=>$this->id,
                 'username'=>$this->username,
                 'password'=> $this->password,
                 'role' => $this->role,
-                'budget' => $this->budget,
+                'phone' => $this->phone,
                 'photo'=> $this->photo,
                 'name'=> $this->name
             ]);
@@ -132,7 +132,7 @@ class UserModel extends Model implements IModel
         $this->username = $array['username'];
         $this->password =$array['password'];
         $this->role=$array['role'];
-        $this->budget= $array['budget'];
+        $this->phone= $array['phone'];
         $this->photo=$array['photo'];
         $this->name=$array['name'];
     }
@@ -204,10 +204,10 @@ class UserModel extends Model implements IModel
     public function getRole(){
         return $this->role;
     }
-    public function setBudget($budget){
+    public function setPhone($budget){
         $this->budget = $budget;
     }
-    public function getBudget(){
+    public function getPhone(){
         return $this->budget;
     }
     public function setPhoto($photo){

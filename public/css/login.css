@@ -31,6 +31,16 @@ a:hover {
     box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
     height: 530px;
 }
+.form_signup {
+    background: rgba(19, 35, 47, 0.9);
+    padding: 40px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    height: 650px;
+}
+
 
 .tab-group {
     list-style: none;
@@ -111,13 +121,13 @@ label.highlight {
 }
 
 input,
+select,
 textarea {
     font-size: 22px;
     display: block;
     width: 100%;
     padding: 5px 10px;
     background: none;
-    background-image: none;
     border: 1px solid #a0b3b0;
     color: #ffffff;
     border-radius: 0;
@@ -127,6 +137,9 @@ input:focus,
 textarea:focus {
     outline: 0;
     border-color: #1ab188;
+}
+select option{
+    background-color: #222222;
 }
 
 textarea {

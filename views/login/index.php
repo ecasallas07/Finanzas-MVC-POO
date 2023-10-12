@@ -10,7 +10,7 @@
 
       <div class="tab-contents">
         <div id="login"  class="tab-content">
-          <h1>Welcome Back!</h1>
+          <h1 class="navbar-brand" href="#"><i class="fa fa-square-o "></i>&nbsp;FINANZAS</h1>
 
           <form action="<?php echo constant('URL'); ?>loguin/authenticate" method="post">
 

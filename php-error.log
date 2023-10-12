@@ -7380,3 +7380,641 @@ Stack trace:
 [11-Oct-2023 05:47:23 UTC] Errores::controller-> Errores
 [11-Oct-2023 05:47:24 UTC] Hello, errors!
 [11-Oct-2023 05:47:24 UTC] Errores::controller-> Errores
+[12-Oct-2023 02:44:25 UTC] Hello, errors!
+[12-Oct-2023 02:44:26 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[12-Oct-2023 02:44:26 UTC] sessionController-> validateSession()
+[12-Oct-2023 02:44:26 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 02:44:26 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 02:44:26 UTC] Error de loguin
+[12-Oct-2023 02:44:26 UTC] Hello, errors!
+[12-Oct-2023 02:44:26 UTC] Errores::controller-> Errores
+[12-Oct-2023 02:45:18 UTC] Hello, errors!
+[12-Oct-2023 02:45:18 UTC] sessionController-> validateSession()
+[12-Oct-2023 02:45:18 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 02:45:18 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 02:45:18 UTC] Hello, errors!
+[12-Oct-2023 02:45:18 UTC] Errores::controller-> Errores
+[12-Oct-2023 02:46:52 UTC] Hello, errors!
+[12-Oct-2023 02:46:52 UTC] sessionController-> validateSession()
+[12-Oct-2023 02:46:52 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 02:46:52 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 02:46:52 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 02:46:52 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 02:46:52 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 02:46:52 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 02:46:52 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 02:46:52 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 02:46:52 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 02:46:52 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 02:46:52 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 02:46:52 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 02:46:53 UTC] Hello, errors!
+[12-Oct-2023 02:46:53 UTC] Errores::controller-> Errores
+[12-Oct-2023 02:50:48 UTC] Hello, errors!
+[12-Oct-2023 02:50:48 UTC] Errores::controller-> Errores
+[12-Oct-2023 02:50:50 UTC] Hello, errors!
+[12-Oct-2023 02:50:50 UTC] Errores::controller-> Errores
+[12-Oct-2023 02:55:39 UTC] Hello, errors!
+[12-Oct-2023 02:55:39 UTC] sessionController-> validateSession()
+[12-Oct-2023 02:55:39 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 02:55:39 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 02:55:39 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 02:55:39 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 02:55:39 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 02:55:39 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 02:55:39 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 02:55:39 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 02:55:39 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 02:55:39 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 02:55:39 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 02:55:39 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 02:55:40 UTC] Hello, errors!
+[12-Oct-2023 02:55:40 UTC] Errores::controller-> Errores
+[12-Oct-2023 02:56:01 UTC] Hello, errors!
+[12-Oct-2023 02:56:01 UTC] sessionController-> validateSession()
+[12-Oct-2023 02:56:01 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 02:56:01 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 02:56:01 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 02:56:01 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 02:56:01 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 02:56:01 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 02:56:01 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 02:56:01 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 02:56:01 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 02:56:01 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 02:56:01 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 02:56:01 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 02:56:01 UTC] Hello, errors!
+[12-Oct-2023 02:56:01 UTC] Errores::controller-> Errores
+[12-Oct-2023 03:43:00 UTC] Hello, errors!
+[12-Oct-2023 03:43:00 UTC] sessionController-> validateSession()
+[12-Oct-2023 03:43:00 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 03:43:00 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 03:43:00 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 03:43:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 03:43:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 03:43:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 03:43:00 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 03:43:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 03:43:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 03:43:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 03:43:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 03:43:00 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 03:43:01 UTC] Hello, errors!
+[12-Oct-2023 03:43:01 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:03:00 UTC] Hello, errors!
+[12-Oct-2023 04:03:00 UTC] sessionController-> validateSession()
+[12-Oct-2023 04:03:00 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 04:03:00 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 04:03:00 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 04:03:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 04:03:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 04:03:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 04:03:00 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 04:03:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 04:03:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 04:03:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 04:03:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 04:03:00 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 04:03:01 UTC] Hello, errors!
+[12-Oct-2023 04:03:01 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:08:39 UTC] Hello, errors!
+[12-Oct-2023 04:08:39 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[12-Oct-2023 04:08:39 UTC] sessionController-> validateSession()
+[12-Oct-2023 04:08:39 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 04:08:39 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 04:08:39 UTC] Error de loguin
+[12-Oct-2023 04:08:40 UTC] Hello, errors!
+[12-Oct-2023 04:08:40 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:09:24 UTC] Hello, errors!
+[12-Oct-2023 04:09:24 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[12-Oct-2023 04:09:24 UTC] sessionController-> validateSession()
+[12-Oct-2023 04:09:24 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 04:09:24 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 04:09:24 UTC] Error de loguin
+[12-Oct-2023 04:09:24 UTC] Hello, errors!
+[12-Oct-2023 04:09:24 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:09:44 UTC] Hello, errors!
+[12-Oct-2023 04:09:44 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[12-Oct-2023 04:09:45 UTC] sessionController-> validateSession()
+[12-Oct-2023 04:09:45 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 04:09:45 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 04:09:45 UTC] Error de loguin
+[12-Oct-2023 04:09:45 UTC] Hello, errors!
+[12-Oct-2023 04:09:45 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:09:50 UTC] Hello, errors!
+[12-Oct-2023 04:09:50 UTC] sessionController-> validateSession()
+[12-Oct-2023 04:09:50 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 04:09:50 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 04:09:51 UTC] Hello, errors!
+[12-Oct-2023 04:09:51 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:09:53 UTC] Hello, errors!
+[12-Oct-2023 04:09:53 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[12-Oct-2023 04:09:53 UTC] sessionController-> validateSession()
+[12-Oct-2023 04:09:53 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 04:09:53 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 04:09:53 UTC] Error de loguin
+[12-Oct-2023 04:09:53 UTC] Hello, errors!
+[12-Oct-2023 04:09:53 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:11:17 UTC] Hello, errors!
+[12-Oct-2023 04:11:17 UTC] sessionController-> validateSession()
+[12-Oct-2023 04:11:17 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 04:11:17 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 04:11:17 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 04:11:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 04:11:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 04:11:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 04:11:17 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 04:11:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 04:11:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 04:11:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 04:11:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 04:11:17 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 04:11:17 UTC] Hello, errors!
+[12-Oct-2023 04:11:17 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:29:19 UTC] Hello, errors!
+[12-Oct-2023 04:29:19 UTC] sessionController-> validateSession()
+[12-Oct-2023 04:29:19 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 04:29:19 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 04:29:19 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 04:29:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 04:29:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 04:29:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 04:29:19 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 04:29:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 04:29:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 04:29:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 04:29:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 04:29:19 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 04:29:20 UTC] Hello, errors!
+[12-Oct-2023 04:29:20 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:30:13 UTC] Hello, errors!
+[12-Oct-2023 04:30:13 UTC] sessionController-> validateSession()
+[12-Oct-2023 04:30:13 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 04:30:13 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 04:30:13 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 04:30:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 04:30:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 04:30:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 04:30:13 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 04:30:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 04:30:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 04:30:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 04:30:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 04:30:13 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 04:30:14 UTC] Hello, errors!
+[12-Oct-2023 04:30:14 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:33:50 UTC] Hello, errors!
+[12-Oct-2023 04:33:50 UTC] sessionController-> validateSession()
+[12-Oct-2023 04:33:50 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 04:33:50 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 04:33:50 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 04:33:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 04:33:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 04:33:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 04:33:50 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 04:33:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 04:33:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 04:33:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 04:33:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 04:33:50 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 04:33:51 UTC] Hello, errors!
+[12-Oct-2023 04:33:51 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:34:25 UTC] Hello, errors!
+[12-Oct-2023 04:34:25 UTC] sessionController-> validateSession()
+[12-Oct-2023 04:34:25 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 04:34:25 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 04:34:25 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 04:34:25 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 04:34:25 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 04:34:25 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 04:34:25 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 04:34:25 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 04:34:25 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 04:34:25 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 04:34:25 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 04:34:25 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 04:34:26 UTC] Hello, errors!
+[12-Oct-2023 04:34:26 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:34:52 UTC] Hello, errors!
+[12-Oct-2023 04:34:52 UTC] sessionController-> validateSession()
+[12-Oct-2023 04:34:52 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 04:34:52 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 04:34:52 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 04:34:52 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 04:34:52 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 04:34:52 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 04:34:52 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 04:34:52 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 04:34:52 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 04:34:52 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 04:34:52 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 04:34:52 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 04:34:53 UTC] Hello, errors!
+[12-Oct-2023 04:34:53 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:37:47 UTC] Hello, errors!
+[12-Oct-2023 04:37:47 UTC] sessionController-> validateSession()
+[12-Oct-2023 04:37:47 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 04:37:47 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 04:37:47 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 04:37:47 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 04:37:47 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 04:37:47 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 04:37:47 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 04:37:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 04:37:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 04:37:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 04:37:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 04:37:48 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 04:37:48 UTC] Hello, errors!
+[12-Oct-2023 04:37:48 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:43:58 UTC] Hello, errors!
+[12-Oct-2023 04:43:58 UTC] sessionController-> validateSession()
+[12-Oct-2023 04:43:58 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 04:43:58 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 04:43:58 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 04:43:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 04:43:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 04:43:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 04:43:58 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 04:43:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 04:43:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 04:43:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 04:43:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 04:43:58 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 04:43:58 UTC] Hello, errors!
+[12-Oct-2023 04:43:58 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:44:33 UTC] Hello, errors!
+[12-Oct-2023 04:44:33 UTC] sessionController-> validateSession()
+[12-Oct-2023 04:44:33 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 04:44:33 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 04:44:33 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 04:44:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 04:44:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 04:44:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 04:44:33 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 04:44:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 04:44:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 04:44:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 04:44:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 04:44:33 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 04:44:33 UTC] Hello, errors!
+[12-Oct-2023 04:44:33 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:45:03 UTC] Hello, errors!
+[12-Oct-2023 04:45:03 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:46:23 UTC] Hello, errors!
+[12-Oct-2023 04:46:23 UTC] sessionController-> validateSession()
+[12-Oct-2023 04:46:23 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 04:46:23 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 04:46:23 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 04:46:23 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 04:46:23 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 04:46:23 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 04:46:23 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 04:46:23 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 04:46:23 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 04:46:23 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 04:46:23 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 04:46:23 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 04:46:23 UTC] Hello, errors!
+[12-Oct-2023 04:46:23 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:46:32 UTC] Hello, errors!
+[12-Oct-2023 04:46:32 UTC] sessionController-> validateSession()
+[12-Oct-2023 04:46:32 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 04:46:32 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 04:46:32 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 04:46:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 04:46:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 04:46:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 04:46:32 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 04:46:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 04:46:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 04:46:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 04:46:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 04:46:32 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 04:46:32 UTC] Hello, errors!
+[12-Oct-2023 04:46:32 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:46:36 UTC] Hello, errors!
+[12-Oct-2023 04:46:36 UTC] sessionController-> validateSession()
+[12-Oct-2023 04:46:36 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 04:46:36 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 04:46:36 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 04:46:36 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 04:46:36 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 04:46:36 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 04:46:36 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 04:46:36 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 04:46:36 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 04:46:36 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 04:46:36 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 04:46:36 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 04:46:37 UTC] Hello, errors!
+[12-Oct-2023 04:46:37 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:46:58 UTC] Hello, errors!
+[12-Oct-2023 04:46:58 UTC] sessionController-> validateSession()
+[12-Oct-2023 04:46:58 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 04:46:58 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 04:46:58 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 04:46:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 04:46:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 04:46:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 04:46:58 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 04:46:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 04:46:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 04:46:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 04:46:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 04:46:58 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 04:46:58 UTC] Hello, errors!
+[12-Oct-2023 04:46:58 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:46:59 UTC] Hello, errors!
+[12-Oct-2023 04:46:59 UTC] sessionController-> validateSession()
+[12-Oct-2023 04:46:59 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 04:46:59 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 04:46:59 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 04:46:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 04:46:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 04:46:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 04:46:59 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 04:46:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 04:46:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 04:46:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 04:46:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 04:46:59 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 04:46:59 UTC] Hello, errors!
+[12-Oct-2023 04:46:59 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:47:11 UTC] Hello, errors!
+[12-Oct-2023 04:47:11 UTC] sessionController-> validateSession()
+[12-Oct-2023 04:47:11 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 04:47:11 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 04:47:11 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 04:47:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 04:47:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 04:47:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 04:47:11 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 04:47:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 04:47:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 04:47:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 04:47:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 04:47:12 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 04:47:12 UTC] Hello, errors!
+[12-Oct-2023 04:47:12 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:47:53 UTC] Hello, errors!
+[12-Oct-2023 04:47:53 UTC] sessionController-> validateSession()
+[12-Oct-2023 04:47:53 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 04:47:53 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 04:47:53 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 04:47:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 04:47:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 04:47:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 04:47:53 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 04:47:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 04:47:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 04:47:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 04:47:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 04:47:53 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 04:47:53 UTC] Hello, errors!
+[12-Oct-2023 04:47:53 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:49:11 UTC] Hello, errors!
+[12-Oct-2023 04:49:11 UTC] sessionController-> validateSession()
+[12-Oct-2023 04:49:11 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 04:49:11 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 04:49:11 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 04:49:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 04:49:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 04:49:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 04:49:12 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 04:49:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 04:49:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 04:49:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 04:49:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 04:49:12 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 04:49:12 UTC] Hello, errors!
+[12-Oct-2023 04:49:12 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:49:26 UTC] Hello, errors!
+[12-Oct-2023 04:49:26 UTC] sessionController-> validateSession()
+[12-Oct-2023 04:49:26 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 04:49:26 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 04:49:26 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 04:49:26 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 04:49:26 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 04:49:26 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 04:49:26 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 04:49:26 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 04:49:26 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 04:49:26 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 04:49:26 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 04:49:26 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 04:49:26 UTC] Hello, errors!
+[12-Oct-2023 04:49:26 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:54:07 UTC] Hello, errors!
+[12-Oct-2023 04:54:07 UTC] sessionController-> validateSession()
+[12-Oct-2023 04:54:07 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 04:54:07 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 04:54:07 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 04:54:07 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 04:54:07 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 04:54:07 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 04:54:07 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 04:54:07 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 04:54:07 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 04:54:07 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 04:54:07 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 04:54:07 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 04:54:07 UTC] Hello, errors!
+[12-Oct-2023 04:54:07 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:54:28 UTC] Hello, errors!
+[12-Oct-2023 04:54:28 UTC] sessionController-> validateSession()
+[12-Oct-2023 04:54:28 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 04:54:28 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 04:54:28 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 04:54:28 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 04:54:28 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 04:54:28 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 04:54:28 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 04:54:28 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 04:54:28 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 04:54:28 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 04:54:28 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 04:54:28 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 04:54:29 UTC] Hello, errors!
+[12-Oct-2023 04:54:29 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:54:39 UTC] Hello, errors!
+[12-Oct-2023 04:54:39 UTC] sessionController-> validateSession()
+[12-Oct-2023 04:54:39 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 04:54:39 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 04:54:39 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 04:54:39 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 04:54:39 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 04:54:39 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 04:54:39 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 04:54:39 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 04:54:39 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 04:54:39 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 04:54:39 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 04:54:39 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 04:54:39 UTC] Hello, errors!
+[12-Oct-2023 04:54:39 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:55:50 UTC] Hello, errors!
+[12-Oct-2023 04:55:50 UTC] sessionController-> validateSession()
+[12-Oct-2023 04:55:50 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 04:55:50 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 04:55:50 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 04:55:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 04:55:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 04:55:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 04:55:50 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 04:55:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 04:55:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 04:55:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 04:55:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 04:55:50 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 04:55:50 UTC] Hello, errors!
+[12-Oct-2023 04:55:50 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:56:07 UTC] Hello, errors!
+[12-Oct-2023 04:56:07 UTC] sessionController-> validateSession()
+[12-Oct-2023 04:56:07 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 04:56:07 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 04:56:07 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 04:56:07 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 04:56:07 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 04:56:07 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 04:56:07 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 04:56:07 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 04:56:07 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 04:56:07 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 04:56:07 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 04:56:07 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 04:56:07 UTC] Hello, errors!
+[12-Oct-2023 04:56:07 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:58:25 UTC] Hello, errors!
+[12-Oct-2023 04:58:25 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:58:25 UTC] Hello, errors!
+[12-Oct-2023 04:58:25 UTC] Errores::controller-> Errores
+[12-Oct-2023 04:59:08 UTC] Hello, errors!
+[12-Oct-2023 04:59:08 UTC] sessionController-> validateSession()
+[12-Oct-2023 04:59:08 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 04:59:08 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 04:59:08 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 04:59:08 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 04:59:08 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 04:59:08 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 04:59:08 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 04:59:08 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 04:59:08 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 04:59:08 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 04:59:08 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 04:59:08 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 04:59:08 UTC] Hello, errors!
+[12-Oct-2023 04:59:08 UTC] Errores::controller-> Errores
+[12-Oct-2023 05:00:33 UTC] Hello, errors!
+[12-Oct-2023 05:00:33 UTC] sessionController-> validateSession()
+[12-Oct-2023 05:00:33 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 05:00:33 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 05:00:33 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 05:00:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 05:00:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 05:00:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 05:00:33 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 05:00:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 05:00:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 05:00:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 05:00:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 05:00:33 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 05:00:33 UTC] Hello, errors!
+[12-Oct-2023 05:00:33 UTC] Errores::controller-> Errores
+[12-Oct-2023 05:01:34 UTC] Hello, errors!
+[12-Oct-2023 05:01:34 UTC] sessionController-> validateSession()
+[12-Oct-2023 05:01:34 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 05:01:34 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 05:01:34 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 05:01:34 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 05:01:34 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 05:01:34 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 05:01:34 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 05:01:34 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 05:01:34 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 05:01:34 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 05:01:34 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 05:01:34 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 05:01:34 UTC] Hello, errors!
+[12-Oct-2023 05:01:34 UTC] Errores::controller-> Errores
+[12-Oct-2023 05:02:14 UTC] Hello, errors!
+[12-Oct-2023 05:02:14 UTC] sessionController-> validateSession()
+[12-Oct-2023 05:02:14 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 05:02:14 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 05:02:14 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 05:02:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 05:02:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 05:02:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 05:02:14 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 05:02:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 05:02:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 05:02:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 05:02:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 05:02:14 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 05:02:14 UTC] Hello, errors!
+[12-Oct-2023 05:02:14 UTC] Errores::controller-> Errores
+[12-Oct-2023 05:02:47 UTC] Hello, errors!
+[12-Oct-2023 05:02:47 UTC] sessionController-> validateSession()
+[12-Oct-2023 05:02:47 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 05:02:47 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 05:02:47 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 05:02:47 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 05:02:47 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 05:02:47 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 05:02:47 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 05:02:47 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 05:02:47 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 05:02:47 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 05:02:47 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 05:02:47 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 05:02:47 UTC] Hello, errors!
+[12-Oct-2023 05:02:47 UTC] Errores::controller-> Errores
+[12-Oct-2023 05:03:05 UTC] Hello, errors!
+[12-Oct-2023 05:03:05 UTC] sessionController-> validateSession()
+[12-Oct-2023 05:03:05 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 05:03:05 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 05:03:05 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 05:03:05 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 05:03:05 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 05:03:05 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 05:03:05 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 05:03:05 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 05:03:05 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 05:03:05 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 05:03:05 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 05:03:05 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 05:03:05 UTC] Hello, errors!
+[12-Oct-2023 05:03:05 UTC] Errores::controller-> Errores
+[12-Oct-2023 05:04:08 UTC] Hello, errors!
+[12-Oct-2023 05:04:08 UTC] sessionController-> validateSession()
+[12-Oct-2023 05:04:08 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 05:04:08 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 05:04:08 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 05:04:08 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 05:04:08 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 05:04:08 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 05:04:08 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 05:04:08 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 05:04:08 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 05:04:08 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 05:04:08 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 05:04:08 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 05:04:08 UTC] Hello, errors!
+[12-Oct-2023 05:04:08 UTC] Errores::controller-> Errores
+[12-Oct-2023 05:04:33 UTC] Hello, errors!
+[12-Oct-2023 05:04:33 UTC] sessionController-> validateSession()
+[12-Oct-2023 05:04:33 UTC] sessionController::isPublic(): currentURL => 
+[12-Oct-2023 05:04:33 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[12-Oct-2023 05:04:33 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[12-Oct-2023 05:04:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[12-Oct-2023 05:04:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[12-Oct-2023 05:04:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[12-Oct-2023 05:04:33 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[12-Oct-2023 05:04:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[12-Oct-2023 05:04:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[12-Oct-2023 05:04:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[12-Oct-2023 05:04:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[12-Oct-2023 05:04:33 UTC] Session controller-> getUserSession Data  
+[12-Oct-2023 05:04:33 UTC] Hello, errors!
+[12-Oct-2023 05:04:33 UTC] Errores::controller-> Errores

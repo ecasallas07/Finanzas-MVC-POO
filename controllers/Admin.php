@@ -15,4 +15,13 @@ class Admin extends SessionController
         ]);
     }
 
+    public function totalUsers(){
+
+    }
+
+
+
+
+
+
 }

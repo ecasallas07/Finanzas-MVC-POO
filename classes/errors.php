@@ -27,6 +27,7 @@ class Errors
     const ERROR_SIGNUP_NEWUSER                   = "1fdce6bbf47d6b26a9cd809ea1910222";
     const ERROR_SIGNUP_NEWUSER_EMPTY             = "a5bcd7089d83f45e17e989fbc86003ed";
     const ERROR_SIGNUP_NEWUSER_EXISTS            = "a74accfd26e06d012266810952678cf3";
+    const ERROR_SIGNUP_TABLE_EXISTS            = "x74aca5d26e06d01226681083276b678cf3";
 
 
     private $errorsList = [];
@@ -53,6 +54,7 @@ class Errors
             Errors::ERROR_SIGNUP_NEWUSER            => 'Hubo un error al intentar registrarte. Intenta de nuevo',
             Errors::ERROR_SIGNUP_NEWUSER_EMPTY      => 'Los campos no pueden estar vacíos',
             Errors::ERROR_SIGNUP_NEWUSER_EXISTS     => 'El nombre de usuario ya existe, selecciona otro',
+            Errors::ERROR_SIGNUP_TABLE_EXISTS       => 'La tabla ya existe cambia el nombre'
         ];
     }
 

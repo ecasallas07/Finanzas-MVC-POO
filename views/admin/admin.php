@@ -1,6 +1,8 @@
 ﻿<?php
 $count = $this->d['countUsers'];
 $user = $this->d['user'];
+$roleUser = $this->d['usersRole'];
+
 
 ?>
 
@@ -28,6 +30,7 @@ $user = $this->d['user'];
 
     <div id="wrapper">
         <?php require 'header.php';?>
+        <?php print_r($roleUser)?>
         <!-- /. NAV SIDE  -->
         <div id="page-wrapper">
             <div id="page-inner">
@@ -162,34 +165,28 @@ $user = $this->d['user'];
                         <div class="modal-content">
                             <!-- Contenido del modal -->
                             <div class="modal-header">
-                                <h5 class="modal-title">Título del Modal</h5>
-                                <form action="" method="POST">
+                                <h5 class="modal-title">Crear tabla</h5>
+                                <form action="#" method="POST">
                                     <div class="mb-3">
-                                        <input type="hidden" name="update_idsamsumg" value="<?php echo $data->id_samsumg ?>">
-                                        <label for="exampleInputIdentification1" class="form-label">Serial</label>
-                                        <input type="text" class="form-control" id="exampleInputIdentification1" name="update_serial" aria-describedby="identificationHelp" value="<?php echo $data->serial ?>">
+                                        <input type="hidden" name="update_idsamsumg" value="">
+                                        <label for="exampleInputIdentification1" class="form-label">Nombre de la tabla:</label>
+                                        <input type="text" class="form-control" id="exampleInputIdentification1" name="name_table" aria-describedby="identificationHelp" value="">
                                     </div>
 
                                     <div class="mb-3">
-                                        <label for="exampleInputName1" class="form-label">Modelo</label>
-                                        <input type="text" class="form-control" id="exampleInputName1" name="update_modelo" aria-describedby="nameHelp" value="<?php echo $data->modelo?>">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="exampleInputName1" class="form-label">Cliente</label>
-                                        <input type="text" class="form-control" id="exampleInputName1" name="update_cliente" aria-describedby="nameHelp" value="<?php echo $data->id_cliente?>">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="exampleInputName1" class="form-label">Ubicacion</label>
-                                        <input type="text" class="form-control" id="exampleInputName1" name="update_ubicacion" aria-describedby="nameHelp" value="<?php echo $data->ubicacion?>">
-                                    </div>
 
+                                        <label for="textarea" class="form-label">Columnas:</label>
+                                        <p class="font-italic font-weight-light">Revisar detenidamente los tipos de datos y restricciones</p>
+                                        <textarea type="text" class="form-control" id="textarea" name="columnas"  placeholder="Separadas por coma (,)" rows="2" cols="50"></textarea>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                        <button type="submit" class="btn btn-primary">Guardar cambios</button>
+                                    </div>
 
                                 </form>
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                                <button type="button" class="btn btn-primary">Guardar cambios</button>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -202,34 +199,36 @@ $user = $this->d['user'];
                             <div class="modal-header">
                                 <h5 class="modal-title">Título del Modal</h5>
                                 <form action="" method="POST">
-                                    <div class="mb-3">
-                                        <input type="hidden" name="update_idsamsumg" value="<?php echo $data->id_samsumg ?>">
-                                        <label for="exampleInputIdentification1" class="form-label">Serial</label>
-                                        <input type="text" class="form-control" id="exampleInputIdentification1" name="update_serial" aria-describedby="identificationHelp" value="<?php echo $data->serial ?>">
+                                    <div class="field-wrap">
+                                        <label>Seleccione el Usuario<span class="req">*</span>
+                                        </label>
+                                        <select name="username">
+                                            <option value="" selected></option>
+
+                                                <option value=''><?php echo $roleUser?></option>
+
+
+                                        </select>
+
                                     </div>
 
-                                    <div class="mb-3">
-                                        <label for="exampleInputName1" class="form-label">Modelo</label>
-                                        <input type="text" class="form-control" id="exampleInputName1" name="update_modelo" aria-describedby="nameHelp" value="<?php echo $data->modelo?>">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="exampleInputName1" class="form-label">Cliente</label>
-                                        <input type="text" class="form-control" id="exampleInputName1" name="update_cliente" aria-describedby="nameHelp" value="<?php echo $data->id_cliente?>">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="exampleInputName1" class="form-label">Ubicacion</label>
-                                        <input type="text" class="form-control" id="exampleInputName1" name="update_ubicacion" aria-describedby="nameHelp" value="<?php echo $data->ubicacion?>">
-                                    </div>
-                                    <button type="button" class="close" data-dismiss="modal">
-                                        <span>&times;</span>
-                                    </button>
+                                    <div class="field-wrap">
+                                        <label>Seleccione ele rol<span class="req">*</span>
+                                        </label>
+                                        <select name="role">
+                                            <option value="" selected></option>
+                                            <option value="user" >User</option>
+                                            <option value="admin" >Admin</option>
 
+                                        </select>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                        <button type="button" class="btn btn-primary">Guardar cambios</button>
+                                    </div>
                                 </form>
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                                <button type="button" class="btn btn-primary">Guardar cambios</button>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -244,22 +243,22 @@ $user = $this->d['user'];
                                 <h5 class="modal-title">Título del Modal</h5>
                                 <form action="" method="POST">
                                     <div class="mb-3">
-                                        <input type="hidden" name="update_idsamsumg" value="<?php echo $data->id_samsumg ?>">
+                                        <input type="hidden" name="update_idsamsumg" value="">
                                         <label for="exampleInputIdentification1" class="form-label">Serial</label>
-                                        <input type="text" class="form-control" id="exampleInputIdentification1" name="update_serial" aria-describedby="identificationHelp" value="<?php echo $data->serial ?>">
+                                        <input type="text" class="form-control" id="exampleInputIdentification1" name="update_serial" aria-describedby="identificationHelp" value="">
                                     </div>
 
                                     <div class="mb-3">
                                         <label for="exampleInputName1" class="form-label">Modelo</label>
-                                        <input type="text" class="form-control" id="exampleInputName1" name="update_modelo" aria-describedby="nameHelp" value="<?php echo $data->modelo?>">
+                                        <input type="text" class="form-control" id="exampleInputName1" name="update_modelo" aria-describedby="nameHelp" value="">
                                     </div>
                                     <div class="mb-3">
                                         <label for="exampleInputName1" class="form-label">Cliente</label>
-                                        <input type="text" class="form-control" id="exampleInputName1" name="update_cliente" aria-describedby="nameHelp" value="<?php echo $data->id_cliente?>">
+                                        <input type="text" class="form-control" id="exampleInputName1" name="update_cliente" aria-describedby="nameHelp" value="">
                                     </div>
                                     <div class="mb-3">
                                         <label for="exampleInputName1" class="form-label">Ubicacion</label>
-                                        <input type="text" class="form-control" id="exampleInputName1" name="update_ubicacion" aria-describedby="nameHelp" value="<?php echo $data->ubicacion?>">
+                                        <input type="text" class="form-control" id="exampleInputName1" name="update_ubicacion" aria-describedby="nameHelp" value="">
                                     </div>
                                     <button type="button" class="close" data-dismiss="modal">
                                         <span>&times;</span>

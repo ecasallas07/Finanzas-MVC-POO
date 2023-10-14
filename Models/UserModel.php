@@ -78,7 +78,7 @@ class UserModel extends Model implements IModel
             $this->setId($user['id']);
             $this->setUsername($user['username']);
             $this->setPassword($user['password']);
-            $this->setPhone($user['phone']);
+            $this->setPhone($user['telefono']);
             $this->setRole($user['role']);
             $this->setPhoto($user['photo']);
             $this->setName($user['name']);

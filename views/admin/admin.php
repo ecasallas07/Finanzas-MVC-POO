@@ -1,4 +1,10 @@
-﻿<!DOCTYPE html>
+﻿<?php
+$count = $this->d['countUsers'];
+$user = $this->d['user'];
+
+?>
+
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
       <meta charset="utf-8" />
@@ -15,6 +21,8 @@
     <link href="<?php echo constant('URL'); ?>public/css/custom.css" rel="stylesheet" />
      <!-- GOOGLE FONTS-->
    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">-->
 </head>
 <body>
 
@@ -37,31 +45,24 @@
                             <div class="panel-body">
                                 <i class="fa fa-bar-chart-o fa-5x"></i>
                                 <h3>Cantidad de usuarios</h3>
+                                <h4><?php  echo $count;?></h4>
                             </div>
                             <div class="panel-footer back-footer-blue">
-                                Registrar Usuario
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#miModal" >Registrar Usuario</button>
 
                             </div>
                         </div>
                     </div>
 
-<!--                    <div class="col-md-3 col-sm-3 col-xs-6">-->
-<!--                        <h5></h5>-->
-<!--                        <div class="alert alert-info text-center">-->
-<!--                            <i class="fa fa-desktop fa-5x"></i>-->
-<!--                            <h3>Tablas activas </h3>-->
-<!--                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.-->
-<!--                        </div>-->
-<!--                    </div>-->
                     <div class="col-md-3 col-sm-3 col-xs-6">
                         <h5>Tablas</h5>
                         <div class="panel panel-primary text-center no-boder bg-color-blue">
                             <div class="panel-body">
                                 <i class="fa fa-bar-chart-o fa-5x"></i>
-                                <h3>Cantidad de usuarios</h3>
+                                <h3>Cantidad de Tablas</h3>
                             </div>
                             <div class="panel-footer back-footer-blue">
-                                Crear tabla
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#miModalTable" >Crear Tablas</button>
 
                             </div>
                         </div>
@@ -72,10 +73,10 @@
                             <div class="panel panel-primary text-center no-boder bg-color-blue">
                                 <div class="panel-body">
                                     <i class="fa fa-bar-chart-o fa-5x"></i>
-                                    <h3>Cantidad de usuarios</h3>
+                                    <h3>Cantidad de Adminins</h3>
                                 </div>
                                 <div class="panel-footer back-footer-blue">
-                                    Asignar Rol
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#miModalAdmin" >Asignar Rol</button>
 
                                 </div>
                             </div>
@@ -85,10 +86,10 @@
                             <div class="panel panel-primary text-center no-boder bg-color-blue">
                                 <div class="panel-body">
                                     <i class="fa fa-bar-chart-o fa-5x"></i>
-                                    <h3>Cantidad de usuarios</h3>
+                                    <h3>Cantidad de Categorias</h3>
                                 </div>
                                 <div class="panel-footer back-footer-blue">
-                                    Registrar Categoria
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#miModalCategory" >Crear Categoria</button>
 
                                 </div>
                             </div>
@@ -97,6 +98,183 @@
                     </div>
 
                 </div>
+
+<!--                //TODO: Modales de boostrap-->
+            <!--TODO: Modal add User-->
+                <div class="modal" id="miModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <!-- Contenido del modal -->
+                            <div class="modal-header">
+                                <h5 class="modal-title">Crear usuario</h5>
+                                <form action="<?php echo constant('URL'); ?>admin/createUser" method="POST">
+
+                                    <div class="field-wrap">
+                                        <label>Email Address<span class="req">*</span>
+                                        </label>
+                                        <input type="text" autocomplete="off" name="username"/>
+                                    </div>
+
+                                    <div class="field-wrap">
+                                        <label>Set A Password<span class="req">*</span>
+                                        </label>
+                                        <input type="password"  autocomplete="off" name="password"/>
+                                    </div>
+
+                                    <div class="field-wrap">
+                                        <label>Set A Role<span class="req">*</span>
+                                        </label>
+                                        <select name="role">
+                                            <option value="" selected></option>
+                                            <option value="user" >User</option>
+                                            <option value="admin" >Admin</option>
+
+                                        </select>
+                                    </div>
+                                    <div class="field-wrap">
+                                        <label>Set A Phone Number<span class="req">*</span>
+                                        </label>
+                                        <input type="number"  autocomplete="off" name="phone"/>
+                                    </div>
+                                    <div class="field-wrap">
+                                        <label>Set A Name of User<span class="req">*</span>
+                                        </label>
+                                        <input type="text"  autocomplete="off" name="user_name"/>
+                                    </div>
+
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                        <button type="submit" class="btn btn-primary">Guardar cambios</button>
+
+                                    </div>
+
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+<!--                TODO: MODAL ADD TABLES-->
+                <div class="modal" id="miModalTable">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <!-- Contenido del modal -->
+                            <div class="modal-header">
+                                <h5 class="modal-title">Título del Modal</h5>
+                                <form action="" method="POST">
+                                    <div class="mb-3">
+                                        <input type="hidden" name="update_idsamsumg" value="<?php echo $data->id_samsumg ?>">
+                                        <label for="exampleInputIdentification1" class="form-label">Serial</label>
+                                        <input type="text" class="form-control" id="exampleInputIdentification1" name="update_serial" aria-describedby="identificationHelp" value="<?php echo $data->serial ?>">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="exampleInputName1" class="form-label">Modelo</label>
+                                        <input type="text" class="form-control" id="exampleInputName1" name="update_modelo" aria-describedby="nameHelp" value="<?php echo $data->modelo?>">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputName1" class="form-label">Cliente</label>
+                                        <input type="text" class="form-control" id="exampleInputName1" name="update_cliente" aria-describedby="nameHelp" value="<?php echo $data->id_cliente?>">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputName1" class="form-label">Ubicacion</label>
+                                        <input type="text" class="form-control" id="exampleInputName1" name="update_ubicacion" aria-describedby="nameHelp" value="<?php echo $data->ubicacion?>">
+                                    </div>
+
+
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn btn-primary">Guardar cambios</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+<!--                TODO: ADD ROLE ADMIN AN USERS-->
+                <div class="modal" id="miModalAdmin">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <!-- Contenido del modal -->
+                            <div class="modal-header">
+                                <h5 class="modal-title">Título del Modal</h5>
+                                <form action="" method="POST">
+                                    <div class="mb-3">
+                                        <input type="hidden" name="update_idsamsumg" value="<?php echo $data->id_samsumg ?>">
+                                        <label for="exampleInputIdentification1" class="form-label">Serial</label>
+                                        <input type="text" class="form-control" id="exampleInputIdentification1" name="update_serial" aria-describedby="identificationHelp" value="<?php echo $data->serial ?>">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="exampleInputName1" class="form-label">Modelo</label>
+                                        <input type="text" class="form-control" id="exampleInputName1" name="update_modelo" aria-describedby="nameHelp" value="<?php echo $data->modelo?>">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputName1" class="form-label">Cliente</label>
+                                        <input type="text" class="form-control" id="exampleInputName1" name="update_cliente" aria-describedby="nameHelp" value="<?php echo $data->id_cliente?>">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputName1" class="form-label">Ubicacion</label>
+                                        <input type="text" class="form-control" id="exampleInputName1" name="update_ubicacion" aria-describedby="nameHelp" value="<?php echo $data->ubicacion?>">
+                                    </div>
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        <span>&times;</span>
+                                    </button>
+
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn btn-primary">Guardar cambios</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--                TODO: ADD MODAL CATEGORY-->
+                <div class="modal" id="miModalCategory">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <!-- Contenido del modal -->
+                            <div class="modal-header">
+                                <h5 class="modal-title">Título del Modal</h5>
+                                <form action="" method="POST">
+                                    <div class="mb-3">
+                                        <input type="hidden" name="update_idsamsumg" value="<?php echo $data->id_samsumg ?>">
+                                        <label for="exampleInputIdentification1" class="form-label">Serial</label>
+                                        <input type="text" class="form-control" id="exampleInputIdentification1" name="update_serial" aria-describedby="identificationHelp" value="<?php echo $data->serial ?>">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="exampleInputName1" class="form-label">Modelo</label>
+                                        <input type="text" class="form-control" id="exampleInputName1" name="update_modelo" aria-describedby="nameHelp" value="<?php echo $data->modelo?>">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputName1" class="form-label">Cliente</label>
+                                        <input type="text" class="form-control" id="exampleInputName1" name="update_cliente" aria-describedby="nameHelp" value="<?php echo $data->id_cliente?>">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputName1" class="form-label">Ubicacion</label>
+                                        <input type="text" class="form-control" id="exampleInputName1" name="update_ubicacion" aria-describedby="nameHelp" value="<?php echo $data->ubicacion?>">
+                                    </div>
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        <span>&times;</span>
+                                    </button>
+
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn btn-primary">Guardar cambios</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- /. ROW  -->
                 <hr />
                 <div class="row">
@@ -140,13 +318,7 @@
                         </table>
 
                     </div>
-<!--                    <div class="col-md-4">-->
-<!--                        <div class="form-group">-->
-<!--                            <label>Text Input Example</label>-->
-<!--                            <input class="form-control" />-->
-<!--                            <p class="help-block">Help text here.</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
+
                     <div class="col-md-4">
                         <label>Click to see blank page</label>
                         <a href="admin.php" target="_blank" class="btn btn-danger btn-lg btn-block">VISITAR PAGINA WEB</a>
@@ -157,64 +329,6 @@
 
 
                 <div class="row">
-<!--                    <div class="col-md-4">-->
-<!--                        <h5>Panel Sample</h5>-->
-<!--                        <div class="panel panel-primary">-->
-<!--                            <div class="panel-heading">-->
-<!--                                Default Panel-->
-<!--                            </div>-->
-<!--                            <div class="panel-body">-->
-<!--                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>-->
-<!--                            </div>-->
-<!--                            <div class="panel-footer">-->
-<!--                                Panel Footer-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="col-md-4">-->
-<!--                        <h5>Accordion Sample</h5>-->
-<!--                        <div class="panel-group" id="accordion">-->
-<!--                            <div class="panel panel-default">-->
-<!--                                <div class="panel-heading">-->
-<!--                                    <h4 class="panel-title">-->
-<!--                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="collapsed">Collapsible Group Item #1</a>-->
-<!--                                    </h4>-->
-<!--                                </div>-->
-<!--                                <div id="collapseOne" class="panel-collapse collapse" style="height: 0px;">-->
-<!--                                    <div class="panel-body">-->
-<!--                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="panel panel-default">-->
-<!--                                <div class="panel-heading">-->
-<!--                                    <h4 class="panel-title">-->
-<!--                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Collapsible Group Item #2</a>-->
-<!--                                    </h4>-->
-<!--                                </div>-->
-<!--                                <div id="collapseTwo" class="panel-collapse in" style="height: auto;">-->
-<!--                                    <div class="panel-body">-->
-<!--                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.-->
-<!---->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="panel panel-default">-->
-<!--                                <div class="panel-heading">-->
-<!--                                    <h4 class="panel-title">-->
-<!--                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="collapsed">Collapsible Group Item #3</a>-->
-<!--                                    </h4>-->
-<!--                                </div>-->
-<!--                                <div id="collapseThree" class="panel-collapse collapse">-->
-<!---->
-<!---->
-<!--                                    <div class="panel-body">-->
-<!--                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
                     <div class="col-md-12">
                         <h5>Articulos</h5>
                         <ul class="nav nav-tabs">
@@ -258,6 +372,7 @@
                     </div>
 
                 </div>
+
                 <!-- /. ROW  -->
                 <hr />
                 <div class="row">
@@ -285,7 +400,6 @@
     <script src="../../public/javascript/jquery.metisMenu.js"></script>
       <!-- CUSTOM SCRIPTS -->
     <script src="../../public/javascript/custom.js"></script>
-    
-   
+
 </body>
 </html>

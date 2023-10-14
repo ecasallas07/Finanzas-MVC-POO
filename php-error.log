@@ -8018,3 +8018,1206 @@ Stack trace:
 [12-Oct-2023 05:04:33 UTC] Session controller-> getUserSession Data  
 [12-Oct-2023 05:04:33 UTC] Hello, errors!
 [12-Oct-2023 05:04:33 UTC] Errores::controller-> Errores
+[14-Oct-2023 03:33:43 UTC] Hello, errors!
+[14-Oct-2023 03:33:43 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[14-Oct-2023 03:33:43 UTC] sessionController-> validateSession()
+[14-Oct-2023 03:33:43 UTC] sessionController::isPublic(): currentURL => 
+[14-Oct-2023 03:33:43 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[14-Oct-2023 03:33:43 UTC] Error de loguin
+[14-Oct-2023 03:33:44 UTC] Hello, errors!
+[14-Oct-2023 03:33:44 UTC] Errores::controller-> Errores
+[14-Oct-2023 03:33:50 UTC] Hello, errors!
+[14-Oct-2023 03:33:50 UTC] sessionController-> validateSession()
+[14-Oct-2023 03:33:50 UTC] sessionController::isPublic(): currentURL => 
+[14-Oct-2023 03:33:50 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[14-Oct-2023 03:33:50 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[14-Oct-2023 03:33:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[14-Oct-2023 03:33:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[14-Oct-2023 03:33:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[14-Oct-2023 03:33:50 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[14-Oct-2023 03:33:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[14-Oct-2023 03:33:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[14-Oct-2023 03:33:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[14-Oct-2023 03:33:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[14-Oct-2023 03:33:50 UTC] Session controller-> getUserSession Data  
+[14-Oct-2023 03:33:50 UTC] Hello, errors!
+[14-Oct-2023 03:33:50 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:22:48 UTC] Hello, errors!
+[14-Oct-2023 04:22:48 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:22:48 UTC] sessionController::isPublic(): currentURL => 
+[14-Oct-2023 04:22:48 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[14-Oct-2023 04:22:48 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[14-Oct-2023 04:22:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[14-Oct-2023 04:22:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[14-Oct-2023 04:22:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[14-Oct-2023 04:22:48 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[14-Oct-2023 04:22:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[14-Oct-2023 04:22:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[14-Oct-2023 04:22:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[14-Oct-2023 04:22:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[14-Oct-2023 04:22:48 UTC] Session controller-> getUserSession Data  
+[14-Oct-2023 04:22:49 UTC] Hello, errors!
+[14-Oct-2023 04:22:49 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:24:02 UTC] Hello, errors!
+[14-Oct-2023 04:24:02 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:24:02 UTC] sessionController::isPublic(): currentURL => 
+[14-Oct-2023 04:24:02 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[14-Oct-2023 04:24:02 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[14-Oct-2023 04:24:02 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[14-Oct-2023 04:24:02 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[14-Oct-2023 04:24:02 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[14-Oct-2023 04:24:02 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[14-Oct-2023 04:24:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[14-Oct-2023 04:24:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[14-Oct-2023 04:24:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[14-Oct-2023 04:24:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[14-Oct-2023 04:24:03 UTC] Session controller-> getUserSession Data  
+[14-Oct-2023 04:24:03 UTC] Hello, errors!
+[14-Oct-2023 04:24:03 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:24:03 UTC] Hello, errors!
+[14-Oct-2023 04:24:03 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:24:03 UTC] sessionController::isPublic(): currentURL => 
+[14-Oct-2023 04:24:03 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[14-Oct-2023 04:24:03 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[14-Oct-2023 04:24:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[14-Oct-2023 04:24:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[14-Oct-2023 04:24:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[14-Oct-2023 04:24:03 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[14-Oct-2023 04:24:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[14-Oct-2023 04:24:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[14-Oct-2023 04:24:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[14-Oct-2023 04:24:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[14-Oct-2023 04:24:03 UTC] Session controller-> getUserSession Data  
+[14-Oct-2023 04:24:03 UTC] Hello, errors!
+[14-Oct-2023 04:24:03 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:24:03 UTC] Hello, errors!
+[14-Oct-2023 04:24:03 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:24:03 UTC] sessionController::isPublic(): currentURL => 
+[14-Oct-2023 04:24:03 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[14-Oct-2023 04:24:03 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[14-Oct-2023 04:24:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[14-Oct-2023 04:24:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[14-Oct-2023 04:24:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[14-Oct-2023 04:24:03 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[14-Oct-2023 04:24:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[14-Oct-2023 04:24:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[14-Oct-2023 04:24:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[14-Oct-2023 04:24:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[14-Oct-2023 04:24:04 UTC] Session controller-> getUserSession Data  
+[14-Oct-2023 04:24:04 UTC] Hello, errors!
+[14-Oct-2023 04:24:04 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:24:04 UTC] Hello, errors!
+[14-Oct-2023 04:24:04 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:24:04 UTC] sessionController::isPublic(): currentURL => 
+[14-Oct-2023 04:24:04 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[14-Oct-2023 04:24:04 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[14-Oct-2023 04:24:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[14-Oct-2023 04:24:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[14-Oct-2023 04:24:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[14-Oct-2023 04:24:04 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[14-Oct-2023 04:24:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[14-Oct-2023 04:24:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[14-Oct-2023 04:24:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[14-Oct-2023 04:24:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[14-Oct-2023 04:24:04 UTC] Session controller-> getUserSession Data  
+[14-Oct-2023 04:24:04 UTC] Hello, errors!
+[14-Oct-2023 04:24:04 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:24:06 UTC] Hello, errors!
+[14-Oct-2023 04:24:06 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:26:10 UTC] Hello, errors!
+[14-Oct-2023 04:26:10 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:26:10 UTC] sessionController::isPublic(): currentURL => 
+[14-Oct-2023 04:26:10 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[14-Oct-2023 04:26:10 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[14-Oct-2023 04:26:10 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[14-Oct-2023 04:26:10 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[14-Oct-2023 04:26:10 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[14-Oct-2023 04:26:10 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[14-Oct-2023 04:26:10 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[14-Oct-2023 04:26:10 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[14-Oct-2023 04:26:10 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[14-Oct-2023 04:26:10 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[14-Oct-2023 04:26:10 UTC] Session controller-> getUserSession Data  
+[14-Oct-2023 04:26:10 UTC] Hello, errors!
+[14-Oct-2023 04:26:10 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:26:10 UTC] Hello, errors!
+[14-Oct-2023 04:26:10 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:26:11 UTC] Hello, errors!
+[14-Oct-2023 04:26:11 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:26:11 UTC] sessionController::isPublic(): currentURL => 
+[14-Oct-2023 04:26:11 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[14-Oct-2023 04:26:11 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[14-Oct-2023 04:26:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[14-Oct-2023 04:26:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[14-Oct-2023 04:26:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[14-Oct-2023 04:26:11 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[14-Oct-2023 04:26:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[14-Oct-2023 04:26:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[14-Oct-2023 04:26:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[14-Oct-2023 04:26:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[14-Oct-2023 04:26:11 UTC] Session controller-> getUserSession Data  
+[14-Oct-2023 04:26:11 UTC] Hello, errors!
+[14-Oct-2023 04:26:11 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:26:12 UTC] Hello, errors!
+[14-Oct-2023 04:26:12 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:26:12 UTC] Hello, errors!
+[14-Oct-2023 04:26:12 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:26:12 UTC] sessionController::isPublic(): currentURL => 
+[14-Oct-2023 04:26:12 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[14-Oct-2023 04:26:12 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[14-Oct-2023 04:26:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[14-Oct-2023 04:26:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[14-Oct-2023 04:26:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[14-Oct-2023 04:26:12 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[14-Oct-2023 04:26:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[14-Oct-2023 04:26:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[14-Oct-2023 04:26:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[14-Oct-2023 04:26:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[14-Oct-2023 04:26:12 UTC] Session controller-> getUserSession Data  
+[14-Oct-2023 04:26:12 UTC] Hello, errors!
+[14-Oct-2023 04:26:12 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:26:12 UTC] Hello, errors!
+[14-Oct-2023 04:26:12 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:35:07 UTC] Hello, errors!
+[14-Oct-2023 04:35:07 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:35:07 UTC] sessionController::isPublic(): currentURL => 
+[14-Oct-2023 04:35:07 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[14-Oct-2023 04:35:07 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[14-Oct-2023 04:35:07 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[14-Oct-2023 04:35:07 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[14-Oct-2023 04:35:07 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[14-Oct-2023 04:35:07 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[14-Oct-2023 04:35:07 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[14-Oct-2023 04:35:07 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[14-Oct-2023 04:35:07 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[14-Oct-2023 04:35:07 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[14-Oct-2023 04:35:07 UTC] Session controller-> getUserSession Data  
+[14-Oct-2023 04:35:08 UTC] Hello, errors!
+[14-Oct-2023 04:35:08 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:35:09 UTC] Hello, errors!
+[14-Oct-2023 04:35:09 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:35:09 UTC] sessionController::isPublic(): currentURL => 
+[14-Oct-2023 04:35:09 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[14-Oct-2023 04:35:09 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[14-Oct-2023 04:35:09 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[14-Oct-2023 04:35:09 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[14-Oct-2023 04:35:09 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[14-Oct-2023 04:35:09 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[14-Oct-2023 04:35:09 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[14-Oct-2023 04:35:09 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[14-Oct-2023 04:35:09 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[14-Oct-2023 04:35:09 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[14-Oct-2023 04:35:09 UTC] Session controller-> getUserSession Data  
+[14-Oct-2023 04:35:09 UTC] Hello, errors!
+[14-Oct-2023 04:35:09 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:35:09 UTC] sessionController::isPublic(): currentURL => 
+[14-Oct-2023 04:35:09 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[14-Oct-2023 04:35:09 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[14-Oct-2023 04:35:09 UTC] Hello, errors!
+[14-Oct-2023 04:35:09 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[14-Oct-2023 04:35:09 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[14-Oct-2023 04:35:09 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[14-Oct-2023 04:35:09 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[14-Oct-2023 04:35:09 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:35:09 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[14-Oct-2023 04:35:09 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[14-Oct-2023 04:35:09 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[14-Oct-2023 04:35:09 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[14-Oct-2023 04:35:09 UTC] Session controller-> getUserSession Data  
+[14-Oct-2023 04:35:09 UTC] Hello, errors!
+[14-Oct-2023 04:35:09 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:35:09 UTC] Hello, errors!
+[14-Oct-2023 04:35:09 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:35:09 UTC] sessionController::isPublic(): currentURL => 
+[14-Oct-2023 04:35:09 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[14-Oct-2023 04:35:09 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[14-Oct-2023 04:35:09 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[14-Oct-2023 04:35:09 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[14-Oct-2023 04:35:09 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[14-Oct-2023 04:35:09 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[14-Oct-2023 04:35:09 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[14-Oct-2023 04:35:09 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[14-Oct-2023 04:35:09 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[14-Oct-2023 04:35:09 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[14-Oct-2023 04:35:09 UTC] Session controller-> getUserSession Data  
+[14-Oct-2023 04:35:09 UTC] Hello, errors!
+[14-Oct-2023 04:35:09 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:35:11 UTC] Hello, errors!
+[14-Oct-2023 04:35:11 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:35:11 UTC] sessionController::isPublic(): currentURL => 
+[14-Oct-2023 04:35:11 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[14-Oct-2023 04:35:11 UTC] PHP Warning:  Undefined array key "user" in C:\laragon\www\Finanzas\classes\Session.php on line 17
+[14-Oct-2023 04:35:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 78
+[14-Oct-2023 04:35:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 79
+[14-Oct-2023 04:35:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 80
+[14-Oct-2023 04:35:11 UTC] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\laragon\www\Finanzas\Models\UserModel.php on line 196
+[14-Oct-2023 04:35:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[14-Oct-2023 04:35:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 82
+[14-Oct-2023 04:35:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 83
+[14-Oct-2023 04:35:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\laragon\www\Finanzas\Models\UserModel.php on line 84
+[14-Oct-2023 04:35:11 UTC] Session controller-> getUserSession Data  
+[14-Oct-2023 04:35:11 UTC] Hello, errors!
+[14-Oct-2023 04:35:11 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:35:33 UTC] Hello, errors!
+[14-Oct-2023 04:35:34 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[14-Oct-2023 04:35:34 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:35:34 UTC] sessionController::isPublic(): currentURL => 
+[14-Oct-2023 04:35:34 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[14-Oct-2023 04:35:34 UTC] Error de loguin
+[14-Oct-2023 04:35:34 UTC] Hello, errors!
+[14-Oct-2023 04:35:34 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:35:52 UTC] Hello, errors!
+[14-Oct-2023 04:35:52 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:35:52 UTC] Session controller -> getCurrentPage: /loguin/authenticate, url => authenticate
+[14-Oct-2023 04:35:52 UTC] sessionController::isPublic(): currentURL => authenticate
+[14-Oct-2023 04:35:52 UTC] Error de loguin
+[14-Oct-2023 04:35:52 UTC] login: inicio
+[14-Oct-2023 04:35:52 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 135
+[14-Oct-2023 04:35:52 UTC] login: user id 11
+[14-Oct-2023 04:35:52 UTC] login: success
+[14-Oct-2023 04:35:52 UTC] Login::authenticate() passed
+[14-Oct-2023 04:35:52 UTC] Hello, errors!
+[14-Oct-2023 04:35:52 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:35:52 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[14-Oct-2023 04:35:52 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:35:52 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:35:52 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 04:35:52 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:35:52 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:35:52 UTC] Hello, errors!
+[14-Oct-2023 04:35:52 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:35:55 UTC] Hello, errors!
+[14-Oct-2023 04:35:55 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:35:55 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 81
+[14-Oct-2023 04:35:55 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:35:55 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:35:55 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 04:35:55 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:35:55 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:35:55 UTC] Hello, errors!
+[14-Oct-2023 04:35:55 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:38:34 UTC] Hello, errors!
+[14-Oct-2023 04:38:34 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:38:34 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:38:34 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:38:34 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 04:38:34 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:38:34 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:38:34 UTC] Uusarios totales render ->
+[14-Oct-2023 04:38:34 UTC] Hello, errors!
+[14-Oct-2023 04:38:34 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:39:41 UTC] Hello, errors!
+[14-Oct-2023 04:39:41 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:39:41 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:39:41 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:39:41 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 04:39:41 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:39:41 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:39:41 UTC] Total de usuarios -> funcion
+[14-Oct-2023 04:39:41 UTC] Uusarios totales render ->
+[14-Oct-2023 04:39:41 UTC] Hello, errors!
+[14-Oct-2023 04:39:41 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:40:31 UTC] Hello, errors!
+[14-Oct-2023 04:40:31 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:40:31 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:40:31 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:40:31 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 04:40:31 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:40:31 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:40:31 UTC] Get users model=>7
+[14-Oct-2023 04:40:31 UTC] Total de usuarios -> funcion
+[14-Oct-2023 04:40:31 UTC] Uusarios totales render ->7
+[14-Oct-2023 04:40:31 UTC] Hello, errors!
+[14-Oct-2023 04:40:31 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:41:04 UTC] Hello, errors!
+[14-Oct-2023 04:41:04 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:41:04 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:41:04 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:41:04 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 04:41:04 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:41:04 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:41:04 UTC] Get users model=>7
+[14-Oct-2023 04:41:04 UTC] Total de usuarios -> funcion
+[14-Oct-2023 04:41:04 UTC] Get users model=>7
+[14-Oct-2023 04:41:04 UTC] Uusarios totales render ->
+[14-Oct-2023 04:41:04 UTC] Hello, errors!
+[14-Oct-2023 04:41:04 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:41:08 UTC] Hello, errors!
+[14-Oct-2023 04:41:08 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:41:09 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:41:09 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:41:09 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 04:41:09 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:41:09 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:41:09 UTC] Get users model=>7
+[14-Oct-2023 04:41:09 UTC] Total de usuarios -> funcion
+[14-Oct-2023 04:41:09 UTC] Get users model=>7
+[14-Oct-2023 04:41:09 UTC] Uusarios totales render ->
+[14-Oct-2023 04:41:09 UTC] Hello, errors!
+[14-Oct-2023 04:41:09 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:41:35 UTC] Hello, errors!
+[14-Oct-2023 04:41:35 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:41:35 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:41:35 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:41:35 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 04:41:35 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:41:35 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:41:35 UTC] Get users model=>7
+[14-Oct-2023 04:41:35 UTC] Total de usuarios -> funcion
+[14-Oct-2023 04:41:35 UTC] Uusarios totales render ->7
+[14-Oct-2023 04:41:35 UTC] Hello, errors!
+[14-Oct-2023 04:41:35 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:42:11 UTC] Hello, errors!
+[14-Oct-2023 04:42:11 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:42:11 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:42:11 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:42:11 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 04:42:11 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:42:11 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:42:11 UTC] Total de usuarios -> funcion
+[14-Oct-2023 04:42:11 UTC] Uusarios totales render ->
+[14-Oct-2023 04:42:11 UTC] Hello, errors!
+[14-Oct-2023 04:42:11 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:42:55 UTC] Hello, errors!
+[14-Oct-2023 04:42:55 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:42:55 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:42:55 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:42:55 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 04:42:55 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:42:55 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:42:55 UTC] Uusarios totales render ->
+[14-Oct-2023 04:42:55 UTC] Hello, errors!
+[14-Oct-2023 04:42:55 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:43:18 UTC] Hello, errors!
+[14-Oct-2023 04:43:18 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:43:18 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:43:18 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:43:18 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 04:43:18 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:43:18 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:43:18 UTC] Get users model=>7
+[14-Oct-2023 04:43:18 UTC] Uusarios totales render ->
+[14-Oct-2023 04:43:18 UTC] Hello, errors!
+[14-Oct-2023 04:43:18 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:45:16 UTC] Hello, errors!
+[14-Oct-2023 04:45:16 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:45:16 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:45:16 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:45:16 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 04:45:16 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:45:16 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:45:16 UTC] Get users model=>7
+[14-Oct-2023 04:45:16 UTC] Total de usuarios -> funcion
+[14-Oct-2023 04:45:16 UTC] Uusarios totales render ->7
+[14-Oct-2023 04:45:16 UTC] Hello, errors!
+[14-Oct-2023 04:45:16 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:46:10 UTC] Hello, errors!
+[14-Oct-2023 04:46:10 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:46:10 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:46:10 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:46:10 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 04:46:10 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:46:10 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:46:10 UTC] Get users model=>7
+[14-Oct-2023 04:46:10 UTC] Total de usuarios -> funcion
+[14-Oct-2023 04:46:10 UTC] Uusarios totales render ->7
+[14-Oct-2023 04:46:11 UTC] Hello, errors!
+[14-Oct-2023 04:46:11 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:46:28 UTC] Hello, errors!
+[14-Oct-2023 04:46:28 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:46:28 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:46:28 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:46:28 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 04:46:28 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:46:28 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:46:28 UTC] Get users model=>7
+[14-Oct-2023 04:46:28 UTC] Total de usuarios -> funcion
+[14-Oct-2023 04:46:28 UTC] Uusarios totales render ->7
+[14-Oct-2023 04:46:28 UTC] Hello, errors!
+[14-Oct-2023 04:46:29 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:46:52 UTC] Hello, errors!
+[14-Oct-2023 04:46:52 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:46:52 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:46:52 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:46:52 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 04:46:52 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:46:52 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:46:52 UTC] Get users model=>7
+[14-Oct-2023 04:46:52 UTC] Total de usuarios -> funcion
+[14-Oct-2023 04:46:52 UTC] Uusarios totales render ->7
+[14-Oct-2023 04:46:52 UTC] Hello, errors!
+[14-Oct-2023 04:46:52 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:46:56 UTC] Hello, errors!
+[14-Oct-2023 04:46:56 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:46:56 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:46:56 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:46:56 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 04:46:56 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:46:56 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:46:56 UTC] Get users model=>7
+[14-Oct-2023 04:46:56 UTC] Total de usuarios -> funcion
+[14-Oct-2023 04:46:56 UTC] Uusarios totales render ->7
+[14-Oct-2023 04:46:57 UTC] Hello, errors!
+[14-Oct-2023 04:46:57 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:47:07 UTC] Hello, errors!
+[14-Oct-2023 04:47:07 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:47:07 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:47:07 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:47:07 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 04:47:07 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:47:07 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:47:07 UTC] Get users model=>7
+[14-Oct-2023 04:47:07 UTC] Total de usuarios -> funcion
+[14-Oct-2023 04:47:07 UTC] Uusarios totales render ->7
+[14-Oct-2023 04:47:07 UTC] Hello, errors!
+[14-Oct-2023 04:47:07 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:55:24 UTC] Hello, errors!
+[14-Oct-2023 04:55:24 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:55:24 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:55:24 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:55:24 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 04:55:24 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:55:24 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:55:24 UTC] Get users model=>7
+[14-Oct-2023 04:55:24 UTC] Total de usuarios -> funcion
+[14-Oct-2023 04:55:24 UTC] Uusarios totales render ->7
+[14-Oct-2023 04:55:24 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "URLSITE" in C:\laragon\www\Finanzas\views\admin\admin.php:110
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Admin.php(21): View->render('admin/admin', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Admin->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\admin.php on line 110
+[14-Oct-2023 04:55:24 UTC] Hello, errors!
+[14-Oct-2023 04:55:24 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:56:15 UTC] Hello, errors!
+[14-Oct-2023 04:56:15 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:56:15 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:56:15 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:56:15 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 04:56:15 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:56:15 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:56:15 UTC] Get users model=>7
+[14-Oct-2023 04:56:15 UTC] Total de usuarios -> funcion
+[14-Oct-2023 04:56:15 UTC] Uusarios totales render ->7
+[14-Oct-2023 04:56:15 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "URLSITE" in C:\laragon\www\Finanzas\views\admin\admin.php:110
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Admin.php(21): View->render('admin/admin', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Admin->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\admin.php on line 110
+[14-Oct-2023 04:56:16 UTC] Hello, errors!
+[14-Oct-2023 04:56:16 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:56:16 UTC] Hello, errors!
+[14-Oct-2023 04:56:16 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:56:16 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:56:16 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:56:16 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 04:56:16 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:56:16 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:56:16 UTC] Get users model=>7
+[14-Oct-2023 04:56:16 UTC] Total de usuarios -> funcion
+[14-Oct-2023 04:56:16 UTC] Uusarios totales render ->7
+[14-Oct-2023 04:56:16 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "URLSITE" in C:\laragon\www\Finanzas\views\admin\admin.php:110
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Admin.php(21): View->render('admin/admin', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Admin->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\admin.php on line 110
+[14-Oct-2023 04:56:16 UTC] Hello, errors!
+[14-Oct-2023 04:56:16 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:56:17 UTC] Hello, errors!
+[14-Oct-2023 04:56:17 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:56:18 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:56:18 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:56:18 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 04:56:18 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:56:18 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:56:18 UTC] Get users model=>7
+[14-Oct-2023 04:56:18 UTC] Total de usuarios -> funcion
+[14-Oct-2023 04:56:18 UTC] Uusarios totales render ->7
+[14-Oct-2023 04:56:18 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "URLSITE" in C:\laragon\www\Finanzas\views\admin\admin.php:110
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Admin.php(21): View->render('admin/admin', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Admin->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\admin.php on line 110
+[14-Oct-2023 04:56:18 UTC] Hello, errors!
+[14-Oct-2023 04:56:18 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:56:19 UTC] Hello, errors!
+[14-Oct-2023 04:56:19 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:56:19 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:56:19 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:56:19 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 04:56:19 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:56:19 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:56:19 UTC] Get users model=>7
+[14-Oct-2023 04:56:19 UTC] Total de usuarios -> funcion
+[14-Oct-2023 04:56:19 UTC] Uusarios totales render ->7
+[14-Oct-2023 04:56:19 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "URLSITE" in C:\laragon\www\Finanzas\views\admin\admin.php:110
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Admin.php(21): View->render('admin/admin', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Admin->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\admin.php on line 110
+[14-Oct-2023 04:56:19 UTC] Hello, errors!
+[14-Oct-2023 04:56:19 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:59:36 UTC] Hello, errors!
+[14-Oct-2023 04:59:36 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:59:36 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:59:36 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:59:36 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 04:59:36 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:59:36 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:59:37 UTC] Get users model=>7
+[14-Oct-2023 04:59:37 UTC] Total de usuarios -> funcion
+[14-Oct-2023 04:59:37 UTC] Uusarios totales render ->7
+[14-Oct-2023 04:59:37 UTC] Hello, errors!
+[14-Oct-2023 04:59:37 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:59:51 UTC] Hello, errors!
+[14-Oct-2023 04:59:51 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:59:51 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:59:51 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:59:51 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 04:59:51 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:59:51 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:59:51 UTC] Get users model=>7
+[14-Oct-2023 04:59:51 UTC] Total de usuarios -> funcion
+[14-Oct-2023 04:59:51 UTC] Uusarios totales render ->7
+[14-Oct-2023 04:59:51 UTC] Hello, errors!
+[14-Oct-2023 04:59:51 UTC] Errores::controller-> Errores
+[14-Oct-2023 04:59:52 UTC] Hello, errors!
+[14-Oct-2023 04:59:52 UTC] sessionController-> validateSession()
+[14-Oct-2023 04:59:52 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:59:52 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:59:52 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 04:59:52 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 04:59:52 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 04:59:52 UTC] Get users model=>7
+[14-Oct-2023 04:59:52 UTC] Total de usuarios -> funcion
+[14-Oct-2023 04:59:52 UTC] Uusarios totales render ->7
+[14-Oct-2023 04:59:52 UTC] Hello, errors!
+[14-Oct-2023 04:59:52 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:00:06 UTC] Hello, errors!
+[14-Oct-2023 05:00:06 UTC] sessionController-> validateSession()
+[14-Oct-2023 05:00:06 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:00:06 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:00:06 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 05:00:06 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:00:06 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:00:06 UTC] Get users model=>7
+[14-Oct-2023 05:00:06 UTC] Total de usuarios -> funcion
+[14-Oct-2023 05:00:06 UTC] Uusarios totales render ->7
+[14-Oct-2023 05:00:07 UTC] Hello, errors!
+[14-Oct-2023 05:00:07 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:00:07 UTC] Hello, errors!
+[14-Oct-2023 05:00:07 UTC] sessionController-> validateSession()
+[14-Oct-2023 05:00:07 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:00:07 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:00:07 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 05:00:07 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:00:07 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:00:07 UTC] Get users model=>7
+[14-Oct-2023 05:00:07 UTC] Total de usuarios -> funcion
+[14-Oct-2023 05:00:07 UTC] Uusarios totales render ->7
+[14-Oct-2023 05:00:08 UTC] Hello, errors!
+[14-Oct-2023 05:00:08 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:00:08 UTC] Hello, errors!
+[14-Oct-2023 05:00:08 UTC] sessionController-> validateSession()
+[14-Oct-2023 05:00:08 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:00:08 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:00:08 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 05:00:08 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:00:08 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:00:08 UTC] Get users model=>7
+[14-Oct-2023 05:00:08 UTC] Total de usuarios -> funcion
+[14-Oct-2023 05:00:08 UTC] Uusarios totales render ->7
+[14-Oct-2023 05:00:08 UTC] Hello, errors!
+[14-Oct-2023 05:00:08 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:00:13 UTC] Hello, errors!
+[14-Oct-2023 05:00:13 UTC] sessionController-> validateSession()
+[14-Oct-2023 05:00:13 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:00:13 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:00:13 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 05:00:13 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:00:13 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:00:13 UTC] Get users model=>7
+[14-Oct-2023 05:00:13 UTC] Total de usuarios -> funcion
+[14-Oct-2023 05:00:13 UTC] Uusarios totales render ->7
+[14-Oct-2023 05:00:13 UTC] Hello, errors!
+[14-Oct-2023 05:00:13 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:00:14 UTC] Hello, errors!
+[14-Oct-2023 05:00:14 UTC] sessionController-> validateSession()
+[14-Oct-2023 05:00:14 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:00:14 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:00:14 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 05:00:14 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:00:14 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:00:14 UTC] Get users model=>7
+[14-Oct-2023 05:00:14 UTC] Total de usuarios -> funcion
+[14-Oct-2023 05:00:14 UTC] Uusarios totales render ->7
+[14-Oct-2023 05:00:14 UTC] Hello, errors!
+[14-Oct-2023 05:00:14 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:00:28 UTC] Hello, errors!
+[14-Oct-2023 05:00:28 UTC] sessionController-> validateSession()
+[14-Oct-2023 05:00:29 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:00:29 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:00:29 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 05:00:29 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:00:29 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:00:29 UTC] Get users model=>7
+[14-Oct-2023 05:00:29 UTC] Total de usuarios -> funcion
+[14-Oct-2023 05:00:29 UTC] Uusarios totales render ->7
+[14-Oct-2023 05:00:29 UTC] Hello, errors!
+[14-Oct-2023 05:00:29 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:00:39 UTC] Hello, errors!
+[14-Oct-2023 05:00:39 UTC] sessionController-> validateSession()
+[14-Oct-2023 05:00:39 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:00:39 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:00:39 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 05:00:39 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:00:39 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:00:39 UTC] Get users model=>7
+[14-Oct-2023 05:00:39 UTC] Total de usuarios -> funcion
+[14-Oct-2023 05:00:39 UTC] Uusarios totales render ->7
+[14-Oct-2023 05:00:39 UTC] Hello, errors!
+[14-Oct-2023 05:00:39 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:02:42 UTC] Hello, errors!
+[14-Oct-2023 05:02:42 UTC] sessionController-> validateSession()
+[14-Oct-2023 05:02:42 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:02:42 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:02:42 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 05:02:42 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:02:42 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:02:42 UTC] Get users model=>7
+[14-Oct-2023 05:02:42 UTC] Total de usuarios -> funcion
+[14-Oct-2023 05:02:42 UTC] Uusarios totales render ->7
+[14-Oct-2023 05:02:42 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "URLSITE" in C:\laragon\www\Finanzas\views\admin\admin.php:110
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Admin.php(21): View->render('admin/admin', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Admin->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\admin.php on line 110
+[14-Oct-2023 05:02:42 UTC] Hello, errors!
+[14-Oct-2023 05:02:42 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:02:43 UTC] Hello, errors!
+[14-Oct-2023 05:02:43 UTC] sessionController-> validateSession()
+[14-Oct-2023 05:02:43 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:02:43 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:02:43 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 05:02:43 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:02:43 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:02:43 UTC] Get users model=>7
+[14-Oct-2023 05:02:43 UTC] Total de usuarios -> funcion
+[14-Oct-2023 05:02:43 UTC] Uusarios totales render ->7
+[14-Oct-2023 05:02:43 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "URLSITE" in C:\laragon\www\Finanzas\views\admin\admin.php:110
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Admin.php(21): View->render('admin/admin', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Admin->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\admin.php on line 110
+[14-Oct-2023 05:02:43 UTC] Hello, errors!
+[14-Oct-2023 05:02:43 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:02:44 UTC] Hello, errors!
+[14-Oct-2023 05:02:44 UTC] sessionController-> validateSession()
+[14-Oct-2023 05:02:44 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:02:44 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:02:44 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 05:02:44 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:02:44 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:02:44 UTC] Get users model=>7
+[14-Oct-2023 05:02:44 UTC] Total de usuarios -> funcion
+[14-Oct-2023 05:02:44 UTC] Uusarios totales render ->7
+[14-Oct-2023 05:02:44 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "URLSITE" in C:\laragon\www\Finanzas\views\admin\admin.php:110
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Admin.php(21): View->render('admin/admin', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Admin->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\admin.php on line 110
+[14-Oct-2023 05:02:45 UTC] Hello, errors!
+[14-Oct-2023 05:02:45 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:03:07 UTC] Hello, errors!
+[14-Oct-2023 05:03:07 UTC] sessionController-> validateSession()
+[14-Oct-2023 05:03:07 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:03:07 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:03:07 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 05:03:07 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:03:07 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:03:07 UTC] Get users model=>7
+[14-Oct-2023 05:03:07 UTC] Total de usuarios -> funcion
+[14-Oct-2023 05:03:07 UTC] Uusarios totales render ->7
+[14-Oct-2023 05:03:07 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 112
+[14-Oct-2023 05:03:07 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 114
+[14-Oct-2023 05:03:07 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 119
+[14-Oct-2023 05:03:07 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 123
+[14-Oct-2023 05:03:07 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 127
+[14-Oct-2023 05:03:08 UTC] Hello, errors!
+[14-Oct-2023 05:03:08 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:03:46 UTC] Hello, errors!
+[14-Oct-2023 05:03:46 UTC] sessionController-> validateSession()
+[14-Oct-2023 05:03:46 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:03:46 UTC] sessionController::isPublic(): currentURL => 
+[14-Oct-2023 05:03:46 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[14-Oct-2023 05:03:46 UTC] Hello, errors!
+[14-Oct-2023 05:03:46 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:08:42 UTC] Hello, errors!
+[14-Oct-2023 05:08:42 UTC] sessionController-> validateSession()
+[14-Oct-2023 05:08:42 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:08:42 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:08:42 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 05:08:42 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:08:42 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:08:42 UTC] Get users model=>7
+[14-Oct-2023 05:08:42 UTC] Total de usuarios -> funcion
+[14-Oct-2023 05:08:42 UTC] Uusarios totales render ->7
+[14-Oct-2023 05:08:42 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 112
+[14-Oct-2023 05:08:42 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 114
+[14-Oct-2023 05:08:42 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 119
+[14-Oct-2023 05:08:42 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 123
+[14-Oct-2023 05:08:42 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 127
+[14-Oct-2023 05:08:42 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 153
+[14-Oct-2023 05:08:42 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 155
+[14-Oct-2023 05:08:42 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 160
+[14-Oct-2023 05:08:42 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 164
+[14-Oct-2023 05:08:42 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 168
+[14-Oct-2023 05:08:42 UTC] Hello, errors!
+[14-Oct-2023 05:08:42 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:08:44 UTC] Hello, errors!
+[14-Oct-2023 05:08:44 UTC] sessionController-> validateSession()
+[14-Oct-2023 05:08:44 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:08:44 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:08:44 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 05:08:44 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:08:44 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:08:44 UTC] Get users model=>7
+[14-Oct-2023 05:08:44 UTC] Total de usuarios -> funcion
+[14-Oct-2023 05:08:44 UTC] Uusarios totales render ->7
+[14-Oct-2023 05:08:44 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 112
+[14-Oct-2023 05:08:44 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 114
+[14-Oct-2023 05:08:44 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 119
+[14-Oct-2023 05:08:44 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 123
+[14-Oct-2023 05:08:44 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 127
+[14-Oct-2023 05:08:44 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 153
+[14-Oct-2023 05:08:44 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 155
+[14-Oct-2023 05:08:44 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 160
+[14-Oct-2023 05:08:44 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 164
+[14-Oct-2023 05:08:44 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 168
+[14-Oct-2023 05:08:44 UTC] Hello, errors!
+[14-Oct-2023 05:08:44 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:14:52 UTC] Hello, errors!
+[14-Oct-2023 05:14:52 UTC] sessionController-> validateSession()
+[14-Oct-2023 05:14:52 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:14:52 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:14:52 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 05:14:52 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:14:52 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:14:52 UTC] Get users model=>7
+[14-Oct-2023 05:14:52 UTC] Total de usuarios -> funcion
+[14-Oct-2023 05:14:52 UTC] Uusarios totales render ->7
+[14-Oct-2023 05:14:52 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 112
+[14-Oct-2023 05:14:52 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 114
+[14-Oct-2023 05:14:52 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 119
+[14-Oct-2023 05:14:52 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 123
+[14-Oct-2023 05:14:52 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 127
+[14-Oct-2023 05:14:52 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 153
+[14-Oct-2023 05:14:52 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 155
+[14-Oct-2023 05:14:52 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 160
+[14-Oct-2023 05:14:52 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 164
+[14-Oct-2023 05:14:52 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 168
+[14-Oct-2023 05:14:52 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 193
+[14-Oct-2023 05:14:52 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 195
+[14-Oct-2023 05:14:52 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 200
+[14-Oct-2023 05:14:52 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 204
+[14-Oct-2023 05:14:52 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 208
+[14-Oct-2023 05:14:52 UTC] Hello, errors!
+[14-Oct-2023 05:14:52 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:15:19 UTC] Hello, errors!
+[14-Oct-2023 05:15:19 UTC] sessionController-> validateSession()
+[14-Oct-2023 05:15:19 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:15:19 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:15:19 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 05:15:19 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:15:19 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:15:19 UTC] Get users model=>7
+[14-Oct-2023 05:15:19 UTC] Total de usuarios -> funcion
+[14-Oct-2023 05:15:19 UTC] Uusarios totales render ->7
+[14-Oct-2023 05:15:19 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 112
+[14-Oct-2023 05:15:19 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 114
+[14-Oct-2023 05:15:19 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 119
+[14-Oct-2023 05:15:19 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 123
+[14-Oct-2023 05:15:19 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 127
+[14-Oct-2023 05:15:19 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 153
+[14-Oct-2023 05:15:19 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 155
+[14-Oct-2023 05:15:19 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 160
+[14-Oct-2023 05:15:19 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 164
+[14-Oct-2023 05:15:19 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 168
+[14-Oct-2023 05:15:19 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 193
+[14-Oct-2023 05:15:19 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 195
+[14-Oct-2023 05:15:19 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 200
+[14-Oct-2023 05:15:19 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 204
+[14-Oct-2023 05:15:19 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 208
+[14-Oct-2023 05:15:19 UTC] Hello, errors!
+[14-Oct-2023 05:15:19 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:22:13 UTC] Hello, errors!
+[14-Oct-2023 05:22:13 UTC] sessionController-> validateSession()
+[14-Oct-2023 05:22:13 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:22:13 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:22:13 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 05:22:13 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:22:13 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:22:13 UTC] Get users model=>7
+[14-Oct-2023 05:22:13 UTC] Total de usuarios -> funcion
+[14-Oct-2023 05:22:13 UTC] Uusarios totales render ->7
+[14-Oct-2023 05:22:13 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 112
+[14-Oct-2023 05:22:13 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 114
+[14-Oct-2023 05:22:13 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 119
+[14-Oct-2023 05:22:13 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 123
+[14-Oct-2023 05:22:13 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 127
+[14-Oct-2023 05:22:13 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 153
+[14-Oct-2023 05:22:13 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 155
+[14-Oct-2023 05:22:13 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 160
+[14-Oct-2023 05:22:13 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 164
+[14-Oct-2023 05:22:13 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 168
+[14-Oct-2023 05:22:13 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 193
+[14-Oct-2023 05:22:13 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 195
+[14-Oct-2023 05:22:13 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 200
+[14-Oct-2023 05:22:13 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 204
+[14-Oct-2023 05:22:13 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 208
+[14-Oct-2023 05:22:13 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 234
+[14-Oct-2023 05:22:13 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 236
+[14-Oct-2023 05:22:13 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 241
+[14-Oct-2023 05:22:13 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 245
+[14-Oct-2023 05:22:13 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 249
+[14-Oct-2023 05:22:14 UTC] Hello, errors!
+[14-Oct-2023 05:22:14 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:24:34 UTC] Hello, errors!
+[14-Oct-2023 05:24:34 UTC] sessionController-> validateSession()
+[14-Oct-2023 05:24:34 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:24:34 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:24:34 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 05:24:34 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:24:35 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:24:35 UTC] Get users model=>7
+[14-Oct-2023 05:24:35 UTC] Total de usuarios -> funcion
+[14-Oct-2023 05:24:35 UTC] Uusarios totales render ->7
+[14-Oct-2023 05:24:35 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 112
+[14-Oct-2023 05:24:35 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 114
+[14-Oct-2023 05:24:35 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 119
+[14-Oct-2023 05:24:35 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 123
+[14-Oct-2023 05:24:35 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 127
+[14-Oct-2023 05:24:35 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 153
+[14-Oct-2023 05:24:35 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 155
+[14-Oct-2023 05:24:35 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 160
+[14-Oct-2023 05:24:35 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 164
+[14-Oct-2023 05:24:35 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 168
+[14-Oct-2023 05:24:35 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 193
+[14-Oct-2023 05:24:35 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 195
+[14-Oct-2023 05:24:35 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 200
+[14-Oct-2023 05:24:35 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 204
+[14-Oct-2023 05:24:35 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 208
+[14-Oct-2023 05:24:35 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 234
+[14-Oct-2023 05:24:35 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 236
+[14-Oct-2023 05:24:35 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 241
+[14-Oct-2023 05:24:35 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 245
+[14-Oct-2023 05:24:35 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 249
+[14-Oct-2023 05:24:35 UTC] Hello, errors!
+[14-Oct-2023 05:24:35 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:25:13 UTC] Hello, errors!
+[14-Oct-2023 05:25:13 UTC] sessionController-> validateSession()
+[14-Oct-2023 05:25:13 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:25:13 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:25:13 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 05:25:13 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:25:13 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:25:13 UTC] Get users model=>7
+[14-Oct-2023 05:25:13 UTC] Total de usuarios -> funcion
+[14-Oct-2023 05:25:13 UTC] Uusarios totales render ->7
+[14-Oct-2023 05:25:13 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 168
+[14-Oct-2023 05:25:13 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 170
+[14-Oct-2023 05:25:13 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 175
+[14-Oct-2023 05:25:13 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 179
+[14-Oct-2023 05:25:13 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 183
+[14-Oct-2023 05:25:13 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 208
+[14-Oct-2023 05:25:13 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 210
+[14-Oct-2023 05:25:13 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 215
+[14-Oct-2023 05:25:13 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 219
+[14-Oct-2023 05:25:13 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 223
+[14-Oct-2023 05:25:13 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 249
+[14-Oct-2023 05:25:13 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 251
+[14-Oct-2023 05:25:13 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 256
+[14-Oct-2023 05:25:13 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 260
+[14-Oct-2023 05:25:13 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 264
+[14-Oct-2023 05:25:13 UTC] Hello, errors!
+[14-Oct-2023 05:25:13 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:25:43 UTC] Hello, errors!
+[14-Oct-2023 05:25:43 UTC] sessionController-> validateSession()
+[14-Oct-2023 05:25:43 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:25:43 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:25:43 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 05:25:43 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:25:43 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:25:43 UTC] Get users model=>7
+[14-Oct-2023 05:25:43 UTC] Total de usuarios -> funcion
+[14-Oct-2023 05:25:43 UTC] Uusarios totales render ->7
+[14-Oct-2023 05:25:43 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 168
+[14-Oct-2023 05:25:43 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 170
+[14-Oct-2023 05:25:43 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 175
+[14-Oct-2023 05:25:43 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 179
+[14-Oct-2023 05:25:43 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 183
+[14-Oct-2023 05:25:43 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 208
+[14-Oct-2023 05:25:43 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 210
+[14-Oct-2023 05:25:43 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 215
+[14-Oct-2023 05:25:43 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 219
+[14-Oct-2023 05:25:43 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 223
+[14-Oct-2023 05:25:43 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 249
+[14-Oct-2023 05:25:43 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 251
+[14-Oct-2023 05:25:43 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 256
+[14-Oct-2023 05:25:43 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 260
+[14-Oct-2023 05:25:43 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 264
+[14-Oct-2023 05:25:43 UTC] Hello, errors!
+[14-Oct-2023 05:25:43 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:27:12 UTC] Hello, errors!
+[14-Oct-2023 05:27:12 UTC] sessionController-> validateSession()
+[14-Oct-2023 05:27:12 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:27:12 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:27:12 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 05:27:12 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:27:12 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:27:12 UTC] Get users model=>7
+[14-Oct-2023 05:27:12 UTC] Total de usuarios -> funcion
+[14-Oct-2023 05:27:12 UTC] Uusarios totales render ->7
+[14-Oct-2023 05:27:12 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 168
+[14-Oct-2023 05:27:12 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 170
+[14-Oct-2023 05:27:12 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 175
+[14-Oct-2023 05:27:12 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 179
+[14-Oct-2023 05:27:12 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 183
+[14-Oct-2023 05:27:12 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 208
+[14-Oct-2023 05:27:12 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 210
+[14-Oct-2023 05:27:12 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 215
+[14-Oct-2023 05:27:12 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 219
+[14-Oct-2023 05:27:12 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 223
+[14-Oct-2023 05:27:12 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 249
+[14-Oct-2023 05:27:12 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 251
+[14-Oct-2023 05:27:12 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 256
+[14-Oct-2023 05:27:12 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 260
+[14-Oct-2023 05:27:12 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 264
+[14-Oct-2023 05:27:12 UTC] Hello, errors!
+[14-Oct-2023 05:27:12 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:27:18 UTC] Hello, errors!
+[14-Oct-2023 05:27:18 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:28:52 UTC] Hello, errors!
+[14-Oct-2023 05:28:52 UTC] sessionController-> validateSession()
+[14-Oct-2023 05:28:53 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:28:53 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:28:53 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 05:28:53 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:28:53 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:28:53 UTC] Get users model=>7
+[14-Oct-2023 05:28:53 UTC] Total de usuarios -> funcion
+[14-Oct-2023 05:28:53 UTC] Uusarios totales render ->7
+[14-Oct-2023 05:28:53 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 168
+[14-Oct-2023 05:28:53 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 170
+[14-Oct-2023 05:28:53 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 175
+[14-Oct-2023 05:28:53 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 179
+[14-Oct-2023 05:28:53 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 183
+[14-Oct-2023 05:28:53 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 208
+[14-Oct-2023 05:28:53 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 210
+[14-Oct-2023 05:28:53 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 215
+[14-Oct-2023 05:28:53 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 219
+[14-Oct-2023 05:28:53 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 223
+[14-Oct-2023 05:28:53 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 249
+[14-Oct-2023 05:28:53 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 251
+[14-Oct-2023 05:28:53 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 256
+[14-Oct-2023 05:28:53 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 260
+[14-Oct-2023 05:28:53 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 264
+[14-Oct-2023 05:28:53 UTC] Hello, errors!
+[14-Oct-2023 05:28:53 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:28:53 UTC] Hello, errors!
+[14-Oct-2023 05:28:53 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:32:19 UTC] Hello, errors!
+[14-Oct-2023 05:32:19 UTC] sessionController-> validateSession()
+[14-Oct-2023 05:32:19 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:32:19 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:32:19 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 05:32:19 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:32:19 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:32:19 UTC] Get users model=>7
+[14-Oct-2023 05:32:19 UTC] Total de usuarios -> funcion
+[14-Oct-2023 05:32:19 UTC] Uusarios totales render ->7
+[14-Oct-2023 05:32:19 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 166
+[14-Oct-2023 05:32:19 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 168
+[14-Oct-2023 05:32:19 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 173
+[14-Oct-2023 05:32:19 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 177
+[14-Oct-2023 05:32:19 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 181
+[14-Oct-2023 05:32:19 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 204
+[14-Oct-2023 05:32:19 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 206
+[14-Oct-2023 05:32:19 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 211
+[14-Oct-2023 05:32:19 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 215
+[14-Oct-2023 05:32:19 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 219
+[14-Oct-2023 05:32:19 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 245
+[14-Oct-2023 05:32:19 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 247
+[14-Oct-2023 05:32:19 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 252
+[14-Oct-2023 05:32:19 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 256
+[14-Oct-2023 05:32:19 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 260
+[14-Oct-2023 05:32:19 UTC] Hello, errors!
+[14-Oct-2023 05:32:19 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:32:46 UTC] Hello, errors!
+[14-Oct-2023 05:32:46 UTC] sessionController-> validateSession()
+[14-Oct-2023 05:32:46 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:32:46 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:32:46 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 05:32:46 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:32:46 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:32:46 UTC] Get users model=>7
+[14-Oct-2023 05:32:46 UTC] Total de usuarios -> funcion
+[14-Oct-2023 05:32:46 UTC] Uusarios totales render ->7
+[14-Oct-2023 05:32:46 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 169
+[14-Oct-2023 05:32:46 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 171
+[14-Oct-2023 05:32:46 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 176
+[14-Oct-2023 05:32:46 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 180
+[14-Oct-2023 05:32:46 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 184
+[14-Oct-2023 05:32:46 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 207
+[14-Oct-2023 05:32:46 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 209
+[14-Oct-2023 05:32:46 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 214
+[14-Oct-2023 05:32:46 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 218
+[14-Oct-2023 05:32:46 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 222
+[14-Oct-2023 05:32:46 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 248
+[14-Oct-2023 05:32:46 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 250
+[14-Oct-2023 05:32:46 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 255
+[14-Oct-2023 05:32:46 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 259
+[14-Oct-2023 05:32:46 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 263
+[14-Oct-2023 05:32:46 UTC] Hello, errors!
+[14-Oct-2023 05:32:46 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:32:58 UTC] Hello, errors!
+[14-Oct-2023 05:32:58 UTC] sessionController-> validateSession()
+[14-Oct-2023 05:32:58 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:32:58 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:32:58 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 05:32:58 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:32:58 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:32:58 UTC] Get users model=>7
+[14-Oct-2023 05:32:58 UTC] Total de usuarios -> funcion
+[14-Oct-2023 05:32:58 UTC] Uusarios totales render ->7
+[14-Oct-2023 05:32:58 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 169
+[14-Oct-2023 05:32:58 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 171
+[14-Oct-2023 05:32:58 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 176
+[14-Oct-2023 05:32:58 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 180
+[14-Oct-2023 05:32:58 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 184
+[14-Oct-2023 05:32:58 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 207
+[14-Oct-2023 05:32:58 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 209
+[14-Oct-2023 05:32:58 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 214
+[14-Oct-2023 05:32:58 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 218
+[14-Oct-2023 05:32:58 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 222
+[14-Oct-2023 05:32:58 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 248
+[14-Oct-2023 05:32:58 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 250
+[14-Oct-2023 05:32:58 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 255
+[14-Oct-2023 05:32:58 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 259
+[14-Oct-2023 05:32:58 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 263
+[14-Oct-2023 05:32:58 UTC] Hello, errors!
+[14-Oct-2023 05:32:58 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:33:22 UTC] Hello, errors!
+[14-Oct-2023 05:33:22 UTC] sessionController-> validateSession()
+[14-Oct-2023 05:33:22 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:33:22 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:33:22 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 05:33:22 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:33:22 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:33:22 UTC] Get users model=>7
+[14-Oct-2023 05:33:22 UTC] Total de usuarios -> funcion
+[14-Oct-2023 05:33:22 UTC] Uusarios totales render ->7
+[14-Oct-2023 05:33:22 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 167
+[14-Oct-2023 05:33:22 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 169
+[14-Oct-2023 05:33:22 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 174
+[14-Oct-2023 05:33:22 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 178
+[14-Oct-2023 05:33:22 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 182
+[14-Oct-2023 05:33:22 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 205
+[14-Oct-2023 05:33:22 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 207
+[14-Oct-2023 05:33:22 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 212
+[14-Oct-2023 05:33:22 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 216
+[14-Oct-2023 05:33:22 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 220
+[14-Oct-2023 05:33:22 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 246
+[14-Oct-2023 05:33:22 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 248
+[14-Oct-2023 05:33:22 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 253
+[14-Oct-2023 05:33:22 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 257
+[14-Oct-2023 05:33:22 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 261
+[14-Oct-2023 05:33:23 UTC] Hello, errors!
+[14-Oct-2023 05:33:23 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:34:29 UTC] Hello, errors!
+[14-Oct-2023 05:34:29 UTC] sessionController-> validateSession()
+[14-Oct-2023 05:34:29 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:34:29 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:34:29 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 05:34:29 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:34:30 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:34:30 UTC] Get users model=>7
+[14-Oct-2023 05:34:30 UTC] Total de usuarios -> funcion
+[14-Oct-2023 05:34:30 UTC] Uusarios totales render ->7
+[14-Oct-2023 05:34:30 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 168
+[14-Oct-2023 05:34:30 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 170
+[14-Oct-2023 05:34:30 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 175
+[14-Oct-2023 05:34:30 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 179
+[14-Oct-2023 05:34:30 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 183
+[14-Oct-2023 05:34:30 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 206
+[14-Oct-2023 05:34:30 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 208
+[14-Oct-2023 05:34:30 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 213
+[14-Oct-2023 05:34:30 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 217
+[14-Oct-2023 05:34:30 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 221
+[14-Oct-2023 05:34:30 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 247
+[14-Oct-2023 05:34:30 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 249
+[14-Oct-2023 05:34:30 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 254
+[14-Oct-2023 05:34:30 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 258
+[14-Oct-2023 05:34:30 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 262
+[14-Oct-2023 05:34:30 UTC] Hello, errors!
+[14-Oct-2023 05:34:30 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:34:38 UTC] Hello, errors!
+[14-Oct-2023 05:34:38 UTC] sessionController-> validateSession()
+[14-Oct-2023 05:34:39 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:34:39 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:34:39 UTC] sessionController::isPublic(): currentURL => admin
+[14-Oct-2023 05:34:39 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[14-Oct-2023 05:34:39 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:34:39 UTC] Get users model=>7
+[14-Oct-2023 05:34:39 UTC] Total de usuarios -> funcion
+[14-Oct-2023 05:34:39 UTC] Uusarios totales render ->7
+[14-Oct-2023 05:34:39 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 168
+[14-Oct-2023 05:34:39 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 170
+[14-Oct-2023 05:34:39 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 175
+[14-Oct-2023 05:34:39 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 179
+[14-Oct-2023 05:34:39 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 183
+[14-Oct-2023 05:34:39 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 206
+[14-Oct-2023 05:34:39 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 208
+[14-Oct-2023 05:34:39 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 213
+[14-Oct-2023 05:34:39 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 217
+[14-Oct-2023 05:34:39 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 221
+[14-Oct-2023 05:34:39 UTC] PHP Warning:  Attempt to read property "id_samsumg" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 247
+[14-Oct-2023 05:34:39 UTC] PHP Warning:  Attempt to read property "serial" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 249
+[14-Oct-2023 05:34:39 UTC] PHP Warning:  Attempt to read property "modelo" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 254
+[14-Oct-2023 05:34:39 UTC] PHP Warning:  Attempt to read property "id_cliente" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 258
+[14-Oct-2023 05:34:39 UTC] PHP Warning:  Attempt to read property "ubicacion" on array in C:\laragon\www\Finanzas\views\admin\admin.php on line 262
+[14-Oct-2023 05:34:39 UTC] Hello, errors!
+[14-Oct-2023 05:34:39 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:34:41 UTC] Hello, errors!
+[14-Oct-2023 05:34:41 UTC] sessionController-> validateSession()
+[14-Oct-2023 05:34:41 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:34:41 UTC] Session controller -> getCurrentPage: /admin/createUser, url => createUser
+[14-Oct-2023 05:34:41 UTC] sessionController::isPublic(): currentURL => createUser
+[14-Oct-2023 05:34:41 UTC] Session controller -> getCurrentPage: /admin/createUser, url => createUser
+[14-Oct-2023 05:34:41 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[14-Oct-2023 05:34:41 UTC] Errores::controller-> Errores
+[14-Oct-2023 05:34:41 UTC] Hello, errors!
+[14-Oct-2023 05:34:41 UTC] Errores::controller-> Errores

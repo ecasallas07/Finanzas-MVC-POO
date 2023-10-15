@@ -67,14 +67,13 @@ class AdminModel extends Model implements IModel
     public function createTable($nameTable,$columns){
 
 
-        # TODO: la funcion exec() es la mas adecuada para consultas que no devuleven un conjunto de resultados
+        # TODO: Cuando se hacen consultas de esta forma se deben poner las variables directamente
         try{
-            $query= $this->prepare('CREATE TABLE :nameTable (:columns)');
-            $query->execute([
-                'nameTable' =>$nameTable,
-                'columnas' => $columns
-            ]);
+            $sql = "CREATE TABLE $nameTable ($columns)";
+            $query= $this->prepare($sql);
+            $query->execute();
             if($query){
+                error_log('Tabla creada correctamente');
                 return true;
             }else{
                 return false;
@@ -90,10 +89,9 @@ class AdminModel extends Model implements IModel
 
     public function existTable($name_table){
         try {
-            $query = $this->query('SHOW TABLES LIKE :name_table');
-            $query->execute([
-                'name_table' => $name_table
-            ]);
+            $sql = "SHOW TABLES LIKE $name_table";
+            $query = $this->prepare($sql);
+            $query->execute();
 
             if($query->rowCount() > 0){
                 return true;
@@ -108,16 +106,30 @@ class AdminModel extends Model implements IModel
     }
 
     public function saveCategory(){
+
+        try {
             $query = $this->prepare('INSERT INTO category(tipo, descripcion,recomendacion) VALUES (:tipo,:descripcion,:recomendacion)');
             $query->execute([
                 'tipo'=> $this->categoryTipo,
                 'descripcion' =>$this->categoryDescripcion,
                 'recomendacion' => $this->categoryRecomendacion
             ]);
-            return true;
+
+            if($query->rowCount() >0){
+                return  true;
+            }else{
+                return false;
+            }
+
+        }catch (PDOException $e){
+            error_log('Erro al guardar categoria' . $e->getMessage());
+        }
+
     }
 
-    public function getRoleAdmin(){
+
+
+    public function changeRoleAdmin(){
         try {
             $query=  $this->prepare("UPDATE users SET role = 'admin' WHERE username = :username ");
             $update = $query->execute([
@@ -152,7 +164,22 @@ class AdminModel extends Model implements IModel
 
     public function getAll()
     {
-        // TODO: Implement getAll() method.
+        try {
+
+            $query = $this->query("SELECT * FROM users WHERE role = 'admin' ");
+            $admin = [];
+
+            while($user = $query->fetch(PDO::FETCH_OBJ)){
+                $admin[]= $user;
+            }
+            return $admin;
+
+
+        }catch (PDOException $e){
+            error_log('Get table Admins' . $e->getMessage());
+
+        }
+
     }
 
     public function getAdmin(){
@@ -215,6 +242,18 @@ class AdminModel extends Model implements IModel
     public function setName($name){
         $this->name = $name;
     }
+
+    public function setCategoryTipo($tipo){
+        $this->categoryTipo = $tipo;
+    }
+    public function setDescripcion($descripcion){
+        $this->categoryDescripcion = $descripcion;
+    }
+    public function setRacomendacion($recomendacion){
+        $this->categoryRecomendacion = $recomendacion;
+    }
+
+
 
     public function getUsername(){
         return $this->username;

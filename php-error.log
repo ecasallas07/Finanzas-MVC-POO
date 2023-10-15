@@ -10467,3 +10467,446 @@ Stack trace:
 [14-Oct-2023 21:55:08 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\Finanzas\views\admin\admin.php on line 208
 [14-Oct-2023 21:55:08 UTC] Hello, errors!
 [14-Oct-2023 21:55:08 UTC] Errores::controller-> Errores
+[15-Oct-2023 00:38:30 UTC] Hello, errors!
+[15-Oct-2023 00:38:30 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[15-Oct-2023 00:38:30 UTC] sessionController-> validateSession()
+[15-Oct-2023 00:38:30 UTC] sessionController::isPublic(): currentURL => 
+[15-Oct-2023 00:38:30 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[15-Oct-2023 00:38:30 UTC] Error de loguin
+[15-Oct-2023 00:38:32 UTC] Hello, errors!
+[15-Oct-2023 00:38:32 UTC] Errores::controller-> Errores
+[15-Oct-2023 00:41:02 UTC] Hello, errors!
+[15-Oct-2023 00:41:02 UTC] sessionController-> validateSession()
+[15-Oct-2023 00:41:02 UTC] Session controller -> getCurrentPage: /loguin/authenticate, url => authenticate
+[15-Oct-2023 00:41:02 UTC] sessionController::isPublic(): currentURL => authenticate
+[15-Oct-2023 00:41:02 UTC] Error de loguin
+[15-Oct-2023 00:41:02 UTC] login: inicio
+[15-Oct-2023 00:41:02 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 135
+[15-Oct-2023 00:41:02 UTC] login: user id 11
+[15-Oct-2023 00:41:02 UTC] login: success
+[15-Oct-2023 00:41:02 UTC] Login::authenticate() passed
+[15-Oct-2023 00:41:02 UTC] Hello, errors!
+[15-Oct-2023 00:41:02 UTC] sessionController-> validateSession()
+[15-Oct-2023 00:41:02 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 00:41:02 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[15-Oct-2023 00:41:02 UTC] sessionController::isPublic(): currentURL => admin
+[15-Oct-2023 00:41:02 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[15-Oct-2023 00:41:02 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 00:41:02 UTC] Get users model=>9
+[15-Oct-2023 00:41:02 UTC] Total de usuarios -> funcion
+[15-Oct-2023 00:41:02 UTC] Uusarios totales render ->9
+[15-Oct-2023 00:41:02 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\Finanzas\views\admin\admin.php on line 208
+[15-Oct-2023 00:41:03 UTC] Hello, errors!
+[15-Oct-2023 00:41:03 UTC] Errores::controller-> Errores
+[15-Oct-2023 00:41:17 UTC] Hello, errors!
+[15-Oct-2023 00:41:17 UTC] sessionController-> validateSession()
+[15-Oct-2023 00:41:17 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 00:41:17 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[15-Oct-2023 00:41:17 UTC] sessionController::isPublic(): currentURL => admin
+[15-Oct-2023 00:41:17 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[15-Oct-2023 00:41:17 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 00:41:17 UTC] Get users model=>9
+[15-Oct-2023 00:41:17 UTC] Total de usuarios -> funcion
+[15-Oct-2023 00:41:17 UTC] Uusarios totales render ->9
+[15-Oct-2023 00:41:17 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\Finanzas\views\admin\admin.php on line 209
+[15-Oct-2023 00:41:17 UTC] Hello, errors!
+[15-Oct-2023 00:41:17 UTC] Errores::controller-> Errores
+[15-Oct-2023 01:17:53 UTC] Hello, errors!
+[15-Oct-2023 01:17:53 UTC] sessionController-> validateSession()
+[15-Oct-2023 01:17:53 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 01:17:53 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[15-Oct-2023 01:17:53 UTC] sessionController::isPublic(): currentURL => admin
+[15-Oct-2023 01:17:53 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[15-Oct-2023 01:17:53 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 01:17:53 UTC] Get users model=>9
+[15-Oct-2023 01:17:53 UTC] Total de usuarios -> funcion
+[15-Oct-2023 01:17:53 UTC] Uusarios totales render ->9
+[15-Oct-2023 01:17:53 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\Finanzas\views\admin\admin.php on line 209
+[15-Oct-2023 01:17:54 UTC] Hello, errors!
+[15-Oct-2023 01:17:54 UTC] Errores::controller-> Errores
+[15-Oct-2023 01:18:11 UTC] Hello, errors!
+[15-Oct-2023 01:18:11 UTC] sessionController-> validateSession()
+[15-Oct-2023 01:18:11 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 01:18:11 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[15-Oct-2023 01:18:11 UTC] sessionController::isPublic(): currentURL => admin
+[15-Oct-2023 01:18:11 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[15-Oct-2023 01:18:11 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 01:18:11 UTC] Get users model=>9
+[15-Oct-2023 01:18:11 UTC] Total de usuarios -> funcion
+[15-Oct-2023 01:18:11 UTC] Uusarios totales render ->9
+[15-Oct-2023 01:18:11 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\Finanzas\views\admin\admin.php on line 209
+[15-Oct-2023 01:18:11 UTC] Hello, errors!
+[15-Oct-2023 01:18:11 UTC] Errores::controller-> Errores
+[15-Oct-2023 01:30:40 UTC] Hello, errors!
+[15-Oct-2023 01:30:41 UTC] sessionController-> validateSession()
+[15-Oct-2023 01:30:41 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 01:30:41 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[15-Oct-2023 01:30:41 UTC] sessionController::isPublic(): currentURL => admin
+[15-Oct-2023 01:30:41 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[15-Oct-2023 01:30:41 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 01:30:41 UTC] Get users model=>9
+[15-Oct-2023 01:30:41 UTC] Total de usuarios -> funcion
+[15-Oct-2023 01:30:41 UTC] Uusarios totales render ->9
+[15-Oct-2023 01:30:41 UTC] Hello, errors!
+[15-Oct-2023 01:30:41 UTC] Errores::controller-> Errores
+[15-Oct-2023 01:32:25 UTC] Hello, errors!
+[15-Oct-2023 01:32:25 UTC] Errores::controller-> Errores
+[15-Oct-2023 01:49:37 UTC] Hello, errors!
+[15-Oct-2023 01:49:37 UTC] sessionController-> validateSession()
+[15-Oct-2023 01:49:37 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 01:49:37 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[15-Oct-2023 01:49:37 UTC] sessionController::isPublic(): currentURL => admin
+[15-Oct-2023 01:49:37 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[15-Oct-2023 01:49:37 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 01:49:37 UTC] Get users model=>9
+[15-Oct-2023 01:49:37 UTC] Total de usuarios -> funcion
+[15-Oct-2023 01:49:37 UTC] Uusarios totales render ->9
+[15-Oct-2023 01:49:38 UTC] Hello, errors!
+[15-Oct-2023 01:49:38 UTC] Errores::controller-> Errores
+[15-Oct-2023 01:49:38 UTC] Hello, errors!
+[15-Oct-2023 01:49:38 UTC] Errores::controller-> Errores
+[15-Oct-2023 01:49:52 UTC] Hello, errors!
+[15-Oct-2023 01:49:52 UTC] sessionController-> validateSession()
+[15-Oct-2023 01:49:52 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 01:49:52 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[15-Oct-2023 01:49:52 UTC] sessionController::isPublic(): currentURL => admin
+[15-Oct-2023 01:49:52 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[15-Oct-2023 01:49:53 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 01:49:53 UTC] Get users model=>9
+[15-Oct-2023 01:49:53 UTC] Total de usuarios -> funcion
+[15-Oct-2023 01:49:53 UTC] Uusarios totales render ->9
+[15-Oct-2023 01:49:53 UTC] Hello, errors!
+[15-Oct-2023 01:49:53 UTC] Errores::controller-> Errores
+[15-Oct-2023 01:49:53 UTC] Hello, errors!
+[15-Oct-2023 01:49:53 UTC] Errores::controller-> Errores
+[15-Oct-2023 01:50:50 UTC] Hello, errors!
+[15-Oct-2023 01:50:50 UTC] sessionController-> validateSession()
+[15-Oct-2023 01:50:50 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 01:50:50 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[15-Oct-2023 01:50:50 UTC] sessionController::isPublic(): currentURL => admin
+[15-Oct-2023 01:50:50 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[15-Oct-2023 01:50:50 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 01:50:50 UTC] Get users model=>9
+[15-Oct-2023 01:50:50 UTC] Total de usuarios -> funcion
+[15-Oct-2023 01:50:50 UTC] Uusarios totales render ->9
+[15-Oct-2023 01:50:50 UTC] Hello, errors!
+[15-Oct-2023 01:50:51 UTC] Errores::controller-> Errores
+[15-Oct-2023 01:50:51 UTC] Hello, errors!
+[15-Oct-2023 01:50:51 UTC] Errores::controller-> Errores
+[15-Oct-2023 01:51:38 UTC] Hello, errors!
+[15-Oct-2023 01:51:38 UTC] sessionController-> validateSession()
+[15-Oct-2023 01:51:38 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 01:51:38 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[15-Oct-2023 01:51:38 UTC] sessionController::isPublic(): currentURL => admin
+[15-Oct-2023 01:51:38 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[15-Oct-2023 01:51:38 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 01:51:38 UTC] Get users model=>9
+[15-Oct-2023 01:51:38 UTC] Total de usuarios -> funcion
+[15-Oct-2023 01:51:38 UTC] Uusarios totales render ->9
+[15-Oct-2023 01:51:39 UTC] Hello, errors!
+[15-Oct-2023 01:51:39 UTC] Errores::controller-> Errores
+[15-Oct-2023 01:51:39 UTC] Hello, errors!
+[15-Oct-2023 01:51:39 UTC] Errores::controller-> Errores
+[15-Oct-2023 01:54:41 UTC] Hello, errors!
+[15-Oct-2023 01:54:41 UTC] sessionController-> validateSession()
+[15-Oct-2023 01:54:42 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 01:54:42 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[15-Oct-2023 01:54:42 UTC] sessionController::isPublic(): currentURL => admin
+[15-Oct-2023 01:54:42 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[15-Oct-2023 01:54:42 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 01:54:42 UTC] Get users model=>9
+[15-Oct-2023 01:54:42 UTC] Total de usuarios -> funcion
+[15-Oct-2023 01:54:42 UTC] Uusarios totales render ->9
+[15-Oct-2023 01:54:42 UTC] Hello, errors!
+[15-Oct-2023 01:54:42 UTC] Errores::controller-> Errores
+[15-Oct-2023 01:54:42 UTC] Hello, errors!
+[15-Oct-2023 01:54:42 UTC] Errores::controller-> Errores
+[15-Oct-2023 01:54:55 UTC] Hello, errors!
+[15-Oct-2023 01:54:55 UTC] sessionController-> validateSession()
+[15-Oct-2023 01:54:55 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 01:54:55 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[15-Oct-2023 01:54:55 UTC] sessionController::isPublic(): currentURL => admin
+[15-Oct-2023 01:54:55 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[15-Oct-2023 01:54:55 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 01:54:55 UTC] Get users model=>9
+[15-Oct-2023 01:54:55 UTC] Total de usuarios -> funcion
+[15-Oct-2023 01:54:55 UTC] Uusarios totales render ->9
+[15-Oct-2023 01:54:55 UTC] Hello, errors!
+[15-Oct-2023 01:54:55 UTC] Errores::controller-> Errores
+[15-Oct-2023 01:54:55 UTC] Hello, errors!
+[15-Oct-2023 01:54:55 UTC] Errores::controller-> Errores
+[15-Oct-2023 01:56:01 UTC] Hello, errors!
+[15-Oct-2023 01:56:01 UTC] sessionController-> validateSession()
+[15-Oct-2023 01:56:01 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 01:56:01 UTC] Session controller -> getCurrentPage: /admin/createTAbleFinally, url => createTAbleFinally
+[15-Oct-2023 01:56:01 UTC] sessionController::isPublic(): currentURL => createTAbleFinally
+[15-Oct-2023 01:56:01 UTC] Session controller -> getCurrentPage: /admin/createTAbleFinally, url => createTAbleFinally
+[15-Oct-2023 01:56:01 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 01:56:01 UTC] PHP Warning:  Undefined array key "columns" in C:\laragon\www\Finanzas\libs\Controller.php on line 47
+[15-Oct-2023 01:56:01 UTC] Existencia de la tablaSQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[15-Oct-2023 01:56:01 UTC] Create-table ADMINSQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? (?)' at line 1
+[15-Oct-2023 01:56:01 UTC] Hello, errors!
+[15-Oct-2023 01:56:01 UTC] sessionController-> validateSession()
+[15-Oct-2023 01:56:01 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 01:56:01 UTC] Session controller -> getCurrentPage: //admin?error=x74aca5d26e06d01226681083276b678cf3, url => admin?error=x74aca5d26e06d01226681083276b678cf3
+[15-Oct-2023 01:56:01 UTC] sessionController::isPublic(): currentURL => admin?error=x74aca5d26e06d01226681083276b678cf3
+[15-Oct-2023 01:56:01 UTC] Session controller -> getCurrentPage: //admin?error=x74aca5d26e06d01226681083276b678cf3, url => admin?error=x74aca5d26e06d01226681083276b678cf3
+[15-Oct-2023 01:56:01 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 01:56:01 UTC] Get users model=>9
+[15-Oct-2023 01:56:01 UTC] Total de usuarios -> funcion
+[15-Oct-2023 01:56:01 UTC] Uusarios totales render ->9
+[15-Oct-2023 01:56:01 UTC] View::handleError() existsKey =>La tabla ya existe cambia el nombre
+[15-Oct-2023 01:56:01 UTC] Hello, errors!
+[15-Oct-2023 01:56:01 UTC] Errores::controller-> Errores
+[15-Oct-2023 01:56:02 UTC] Hello, errors!
+[15-Oct-2023 01:56:02 UTC] Errores::controller-> Errores
+[15-Oct-2023 01:59:44 UTC] Hello, errors!
+[15-Oct-2023 01:59:44 UTC] sessionController-> validateSession()
+[15-Oct-2023 01:59:44 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 01:59:44 UTC] Session controller -> getCurrentPage: /admin/createTAbleFinally, url => createTAbleFinally
+[15-Oct-2023 01:59:44 UTC] sessionController::isPublic(): currentURL => createTAbleFinally
+[15-Oct-2023 01:59:44 UTC] Session controller -> getCurrentPage: /admin/createTAbleFinally, url => createTAbleFinally
+[15-Oct-2023 01:59:44 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 01:59:44 UTC] Existencia de la tablaSQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[15-Oct-2023 01:59:44 UTC] Create-table ADMINSQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? (?)' at line 1
+[15-Oct-2023 01:59:44 UTC] Hello, errors!
+[15-Oct-2023 01:59:44 UTC] sessionController-> validateSession()
+[15-Oct-2023 01:59:44 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 01:59:44 UTC] Session controller -> getCurrentPage: //admin?error=x74aca5d26e06d01226681083276b678cf3, url => admin?error=x74aca5d26e06d01226681083276b678cf3
+[15-Oct-2023 01:59:44 UTC] sessionController::isPublic(): currentURL => admin?error=x74aca5d26e06d01226681083276b678cf3
+[15-Oct-2023 01:59:44 UTC] Session controller -> getCurrentPage: //admin?error=x74aca5d26e06d01226681083276b678cf3, url => admin?error=x74aca5d26e06d01226681083276b678cf3
+[15-Oct-2023 01:59:44 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 01:59:44 UTC] Get users model=>9
+[15-Oct-2023 01:59:44 UTC] Total de usuarios -> funcion
+[15-Oct-2023 01:59:44 UTC] Uusarios totales render ->9
+[15-Oct-2023 01:59:44 UTC] View::handleError() existsKey =>La tabla ya existe cambia el nombre
+[15-Oct-2023 01:59:45 UTC] Hello, errors!
+[15-Oct-2023 01:59:45 UTC] Errores::controller-> Errores
+[15-Oct-2023 01:59:45 UTC] Hello, errors!
+[15-Oct-2023 01:59:45 UTC] Errores::controller-> Errores
+[15-Oct-2023 02:03:45 UTC] Hello, errors!
+[15-Oct-2023 02:03:45 UTC] sessionController-> validateSession()
+[15-Oct-2023 02:03:45 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 02:03:45 UTC] Session controller -> getCurrentPage: //admin?error=x74aca5d26e06d01226681083276b678cf3, url => admin?error=x74aca5d26e06d01226681083276b678cf3
+[15-Oct-2023 02:03:45 UTC] sessionController::isPublic(): currentURL => admin?error=x74aca5d26e06d01226681083276b678cf3
+[15-Oct-2023 02:03:45 UTC] Session controller -> getCurrentPage: //admin?error=x74aca5d26e06d01226681083276b678cf3, url => admin?error=x74aca5d26e06d01226681083276b678cf3
+[15-Oct-2023 02:03:45 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 02:03:45 UTC] Get users model=>9
+[15-Oct-2023 02:03:45 UTC] Total de usuarios -> funcion
+[15-Oct-2023 02:03:45 UTC] Uusarios totales render ->9
+[15-Oct-2023 02:03:45 UTC] View::handleError() existsKey =>La tabla ya existe cambia el nombre
+[15-Oct-2023 02:03:46 UTC] Hello, errors!
+[15-Oct-2023 02:03:46 UTC] Errores::controller-> Errores
+[15-Oct-2023 02:03:46 UTC] Hello, errors!
+[15-Oct-2023 02:03:46 UTC] Errores::controller-> Errores
+[15-Oct-2023 02:04:08 UTC] Hello, errors!
+[15-Oct-2023 02:04:08 UTC] sessionController-> validateSession()
+[15-Oct-2023 02:04:09 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 02:04:09 UTC] Session controller -> getCurrentPage: /admin/createTAbleFinally, url => createTAbleFinally
+[15-Oct-2023 02:04:09 UTC] sessionController::isPublic(): currentURL => createTAbleFinally
+[15-Oct-2023 02:04:09 UTC] Session controller -> getCurrentPage: /admin/createTAbleFinally, url => createTAbleFinally
+[15-Oct-2023 02:04:09 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 02:04:09 UTC] Existencia de la tablaSQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[15-Oct-2023 02:04:09 UTC] Create-table ADMINSQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? (?)' at line 1
+[15-Oct-2023 02:04:09 UTC] No se crea la tabla
+[15-Oct-2023 02:04:09 UTC] Hello, errors!
+[15-Oct-2023 02:04:09 UTC] sessionController-> validateSession()
+[15-Oct-2023 02:04:09 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 02:04:09 UTC] Session controller -> getCurrentPage: //admin?error=x74aca5d26e06d01226681083276b678cf3, url => admin?error=x74aca5d26e06d01226681083276b678cf3
+[15-Oct-2023 02:04:09 UTC] sessionController::isPublic(): currentURL => admin?error=x74aca5d26e06d01226681083276b678cf3
+[15-Oct-2023 02:04:09 UTC] Session controller -> getCurrentPage: //admin?error=x74aca5d26e06d01226681083276b678cf3, url => admin?error=x74aca5d26e06d01226681083276b678cf3
+[15-Oct-2023 02:04:09 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 02:04:09 UTC] Get users model=>9
+[15-Oct-2023 02:04:09 UTC] Total de usuarios -> funcion
+[15-Oct-2023 02:04:09 UTC] Uusarios totales render ->9
+[15-Oct-2023 02:04:09 UTC] View::handleError() existsKey =>La tabla ya existe cambia el nombre
+[15-Oct-2023 02:04:09 UTC] Hello, errors!
+[15-Oct-2023 02:04:09 UTC] Errores::controller-> Errores
+[15-Oct-2023 02:04:10 UTC] Hello, errors!
+[15-Oct-2023 02:04:10 UTC] Errores::controller-> Errores
+[15-Oct-2023 02:11:08 UTC] Hello, errors!
+[15-Oct-2023 02:11:08 UTC] sessionController-> validateSession()
+[15-Oct-2023 02:11:08 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 02:11:08 UTC] Session controller -> getCurrentPage: //admin?error=x74aca5d26e06d01226681083276b678cf3, url => admin?error=x74aca5d26e06d01226681083276b678cf3
+[15-Oct-2023 02:11:08 UTC] sessionController::isPublic(): currentURL => admin?error=x74aca5d26e06d01226681083276b678cf3
+[15-Oct-2023 02:11:08 UTC] Session controller -> getCurrentPage: //admin?error=x74aca5d26e06d01226681083276b678cf3, url => admin?error=x74aca5d26e06d01226681083276b678cf3
+[15-Oct-2023 02:11:08 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 02:11:08 UTC] Get users model=>9
+[15-Oct-2023 02:11:08 UTC] Total de usuarios -> funcion
+[15-Oct-2023 02:11:08 UTC] Uusarios totales render ->9
+[15-Oct-2023 02:11:08 UTC] View::handleError() existsKey =>La tabla ya existe cambia el nombre
+[15-Oct-2023 02:11:09 UTC] Hello, errors!
+[15-Oct-2023 02:11:09 UTC] Errores::controller-> Errores
+[15-Oct-2023 02:11:09 UTC] Hello, errors!
+[15-Oct-2023 02:11:09 UTC] Errores::controller-> Errores
+[15-Oct-2023 02:11:33 UTC] Hello, errors!
+[15-Oct-2023 02:11:33 UTC] sessionController-> validateSession()
+[15-Oct-2023 02:11:33 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 02:11:33 UTC] Session controller -> getCurrentPage: /admin/createTAbleFinally, url => createTAbleFinally
+[15-Oct-2023 02:11:33 UTC] sessionController::isPublic(): currentURL => createTAbleFinally
+[15-Oct-2023 02:11:33 UTC] Session controller -> getCurrentPage: /admin/createTAbleFinally, url => createTAbleFinally
+[15-Oct-2023 02:11:34 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 02:11:34 UTC] Existencia de la tablaSQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'prueba' at line 1
+[15-Oct-2023 02:11:34 UTC] Tabla creada correctamente
+[15-Oct-2023 02:11:34 UTC] Se creo exitosamente la tabla
+[15-Oct-2023 02:11:34 UTC] Hello, errors!
+[15-Oct-2023 02:11:34 UTC] sessionController-> validateSession()
+[15-Oct-2023 02:11:34 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 02:11:34 UTC] Session controller -> getCurrentPage: //admin?success=0921e04ed52ccfc138C2870f6acb0K85a, url => admin?success=0921e04ed52ccfc138C2870f6acb0K85a
+[15-Oct-2023 02:11:34 UTC] sessionController::isPublic(): currentURL => admin?success=0921e04ed52ccfc138C2870f6acb0K85a
+[15-Oct-2023 02:11:34 UTC] Session controller -> getCurrentPage: //admin?success=0921e04ed52ccfc138C2870f6acb0K85a, url => admin?success=0921e04ed52ccfc138C2870f6acb0K85a
+[15-Oct-2023 02:11:34 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 02:11:34 UTC] Get users model=>9
+[15-Oct-2023 02:11:34 UTC] Total de usuarios -> funcion
+[15-Oct-2023 02:11:34 UTC] Uusarios totales render ->9
+[15-Oct-2023 02:11:34 UTC] View::handleError() existsKey =>1
+[15-Oct-2023 02:11:34 UTC] Hello, errors!
+[15-Oct-2023 02:11:34 UTC] Errores::controller-> Errores
+[15-Oct-2023 02:11:34 UTC] Hello, errors!
+[15-Oct-2023 02:11:34 UTC] Errores::controller-> Errores
+[15-Oct-2023 02:42:26 UTC] Hello, errors!
+[15-Oct-2023 02:42:26 UTC] sessionController-> validateSession()
+[15-Oct-2023 02:42:26 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 02:42:26 UTC] Session controller -> getCurrentPage: //admin?success=0921e04ed52ccfc138C2870f6acb0K85a, url => admin?success=0921e04ed52ccfc138C2870f6acb0K85a
+[15-Oct-2023 02:42:26 UTC] sessionController::isPublic(): currentURL => admin?success=0921e04ed52ccfc138C2870f6acb0K85a
+[15-Oct-2023 02:42:26 UTC] Session controller -> getCurrentPage: //admin?success=0921e04ed52ccfc138C2870f6acb0K85a, url => admin?success=0921e04ed52ccfc138C2870f6acb0K85a
+[15-Oct-2023 02:42:26 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 02:42:26 UTC] Get users model=>9
+[15-Oct-2023 02:42:26 UTC] Total de usuarios -> funcion
+[15-Oct-2023 02:42:26 UTC] Uusarios totales render ->9
+[15-Oct-2023 02:42:26 UTC] View::handleError() existsKey =>1
+[15-Oct-2023 02:42:26 UTC] Hello, errors!
+[15-Oct-2023 02:42:26 UTC] Errores::controller-> Errores
+[15-Oct-2023 02:43:08 UTC] Hello, errors!
+[15-Oct-2023 02:43:08 UTC] sessionController-> validateSession()
+[15-Oct-2023 02:43:08 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 02:43:08 UTC] Session controller -> getCurrentPage: //admin?success=0921e04ed52ccfc138C2870f6acb0K85a, url => admin?success=0921e04ed52ccfc138C2870f6acb0K85a
+[15-Oct-2023 02:43:08 UTC] sessionController::isPublic(): currentURL => admin?success=0921e04ed52ccfc138C2870f6acb0K85a
+[15-Oct-2023 02:43:08 UTC] Session controller -> getCurrentPage: //admin?success=0921e04ed52ccfc138C2870f6acb0K85a, url => admin?success=0921e04ed52ccfc138C2870f6acb0K85a
+[15-Oct-2023 02:43:09 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 02:43:09 UTC] Get users model=>9
+[15-Oct-2023 02:43:09 UTC] Total de usuarios -> funcion
+[15-Oct-2023 02:43:09 UTC] Uusarios totales render ->9
+[15-Oct-2023 02:43:09 UTC] View::handleError() existsKey =>1
+[15-Oct-2023 02:43:09 UTC] Hello, errors!
+[15-Oct-2023 02:43:09 UTC] Errores::controller-> Errores
+[15-Oct-2023 02:43:13 UTC] Hello, errors!
+[15-Oct-2023 02:43:13 UTC] sessionController-> validateSession()
+[15-Oct-2023 02:43:13 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 02:43:13 UTC] Session controller -> getCurrentPage: /admin/updateRol, url => updateRol
+[15-Oct-2023 02:43:13 UTC] sessionController::isPublic(): currentURL => updateRol
+[15-Oct-2023 02:43:13 UTC] Session controller -> getCurrentPage: /admin/updateRol, url => updateRol
+[15-Oct-2023 02:43:13 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 02:43:14 UTC] Se actualizo correctamente
+[15-Oct-2023 02:43:14 UTC] Hello, errors!
+[15-Oct-2023 02:43:14 UTC] sessionController-> validateSession()
+[15-Oct-2023 02:43:14 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 02:43:14 UTC] Session controller -> getCurrentPage: //admin?success=8281e04ed52ccfc13820d0f6acb0985a, url => admin?success=8281e04ed52ccfc13820d0f6acb0985a
+[15-Oct-2023 02:43:14 UTC] sessionController::isPublic(): currentURL => admin?success=8281e04ed52ccfc13820d0f6acb0985a
+[15-Oct-2023 02:43:14 UTC] Session controller -> getCurrentPage: //admin?success=8281e04ed52ccfc13820d0f6acb0985a, url => admin?success=8281e04ed52ccfc13820d0f6acb0985a
+[15-Oct-2023 02:43:14 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 02:43:14 UTC] Get users model=>9
+[15-Oct-2023 02:43:14 UTC] Total de usuarios -> funcion
+[15-Oct-2023 02:43:14 UTC] Uusarios totales render ->9
+[15-Oct-2023 02:43:14 UTC] View::handleError() existsKey =>1
+[15-Oct-2023 02:43:14 UTC] Hello, errors!
+[15-Oct-2023 02:43:14 UTC] Errores::controller-> Errores
+[15-Oct-2023 02:49:19 UTC] Hello, errors!
+[15-Oct-2023 02:49:19 UTC] sessionController-> validateSession()
+[15-Oct-2023 02:49:19 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 02:49:19 UTC] Session controller -> getCurrentPage: //admin?success=8281e04ed52ccfc13820d0f6acb0985a, url => admin?success=8281e04ed52ccfc13820d0f6acb0985a
+[15-Oct-2023 02:49:19 UTC] sessionController::isPublic(): currentURL => admin?success=8281e04ed52ccfc13820d0f6acb0985a
+[15-Oct-2023 02:49:19 UTC] Session controller -> getCurrentPage: //admin?success=8281e04ed52ccfc13820d0f6acb0985a, url => admin?success=8281e04ed52ccfc13820d0f6acb0985a
+[15-Oct-2023 02:49:19 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 02:49:19 UTC] Get users model=>9
+[15-Oct-2023 02:49:19 UTC] Total de usuarios -> funcion
+[15-Oct-2023 02:49:19 UTC] Uusarios totales render ->9
+[15-Oct-2023 02:49:19 UTC] View::handleError() existsKey =>1
+[15-Oct-2023 02:49:20 UTC] Hello, errors!
+[15-Oct-2023 02:49:20 UTC] Errores::controller-> Errores
+[15-Oct-2023 03:48:31 UTC] Hello, errors!
+[15-Oct-2023 03:48:31 UTC] sessionController-> validateSession()
+[15-Oct-2023 03:48:32 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 03:48:32 UTC] Session controller -> getCurrentPage: //admin?success=8281e04ed52ccfc13820d0f6acb0985a, url => admin?success=8281e04ed52ccfc13820d0f6acb0985a
+[15-Oct-2023 03:48:32 UTC] sessionController::isPublic(): currentURL => admin?success=8281e04ed52ccfc13820d0f6acb0985a
+[15-Oct-2023 03:48:32 UTC] Session controller -> getCurrentPage: //admin?success=8281e04ed52ccfc13820d0f6acb0985a, url => admin?success=8281e04ed52ccfc13820d0f6acb0985a
+[15-Oct-2023 03:48:32 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 03:48:32 UTC] Get users model=>9
+[15-Oct-2023 03:48:32 UTC] Total de usuarios -> funcion
+[15-Oct-2023 03:48:32 UTC] Uusarios totales render ->9
+[15-Oct-2023 03:48:32 UTC] View::handleError() existsKey =>1
+[15-Oct-2023 03:48:32 UTC] Hello, errors!
+[15-Oct-2023 03:48:32 UTC] Errores::controller-> Errores
+[15-Oct-2023 03:49:46 UTC] Hello, errors!
+[15-Oct-2023 03:49:46 UTC] sessionController-> validateSession()
+[15-Oct-2023 03:49:47 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 03:49:47 UTC] Session controller -> getCurrentPage: //admin?success=8281e04ed52ccfc13820d0f6acb0985a, url => admin?success=8281e04ed52ccfc13820d0f6acb0985a
+[15-Oct-2023 03:49:47 UTC] sessionController::isPublic(): currentURL => admin?success=8281e04ed52ccfc13820d0f6acb0985a
+[15-Oct-2023 03:49:47 UTC] Session controller -> getCurrentPage: //admin?success=8281e04ed52ccfc13820d0f6acb0985a, url => admin?success=8281e04ed52ccfc13820d0f6acb0985a
+[15-Oct-2023 03:49:47 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 03:49:47 UTC] Get users model=>9
+[15-Oct-2023 03:49:47 UTC] Total de usuarios -> funcion
+[15-Oct-2023 03:49:47 UTC] Uusarios totales render ->9
+[15-Oct-2023 03:49:47 UTC] View::handleError() existsKey =>1
+[15-Oct-2023 03:49:47 UTC] Hello, errors!
+[15-Oct-2023 03:49:47 UTC] Errores::controller-> Errores
+[15-Oct-2023 03:50:10 UTC] Hello, errors!
+[15-Oct-2023 03:50:10 UTC] sessionController-> validateSession()
+[15-Oct-2023 03:50:10 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 03:50:10 UTC] Session controller -> getCurrentPage: //admin?success=8281e04ed52ccfc13820d0f6acb0985a, url => admin?success=8281e04ed52ccfc13820d0f6acb0985a
+[15-Oct-2023 03:50:10 UTC] sessionController::isPublic(): currentURL => admin?success=8281e04ed52ccfc13820d0f6acb0985a
+[15-Oct-2023 03:50:10 UTC] Session controller -> getCurrentPage: //admin?success=8281e04ed52ccfc13820d0f6acb0985a, url => admin?success=8281e04ed52ccfc13820d0f6acb0985a
+[15-Oct-2023 03:50:10 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 03:50:10 UTC] Get users model=>9
+[15-Oct-2023 03:50:10 UTC] Total de usuarios -> funcion
+[15-Oct-2023 03:50:10 UTC] Uusarios totales render ->9
+[15-Oct-2023 03:50:10 UTC] View::handleError() existsKey =>1
+[15-Oct-2023 03:50:10 UTC] Hello, errors!
+[15-Oct-2023 03:50:10 UTC] Errores::controller-> Errores
+[15-Oct-2023 03:52:19 UTC] Hello, errors!
+[15-Oct-2023 03:52:19 UTC] sessionController-> validateSession()
+[15-Oct-2023 03:52:20 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 03:52:20 UTC] Session controller -> getCurrentPage: //admin?success=8281e04ed52ccfc13820d0f6acb0985a, url => admin?success=8281e04ed52ccfc13820d0f6acb0985a
+[15-Oct-2023 03:52:20 UTC] sessionController::isPublic(): currentURL => admin?success=8281e04ed52ccfc13820d0f6acb0985a
+[15-Oct-2023 03:52:20 UTC] Session controller -> getCurrentPage: //admin?success=8281e04ed52ccfc13820d0f6acb0985a, url => admin?success=8281e04ed52ccfc13820d0f6acb0985a
+[15-Oct-2023 03:52:20 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 03:52:20 UTC] Get users model=>9
+[15-Oct-2023 03:52:20 UTC] Total de usuarios -> funcion
+[15-Oct-2023 03:52:20 UTC] Uusarios totales render ->9
+[15-Oct-2023 03:52:20 UTC] View::handleError() existsKey =>1
+[15-Oct-2023 03:52:20 UTC] Hello, errors!
+[15-Oct-2023 03:52:20 UTC] Errores::controller-> Errores
+[15-Oct-2023 03:52:47 UTC] Hello, errors!
+[15-Oct-2023 03:52:47 UTC] sessionController-> validateSession()
+[15-Oct-2023 03:52:47 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 03:52:47 UTC] Session controller -> getCurrentPage: /admin/saveCategoryData, url => saveCategoryData
+[15-Oct-2023 03:52:47 UTC] sessionController::isPublic(): currentURL => saveCategoryData
+[15-Oct-2023 03:52:47 UTC] Session controller -> getCurrentPage: /admin/saveCategoryData, url => saveCategoryData
+[15-Oct-2023 03:52:47 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 03:52:47 UTC] Se guardo correctamente las categorias
+[15-Oct-2023 03:52:47 UTC] Hello, errors!
+[15-Oct-2023 03:52:47 UTC] sessionController-> validateSession()
+[15-Oct-2023 03:52:47 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 03:52:47 UTC] Session controller -> getCurrentPage: //admin?success=f52228665c4f14c8695b194f670b0ef1, url => admin?success=f52228665c4f14c8695b194f670b0ef1
+[15-Oct-2023 03:52:47 UTC] sessionController::isPublic(): currentURL => admin?success=f52228665c4f14c8695b194f670b0ef1
+[15-Oct-2023 03:52:47 UTC] Session controller -> getCurrentPage: //admin?success=f52228665c4f14c8695b194f670b0ef1, url => admin?success=f52228665c4f14c8695b194f670b0ef1
+[15-Oct-2023 03:52:47 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 03:52:47 UTC] Get users model=>9
+[15-Oct-2023 03:52:47 UTC] Total de usuarios -> funcion
+[15-Oct-2023 03:52:47 UTC] Uusarios totales render ->9
+[15-Oct-2023 03:52:47 UTC] View::handleError() existsKey =>1
+[15-Oct-2023 03:52:47 UTC] Hello, errors!
+[15-Oct-2023 03:52:47 UTC] Errores::controller-> Errores
+[15-Oct-2023 04:08:15 UTC] Hello, errors!
+[15-Oct-2023 04:08:15 UTC] sessionController-> validateSession()
+[15-Oct-2023 04:08:15 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 04:08:15 UTC] Session controller -> getCurrentPage: //admin?success=f52228665c4f14c8695b194f670b0ef1, url => admin?success=f52228665c4f14c8695b194f670b0ef1
+[15-Oct-2023 04:08:15 UTC] sessionController::isPublic(): currentURL => admin?success=f52228665c4f14c8695b194f670b0ef1
+[15-Oct-2023 04:08:15 UTC] Session controller -> getCurrentPage: //admin?success=f52228665c4f14c8695b194f670b0ef1, url => admin?success=f52228665c4f14c8695b194f670b0ef1
+[15-Oct-2023 04:08:15 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 04:08:15 UTC] Get users model=>9
+[15-Oct-2023 04:08:15 UTC] Total de usuarios -> funcion
+[15-Oct-2023 04:08:16 UTC] Usuarios totales render ->9
+[15-Oct-2023 04:08:16 UTC] View::handleError() existsKey =>1
+[15-Oct-2023 04:08:16 UTC] Hello, errors!
+[15-Oct-2023 04:08:16 UTC] Errores::controller-> Errores

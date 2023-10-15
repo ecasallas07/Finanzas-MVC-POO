@@ -20,11 +20,13 @@ class Admin extends SessionController
 
         $countUsers = $this->totalUsers();
         $userRole = $this->totalRol();
-        error_log('Uusarios totales render ->' . $countUsers);
+        $adminAll = $this->adminAll();
+        error_log('Usuarios totales render ->' . $countUsers);
         $this->view->render('admin/admin',[
             'user'                 => $this->user,
             'countUsers'            => $countUsers,
-            'usersRole'             => $userRole
+            'usersRole'             => $userRole,
+            'admin'                 =>  $adminAll
         ]);
 
     }
@@ -78,7 +80,7 @@ class Admin extends SessionController
 
         if($this->existPost(['name_table','columnas'])){
             $name_table = $this->getPost('name_table');
-            $columns = $this->getPost('columns');
+            $columns = $this->getPost('columnas');
 
             $model = new AdminModel();
 
@@ -89,9 +91,11 @@ class Admin extends SessionController
                 error_log('Se creo exitosamente la tabla');
                 $this->redirect('admin',['success' =>Success::SUCCESS_SIGNUP_NEWTABLE ]);
             }else{
+                error_log('No se crea la tabla');
                 $this->redirect('admin',['error' => Errors::ERROR_SIGNUP_TABLE_EXISTS]);
             }
         }else{
+            error_log('No existen datos de la tabla');
             $this->redirect('admin',['error' => Errors::ERROR_SIGNUP_TABLE_EXISTS]);
         }
 
@@ -102,6 +106,58 @@ class Admin extends SessionController
         $model = new AdminModel();
         return $model->getUsersRole();
 
+     }
+
+     public function updateRol(){
+        if($this->existPost(['username','role'])){
+            $username = $this->getPost('username');
+            $role = $this->getPost('role');
+
+
+            if(empty($username) && empty($role)){
+                error_log('No existen los paraemtros UPDATE ADMIN');
+                $this->redirect('admin',['error'=>Errors::ERROR_SIGNUP_NEWUSER_EMPTY]);
+            }
+            $model = new AdminModel();
+            $model->setUsername($username);
+
+            if($model->changeRoleAdmin()){
+                error_log('Se actualizo correctamente');
+                $this->redirect('admin',['success' => Success::SUCCESS_SIGNUP_NEWUSER]);
+            }
+
+        }else{
+            error_log('No tiene los datos para actualizar, campos vacios');
+            $this->redirect('admin',['error' => Errors::ERROR_SIGNUP_NEWUSER_EMPTY]);
+        }
+     }
+
+     public function saveCategoryData(){
+        if($this->existPost(['tipo','recomendacion','descripcion'])){
+            $tipo = $this->getPost('tipo');
+            $recomendacion = $this->getPost('recomendacion');
+            $descripcion = $this->getPost('descripcion');
+
+            $model = new AdminModel();
+
+            $model->setCategoryTipo($tipo);
+            $model->setDescripcion($descripcion);
+            $model->setRacomendacion($recomendacion);
+
+            if($model->saveCategory()){
+                error_log('Se guardo correctamente las categorias');
+                $this->redirect('admin',['success'=>Success::SUCCESS_ADMIN_NEWCATEGORY]);
+            }
+        }else{
+            error_log('No tiene los datos para actualizar, campos vacios categoria');
+            $this->redirect('admin',['error' => Errors::ERROR_SIGNUP_NEWUSER_EMPTY]);
+        }
+
+     }
+
+     public function adminAll(){
+        $model = new AdminModel();
+        return $model->getAll();
      }
 
 

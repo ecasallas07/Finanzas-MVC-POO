@@ -2,6 +2,7 @@
 $count = $this->d['countUsers'];
 $user = $this->d['user'];
 $roleUser = $this->d['usersRole'];
+$adminTable = $this->d['admin'];
 
 
 ?>
@@ -30,9 +31,10 @@ $roleUser = $this->d['usersRole'];
 
     <div id="wrapper">
         <?php require 'header.php';?>
-        <?php print_r($roleUser)?>
+
         <!-- /. NAV SIDE  -->
         <div id="page-wrapper">
+<!--            --><?php //print_r($roleUser)?>
             <div id="page-inner">
                 <div class="row">
                     <div class="col-md-12">
@@ -166,11 +168,11 @@ $roleUser = $this->d['usersRole'];
                             <!-- Contenido del modal -->
                             <div class="modal-header">
                                 <h5 class="modal-title">Crear tabla</h5>
-                                <form action="#" method="POST">
+                                <form action="<?php echo constant('URL'); ?>admin/createTAbleFinally" method="POST">
                                     <div class="mb-3">
-                                        <input type="hidden" name="update_idsamsumg" value="">
+
                                         <label for="exampleInputIdentification1" class="form-label">Nombre de la tabla:</label>
-                                        <input type="text" class="form-control" id="exampleInputIdentification1" name="name_table" aria-describedby="identificationHelp" value="">
+                                        <input type="text" class="form-control" id="exampleInputIdentification1" name="name_table" aria-describedby="identificationHelp" >
                                     </div>
 
                                     <div class="mb-3">
@@ -197,23 +199,32 @@ $roleUser = $this->d['usersRole'];
                         <div class="modal-content">
                             <!-- Contenido del modal -->
                             <div class="modal-header">
-                                <h5 class="modal-title">Título del Modal</h5>
-                                <form action="" method="POST">
+                                <h5 class="modal-title">Asignar rol</h5>
+                                <form action="<?php echo constant('URL'); ?>admin/updateRol" method="POST">
                                     <div class="field-wrap">
                                         <label>Seleccione el Usuario<span class="req">*</span>
                                         </label>
                                         <select name="username">
                                             <option value="" selected></option>
+                                            <?php foreach ($roleUser as $usuario){
 
-                                                <option value=''><?php echo $roleUser?></option>
+                                                $username = $usuario->username;
+                                                if(!empty($username)){
+                                            ?>
 
+                                                <option value="<?php echo $username ?>"><?php echo $username?></option>
+                                            <?php }else{ ?>
+                                                  <option value="sinRegistro">Sin nombre</option>
+
+
+                                           <?php } }?>
 
                                         </select>
 
                                     </div>
 
                                     <div class="field-wrap">
-                                        <label>Seleccione ele rol<span class="req">*</span>
+                                        <label>Seleccione el rol<span class="req">*</span>
                                         </label>
                                         <select name="role">
                                             <option value="" selected></option>
@@ -224,7 +235,7 @@ $roleUser = $this->d['usersRole'];
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                                        <button type="button" class="btn btn-primary">Guardar cambios</button>
+                                        <button type="submit" class="btn btn-primary">Guardar cambios</button>
                                     </div>
                                 </form>
                             </div>
@@ -240,36 +251,29 @@ $roleUser = $this->d['usersRole'];
                         <div class="modal-content">
                             <!-- Contenido del modal -->
                             <div class="modal-header">
-                                <h5 class="modal-title">Título del Modal</h5>
-                                <form action="" method="POST">
+                                <h5 class="modal-title">Crear Categoria</h5>
+                                <form action="<?php echo constant('URL');?>admin/saveCategoryData" method="POST">
                                     <div class="mb-3">
-                                        <input type="hidden" name="update_idsamsumg" value="">
-                                        <label for="exampleInputIdentification1" class="form-label">Serial</label>
-                                        <input type="text" class="form-control" id="exampleInputIdentification1" name="update_serial" aria-describedby="identificationHelp" value="">
+                                        <label for="exampleInputIdentification1" class="form-label">Tipo</label>
+                                        <input type="text" class="form-control" id="exampleInputIdentification1" name="tipo" ">
                                     </div>
 
                                     <div class="mb-3">
-                                        <label for="exampleInputName1" class="form-label">Modelo</label>
-                                        <input type="text" class="form-control" id="exampleInputName1" name="update_modelo" aria-describedby="nameHelp" value="">
+                                        <label for="exampleInputName1" class="form-label">Descripcion</label>
+                                        <textarea type="text" class="form-control" id="exampleInputName1" name="descripcion" rows="4" cols="100" ></textarea>
                                     </div>
                                     <div class="mb-3">
-                                        <label for="exampleInputName1" class="form-label">Cliente</label>
-                                        <input type="text" class="form-control" id="exampleInputName1" name="update_cliente" aria-describedby="nameHelp" value="">
+                                        <label for="exampleInputName1" class="form-label">Recomendacion</label>
+                                        <input type="text" class="form-control" id="exampleInputName1" name="recomendacion" aria-describedby="nameHelp" >
                                     </div>
-                                    <div class="mb-3">
-                                        <label for="exampleInputName1" class="form-label">Ubicacion</label>
-                                        <input type="text" class="form-control" id="exampleInputName1" name="update_ubicacion" aria-describedby="nameHelp" value="">
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                        <button type="submit" class="btn btn-primary">Guardar cambios</button>
                                     </div>
-                                    <button type="button" class="close" data-dismiss="modal">
-                                        <span>&times;</span>
-                                    </button>
 
                                 </form>
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                                <button type="button" class="btn btn-primary">Guardar cambios</button>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -283,36 +287,29 @@ $roleUser = $this->d['usersRole'];
                             <thead>
                             <tr>
                                 <th>#</th>
-                                <th>First Name</th>
-                                <th>Last Name</th>
                                 <th>Username</th>
+                                <th>Role</th>
+                                <th>Phone</th>
+                                <th>Photo</th>
+                                <th>Name</th>
                             </tr>
                             </thead>
                             <tbody>
+                            <?php
+                                foreach ($adminTable as $row){
+
+
+                            ?>
                             <tr>
-                                <td>1</td>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
+                                <td><?php echo $row->id;?></td>
+                                <td><?php echo $row->username;?></td>
+                                <td><?php echo $row->role;?></td>
+                                <td><?php echo $row->telefono;?></td>
+                                <td><?php echo $row->photo;?></td>
+                                <td><?php echo $row->name;?></td>
                             </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>@fat</td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Larry</td>
-                                <td>the Bird</td>
-                                <td>@twitter</td>
-                            </tr>
+                            <?php }?>
+
                             </tbody>
                         </table>
 

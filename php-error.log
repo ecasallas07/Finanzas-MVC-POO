@@ -10910,3 +10910,48 @@ Stack trace:
 [15-Oct-2023 04:08:16 UTC] View::handleError() existsKey =>1
 [15-Oct-2023 04:08:16 UTC] Hello, errors!
 [15-Oct-2023 04:08:16 UTC] Errores::controller-> Errores
+[15-Oct-2023 04:11:27 UTC] Hello, errors!
+[15-Oct-2023 04:11:27 UTC] Errores::controller-> Errores
+[15-Oct-2023 04:38:20 UTC] Hello, errors!
+[15-Oct-2023 04:38:20 UTC] sessionController-> validateSession()
+[15-Oct-2023 04:38:20 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 04:38:20 UTC] Session controller -> getCurrentPage: //admin?success=f52228665c4f14c8695b194f670b0ef1, url => admin?success=f52228665c4f14c8695b194f670b0ef1
+[15-Oct-2023 04:38:20 UTC] sessionController::isPublic(): currentURL => admin?success=f52228665c4f14c8695b194f670b0ef1
+[15-Oct-2023 04:38:20 UTC] Session controller -> getCurrentPage: //admin?success=f52228665c4f14c8695b194f670b0ef1, url => admin?success=f52228665c4f14c8695b194f670b0ef1
+[15-Oct-2023 04:38:21 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[15-Oct-2023 04:38:21 UTC] Get users model=>9
+[15-Oct-2023 04:38:21 UTC] Total de usuarios -> funcion
+[15-Oct-2023 04:38:21 UTC] Usuarios totales render ->9
+[15-Oct-2023 04:38:21 UTC] View::handleError() existsKey =>1
+[15-Oct-2023 04:38:21 UTC] Hello, errors!
+[15-Oct-2023 04:38:21 UTC] Errores::controller-> Errores
+[17-Oct-2023 02:27:09 UTC] Hello, errors!
+[17-Oct-2023 02:27:09 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[17-Oct-2023 02:27:09 UTC] sessionController-> validateSession()
+[17-Oct-2023 02:27:09 UTC] sessionController::isPublic(): currentURL => 
+[17-Oct-2023 02:27:09 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[17-Oct-2023 02:27:09 UTC] Error de loguin
+[17-Oct-2023 02:27:10 UTC] Hello, errors!
+[17-Oct-2023 02:27:10 UTC] Errores::controller-> Errores
+[17-Oct-2023 02:30:52 UTC] Hello, errors!
+[17-Oct-2023 02:30:52 UTC] sessionController-> validateSession()
+[17-Oct-2023 02:30:52 UTC] Session controller -> getCurrentPage: /loguin/authenticate, url => authenticate
+[17-Oct-2023 02:30:52 UTC] sessionController::isPublic(): currentURL => authenticate
+[17-Oct-2023 02:30:53 UTC] Error de loguin
+[17-Oct-2023 02:30:53 UTC] login: inicio
+[17-Oct-2023 02:30:53 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 135
+[17-Oct-2023 02:30:53 UTC] login: user id 11
+[17-Oct-2023 02:30:53 UTC] login: success
+[17-Oct-2023 02:30:53 UTC] Login::authenticate() passed
+[17-Oct-2023 02:30:53 UTC] Hello, errors!
+[17-Oct-2023 02:30:53 UTC] sessionController-> validateSession()
+[17-Oct-2023 02:30:53 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[17-Oct-2023 02:30:53 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[17-Oct-2023 02:30:53 UTC] sessionController::isPublic(): currentURL => admin
+[17-Oct-2023 02:30:53 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[17-Oct-2023 02:30:53 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[17-Oct-2023 02:30:53 UTC] Get users model=>9
+[17-Oct-2023 02:30:53 UTC] Total de usuarios -> funcion
+[17-Oct-2023 02:30:53 UTC] Usuarios totales render ->9
+[17-Oct-2023 02:30:53 UTC] Hello, errors!
+[17-Oct-2023 02:30:53 UTC] Errores::controller-> Errores

@@ -1,3 +1,10 @@
+<?php
+$users = $this->d['info'];
+
+
+?>
+
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -17,81 +24,160 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 
     <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">-->
+
+<!--    TODO: No guardar cache en la pagina HTML-->
+    <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="pragma" content="no-cache">
 </head>
 <body>
     <div id="wrapper">
         <?php require 'header.php';?>
+        <div id="page-wrapper">
 
-        <div id="page-inner">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>Admin Users</h2>
+            <div id="page-inner">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Admin Users</h2>
+                    </div>
                 </div>
-            </div>
-            <hr/>
+                <hr/>
 
-            <div class="row">
-                <div class="col-md-6">
-                    <h5>Top Administradores</h5>
-                    <table class="table table-striped table-bordered table-hover">
-                        <thead>
-                        <tr>
-                            <th>#</th>
-                            <th>Username</th>
-                            <th>Role</th>
-                            <th>Phone</th>
-                            <th>Photo</th>
-                            <th>Name</th>
-                            <th></th>
-                        </tr>
-                        </thead>
-                        <tbody>
-
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>Usuario registrados</h5>
+                        <table class="table table-striped table-bordered table-hover">
+                            <thead>
                             <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <th>#</th>
+                                <th>Username</th>
+                                <th>Role</th>
+                                <th>Phone</th>
+                                <th>Photo</th>
+                                <th>Name</th>
+                                <th></th>
                             </tr>
+                            </thead>
+                            <tbody>
+                                <?php
+                                    foreach ($users as $item){
+                                ?>
+                                <tr>
+                                    <td> <?php echo $item['id'] ?></td>
+                                    <td><?php echo $item['username'] ?></td>
+                                    <td><?php echo $item['role'] ?></td>
+                                    <td><?php echo $item['telefono'] ?></td>
+                                    <td><?php echo $item['photo'] ?></td>
+                                    <td><?php echo $item['name'] ?></td>
+                                    <td data-data='{"id":"<?php echo $item['id'] ?>","username":"<?php echo $item['username'] ?>","role":"<?php echo $item['role'] ?>", "telefono":"<?php echo $item['telefono'] ?>","photo":"<?php echo $item['photo'] ?>","name":"<?php echo $item['name'] ?>","password":"<?php echo $item['password'] ?>"}'>
+                                            <button type="button" class="btn btn-primary edit-button" data-toggle="modal" data-target="#miModalEditar" onclick="mostrarId(this)">Editar</button>
+                                    </td>
+                                </tr>
+                                <?php } ?>
 
 
-                        </tbody>
-                    </table>
+                            </tbody>
+                        </table>
+
+                    </div>
+
 
                 </div>
 
-                <div class="col-md-4">
-                    <label>Click to see blank page</label>
-                    <a href="admin.php" target="_blank" class="btn btn-danger btn-lg btn-block">VISITAR PAGINA WEB</a>
-                </div>
-            </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <h5>Eliminar Usuarios</h5>
+                        <div class="panel panel-primary text-center no-boder bg-color-blue">
+                            <div class="panel-body">
+                                <i class="fa fa-bar-chart-o fa-5x"></i>
+                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#miModal" ><h3>Eliminar Usuarios</h3></button>
 
-            <div class="row">
-                <div class="col-md-3 col-sm-3 col-xs-6">
-                    <h5>Eliminar Usuarios</h5>
-                    <div class="panel panel-primary text-center no-boder bg-color-blue">
-                        <div class="panel-body">
-                            <i class="fa fa-bar-chart-o fa-5x"></i>
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#miModal" ><h3>Eliminar Usuarios</h3></button>
-
-                            <h4></h4>
+                                <h4></h4>
+                            </div>
+                            <div class="panel-footer back-footer-blue">
+                            </div>
                         </div>
-                        <div class="panel-footer back-footer-blue">
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#miModal" ></button>
+                    </div>
+                </div>
+
+<!--                TODO : Modal for user edit-->
+                <div class="modal" id="miModalEditar">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <!-- Contenido del modal -->
+                            <div class="modal-header">
+                                <h5 class="modal-title">Crear usuario</h5>
+                                <form action="<?php echo constant('URL'); ?>Users/updateAdminUsers" method="POST">
+                                    <div class="field-wrap">
+                                        <label>Email Address<span class="req">*</span>
+                                        </label>
+                                        <input type="hidden" value="" name="id_user" id="id_user"/>
+                                        <input type="text" autocomplete="off" name="username"/ id="username" value="">
+                                    </div>
+
+                                    <div class="field-wrap">
+                                        <label>Set A Password<span class="req">*</span>
+                                        </label>
+                                        <input type="password"  autocomplete="off" name="password" id="password" value=""/>
+                                    </div>
+
+                                    <div class="field-wrap">
+                                        <label>Set A Role<span class="req">*</span>
+                                        </label>
+                                        <select name="role" id="role" value="">
+                                            <option value="" selected></option>
+                                            <option value="user" >User</option>
+                                            <option value="admin" >Admin</option>
+
+                                        </select>
+                                    </div>
+                                    <div class="field-wrap">
+                                        <label>Set A Phone Number<span class="req">*</span>
+                                        </label>
+                                        <input type="number"  autocomplete="off" name="phone" id="telefono"/>
+                                    </div>
+                                    <div class="field-wrap">
+                                        <label>Set A Name of User<span class="req">*</span>
+                                        </label>
+                                        <input type="text"  autocomplete="off" name="user_name" id="name"/>
+                                    </div>
+
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                        <button type="submit" class="btn btn-primary">Guardar cambios</button>
+
+                                    </div>
+
+                                </form>
+                            </div>
 
                         </div>
                     </div>
                 </div>
+
             </div>
-
-
-
         </div>
 
     </div>
 
+    <script>
+
+        function mostrarId(id){
+            const dataAtributte = id.parentElement.getAttribute('data-data');
+
+            //Parse es para convertir un JSON a un objeto
+            const data = JSON.parse(dataAtributte);
+            console.log(data)
+            document.getElementById('id_user').value = data.id;
+            document.getElementById('username').value = data.username;
+            document.getElementById('password').value = data.password;
+            document.getElementById('role').value = data.role;
+            document.getElementById('telefono').value = data.telefono;
+            document.getElementById('name').value = data.name;
+
+
+        }
+    </script>
 
 
 <!-- JQUERY SCRIPTS -->

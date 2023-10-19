@@ -55,7 +55,7 @@
             </li>
 
             <li>
-                <a href="#"><i class="fa fa-table "></i>Users</a>
+                <a href="<?php echo constant('URL'); ?>Users"><i class="fa fa-table "></i>Users</a>
             </li>
             <li>
                 <a href="#"><i class="fa fa-edit "></i>Estados de cuenta </a>

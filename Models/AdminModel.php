@@ -192,6 +192,45 @@ class AdminModel extends Model implements IModel
         error_log("Get users model=>" . $user);
     }
 
+    public function getUsersComplete(){
+        $query = $this->query('SELECT * FROM users');
+        $users = [];
+         while($item = $query->fetch(PDO::FETCH_ASSOC)){
+             $users[] = $item;
+         }
+
+         return $users;
+    }
+
+    public function updateUsers($id){
+
+        try{
+            $query = $this->prepare('UPDATE users SET username=:username, password = :password, role = :role,telefono= :telefono, name = :name WHERE id =:id');
+            $query->execute([
+                "username" => $this->username,
+                "password" => $this->password,
+                "role" => $this->role,
+                "telefono" => $this->telefono,
+                "name" => $this->name,
+                "id" => $id
+            ]);
+
+            if($query){
+                return true;
+            }else{
+                return false;
+            }
+
+
+        }catch (PDOException $e){
+            error_log('UpdateUsers'. $e->getMessage());
+
+        }
+
+    }
+
+
+
 
     public function get($id)
     {

@@ -11912,3 +11912,1212 @@ Stack trace:
 [19-Oct-2023 04:07:10 UTC] View::handleError() existsKey =>1
 [19-Oct-2023 04:07:10 UTC] Hello, errors!
 [19-Oct-2023 04:07:10 UTC] Errores::controller-> Errores
+[19-Oct-2023 04:29:54 UTC] Hello, errors!
+[19-Oct-2023 04:29:54 UTC] sessionController-> validateSession()
+[19-Oct-2023 04:29:54 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[19-Oct-2023 04:29:54 UTC] Session controller -> getCurrentPage: //Users?success=8281e04ed52ccfc13820d0f6acb0985a, url => Users?success=8281e04ed52ccfc13820d0f6acb0985a
+[19-Oct-2023 04:29:54 UTC] sessionController::isPublic(): currentURL => Users?success=8281e04ed52ccfc13820d0f6acb0985a
+[19-Oct-2023 04:29:54 UTC] Session controller -> getCurrentPage: //Users?success=8281e04ed52ccfc13820d0f6acb0985a, url => Users?success=8281e04ed52ccfc13820d0f6acb0985a
+[19-Oct-2023 04:29:54 UTC] Users Controller ->showUsers
+[19-Oct-2023 04:29:54 UTC] View::handleError() existsKey =>1
+[19-Oct-2023 04:29:55 UTC] Hello, errors!
+[19-Oct-2023 04:29:55 UTC] Errores::controller-> Errores
+[19-Oct-2023 04:29:56 UTC] Hello, errors!
+[19-Oct-2023 04:29:56 UTC] sessionController-> validateSession()
+[19-Oct-2023 04:29:56 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[19-Oct-2023 04:29:56 UTC] Session controller -> getCurrentPage: //Users?success=8281e04ed52ccfc13820d0f6acb0985a, url => Users?success=8281e04ed52ccfc13820d0f6acb0985a
+[19-Oct-2023 04:29:56 UTC] sessionController::isPublic(): currentURL => Users?success=8281e04ed52ccfc13820d0f6acb0985a
+[19-Oct-2023 04:29:56 UTC] Session controller -> getCurrentPage: //Users?success=8281e04ed52ccfc13820d0f6acb0985a, url => Users?success=8281e04ed52ccfc13820d0f6acb0985a
+[19-Oct-2023 04:29:56 UTC] Users Controller ->showUsers
+[19-Oct-2023 04:29:56 UTC] View::handleError() existsKey =>1
+[19-Oct-2023 04:29:57 UTC] Hello, errors!
+[19-Oct-2023 04:29:57 UTC] Errores::controller-> Errores
+[19-Oct-2023 04:42:25 UTC] Hello, errors!
+[19-Oct-2023 04:42:25 UTC] sessionController-> validateSession()
+[19-Oct-2023 04:42:25 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[19-Oct-2023 04:42:25 UTC] Session controller -> getCurrentPage: //Users?success=8281e04ed52ccfc13820d0f6acb0985a, url => Users?success=8281e04ed52ccfc13820d0f6acb0985a
+[19-Oct-2023 04:42:25 UTC] sessionController::isPublic(): currentURL => Users?success=8281e04ed52ccfc13820d0f6acb0985a
+[19-Oct-2023 04:42:25 UTC] Session controller -> getCurrentPage: //Users?success=8281e04ed52ccfc13820d0f6acb0985a, url => Users?success=8281e04ed52ccfc13820d0f6acb0985a
+[19-Oct-2023 04:42:25 UTC] Users Controller ->showUsers
+[19-Oct-2023 04:42:25 UTC] View::handleError() existsKey =>1
+[19-Oct-2023 04:42:26 UTC] Hello, errors!
+[19-Oct-2023 04:42:26 UTC] Errores::controller-> Errores
+[19-Oct-2023 04:42:32 UTC] Hello, errors!
+[19-Oct-2023 04:42:32 UTC] sessionController-> validateSession()
+[19-Oct-2023 04:42:32 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[19-Oct-2023 04:42:32 UTC] sessionController::isPublic(): currentURL => 
+[19-Oct-2023 04:42:32 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[19-Oct-2023 04:42:32 UTC] Users Controller ->showUsers
+[19-Oct-2023 04:42:32 UTC] Hello, errors!
+[19-Oct-2023 04:42:32 UTC] Errores::controller-> Errores
+[19-Oct-2023 04:42:36 UTC] Hello, errors!
+[19-Oct-2023 04:42:36 UTC] Errores::controller-> Errores
+[19-Oct-2023 04:42:38 UTC] Hello, errors!
+[19-Oct-2023 04:42:38 UTC] sessionController-> validateSession()
+[19-Oct-2023 04:42:38 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[19-Oct-2023 04:42:38 UTC] sessionController::isPublic(): currentURL => 
+[19-Oct-2023 04:42:38 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[19-Oct-2023 04:42:38 UTC] Users Controller ->showUsers
+[19-Oct-2023 04:42:38 UTC] Hello, errors!
+[19-Oct-2023 04:42:38 UTC] Errores::controller-> Errores
+[19-Oct-2023 04:42:38 UTC] Hello, errors!
+[19-Oct-2023 04:42:38 UTC] Errores::controller-> Errores
+[19-Oct-2023 04:43:25 UTC] Hello, errors!
+[19-Oct-2023 04:43:25 UTC] sessionController-> validateSession()
+[19-Oct-2023 04:43:25 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[19-Oct-2023 04:43:25 UTC] sessionController::isPublic(): currentURL => 
+[19-Oct-2023 04:43:25 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[19-Oct-2023 04:43:25 UTC] Users Controller ->showUsers
+[19-Oct-2023 04:43:25 UTC] Hello, errors!
+[19-Oct-2023 04:43:25 UTC] Errores::controller-> Errores
+[19-Oct-2023 04:43:25 UTC] Hello, errors!
+[19-Oct-2023 04:43:25 UTC] Errores::controller-> Errores
+[19-Oct-2023 04:44:05 UTC] Hello, errors!
+[19-Oct-2023 04:44:05 UTC] sessionController-> validateSession()
+[19-Oct-2023 04:44:05 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[19-Oct-2023 04:44:05 UTC] sessionController::isPublic(): currentURL => 
+[19-Oct-2023 04:44:05 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[19-Oct-2023 04:44:05 UTC] Users Controller ->showUsers
+[19-Oct-2023 04:44:06 UTC] Hello, errors!
+[19-Oct-2023 04:44:06 UTC] Errores::controller-> Errores
+[19-Oct-2023 04:44:06 UTC] Hello, errors!
+[19-Oct-2023 04:44:06 UTC] Errores::controller-> Errores
+[19-Oct-2023 04:44:09 UTC] Hello, errors!
+[19-Oct-2023 04:44:09 UTC] Errores::controller-> Errores
+[19-Oct-2023 04:46:11 UTC] Hello, errors!
+[19-Oct-2023 04:46:11 UTC] sessionController-> validateSession()
+[19-Oct-2023 04:46:11 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[19-Oct-2023 04:46:11 UTC] sessionController::isPublic(): currentURL => 
+[19-Oct-2023 04:46:11 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[19-Oct-2023 04:46:11 UTC] Users Controller ->showUsers
+[19-Oct-2023 04:46:11 UTC] Hello, errors!
+[19-Oct-2023 04:46:11 UTC] Errores::controller-> Errores
+[19-Oct-2023 04:46:12 UTC] Hello, errors!
+[19-Oct-2023 04:46:12 UTC] Errores::controller-> Errores
+[19-Oct-2023 04:46:40 UTC] Hello, errors!
+[19-Oct-2023 04:46:40 UTC] sessionController-> validateSession()
+[19-Oct-2023 04:46:40 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[19-Oct-2023 04:46:40 UTC] sessionController::isPublic(): currentURL => 
+[19-Oct-2023 04:46:40 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[19-Oct-2023 04:46:40 UTC] Users Controller ->showUsers
+[19-Oct-2023 04:46:40 UTC] Hello, errors!
+[19-Oct-2023 04:46:40 UTC] Errores::controller-> Errores
+[19-Oct-2023 04:46:40 UTC] Hello, errors!
+[19-Oct-2023 04:46:40 UTC] Errores::controller-> Errores
+[19-Oct-2023 04:47:40 UTC] Hello, errors!
+[19-Oct-2023 04:47:40 UTC] sessionController-> validateSession()
+[19-Oct-2023 04:47:40 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[19-Oct-2023 04:47:40 UTC] sessionController::isPublic(): currentURL => 
+[19-Oct-2023 04:47:40 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[19-Oct-2023 04:47:40 UTC] Users Controller ->showUsers
+[19-Oct-2023 04:47:40 UTC] Hello, errors!
+[19-Oct-2023 04:47:40 UTC] Errores::controller-> Errores
+[19-Oct-2023 04:47:40 UTC] Hello, errors!
+[19-Oct-2023 04:47:40 UTC] Errores::controller-> Errores
+[19-Oct-2023 04:49:05 UTC] Hello, errors!
+[19-Oct-2023 04:49:05 UTC] sessionController-> validateSession()
+[19-Oct-2023 04:49:05 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[19-Oct-2023 04:49:05 UTC] sessionController::isPublic(): currentURL => 
+[19-Oct-2023 04:49:05 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[19-Oct-2023 04:49:05 UTC] Users Controller ->showUsers
+[19-Oct-2023 04:49:05 UTC] Hello, errors!
+[19-Oct-2023 04:49:05 UTC] Errores::controller-> Errores
+[19-Oct-2023 04:49:06 UTC] Hello, errors!
+[19-Oct-2023 04:49:06 UTC] Errores::controller-> Errores
+[19-Oct-2023 04:51:51 UTC] Hello, errors!
+[19-Oct-2023 04:51:51 UTC] sessionController-> validateSession()
+[19-Oct-2023 04:51:51 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[19-Oct-2023 04:51:51 UTC] sessionController::isPublic(): currentURL => 
+[19-Oct-2023 04:51:51 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[19-Oct-2023 04:51:51 UTC] Users Controller ->showUsers
+[19-Oct-2023 04:51:51 UTC] Hello, errors!
+[19-Oct-2023 04:51:51 UTC] Errores::controller-> Errores
+[19-Oct-2023 04:51:51 UTC] Hello, errors!
+[19-Oct-2023 04:51:51 UTC] Errores::controller-> Errores
+[19-Oct-2023 04:54:57 UTC] Hello, errors!
+[19-Oct-2023 04:54:57 UTC] sessionController-> validateSession()
+[19-Oct-2023 04:54:57 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[19-Oct-2023 04:54:57 UTC] sessionController::isPublic(): currentURL => 
+[19-Oct-2023 04:54:57 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[19-Oct-2023 04:54:57 UTC] Users Controller ->showUsers
+[19-Oct-2023 04:54:57 UTC] Hello, errors!
+[19-Oct-2023 04:54:57 UTC] Errores::controller-> Errores
+[19-Oct-2023 04:54:58 UTC] Hello, errors!
+[19-Oct-2023 04:54:58 UTC] Errores::controller-> Errores
+[19-Oct-2023 04:55:25 UTC] Hello, errors!
+[19-Oct-2023 04:55:25 UTC] sessionController-> validateSession()
+[19-Oct-2023 04:55:25 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[19-Oct-2023 04:55:25 UTC] sessionController::isPublic(): currentURL => 
+[19-Oct-2023 04:55:25 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[19-Oct-2023 04:55:25 UTC] Users Controller ->showUsers
+[19-Oct-2023 04:55:25 UTC] Hello, errors!
+[19-Oct-2023 04:55:25 UTC] Errores::controller-> Errores
+[19-Oct-2023 04:55:25 UTC] Hello, errors!
+[19-Oct-2023 04:55:25 UTC] Errores::controller-> Errores
+[19-Oct-2023 04:56:30 UTC] Hello, errors!
+[19-Oct-2023 04:56:30 UTC] sessionController-> validateSession()
+[19-Oct-2023 04:56:30 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[19-Oct-2023 04:56:30 UTC] sessionController::isPublic(): currentURL => 
+[19-Oct-2023 04:56:30 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[19-Oct-2023 04:56:30 UTC] Users Controller ->showUsers
+[19-Oct-2023 04:56:30 UTC] Hello, errors!
+[19-Oct-2023 04:56:30 UTC] Errores::controller-> Errores
+[19-Oct-2023 04:56:31 UTC] Hello, errors!
+[19-Oct-2023 04:56:31 UTC] Errores::controller-> Errores
+[19-Oct-2023 04:56:42 UTC] Hello, errors!
+[19-Oct-2023 04:56:42 UTC] sessionController-> validateSession()
+[19-Oct-2023 04:56:42 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[19-Oct-2023 04:56:42 UTC] sessionController::isPublic(): currentURL => 
+[19-Oct-2023 04:56:42 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[19-Oct-2023 04:56:42 UTC] Users Controller ->showUsers
+[19-Oct-2023 04:56:42 UTC] Hello, errors!
+[19-Oct-2023 04:56:42 UTC] Errores::controller-> Errores
+[19-Oct-2023 04:56:43 UTC] Hello, errors!
+[19-Oct-2023 04:56:43 UTC] Errores::controller-> Errores
+[19-Oct-2023 22:02:43 UTC] Hello, errors!
+[19-Oct-2023 22:02:43 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[19-Oct-2023 22:02:43 UTC] sessionController-> validateSession()
+[19-Oct-2023 22:02:43 UTC] sessionController::isPublic(): currentURL => 
+[19-Oct-2023 22:02:43 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[19-Oct-2023 22:02:43 UTC] Error de loguin
+[19-Oct-2023 22:02:44 UTC] Hello, errors!
+[19-Oct-2023 22:02:44 UTC] Errores::controller-> Errores
+[19-Oct-2023 22:03:43 UTC] Hello, errors!
+[19-Oct-2023 22:03:43 UTC] sessionController-> validateSession()
+[19-Oct-2023 22:03:43 UTC] Session controller -> getCurrentPage: /loguin/authenticate, url => authenticate
+[19-Oct-2023 22:03:43 UTC] sessionController::isPublic(): currentURL => authenticate
+[19-Oct-2023 22:03:43 UTC] Error de loguin
+[19-Oct-2023 22:03:43 UTC] login: inicio
+[19-Oct-2023 22:03:43 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 135
+[19-Oct-2023 22:03:43 UTC] login: user id 11
+[19-Oct-2023 22:03:43 UTC] login: success
+[19-Oct-2023 22:03:43 UTC] Login::authenticate() passed
+[19-Oct-2023 22:03:43 UTC] Hello, errors!
+[19-Oct-2023 22:03:43 UTC] sessionController-> validateSession()
+[19-Oct-2023 22:03:43 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[19-Oct-2023 22:03:43 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[19-Oct-2023 22:03:43 UTC] sessionController::isPublic(): currentURL => admin
+[19-Oct-2023 22:03:43 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[19-Oct-2023 22:03:43 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[19-Oct-2023 22:03:43 UTC] Get users model=>9
+[19-Oct-2023 22:03:43 UTC] Total de usuarios -> funcion
+[19-Oct-2023 22:03:43 UTC] Usuarios totales render ->9
+[19-Oct-2023 22:03:44 UTC] Hello, errors!
+[19-Oct-2023 22:03:44 UTC] Errores::controller-> Errores
+[19-Oct-2023 22:10:47 UTC] Hello, errors!
+[19-Oct-2023 22:10:47 UTC] sessionController-> validateSession()
+[19-Oct-2023 22:10:47 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[19-Oct-2023 22:10:47 UTC] sessionController::isPublic(): currentURL => 
+[19-Oct-2023 22:10:47 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[19-Oct-2023 22:10:47 UTC] Users Controller ->showUsers
+[19-Oct-2023 22:10:48 UTC] Hello, errors!
+[19-Oct-2023 22:10:48 UTC] Errores::controller-> Errores
+[19-Oct-2023 22:54:30 UTC] Hello, errors!
+[19-Oct-2023 22:54:30 UTC] sessionController-> validateSession()
+[19-Oct-2023 22:54:30 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[19-Oct-2023 22:54:30 UTC] sessionController::isPublic(): currentURL => 
+[19-Oct-2023 22:54:30 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[19-Oct-2023 22:54:30 UTC] Users Controller ->showUsers
+[19-Oct-2023 22:54:31 UTC] PHP Warning:  Undefined array key "/Users" in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 63
+[19-Oct-2023 22:54:31 UTC] Hello, errors!
+[19-Oct-2023 22:54:31 UTC] Errores::controller-> Errores
+[19-Oct-2023 22:54:34 UTC] Hello, errors!
+[19-Oct-2023 22:54:34 UTC] sessionController-> validateSession()
+[19-Oct-2023 22:54:34 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[19-Oct-2023 22:54:34 UTC] sessionController::isPublic(): currentURL => 
+[19-Oct-2023 22:54:34 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[19-Oct-2023 22:54:34 UTC] Users Controller ->showUsers
+[19-Oct-2023 22:54:34 UTC] PHP Warning:  Undefined array key "/Users" in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 63
+[19-Oct-2023 22:54:34 UTC] Hello, errors!
+[19-Oct-2023 22:54:34 UTC] Errores::controller-> Errores
+[19-Oct-2023 22:55:15 UTC] Hello, errors!
+[19-Oct-2023 22:55:15 UTC] sessionController-> validateSession()
+[19-Oct-2023 22:55:15 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[19-Oct-2023 22:55:15 UTC] sessionController::isPublic(): currentURL => 
+[19-Oct-2023 22:55:15 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[19-Oct-2023 22:55:15 UTC] Users Controller ->showUsers
+[19-Oct-2023 22:55:15 UTC] Hello, errors!
+[19-Oct-2023 22:55:15 UTC] Errores::controller-> Errores
+[19-Oct-2023 23:59:16 UTC] Hello, errors!
+[19-Oct-2023 23:59:16 UTC] sessionController-> validateSession()
+[19-Oct-2023 23:59:17 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[19-Oct-2023 23:59:17 UTC] sessionController::isPublic(): currentURL => 
+[19-Oct-2023 23:59:17 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[19-Oct-2023 23:59:17 UTC] Users Controller ->showUsers
+[19-Oct-2023 23:59:17 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in C:\laragon\www\Finanzas\views\admin\edit-user.php:65
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 65
+[19-Oct-2023 23:59:21 UTC] Hello, errors!
+[19-Oct-2023 23:59:21 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:13:21 UTC] Hello, errors!
+[20-Oct-2023 00:13:21 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:13:22 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:13:22 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:13:22 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:13:22 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:13:22 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in C:\laragon\www\Finanzas\views\admin\edit-user.php:65
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 65
+[20-Oct-2023 00:13:25 UTC] Hello, errors!
+[20-Oct-2023 00:13:25 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:13:32 UTC] Hello, errors!
+[20-Oct-2023 00:13:32 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:13:32 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:13:32 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:13:32 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:13:32 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:13:32 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in C:\laragon\www\Finanzas\views\admin\edit-user.php:65
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 65
+[20-Oct-2023 00:13:42 UTC] Hello, errors!
+[20-Oct-2023 00:13:42 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:13:58 UTC] Hello, errors!
+[20-Oct-2023 00:13:58 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:13:58 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:13:58 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:13:58 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:13:58 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:13:58 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in C:\laragon\www\Finanzas\views\admin\edit-user.php:65
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 65
+[20-Oct-2023 00:14:37 UTC] Hello, errors!
+[20-Oct-2023 00:14:37 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:14:37 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:14:37 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:14:37 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:14:37 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:14:37 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in C:\laragon\www\Finanzas\views\admin\edit-user.php:65
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 65
+[20-Oct-2023 00:15:26 UTC] Hello, errors!
+[20-Oct-2023 00:15:26 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:16:10 UTC] Hello, errors!
+[20-Oct-2023 00:16:11 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:16:11 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:16:11 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:16:11 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:16:11 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:16:11 UTC] Hello, errors!
+[20-Oct-2023 00:16:11 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:16:11 UTC] Hello, errors!
+[20-Oct-2023 00:16:11 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:16:41 UTC] Hello, errors!
+[20-Oct-2023 00:16:41 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:17:37 UTC] Hello, errors!
+[20-Oct-2023 00:17:37 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:17:37 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:17:37 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:17:37 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:17:37 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:17:37 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in C:\laragon\www\Finanzas\views\admin\edit-user.php:65
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 65
+[20-Oct-2023 00:17:38 UTC] Hello, errors!
+[20-Oct-2023 00:17:38 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:18:36 UTC] Hello, errors!
+[20-Oct-2023 00:18:36 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[20-Oct-2023 00:18:36 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:18:36 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:18:36 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:18:36 UTC] Error de loguin
+[20-Oct-2023 00:18:48 UTC] Hello, errors!
+[20-Oct-2023 00:18:48 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:18:48 UTC] Session controller -> getCurrentPage: /loguin/authenticate, url => authenticate
+[20-Oct-2023 00:18:48 UTC] sessionController::isPublic(): currentURL => authenticate
+[20-Oct-2023 00:18:48 UTC] Error de loguin
+[20-Oct-2023 00:18:48 UTC] login: inicio
+[20-Oct-2023 00:18:48 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 135
+[20-Oct-2023 00:18:48 UTC] login: user id 11
+[20-Oct-2023 00:18:48 UTC] login: success
+[20-Oct-2023 00:18:48 UTC] Login::authenticate() passed
+[20-Oct-2023 00:18:48 UTC] Hello, errors!
+[20-Oct-2023 00:18:48 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:18:48 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:18:48 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[20-Oct-2023 00:18:48 UTC] sessionController::isPublic(): currentURL => admin
+[20-Oct-2023 00:18:48 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[20-Oct-2023 00:18:48 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:18:48 UTC] Get users model=>9
+[20-Oct-2023 00:18:48 UTC] Total de usuarios -> funcion
+[20-Oct-2023 00:18:48 UTC] Usuarios totales render ->9
+[20-Oct-2023 00:19:22 UTC] Hello, errors!
+[20-Oct-2023 00:19:22 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:19:42 UTC] Hello, errors!
+[20-Oct-2023 00:19:42 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:19:42 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:19:42 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:19:42 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:19:42 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:19:42 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in C:\laragon\www\Finanzas\views\admin\edit-user.php:64
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 64
+[20-Oct-2023 00:20:30 UTC] Hello, errors!
+[20-Oct-2023 00:20:30 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:20:31 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:20:31 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:20:31 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:20:31 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:20:50 UTC] Hello, errors!
+[20-Oct-2023 00:20:50 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:20:50 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:20:50 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:20:50 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:20:50 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:20:50 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in C:\laragon\www\Finanzas\views\admin\edit-user.php:64
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 64
+[20-Oct-2023 00:21:44 UTC] Hello, errors!
+[20-Oct-2023 00:21:44 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:33:12 UTC] Hello, errors!
+[20-Oct-2023 00:33:12 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[20-Oct-2023 00:33:12 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:33:12 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:33:12 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:33:12 UTC] Error de loguin
+[20-Oct-2023 00:33:12 UTC] Hello, errors!
+[20-Oct-2023 00:33:12 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:34:02 UTC] Hello, errors!
+[20-Oct-2023 00:34:02 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:34:02 UTC] Session controller -> getCurrentPage: /loguin/authenticate, url => authenticate
+[20-Oct-2023 00:34:02 UTC] sessionController::isPublic(): currentURL => authenticate
+[20-Oct-2023 00:34:02 UTC] Error de loguin
+[20-Oct-2023 00:34:02 UTC] login: inicio
+[20-Oct-2023 00:34:02 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 135
+[20-Oct-2023 00:34:02 UTC] login: user id 11
+[20-Oct-2023 00:34:02 UTC] login: success
+[20-Oct-2023 00:34:02 UTC] Login::authenticate() passed
+[20-Oct-2023 00:34:02 UTC] Hello, errors!
+[20-Oct-2023 00:34:02 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:34:02 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:34:02 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[20-Oct-2023 00:34:02 UTC] sessionController::isPublic(): currentURL => admin
+[20-Oct-2023 00:34:02 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[20-Oct-2023 00:34:02 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:34:02 UTC] Get users model=>9
+[20-Oct-2023 00:34:02 UTC] Total de usuarios -> funcion
+[20-Oct-2023 00:34:02 UTC] Usuarios totales render ->9
+[20-Oct-2023 00:34:02 UTC] Hello, errors!
+[20-Oct-2023 00:34:02 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:34:06 UTC] Hello, errors!
+[20-Oct-2023 00:34:06 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:34:06 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:34:06 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:34:06 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:34:06 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:34:06 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in C:\laragon\www\Finanzas\views\admin\edit-user.php:64
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 64
+[20-Oct-2023 00:34:06 UTC] Hello, errors!
+[20-Oct-2023 00:34:06 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:34:26 UTC] Hello, errors!
+[20-Oct-2023 00:34:26 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:34:26 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:34:26 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:34:26 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:34:26 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:34:26 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in C:\laragon\www\Finanzas\views\admin\edit-user.php:65
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 65
+[20-Oct-2023 00:34:26 UTC] Hello, errors!
+[20-Oct-2023 00:34:26 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:34:37 UTC] Hello, errors!
+[20-Oct-2023 00:34:37 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:34:37 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:34:37 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:34:37 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:34:37 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:34:37 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in C:\laragon\www\Finanzas\views\admin\edit-user.php:65
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 65
+[20-Oct-2023 00:34:37 UTC] Hello, errors!
+[20-Oct-2023 00:34:37 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:34:38 UTC] Hello, errors!
+[20-Oct-2023 00:34:38 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:34:38 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:34:38 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:34:38 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:34:38 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:34:38 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in C:\laragon\www\Finanzas\views\admin\edit-user.php:65
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 65
+[20-Oct-2023 00:34:38 UTC] Hello, errors!
+[20-Oct-2023 00:34:38 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:34:39 UTC] Hello, errors!
+[20-Oct-2023 00:34:39 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:34:39 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:34:39 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:34:39 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:34:39 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:34:39 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in C:\laragon\www\Finanzas\views\admin\edit-user.php:65
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 65
+[20-Oct-2023 00:34:39 UTC] Hello, errors!
+[20-Oct-2023 00:34:39 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:35:37 UTC] Hello, errors!
+[20-Oct-2023 00:35:37 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:35:37 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:35:37 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:35:37 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:35:37 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:35:37 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in C:\laragon\www\Finanzas\views\admin\edit-user.php:65
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 65
+[20-Oct-2023 00:35:37 UTC] Hello, errors!
+[20-Oct-2023 00:35:38 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:35:39 UTC] Hello, errors!
+[20-Oct-2023 00:35:39 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:35:39 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:35:39 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:35:39 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:35:39 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:35:39 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in C:\laragon\www\Finanzas\views\admin\edit-user.php:65
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 65
+[20-Oct-2023 00:35:39 UTC] Hello, errors!
+[20-Oct-2023 00:35:39 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:35:39 UTC] Hello, errors!
+[20-Oct-2023 00:35:39 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:35:39 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:35:39 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:35:39 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:35:39 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:35:39 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in C:\laragon\www\Finanzas\views\admin\edit-user.php:65
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 65
+[20-Oct-2023 00:35:39 UTC] Hello, errors!
+[20-Oct-2023 00:35:39 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:35:40 UTC] Hello, errors!
+[20-Oct-2023 00:35:40 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:35:40 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:35:40 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:35:40 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:35:40 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:35:40 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in C:\laragon\www\Finanzas\views\admin\edit-user.php:65
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 65
+[20-Oct-2023 00:35:40 UTC] Hello, errors!
+[20-Oct-2023 00:35:40 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:37:33 UTC] Hello, errors!
+[20-Oct-2023 00:37:33 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:37:33 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:37:33 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:37:33 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:37:33 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:37:33 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in C:\laragon\www\Finanzas\views\admin\edit-user.php:65
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 65
+[20-Oct-2023 00:37:33 UTC] Hello, errors!
+[20-Oct-2023 00:37:33 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:37:34 UTC] Hello, errors!
+[20-Oct-2023 00:37:34 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:37:35 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:37:35 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:37:35 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:37:35 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:37:35 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in C:\laragon\www\Finanzas\views\admin\edit-user.php:65
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 65
+[20-Oct-2023 00:37:35 UTC] Hello, errors!
+[20-Oct-2023 00:37:35 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:37:35 UTC] Hello, errors!
+[20-Oct-2023 00:37:35 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:37:35 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:37:35 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:37:35 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:37:35 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:37:35 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in C:\laragon\www\Finanzas\views\admin\edit-user.php:65
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 65
+[20-Oct-2023 00:37:35 UTC] Hello, errors!
+[20-Oct-2023 00:37:35 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:37:36 UTC] Hello, errors!
+[20-Oct-2023 00:37:36 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:37:36 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:37:36 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:37:36 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:37:36 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:37:36 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in C:\laragon\www\Finanzas\views\admin\edit-user.php:65
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 65
+[20-Oct-2023 00:37:36 UTC] Hello, errors!
+[20-Oct-2023 00:37:36 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:37:41 UTC] Hello, errors!
+[20-Oct-2023 00:37:41 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:37:41 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:37:41 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:37:41 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:37:41 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:37:41 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in C:\laragon\www\Finanzas\views\admin\edit-user.php:65
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 65
+[20-Oct-2023 00:37:41 UTC] Hello, errors!
+[20-Oct-2023 00:37:41 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:37:42 UTC] Hello, errors!
+[20-Oct-2023 00:37:42 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:37:42 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:37:42 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:37:42 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:37:42 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:37:42 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in C:\laragon\www\Finanzas\views\admin\edit-user.php:65
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 65
+[20-Oct-2023 00:37:42 UTC] Hello, errors!
+[20-Oct-2023 00:37:42 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:37:42 UTC] Hello, errors!
+[20-Oct-2023 00:37:42 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:37:43 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:37:43 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:37:43 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:37:43 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:37:43 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in C:\laragon\www\Finanzas\views\admin\edit-user.php:65
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 65
+[20-Oct-2023 00:37:43 UTC] Hello, errors!
+[20-Oct-2023 00:37:43 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:37:43 UTC] Hello, errors!
+[20-Oct-2023 00:37:43 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:37:43 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:37:43 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:37:43 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:37:43 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:37:43 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in C:\laragon\www\Finanzas\views\admin\edit-user.php:65
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 65
+[20-Oct-2023 00:37:43 UTC] Hello, errors!
+[20-Oct-2023 00:37:43 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:38:37 UTC] Hello, errors!
+[20-Oct-2023 00:38:37 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:38:37 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:38:37 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:38:37 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:38:37 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:38:37 UTC] Hello, errors!
+[20-Oct-2023 00:38:37 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:39:23 UTC] Hello, errors!
+[20-Oct-2023 00:39:23 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:39:24 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:39:24 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:39:24 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:39:24 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:39:24 UTC] Hello, errors!
+[20-Oct-2023 00:39:24 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:39:57 UTC] Hello, errors!
+[20-Oct-2023 00:39:57 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:39:57 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:39:57 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:39:57 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:39:57 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:39:57 UTC] PHP Warning:  Undefined variable $elementosPorPagina in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 71
+[20-Oct-2023 00:39:57 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\laragon\www\Finanzas\views\admin\edit-user.php:71
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 71
+[20-Oct-2023 00:39:57 UTC] Hello, errors!
+[20-Oct-2023 00:39:57 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:40:00 UTC] Hello, errors!
+[20-Oct-2023 00:40:00 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:40:00 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:40:00 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:40:00 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:40:00 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:40:00 UTC] PHP Warning:  Undefined variable $elementosPorPagina in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 71
+[20-Oct-2023 00:40:00 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\laragon\www\Finanzas\views\admin\edit-user.php:71
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 71
+[20-Oct-2023 00:40:00 UTC] Hello, errors!
+[20-Oct-2023 00:40:00 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:40:07 UTC] Hello, errors!
+[20-Oct-2023 00:40:07 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:40:07 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:40:07 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:40:07 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:40:07 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:40:07 UTC] Hello, errors!
+[20-Oct-2023 00:40:07 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:41:13 UTC] Hello, errors!
+[20-Oct-2023 00:41:13 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:41:13 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:41:13 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:41:13 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:41:13 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:41:13 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, int given in C:\laragon\www\Finanzas\views\admin\edit-user.php:70
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 70
+[20-Oct-2023 00:41:13 UTC] Hello, errors!
+[20-Oct-2023 00:41:13 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:41:14 UTC] Hello, errors!
+[20-Oct-2023 00:41:14 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:41:14 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:41:14 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:41:14 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:41:14 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:41:14 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, int given in C:\laragon\www\Finanzas\views\admin\edit-user.php:70
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 70
+[20-Oct-2023 00:41:14 UTC] Hello, errors!
+[20-Oct-2023 00:41:14 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:41:14 UTC] Hello, errors!
+[20-Oct-2023 00:41:14 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:41:14 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:41:14 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:41:14 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:41:14 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:41:14 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, int given in C:\laragon\www\Finanzas\views\admin\edit-user.php:70
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 70
+[20-Oct-2023 00:41:15 UTC] Hello, errors!
+[20-Oct-2023 00:41:15 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:41:15 UTC] Hello, errors!
+[20-Oct-2023 00:41:15 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:41:15 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:41:15 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:41:15 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:41:15 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:41:15 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, int given in C:\laragon\www\Finanzas\views\admin\edit-user.php:70
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 70
+[20-Oct-2023 00:41:15 UTC] Hello, errors!
+[20-Oct-2023 00:41:15 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:41:19 UTC] Hello, errors!
+[20-Oct-2023 00:41:19 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:41:19 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:41:19 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:41:19 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:41:19 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:41:19 UTC] PHP Warning:  Undefined variable $totalElementos in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 71
+[20-Oct-2023 00:41:19 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: null / array in C:\laragon\www\Finanzas\views\admin\edit-user.php:71
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 71
+[20-Oct-2023 00:41:19 UTC] Hello, errors!
+[20-Oct-2023 00:41:19 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:41:27 UTC] Hello, errors!
+[20-Oct-2023 00:41:27 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:41:27 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:41:27 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:41:27 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:41:27 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:41:27 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, int given in C:\laragon\www\Finanzas\views\admin\edit-user.php:70
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 70
+[20-Oct-2023 00:41:28 UTC] Hello, errors!
+[20-Oct-2023 00:41:28 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:41:28 UTC] Hello, errors!
+[20-Oct-2023 00:41:28 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:41:28 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:41:28 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:41:28 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:41:28 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:41:28 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, int given in C:\laragon\www\Finanzas\views\admin\edit-user.php:70
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 70
+[20-Oct-2023 00:41:28 UTC] Hello, errors!
+[20-Oct-2023 00:41:28 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:41:28 UTC] Hello, errors!
+[20-Oct-2023 00:41:28 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:41:29 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:41:29 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:41:29 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:41:29 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:41:29 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, int given in C:\laragon\www\Finanzas\views\admin\edit-user.php:70
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 70
+[20-Oct-2023 00:41:29 UTC] Hello, errors!
+[20-Oct-2023 00:41:29 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:41:46 UTC] Hello, errors!
+[20-Oct-2023 00:41:46 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:41:46 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:41:46 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:41:46 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:41:46 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:41:46 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int / array in C:\laragon\www\Finanzas\views\admin\edit-user.php:71
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 71
+[20-Oct-2023 00:41:47 UTC] Hello, errors!
+[20-Oct-2023 00:41:47 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:41:52 UTC] Hello, errors!
+[20-Oct-2023 00:41:52 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:41:52 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:41:52 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:41:52 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:41:52 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:41:52 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int / array in C:\laragon\www\Finanzas\views\admin\edit-user.php:71
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 71
+[20-Oct-2023 00:41:53 UTC] Hello, errors!
+[20-Oct-2023 00:41:53 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:42:01 UTC] Hello, errors!
+[20-Oct-2023 00:42:01 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:42:01 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:42:01 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:42:01 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:42:01 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:42:01 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int / array in C:\laragon\www\Finanzas\views\admin\edit-user.php:72
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 72
+[20-Oct-2023 00:42:01 UTC] Hello, errors!
+[20-Oct-2023 00:42:01 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:42:02 UTC] Hello, errors!
+[20-Oct-2023 00:42:02 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:42:02 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:42:02 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:42:02 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:42:02 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:42:02 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int / array in C:\laragon\www\Finanzas\views\admin\edit-user.php:72
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 72
+[20-Oct-2023 00:42:02 UTC] Hello, errors!
+[20-Oct-2023 00:42:02 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:42:24 UTC] Hello, errors!
+[20-Oct-2023 00:42:24 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:42:24 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:42:24 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:42:24 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:42:24 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:42:24 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int / array in C:\laragon\www\Finanzas\views\admin\edit-user.php:72
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 72
+[20-Oct-2023 00:42:24 UTC] Hello, errors!
+[20-Oct-2023 00:42:24 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:42:24 UTC] Hello, errors!
+[20-Oct-2023 00:42:24 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:42:24 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:42:24 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:42:24 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:42:24 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:42:24 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int / array in C:\laragon\www\Finanzas\views\admin\edit-user.php:72
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 72
+[20-Oct-2023 00:42:24 UTC] Hello, errors!
+[20-Oct-2023 00:42:24 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:42:45 UTC] Hello, errors!
+[20-Oct-2023 00:42:45 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:42:45 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:42:45 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:42:45 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:42:45 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:42:45 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 71
+[20-Oct-2023 00:42:45 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int / array in C:\laragon\www\Finanzas\views\admin\edit-user.php:72
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 72
+[20-Oct-2023 00:42:45 UTC] Hello, errors!
+[20-Oct-2023 00:42:45 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:42:46 UTC] Hello, errors!
+[20-Oct-2023 00:42:46 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:42:46 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:42:46 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:42:46 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:42:46 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:42:46 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 71
+[20-Oct-2023 00:42:46 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int / array in C:\laragon\www\Finanzas\views\admin\edit-user.php:72
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 72
+[20-Oct-2023 00:42:46 UTC] Hello, errors!
+[20-Oct-2023 00:42:46 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:42:47 UTC] Hello, errors!
+[20-Oct-2023 00:42:47 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:42:47 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:42:47 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:42:47 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:42:47 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:42:47 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 71
+[20-Oct-2023 00:42:47 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int / array in C:\laragon\www\Finanzas\views\admin\edit-user.php:72
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 72
+[20-Oct-2023 00:42:47 UTC] Hello, errors!
+[20-Oct-2023 00:42:47 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:42:47 UTC] Hello, errors!
+[20-Oct-2023 00:42:47 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:42:47 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:42:47 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:42:47 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:42:47 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:42:47 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 71
+[20-Oct-2023 00:42:47 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int / array in C:\laragon\www\Finanzas\views\admin\edit-user.php:72
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 72
+[20-Oct-2023 00:42:47 UTC] Hello, errors!
+[20-Oct-2023 00:42:47 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:43:06 UTC] Hello, errors!
+[20-Oct-2023 00:43:06 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:43:06 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:43:06 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:43:06 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:43:06 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:43:06 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int / array in C:\laragon\www\Finanzas\views\admin\edit-user.php:72
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 72
+[20-Oct-2023 00:43:07 UTC] Hello, errors!
+[20-Oct-2023 00:43:07 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:53:47 UTC] Hello, errors!
+[20-Oct-2023 00:53:47 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:53:47 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:53:47 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:53:47 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:53:47 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:53:47 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int / array in C:\laragon\www\Finanzas\views\admin\edit-user.php:72
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 72
+[20-Oct-2023 00:53:48 UTC] Hello, errors!
+[20-Oct-2023 00:53:48 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:53:58 UTC] Hello, errors!
+[20-Oct-2023 00:53:58 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:53:58 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:53:58 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:53:58 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:53:58 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:53:58 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int / array in C:\laragon\www\Finanzas\views\admin\edit-user.php:72
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 72
+[20-Oct-2023 00:53:58 UTC] Hello, errors!
+[20-Oct-2023 00:53:58 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:53:59 UTC] Hello, errors!
+[20-Oct-2023 00:53:59 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:53:59 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:53:59 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:53:59 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:53:59 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:53:59 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int / array in C:\laragon\www\Finanzas\views\admin\edit-user.php:72
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 72
+[20-Oct-2023 00:53:59 UTC] Hello, errors!
+[20-Oct-2023 00:53:59 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:54:42 UTC] Hello, errors!
+[20-Oct-2023 00:54:42 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:54:42 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:54:42 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:54:42 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:54:42 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:54:42 UTC] Error en paginacion 01
+[20-Oct-2023 00:54:42 UTC] Error en paginacion 02
+[20-Oct-2023 00:54:42 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int / array in C:\laragon\www\Finanzas\views\admin\edit-user.php:72
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Users.php(17): View->render('admin/edit-user', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Users->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\admin\edit-user.php on line 72
+[20-Oct-2023 00:54:42 UTC] Hello, errors!
+[20-Oct-2023 00:54:42 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:56:25 UTC] Hello, errors!
+[20-Oct-2023 00:56:25 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:56:26 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:56:26 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:56:26 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:56:26 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:56:26 UTC] Error en paginacion 01
+[20-Oct-2023 00:56:26 UTC] Error en paginacion 02
+[20-Oct-2023 00:56:26 UTC] Hello, errors!
+[20-Oct-2023 00:56:26 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:56:40 UTC] Hello, errors!
+[20-Oct-2023 00:56:40 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:56:40 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:56:40 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:56:40 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:56:40 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:56:40 UTC] Error en paginacion 01
+[20-Oct-2023 00:56:40 UTC] Error en paginacion 02
+[20-Oct-2023 00:56:40 UTC] Hello, errors!
+[20-Oct-2023 00:56:40 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:56:43 UTC] Hello, errors!
+[20-Oct-2023 00:56:43 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:56:43 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:56:43 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:56:43 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:56:43 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:56:43 UTC] Error en paginacion 01
+[20-Oct-2023 00:56:43 UTC] Error en paginacion 02
+[20-Oct-2023 00:56:43 UTC] Hello, errors!
+[20-Oct-2023 00:56:43 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:56:44 UTC] Hello, errors!
+[20-Oct-2023 00:56:44 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:56:44 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:56:44 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:56:44 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:56:44 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:56:44 UTC] Error en paginacion 01
+[20-Oct-2023 00:56:44 UTC] Error en paginacion 02
+[20-Oct-2023 00:56:44 UTC] Hello, errors!
+[20-Oct-2023 00:56:44 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:57:30 UTC] Hello, errors!
+[20-Oct-2023 00:57:30 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:57:31 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:57:31 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:57:31 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:57:31 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:57:31 UTC] Error en paginacion 01
+[20-Oct-2023 00:57:31 UTC] Error en paginacion 02
+[20-Oct-2023 00:57:31 UTC] Hello, errors!
+[20-Oct-2023 00:57:31 UTC] Errores::controller-> Errores
+[20-Oct-2023 00:57:32 UTC] Hello, errors!
+[20-Oct-2023 00:57:32 UTC] sessionController-> validateSession()
+[20-Oct-2023 00:57:32 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 00:57:32 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 00:57:32 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 00:57:32 UTC] Users Controller ->showUsers
+[20-Oct-2023 00:57:32 UTC] Error en paginacion 01
+[20-Oct-2023 00:57:32 UTC] Error en paginacion 02
+[20-Oct-2023 00:57:32 UTC] Hello, errors!
+[20-Oct-2023 00:57:32 UTC] Errores::controller-> Errores
+[20-Oct-2023 01:14:40 UTC] Hello, errors!
+[20-Oct-2023 01:14:40 UTC] sessionController-> validateSession()
+[20-Oct-2023 01:14:40 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 01:14:40 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 01:14:40 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 01:14:40 UTC] Users Controller ->showUsers
+[20-Oct-2023 01:14:40 UTC] Error en paginacion 01
+[20-Oct-2023 01:14:40 UTC] Error en paginacion 02
+[20-Oct-2023 01:14:41 UTC] Hello, errors!
+[20-Oct-2023 01:14:41 UTC] Errores::controller-> Errores
+[20-Oct-2023 02:52:39 UTC] Hello, errors!
+[20-Oct-2023 02:52:40 UTC] sessionController-> validateSession()
+[20-Oct-2023 02:52:40 UTC] Session controller-> getUserSession Data  bicaqemizo@mailinator.com
+[20-Oct-2023 02:52:40 UTC] sessionController::isPublic(): currentURL => 
+[20-Oct-2023 02:52:40 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 96
+[20-Oct-2023 02:52:40 UTC] Users Controller ->showUsers
+[20-Oct-2023 02:52:40 UTC] Error en paginacion 01
+[20-Oct-2023 02:52:40 UTC] Error en paginacion 02

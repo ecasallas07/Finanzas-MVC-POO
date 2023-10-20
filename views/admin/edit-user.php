@@ -57,10 +57,30 @@ $users = $this->d['info'];
                                 <th>Name</th>
                                 <th></th>
                             </tr>
+                            <?php
+                            $elementsPage = 5;
+                            //TODO: this is a version for replace the opertator ternario
+                            $page = isset($_GET['pagina']) ? intval($_GET['pagina']) : 1;
+
+                            $indexBeguin = ($page - 1) * $elementsPage;
+                            error_log('Error en paginacion 01');
+                            $usersFinally = array_slice($users,$indexBeguin,$elementsPage);
+
+//                            print_r($usersFinally);
+                            $totalElementos = count($users);
+                            error_log('Error en paginacion 02');
+                            $totalPaginas = ceil($totalElementos / $elementsPage);
+
+                            echo "Página actual: $page de $totalPaginas";
+                            for ($i = 1; $i <= $totalPaginas; $i++) {
+                                echo '<a href="?pagina=' . $i . '">' . $i . '</a> ';
+                            }
+
+                            ?>
                             </thead>
-                            <tbody>
+                            <tbody id="table-body">
                                 <?php
-                                    foreach ($users as $item){
+                                    foreach ($usersFinally as $item){
                                 ?>
                                 <tr>
                                     <td> <?php echo $item['id'] ?></td>
@@ -78,6 +98,15 @@ $users = $this->d['info'];
 
                             </tbody>
                         </table>
+
+                        <div id="pagination-container">
+                            <?php
+
+                            ?>
+                            <ul id="pagination-list" class="pagination">
+                                <!-- Los enlaces de paginación se llenarán dinámicamente aquí -->
+                            </ul>
+                        </div>
 
                     </div>
 
@@ -165,7 +194,6 @@ $users = $this->d['info'];
         function mostrarId(id){
             const dataAtributte = id.parentElement.getAttribute('data-data');
 
-            //Parse es para convertir un JSON a un objeto
             const data = JSON.parse(dataAtributte);
             console.log(data)
             document.getElementById('id_user').value = data.id;
@@ -177,6 +205,12 @@ $users = $this->d['info'];
 
 
         }
+
+
+
+
+
+
     </script>
 
 

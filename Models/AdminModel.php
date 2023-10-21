@@ -229,7 +229,24 @@ class AdminModel extends Model implements IModel
 
     }
 
+    public function deleteUsersModel($name){
+        try{
+            $query =$this->prepare('DELETE FROM users WHERE name = :name');
+            $query->execute([
+                'name' => $name
+            ]);
+            if($query){
+                return true;
+            }else{
+                return false;
+            }
 
+        }catch (PDOException $e){
+            error_log('Delete-User for name'. $e->getMessage());
+        }
+
+
+    }
 
 
     public function get($id)

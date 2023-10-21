@@ -58,23 +58,21 @@ $users = $this->d['info'];
                                 <th></th>
                             </tr>
                             <?php
-                            $elementsPage = 5;
-                            //TODO: this is a version for replace the opertator ternario
-                            $page = isset($_GET['pagina']) ? intval($_GET['pagina']) : 1;
+                                $elementsPage = 3;
+                                //TODO: this is a version for replace the opertator ternario
+                                $page = isset($_GET['pagina']) ? intval($_GET['pagina']) : 1;
 
-                            $indexBeguin = ($page - 1) * $elementsPage;
-                            error_log('Error en paginacion 01');
-                            $usersFinally = array_slice($users,$indexBeguin,$elementsPage);
+                                $indexBeguin = ($page - 1) * $elementsPage;
+                                error_log('Error en paginacion 01');
+                                $usersFinally = array_slice($users,$indexBeguin,$elementsPage);
 
-//                            print_r($usersFinally);
-                            $totalElementos = count($users);
-                            error_log('Error en paginacion 02');
-                            $totalPaginas = ceil($totalElementos / $elementsPage);
+    //                            print_r($usersFinally);
+                                $totalElementos = count($users);
+                                error_log('Error en paginacion 02');
+                                $totalPaginas = ceil($totalElementos / $elementsPage);
 
-                            echo "Página actual: $page de $totalPaginas";
-                            for ($i = 1; $i <= $totalPaginas; $i++) {
-                                echo '<a href="?pagina=' . $i . '">' . $i . '</a> ';
-                            }
+
+
 
                             ?>
                             </thead>
@@ -100,12 +98,36 @@ $users = $this->d['info'];
                         </table>
 
                         <div id="pagination-container">
-                            <?php
+                            <p class="badge bg-primary">Pagina actual: <?php echo $page?> de <?php echo $totalPaginas; ?></p>
+                            <nav>
+                                <ul id="pagination-list" class="pagination">
+                                    <li class="page-item">
+                                        <?php if($page>1): ?>
+                                            <a class="page-link" href="?pagina= <?php echo $page-1 ?>" aria-label="Previous">
+                                                <span aria-hidden="true">&laquo;</span>
+                                            </a>
+                                        <?php else: ?>
+                                            <a class="page-link" href="?pagina=1" aria-label="Previous">
+                                                <span aria-hidden="true">&laquo;</span>
+                                            </a>
+                                        <?php endif; ?>
 
-                            ?>
-                            <ul id="pagination-list" class="pagination">
-                                <!-- Los enlaces de paginación se llenarán dinámicamente aquí -->
-                            </ul>
+                                    </li>
+                                    <?php
+                                        for ($i = 1; $i <= $totalPaginas; $i++) {
+                                            $isActive = ($i==$page) ? 'active': '';
+                                            echo '<li class="page-item '. $isActive .' ">';
+                                            echo '<a class="page-link" href="?pagina=' . $i . '">' . $i . '</a>';
+                                            echo '</li>';
+                                        }
+                                    ?>
+                                    <li class="page-item">
+                                        <a class="page-link" href="?pagina= <?php echo $page + 1?>" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
                         </div>
 
                     </div>
@@ -119,7 +141,7 @@ $users = $this->d['info'];
                         <div class="panel panel-primary text-center no-boder bg-color-blue">
                             <div class="panel-body">
                                 <i class="fa fa-bar-chart-o fa-5x"></i>
-                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#miModal" ><h3>Eliminar Usuarios</h3></button>
+                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#miModalDelete" ><h3>Eliminar Usuarios</h3></button>
 
                                 <h4></h4>
                             </div>
@@ -143,6 +165,7 @@ $users = $this->d['info'];
                                         <input type="hidden" value="" name="id_user" id="id_user"/>
                                         <input type="text" autocomplete="off" name="username"/ id="username" value="">
                                     </div>
+
 
                                     <div class="field-wrap">
                                         <label>Set A Password<span class="req">*</span>
@@ -183,6 +206,48 @@ $users = $this->d['info'];
                         </div>
                     </div>
                 </div>
+
+<!--                TODO: Modal is for delete users, select name-->
+                <div class="modal" id="miModalDelete">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <!-- Contenido del modal -->
+                            <div class="modal-header">
+                                <h5 class="modal-title">Crear usuario</h5>
+                                <form action="<?php echo constant('URL'); ?>Users/deleteUsers" method="POST">
+
+
+                                    <div class="field-wrap">
+                                        <label>Select User for delete<span class="req">*</span>
+                                        </label>
+
+                                        <select name="name" id="role" value="">
+
+                                            <option value="" selected></option>
+                                            <?php
+
+                                            foreach ($users as $item) {
+
+                                            ?>
+                                                <option value="<?php echo $item['name'] ?>" ><?php echo $item['name'] ?></option>
+                                            <?php }?>
+                                        </select>
+                                    </div>
+
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                        <button type="submit" class="btn btn-dangerous">Eliminar Usuario</button>
+
+                                    </div>
+
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
 
             </div>
         </div>

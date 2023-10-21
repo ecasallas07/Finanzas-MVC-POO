@@ -59,5 +59,24 @@ class Users extends SessionController
         }
     }
 
+    public function deleteUsers(){
+        if($this->existPost(['name'])){
+            $name = $this->getPost('name');
+            $model = new AdminModel();
+            if($model->deleteUsersModel($name)){
+                error_log('Se elimino correctamente lel usuario'. $name);
+                $this->redirect('Users', ['success' => Success::SUCCESS_SIGNUP_NEWUSER]);
+            }else{
+                error_log('No se eliminaron correctamente'. $name);
+                $this->redirect('Users', ['error' => Errors::ERROR_SIGNUP_NEWUSER]);
+            }
+
+        }else{
+            error_log('No existe el parametro name');
+            $this->redirect('Users', ['error' => Success::SUCCESS_SIGNUP_NEWUSER]);
+        }
+    }
+
+
 
 }

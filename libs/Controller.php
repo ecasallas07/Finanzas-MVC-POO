@@ -32,7 +32,7 @@ class Controller
     public function existGet($params){
     foreach ($params as $param){
         if(!isset($_POST[$param])) {
-            error_log('Controller::existPost => no existe el parametro');
+            error_log('Controller::existGET => no existe el parametro');
             return false;
         }
     }

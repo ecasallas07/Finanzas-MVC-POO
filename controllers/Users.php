@@ -19,9 +19,14 @@ class Users extends SessionController
     }
 
     public function showUsers(){
-        $model = new AdminModel();
-        error_log('Users Controller ->showUsers');
-        return $model->getUsersComplete();
+        try{
+            $model = new AdminModel();
+            error_log('Users Controller ->showUsers');
+            return $model->getUsersComplete();
+        }catch (PDOException $e){
+            error_log('Error en show Users controller Users'. $e->getMessage());
+        }
+
 
     }
 
@@ -75,6 +80,35 @@ class Users extends SessionController
             error_log('No existe el parametro name');
             $this->redirect('Users', ['error' => Success::SUCCESS_SIGNUP_NEWUSER]);
         }
+    }
+
+    public function sendMessage(){
+        if($this->existPost(['username_id','title','mensaje'])){
+            $id_destinatario = $this->getPost('username_id');
+            $title = $this->getPost('title');
+            $mensaje = $this->getPost('mensaje');
+            $id_remitente = $this->getUserSessionData()->getId();
+            $model = new AdminModel();
+
+            if($model->usersMensaje($id_destinatario,$mensaje,$id_remitente,$title)){
+                error_log('No se eliminaron correctamente'. $id_destinatario . $id_remitente);
+                $this->redirect('Admin', ['success' => Success::SUCCESS_SIGNUP_NEWUSER]);
+            }else{
+                error_log('Hubo algun error al guardar los datos');
+                $this->redirect('Admin', ['error' => Success::SUCCESS_SIGNUP_NEWUSER]);
+            }
+
+        }else{
+            error_log('No existe el parametro name');
+            $this->redirect('Admin', ['error' => Success::SUCCESS_SIGNUP_NEWUSER]);
+
+        }
+    }
+
+    public function notifications(){
+        $model = new AdminModel();
+        return $model->showNotifications($this->getUserSessionData()->getId());
+
     }
 
 

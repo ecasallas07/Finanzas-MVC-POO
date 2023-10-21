@@ -248,6 +248,47 @@ class AdminModel extends Model implements IModel
 
     }
 
+    public function usersMensaje($destinatario,$mensaje,$remitente,$titulo){
+        try{
+            $query = $this->prepare('INSERT INTO notifications(id_destinatario,mensaje,id_remitente,titulo) VALUES(:destinatario,:mensaje,:remitente,:titulo)');
+            $query->execute([
+                'destinatario'=> $destinatario,
+                'mensaje'=> $mensaje,
+                'remitente'=> $remitente,
+                'titulo'=> $titulo
+
+            ]);
+            if($query->rowCount() > 0){
+                return true;
+            }else{
+                return false;
+            }
+        }catch (PDOException $e){
+            error_log('Mensaje no se guardo correctamente' . $e->getMessage());
+        }
+
+    }
+
+//    TODO: cuando se usa static dentro de una funcion no puede ir $this / debe crearse la instancia
+    public function showNotifications($destinatario){
+        try{
+            $query = $this->prepare('SELECT name ,titulo, mensaje,fecha_hora FROM notifications JOIN users ON id_remitente = users.id WHERE id_destinatario = :destinatario');
+            $query->execute([
+                'destinatario' => $destinatario
+
+            ]);
+            $mensaje =[];
+            while($item= $query->fetch(PDO::FETCH_OBJ)){
+                $mensaje[] = $item;
+
+            }
+            return $mensaje;
+
+        }catch (PDOException $e){
+            error_log('No funciono el mostrar notitifaciones');
+        }
+    }
+
 
     public function get($id)
     {

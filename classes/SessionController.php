@@ -84,9 +84,10 @@ class SessionController extends Controller
     {
         $this->session = new Session();
         $id = $this->session->getCurrentUser();
+        //TODO" In this case return a model User, so we can access a the metods the model
         $this->user = new UserModel();
         $this->user->get($id);
-        error_log('Session controller-> getUserSession Data  ' . $this->user->getUsername());
+        error_log('Session controller-> getUserSession Data  ' . $this->user->getId());
         return $this->user;
     }
     private function isPublic()

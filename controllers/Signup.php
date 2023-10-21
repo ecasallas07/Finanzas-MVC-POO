@@ -1,6 +1,7 @@
 <?php
 require_once './classes/errors.php';
 require_once './Models/UserModel.php';
+require_once './classes/success.php';
 class Signup extends SessionController
 {
     function __construct()

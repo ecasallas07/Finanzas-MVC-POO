@@ -1,5 +1,13 @@
+<?php
+    require_once './controllers/Users.php';
+    $model = new Users();
+    $users=$model->showUsers();
+    $notification = $model->notifications();
+
+?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,10 +38,8 @@
             <a class="navbar-brand" href="#"><i class="fa fa-square-o "></i>&nbsp;FINANZAS</a>
         </div>
         <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#" class="fa fa-edit ">Setings</a></li>
-                <li><a href="#" class="fa fa-edit ">Logout</a></li>
-            </ul>
+
+            <h5 class="text-right text-muted "><?php echo $model->getUserSessionData()->getName(); ?></h5>
         </div>
 
     </div>
@@ -46,16 +52,19 @@
                 <img src="<?php echo constant('URL'); ?>public/img/find_user.png" class="img-responsive" />
 
             </li>
+            <li>
+                <a href="<?php echo constant('URL'); ?>Admin"><i class="fa fa-table "></i>Admin</a>
+            </li>
 
             <li>
-                <a href="#"><i class="fa fa-edit "></i>Perfil<span class="fa arrow"></span></a>
+                <a href="#"><i class="fa fa-edit option-active"></i>Perfil<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
 <!--                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#miModalNotifications" ><h3>Notifications</h3></button>-->
                         <a href="#" data-toggle="modal" data-target="#miModalNotifications">Notifications</a>
                     </li>
                     <li>
-                        <a href="#" data-toggle="modal" data-target="#miModalMensajes">Mensaje</a>
+                        <a href="Users" data-toggle="modal" data-target="#miModalMensajes">Mensaje</a>
                     </li>
                 </ul>
             </li>
@@ -83,6 +92,8 @@
     </div>
 
 </nav>
+
+
 <!--    TODO: Modal for notifications of the menu-->
     <div class="modal" id="miModalNotifications">
         <div class="modal-dialog">
@@ -92,18 +103,28 @@
                     <h5 class="modal-title">Notificaciones</h5>
                 </div>
 
+                        <?php
+                        if($notification > 0){
+                            foreach ($notification as $item){
+                        ?>
+                            <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" style="border: 2px solid grey !important;margin: 20px 20px !important;box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                                <div class="toast-header" style="border-bottom: 1px solid grey !important;display: flex !important; justify-content: space-between !important;">
+    <!--                                <img src="..." class="rounded me-2" alt="...">-->
+                                    <p class="me-auto" style="align-self: flex-start !important;">Asunto: <span style="font-weight: bold !important;"><?php echo $item->titulo ?></p></span>
+                                    <p style="align-self: flex-end !important;">De: <?php echo $item->name ?> // <span class="text-nowrap bd-highlight" style="font-weight: bold !important;"><?php echo $item->fecha_hora ?></span></p>
+                                </div>
+                                <div class="toast-body">
+                                    <?php echo $item->mensaje ?>
+                                </div>
+                            </div>
+                        <?php }
+                        }else{
+                        ?>
+                            <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" style="border: 2px solid grey !important;margin: 20px 20px !important;box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                               <p class="fs-2 fw-bold">Sin notificaciones</p>
+                            </div>
 
-                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" style="border: 2px solid grey !important;margin: 20px 20px !important;box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-                            <div class="toast-header" style="border-bottom: 1px solid grey !important;">
-<!--                                <img src="..." class="rounded me-2" alt="...">-->
-                                <strong class="me-auto">Bootstrap</strong>
-                                <small>11 mins ago</small>
-                                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-                            </div>
-                            <div class="toast-body">
-                                Hello, world! This is a toast message.
-                            </div>
-                        </div>
+                        <?php }?>
 
 
                     <div class="modal-footer">
@@ -118,22 +139,26 @@
             </div>
         </div>
     </div>
+
     <!--    TODO: Modal for Messages of the Users-->
     <div class="modal" id="miModalMensajes">
         <div class="modal-dialog">
             <div class="modal-content">
                 <!-- Contenido del modal -->
                 <div class="modal-header">
-                    <h5 class="modal-title">Notificaciones</h5>
-                    <form action="<?php echo constant('URL'); ?>Users/updateAdminUsers" method="POST">
+                    <h5 class="modal-title">Crear Mensaje</h5>
+                    <form action="<?php echo constant('URL'); ?>Users/sendMessage" method="POST">
 
                         <div class="field-wrap">
                             <label>Usuario<span class="req">*</span>
                             </label>
-                            <select name="role" id="role" value="">
+
+                            <select name="username_id" id="username">
+
                                 <option value="" selected></option>
-                                <option value="user" >User</option>
-                                <option value="admin" >Admin</option>
+                                <?php foreach ($users as $item){ ?>
+                                <option value="<?php echo $item['id'] ?>" ><?php echo $item['name'] ?></option>
+                                <?php } ?>
 
                             </select>
                         </div>
@@ -146,7 +171,7 @@
 
                             <label for="textarea" class="form-label">Mensaje:</label>
                             <p class="font-italic font-weight-light">Escriba el mensaje:</p>
-                            <textarea type="text" class="form-control" id="textarea" name="columnas"  rows="2" cols="50"></textarea>
+                            <textarea type="text" class="form-control" id="textarea" name="mensaje"  rows="2" cols="50"></textarea>
                         </div>
 
 

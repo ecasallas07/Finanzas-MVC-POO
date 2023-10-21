@@ -63,12 +63,10 @@ $users = $this->d['info'];
                                 $page = isset($_GET['pagina']) ? intval($_GET['pagina']) : 1;
 
                                 $indexBeguin = ($page - 1) * $elementsPage;
-                                error_log('Error en paginacion 01');
                                 $usersFinally = array_slice($users,$indexBeguin,$elementsPage);
 
     //                            print_r($usersFinally);
                                 $totalElementos = count($users);
-                                error_log('Error en paginacion 02');
                                 $totalPaginas = ceil($totalElementos / $elementsPage);
 
 
@@ -157,13 +155,13 @@ $users = $this->d['info'];
                         <div class="modal-content">
                             <!-- Contenido del modal -->
                             <div class="modal-header">
-                                <h5 class="modal-title">Crear usuario</h5>
+                                <h5 class="modal-title">Editar usuario</h5>
                                 <form action="<?php echo constant('URL'); ?>Users/updateAdminUsers" method="POST">
                                     <div class="field-wrap">
                                         <label>Email Address<span class="req">*</span>
                                         </label>
                                         <input type="hidden" value="" name="id_user" id="id_user"/>
-                                        <input type="text" autocomplete="off" name="username"/ id="username" value="">
+                                        <input type="text" autocomplete="off" name="username" id="u_sername" value="">
                                     </div>
 
 
@@ -262,7 +260,7 @@ $users = $this->d['info'];
             const data = JSON.parse(dataAtributte);
             console.log(data)
             document.getElementById('id_user').value = data.id;
-            document.getElementById('username').value = data.username;
+            document.getElementById('u_sername').value = data.username;
             document.getElementById('password').value = data.password;
             document.getElementById('role').value = data.role;
             document.getElementById('telefono').value = data.telefono;

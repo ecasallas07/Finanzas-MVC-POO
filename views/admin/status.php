@@ -1,3 +1,7 @@
+<?php
+    $category = $this->d['category'];
+?>
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -17,75 +21,368 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 
     <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">-->
+
+    <style>
+        .form_div{
+            width: 600px !important;
+            /*border: 1px solid black !important;*/
+            padding: 10px !important;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 19px;
+            background: rgb(17, 80, 136);
+            color: white !important;
+            margin-left: 15px !important;
+            margin: auto !important;
+        }
+        .modal_div{
+            /*width: 200px !important;*/
+            margin-top: 30px !important;
+            display: flex !important;
+            justify-content: space-between !important;
+        }
+        .modal_div div{
+            border: 1px solid black;
+            border-radius: 10px !important;
+            background: #007494 !important;
+            color: white !important;
+            width: 258px !important;
+            /*height: 178px !important;*/
+        }
+        label{
+            color: white !important;
+
+        }
+        .btn-bills{
+            text-align: center !important;
+        }
+
+        .btn-bills button{
+            width: 240px !important;
+            background: rgb(38, 132, 214) !important;
+            font-size: 18px !important;
+            font-weight: bold;
+            border-radius: 25px !important;
+        }
+        .title_bills{
+            font-weight: bold;
+            text-align: center;
+        }
+
+    </style>
 </head>
 <body>
-    <!--    Resumen de estado de cuenta
-        Saldo actual
-        Total de ingresos
-        Total de gastos
-        Resumen de movimientos recientes
-    -->
-    <div class="row">
-        <div class="col-md-6">
-            <h5>Top Administradores</h5>
-            <table class="table table-striped table-bordered table-hover">
-                <thead>
-                <tr>
-                    <th>#</th>
-                    <th>Username</th>
-                    <th>Role</th>
-                    <th>Phone</th>
-                    <th>Photo</th>
-                    <th>Name</th>
-                    <th></th>
-                </tr>
-                </thead>
-                <tbody>
+<div id="wrapper">
+    <?php require 'header.php';?>
+    <div id="page-wrapper">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Estados de cuenta</h2>
+            </div>
+        </div>
+        <div class="row">
 
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
+    <!--        Register gastos -->
+            <div class="form_div" ">
+                <form action="<?php echo constant('URL')?>Status/createBill" method="POST">
+                    <h2 class="title_bills">Registrar Gasto</h2>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputState">Tipo Categoria</label>
+                            <select id="inputState" class="form-control">
+                                <option selected></option>
+                                <?php
+                                   foreach ($category as $item){
+                                ?>
+                                <option value="<?php echo $item['tipo'] ?>"><?php echo $item['tipo'] ?></option>
+
+                                <?php }?>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword4">Cantidad</label>
+                            <input type="text" class="form-control" id="inputPassword4" placeholder="$1.000.000">
+                        </div>
+                    </div>
+                    <div class="btn-bills">
+                        <button type="submit" class="btn btn-primary">Crear</button>
+                    </div>
+
+                </form>
+            </div>
+
+        <div class="modal_div">
+            <div>
+
+                    <div class="panel-body">
+                        <i class="fa fa-bar-chart-o fa-5x"></i>
+                        <h3>Ingresos</h3>
+                        <h4><?php  echo $count;?></h4>
+                    </div>
+                    <div class="panel-footer back-footer-blue">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#miModalVerIngresos" >Ver ingresos</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#miModalCrearIngresos" >Crear ingreso</button>
+
+                    </div>
+
+<!--                Gastos-->
+            </div>
+
+            <div>
+
+                    <div class="panel-body">
+                        <i class="fa fa-bar-chart-o fa-5x"></i>
+                        <h3>Gastos</h3>
+                        <h4><?php  echo $count;?></h4>
+                    </div>
+                    <div class="panel-footer back-footer-blue">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#miModalVerGastos" >Ver gastos</button>
+
+                    </div>
+
+<!--                Ingresos-->
+            </div>
+
+            <div>
+
+                    <div class="panel-body">
+                        <i class="fa fa-bar-chart-o fa-5x"></i>
+                        <h3>Estado cuenta</h3>
+                        <h4><?php  echo $count;?></h4>
+                    </div>
+                    <div class="panel-footer back-footer-blue">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#miModalVerEstado" >Ver estado cuenta</button>
 
 
-                </tbody>
-            </table>
+                </div>
+<!--                Estado cuenta-->
+            </div>
 
         </div>
 
-        <div class="col-md-4">
-            <label>Click to see blank page</label>
-            <a href="admin.php" target="_blank" class="btn btn-danger btn-lg btn-block">VISITAR PAGINA WEB</a>
+        </div>
+
+<!--        TODO: Modals for the diferentes button-->
+<!--    TODO: view Income-->
+    <div class="modal" id="miModalVerIngresos">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Contenido del modal -->
+                <div class="modal-header">
+                    <h5 class="modal-title">Crear usuario</h5>
+                    <form action="<?php echo constant('URL'); ?>admin/createUser" method="POST">
+
+                        <div class="field-wrap">
+                            <label>Email Address<span class="req">*</span>
+                            </label>
+                            <input type="text" autocomplete="off" name="username"/>
+                        </div>
+
+                        <div class="field-wrap">
+                            <label>Set A Password<span class="req">*</span>
+                            </label>
+                            <input type="password"  autocomplete="off" name="password"/>
+                        </div>
+
+                        <div class="field-wrap">
+                            <label>Set A Role<span class="req">*</span>
+                            </label>
+                            <select name="role">
+                                <option value="" selected></option>
+                                <option value="user" >User</option>
+                                <option value="admin" >Admin</option>
+
+                            </select>
+                        </div>
+                        <div class="field-wrap">
+                            <label>Set A Phone Number<span class="req">*</span>
+                            </label>
+                            <input type="number"  autocomplete="off" name="phone"/>
+                        </div>
+                        <div class="field-wrap">
+                            <label>Set A Name of User<span class="req">*</span>
+                            </label>
+                            <input type="text"  autocomplete="off" name="user_name"/>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            <button type="submit" class="btn btn-primary">Guardar cambios</button>
+
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
         </div>
     </div>
-<!--
-    Tabla que muestra detalles de las transacciones relacionadas con la cuenta de ahorros:
-        Fecha
-        Descripción de la transacción
-        Tipo de transacción (depósito, retiro, interés, etc.)
-        Monto
-        Saldo después de la transacción
--->
-  <!--  Gráfico de Saldo:
 
-    Representación visual del saldo de la cuenta de ahorros a lo largo del tiempo.
-    Exportar Datos:
-  -->
-<!--
-     Exportar Datos:
+<!--    TODO: Creata income-->
+    <div class="modal" id="miModalCrearIngresos">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Contenido del modal -->
+                <div class="modal-header">
+                    <h5 class="modal-title">Crear usuario</h5>
+                    <form action="<?php echo constant('URL'); ?>admin/createUser" method="POST">
 
-    Opción para exportar el estado de cuenta de ahorros en diferentes formatos (CSV, PDF) para su posterior análisis o archivo.
+                        <div class="field-wrap">
+                            <label>Email Address<span class="req">*</span>
+                            </label>
+                            <input type="text" autocomplete="off" name="username"/>
+                        </div>
 
-    Filtros de Búsqueda:
+                        <div class="field-wrap">
+                            <label>Set A Password<span class="req">*</span>
+                            </label>
+                            <input type="password"  autocomplete="off" name="password"/>
+                        </div>
 
-    Rango de fechas: Permite al usuario seleccionar un período de tiempo específico para ver las transacciones.
-    Tipo de transacción: Puede filtrar por depósitos, retiros, intereses, etc.
+                        <div class="field-wrap">
+                            <label>Set A Role<span class="req">*</span>
+                            </label>
+                            <select name="role">
+                                <option value="" selected></option>
+                                <option value="user" >User</option>
+                                <option value="admin" >Admin</option>
 
- -->
+                            </select>
+                        </div>
+                        <div class="field-wrap">
+                            <label>Set A Phone Number<span class="req">*</span>
+                            </label>
+                            <input type="number"  autocomplete="off" name="phone"/>
+                        </div>
+                        <div class="field-wrap">
+                            <label>Set A Name of User<span class="req">*</span>
+                            </label>
+                            <input type="text"  autocomplete="off" name="user_name"/>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            <button type="submit" class="btn btn-primary">Guardar cambios</button>
+
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!--    TODO: VIIW BILLS-->
+    <div class="modal" id="miModalVerGastos">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Contenido del modal -->
+                <div class="modal-header">
+                    <h5 class="modal-title">Crear usuario</h5>
+                    <form action="<?php echo constant('URL'); ?>admin/createUser" method="POST">
+
+                        <div class="field-wrap">
+                            <label>Email Address<span class="req">*</span>
+                            </label>
+                            <input type="text" autocomplete="off" name="username"/>
+                        </div>
+
+                        <div class="field-wrap">
+                            <label>Set A Password<span class="req">*</span>
+                            </label>
+                            <input type="password"  autocomplete="off" name="password"/>
+                        </div>
+
+                        <div class="field-wrap">
+                            <label>Set A Role<span class="req">*</span>
+                            </label>
+                            <select name="role">
+                                <option value="" selected></option>
+                                <option value="user" >User</option>
+                                <option value="admin" >Admin</option>
+
+                            </select>
+                        </div>
+                        <div class="field-wrap">
+                            <label>Set A Phone Number<span class="req">*</span>
+                            </label>
+                            <input type="number"  autocomplete="off" name="phone"/>
+                        </div>
+                        <div class="field-wrap">
+                            <label>Set A Name of User<span class="req">*</span>
+                            </label>
+                            <input type="text"  autocomplete="off" name="user_name"/>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            <button type="submit" class="btn btn-primary">Guardar cambios</button>
+
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!--    TODO: VIEW ACCOUNT-->
+    <div class="modal" id="miModalVerEstado">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Contenido del modal -->
+                <div class="modal-header">
+                    <h5 class="modal-title">Crear usuario</h5>
+                    <form action="<?php echo constant('URL'); ?>admin/createUser" method="POST">
+
+                        <div class="field-wrap">
+                            <label>Email Address<span class="req">*</span>
+                            </label>
+                            <input type="text" autocomplete="off" name="username"/>
+                        </div>
+
+                        <div class="field-wrap">
+                            <label>Set A Password<span class="req">*</span>
+                            </label>
+                            <input type="password"  autocomplete="off" name="password"/>
+                        </div>
+
+                        <div class="field-wrap">
+                            <label>Set A Role<span class="req">*</span>
+                            </label>
+                            <select name="role">
+                                <option value="" selected></option>
+                                <option value="user" >User</option>
+                                <option value="admin" >Admin</option>
+
+                            </select>
+                        </div>
+                        <div class="field-wrap">
+                            <label>Set A Phone Number<span class="req">*</span>
+                            </label>
+                            <input type="number"  autocomplete="off" name="phone"/>
+                        </div>
+                        <div class="field-wrap">
+                            <label>Set A Name of User<span class="req">*</span>
+                            </label>
+                            <input type="text"  autocomplete="off" name="user_name"/>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            <button type="submit" class="btn btn-primary">Guardar cambios</button>
+
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+</div>
 
 
 

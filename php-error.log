@@ -18744,3 +18744,239 @@ Stack trace:
 [22-Oct-2023 01:42:00 UTC] PHP Warning:  Undefined variable $count in C:\laragon\www\Finanzas\views\admin\status.php on line 150
 [22-Oct-2023 01:42:00 UTC] Hello, errors!
 [22-Oct-2023 01:42:00 UTC] Errores::controller-> Errores
+[24-Oct-2023 02:22:06 UTC] Hello, errors!
+[24-Oct-2023 02:22:06 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[24-Oct-2023 02:22:06 UTC] sessionController-> validateSession()
+[24-Oct-2023 02:22:06 UTC] sessionController::isPublic(): currentURL => 
+[24-Oct-2023 02:22:06 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[24-Oct-2023 02:22:06 UTC] Error de loguin
+[24-Oct-2023 02:22:08 UTC] Hello, errors!
+[24-Oct-2023 02:22:08 UTC] Errores::controller-> Errores
+[24-Oct-2023 02:42:07 UTC] Hello, errors!
+[24-Oct-2023 02:42:07 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[24-Oct-2023 02:42:07 UTC] sessionController-> validateSession()
+[24-Oct-2023 02:42:07 UTC] sessionController::isPublic(): currentURL => 
+[24-Oct-2023 02:42:07 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[24-Oct-2023 02:42:07 UTC] Error de loguin
+[24-Oct-2023 02:42:09 UTC] Hello, errors!
+[24-Oct-2023 02:42:09 UTC] Errores::controller-> Errores
+[24-Oct-2023 02:43:11 UTC] Hello, errors!
+[24-Oct-2023 02:43:11 UTC] sessionController-> validateSession()
+[24-Oct-2023 02:43:11 UTC] Session controller -> getCurrentPage: /loguin/authenticate, url => authenticate
+[24-Oct-2023 02:43:11 UTC] sessionController::isPublic(): currentURL => authenticate
+[24-Oct-2023 02:43:11 UTC] Error de loguin
+[24-Oct-2023 02:43:11 UTC] login: inicio
+[24-Oct-2023 02:43:11 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 135
+[24-Oct-2023 02:43:11 UTC] login: user id 11
+[24-Oct-2023 02:43:11 UTC] login: success
+[24-Oct-2023 02:43:11 UTC] Login::authenticate() passed
+[24-Oct-2023 02:43:11 UTC] Hello, errors!
+[24-Oct-2023 02:43:11 UTC] sessionController-> validateSession()
+[24-Oct-2023 02:43:11 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 02:43:11 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[24-Oct-2023 02:43:11 UTC] sessionController::isPublic(): currentURL => admin
+[24-Oct-2023 02:43:11 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[24-Oct-2023 02:43:11 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 02:43:11 UTC] Get users model=>9
+[24-Oct-2023 02:43:11 UTC] Total de usuarios -> funcion
+[24-Oct-2023 02:43:11 UTC] Usuarios totales render ->9
+[24-Oct-2023 02:43:11 UTC] sessionController-> validateSession()
+[24-Oct-2023 02:43:12 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 02:43:12 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[24-Oct-2023 02:43:12 UTC] sessionController::isPublic(): currentURL => admin
+[24-Oct-2023 02:43:12 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[24-Oct-2023 02:43:12 UTC] Users Controller ->showUsers
+[24-Oct-2023 02:43:12 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 02:43:12 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 02:43:12 UTC] Hello, errors!
+[24-Oct-2023 02:43:12 UTC] Errores::controller-> Errores
+[24-Oct-2023 02:43:15 UTC] Hello, errors!
+[24-Oct-2023 02:43:15 UTC] sessionController-> validateSession()
+[24-Oct-2023 02:43:15 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 02:43:15 UTC] sessionController::isPublic(): currentURL => 
+[24-Oct-2023 02:43:15 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[24-Oct-2023 02:43:15 UTC] sessionController-> validateSession()
+[24-Oct-2023 02:43:15 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 02:43:15 UTC] sessionController::isPublic(): currentURL => 
+[24-Oct-2023 02:43:15 UTC] Users Controller ->showUsers
+[24-Oct-2023 02:43:15 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 02:43:15 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 02:43:15 UTC] PHP Warning:  Undefined variable $count in C:\laragon\www\Finanzas\views\admin\status.php on line 119
+[24-Oct-2023 02:43:15 UTC] PHP Warning:  Undefined variable $count in C:\laragon\www\Finanzas\views\admin\status.php on line 135
+[24-Oct-2023 02:43:15 UTC] PHP Warning:  Undefined variable $count in C:\laragon\www\Finanzas\views\admin\status.php on line 150
+[24-Oct-2023 02:43:15 UTC] Hello, errors!
+[24-Oct-2023 02:43:15 UTC] Errores::controller-> Errores
+[24-Oct-2023 03:23:48 UTC] Hello, errors!
+[24-Oct-2023 03:23:48 UTC] sessionController-> validateSession()
+[24-Oct-2023 03:23:49 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:23:49 UTC] sessionController::isPublic(): currentURL => 
+[24-Oct-2023 03:23:49 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[24-Oct-2023 03:23:49 UTC] sessionController-> validateSession()
+[24-Oct-2023 03:23:49 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:23:49 UTC] sessionController::isPublic(): currentURL => 
+[24-Oct-2023 03:23:49 UTC] Users Controller ->showUsers
+[24-Oct-2023 03:23:49 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:23:49 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:23:49 UTC] PHP Warning:  Undefined variable $count in C:\laragon\www\Finanzas\views\admin\status.php on line 119
+[24-Oct-2023 03:23:49 UTC] PHP Warning:  Undefined variable $count in C:\laragon\www\Finanzas\views\admin\status.php on line 135
+[24-Oct-2023 03:23:49 UTC] PHP Warning:  Undefined variable $count in C:\laragon\www\Finanzas\views\admin\status.php on line 150
+[24-Oct-2023 03:23:49 UTC] Hello, errors!
+[24-Oct-2023 03:23:49 UTC] Errores::controller-> Errores
+[24-Oct-2023 03:23:58 UTC] Hello, errors!
+[24-Oct-2023 03:23:58 UTC] sessionController-> validateSession()
+[24-Oct-2023 03:23:58 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:23:58 UTC] Session controller -> getCurrentPage: /Status/createBill, url => createBill
+[24-Oct-2023 03:23:58 UTC] sessionController::isPublic(): currentURL => createBill
+[24-Oct-2023 03:23:58 UTC] Session controller -> getCurrentPage: /Status/createBill, url => createBill
+[24-Oct-2023 03:23:58 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:23:58 UTC] Modelo de gastosSQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'Hogar' for column 'id_category' at row 1
+[24-Oct-2023 03:23:58 UTC] No se guardaron correctamente
+[24-Oct-2023 03:23:58 UTC] Hello, errors!
+[24-Oct-2023 03:23:58 UTC] sessionController-> validateSession()
+[24-Oct-2023 03:23:59 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:23:59 UTC] Session controller -> getCurrentPage: //Status?error=8281e04ed52ccfc13820d0f6acb0985a, url => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:23:59 UTC] sessionController::isPublic(): currentURL => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:23:59 UTC] Session controller -> getCurrentPage: //Status?error=8281e04ed52ccfc13820d0f6acb0985a, url => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:23:59 UTC] sessionController-> validateSession()
+[24-Oct-2023 03:23:59 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:23:59 UTC] Session controller -> getCurrentPage: //Status?error=8281e04ed52ccfc13820d0f6acb0985a, url => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:23:59 UTC] sessionController::isPublic(): currentURL => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:23:59 UTC] Session controller -> getCurrentPage: //Status?error=8281e04ed52ccfc13820d0f6acb0985a, url => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:23:59 UTC] Users Controller ->showUsers
+[24-Oct-2023 03:23:59 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:23:59 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:23:59 UTC] PHP Warning:  Undefined variable $count in C:\laragon\www\Finanzas\views\admin\status.php on line 119
+[24-Oct-2023 03:23:59 UTC] PHP Warning:  Undefined variable $count in C:\laragon\www\Finanzas\views\admin\status.php on line 135
+[24-Oct-2023 03:23:59 UTC] PHP Warning:  Undefined variable $count in C:\laragon\www\Finanzas\views\admin\status.php on line 150
+[24-Oct-2023 03:23:59 UTC] Hello, errors!
+[24-Oct-2023 03:23:59 UTC] Errores::controller-> Errores
+[24-Oct-2023 03:25:39 UTC] Hello, errors!
+[24-Oct-2023 03:25:39 UTC] sessionController-> validateSession()
+[24-Oct-2023 03:25:39 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:25:39 UTC] Session controller -> getCurrentPage: //Status?error=8281e04ed52ccfc13820d0f6acb0985a, url => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:25:39 UTC] sessionController::isPublic(): currentURL => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:25:39 UTC] Session controller -> getCurrentPage: //Status?error=8281e04ed52ccfc13820d0f6acb0985a, url => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:25:39 UTC] sessionController-> validateSession()
+[24-Oct-2023 03:25:39 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:25:39 UTC] Session controller -> getCurrentPage: //Status?error=8281e04ed52ccfc13820d0f6acb0985a, url => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:25:39 UTC] sessionController::isPublic(): currentURL => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:25:39 UTC] Session controller -> getCurrentPage: //Status?error=8281e04ed52ccfc13820d0f6acb0985a, url => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:25:39 UTC] Users Controller ->showUsers
+[24-Oct-2023 03:25:40 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:25:40 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:25:40 UTC] PHP Warning:  Undefined variable $count in C:\laragon\www\Finanzas\views\admin\status.php on line 120
+[24-Oct-2023 03:25:40 UTC] PHP Warning:  Undefined variable $count in C:\laragon\www\Finanzas\views\admin\status.php on line 136
+[24-Oct-2023 03:25:40 UTC] PHP Warning:  Undefined variable $count in C:\laragon\www\Finanzas\views\admin\status.php on line 151
+[24-Oct-2023 03:25:40 UTC] Hello, errors!
+[24-Oct-2023 03:25:40 UTC] Errores::controller-> Errores
+[24-Oct-2023 03:25:47 UTC] Hello, errors!
+[24-Oct-2023 03:25:47 UTC] sessionController-> validateSession()
+[24-Oct-2023 03:25:48 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:25:48 UTC] Session controller -> getCurrentPage: //Status?error=8281e04ed52ccfc13820d0f6acb0985a, url => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:25:48 UTC] sessionController::isPublic(): currentURL => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:25:48 UTC] Session controller -> getCurrentPage: //Status?error=8281e04ed52ccfc13820d0f6acb0985a, url => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:25:48 UTC] sessionController-> validateSession()
+[24-Oct-2023 03:25:48 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:25:48 UTC] Session controller -> getCurrentPage: //Status?error=8281e04ed52ccfc13820d0f6acb0985a, url => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:25:48 UTC] sessionController::isPublic(): currentURL => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:25:48 UTC] Session controller -> getCurrentPage: //Status?error=8281e04ed52ccfc13820d0f6acb0985a, url => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:25:48 UTC] Users Controller ->showUsers
+[24-Oct-2023 03:25:48 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:25:48 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:25:48 UTC] PHP Warning:  Undefined variable $count in C:\laragon\www\Finanzas\views\admin\status.php on line 120
+[24-Oct-2023 03:25:48 UTC] PHP Warning:  Undefined variable $count in C:\laragon\www\Finanzas\views\admin\status.php on line 136
+[24-Oct-2023 03:25:48 UTC] PHP Warning:  Undefined variable $count in C:\laragon\www\Finanzas\views\admin\status.php on line 151
+[24-Oct-2023 03:25:48 UTC] Hello, errors!
+[24-Oct-2023 03:25:48 UTC] Errores::controller-> Errores
+[24-Oct-2023 03:32:26 UTC] Hello, errors!
+[24-Oct-2023 03:32:26 UTC] sessionController-> validateSession()
+[24-Oct-2023 03:32:26 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:32:26 UTC] Session controller -> getCurrentPage: //Status?error=8281e04ed52ccfc13820d0f6acb0985a, url => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:32:26 UTC] sessionController::isPublic(): currentURL => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:32:26 UTC] Session controller -> getCurrentPage: //Status?error=8281e04ed52ccfc13820d0f6acb0985a, url => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:32:26 UTC] sessionController-> validateSession()
+[24-Oct-2023 03:32:26 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:32:26 UTC] Session controller -> getCurrentPage: //Status?error=8281e04ed52ccfc13820d0f6acb0985a, url => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:32:26 UTC] sessionController::isPublic(): currentURL => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:32:26 UTC] Session controller -> getCurrentPage: //Status?error=8281e04ed52ccfc13820d0f6acb0985a, url => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:32:26 UTC] Users Controller ->showUsers
+[24-Oct-2023 03:32:26 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:32:26 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:32:26 UTC] PHP Warning:  Undefined variable $count in C:\laragon\www\Finanzas\views\admin\status.php on line 119
+[24-Oct-2023 03:32:26 UTC] PHP Warning:  Undefined variable $count in C:\laragon\www\Finanzas\views\admin\status.php on line 135
+[24-Oct-2023 03:32:26 UTC] PHP Warning:  Undefined variable $count in C:\laragon\www\Finanzas\views\admin\status.php on line 150
+[24-Oct-2023 03:32:27 UTC] Hello, errors!
+[24-Oct-2023 03:32:27 UTC] Errores::controller-> Errores
+[24-Oct-2023 03:32:32 UTC] Hello, errors!
+[24-Oct-2023 03:32:32 UTC] Errores::controller-> Errores
+[24-Oct-2023 03:32:32 UTC] Hello, errors!
+[24-Oct-2023 03:32:32 UTC] Errores::controller-> Errores
+[24-Oct-2023 03:33:44 UTC] Hello, errors!
+[24-Oct-2023 03:33:44 UTC] sessionController-> validateSession()
+[24-Oct-2023 03:33:44 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:33:44 UTC] Session controller -> getCurrentPage: //Status?error=8281e04ed52ccfc13820d0f6acb0985a, url => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:33:44 UTC] sessionController::isPublic(): currentURL => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:33:44 UTC] Session controller -> getCurrentPage: //Status?error=8281e04ed52ccfc13820d0f6acb0985a, url => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:33:44 UTC] sessionController-> validateSession()
+[24-Oct-2023 03:33:44 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:33:44 UTC] Session controller -> getCurrentPage: //Status?error=8281e04ed52ccfc13820d0f6acb0985a, url => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:33:44 UTC] sessionController::isPublic(): currentURL => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:33:44 UTC] Session controller -> getCurrentPage: //Status?error=8281e04ed52ccfc13820d0f6acb0985a, url => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:33:44 UTC] Users Controller ->showUsers
+[24-Oct-2023 03:33:44 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:33:44 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:33:44 UTC] Hello, errors!
+[24-Oct-2023 03:33:44 UTC] Errores::controller-> Errores
+[24-Oct-2023 03:33:44 UTC] Hello, errors!
+[24-Oct-2023 03:33:44 UTC] Errores::controller-> Errores
+[24-Oct-2023 03:33:45 UTC] Hello, errors!
+[24-Oct-2023 03:33:45 UTC] Errores::controller-> Errores
+[24-Oct-2023 03:33:52 UTC] Hello, errors!
+[24-Oct-2023 03:33:52 UTC] sessionController-> validateSession()
+[24-Oct-2023 03:33:52 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:33:52 UTC] Session controller -> getCurrentPage: /Status/createBill, url => createBill
+[24-Oct-2023 03:33:52 UTC] sessionController::isPublic(): currentURL => createBill
+[24-Oct-2023 03:33:52 UTC] Session controller -> getCurrentPage: /Status/createBill, url => createBill
+[24-Oct-2023 03:33:52 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:33:52 UTC] Modelo de gastosSQLSTATE[01000]: Warning: 1265 Data truncated for column 'Cantidad' at row 1
+[24-Oct-2023 03:33:52 UTC] No se guardaron correctamente
+[24-Oct-2023 03:33:52 UTC] Hello, errors!
+[24-Oct-2023 03:33:52 UTC] sessionController-> validateSession()
+[24-Oct-2023 03:33:52 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:33:52 UTC] Session controller -> getCurrentPage: //Status?error=8281e04ed52ccfc13820d0f6acb0985a, url => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:33:52 UTC] sessionController::isPublic(): currentURL => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:33:52 UTC] Session controller -> getCurrentPage: //Status?error=8281e04ed52ccfc13820d0f6acb0985a, url => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:33:52 UTC] sessionController-> validateSession()
+[24-Oct-2023 03:33:52 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:33:52 UTC] Session controller -> getCurrentPage: //Status?error=8281e04ed52ccfc13820d0f6acb0985a, url => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:33:52 UTC] sessionController::isPublic(): currentURL => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:33:52 UTC] Session controller -> getCurrentPage: //Status?error=8281e04ed52ccfc13820d0f6acb0985a, url => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:33:52 UTC] Users Controller ->showUsers
+[24-Oct-2023 03:33:52 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:33:52 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:33:52 UTC] Hello, errors!
+[24-Oct-2023 03:33:52 UTC] Errores::controller-> Errores
+[24-Oct-2023 03:33:52 UTC] Hello, errors!
+[24-Oct-2023 03:33:52 UTC] Errores::controller-> Errores
+[24-Oct-2023 03:33:53 UTC] Hello, errors!
+[24-Oct-2023 03:33:53 UTC] Errores::controller-> Errores
+[24-Oct-2023 03:35:48 UTC] Hello, errors!
+[24-Oct-2023 03:35:48 UTC] sessionController-> validateSession()
+[24-Oct-2023 03:35:48 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:35:48 UTC] Session controller -> getCurrentPage: //Status?error=8281e04ed52ccfc13820d0f6acb0985a, url => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:35:48 UTC] sessionController::isPublic(): currentURL => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:35:48 UTC] Session controller -> getCurrentPage: //Status?error=8281e04ed52ccfc13820d0f6acb0985a, url => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:35:48 UTC] sessionController-> validateSession()
+[24-Oct-2023 03:35:48 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:35:48 UTC] Session controller -> getCurrentPage: //Status?error=8281e04ed52ccfc13820d0f6acb0985a, url => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:35:48 UTC] sessionController::isPublic(): currentURL => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:35:48 UTC] Session controller -> getCurrentPage: //Status?error=8281e04ed52ccfc13820d0f6acb0985a, url => Status?error=8281e04ed52ccfc13820d0f6acb0985a
+[24-Oct-2023 03:35:48 UTC] Users Controller ->showUsers
+[24-Oct-2023 03:35:48 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:35:48 UTC] Session controller-> getUserSession Data  11
+[24-Oct-2023 03:35:49 UTC] Hello, errors!
+[24-Oct-2023 03:35:49 UTC] Errores::controller-> Errores
+[24-Oct-2023 03:35:49 UTC] Hello, errors!
+[24-Oct-2023 03:35:49 UTC] Errores::controller-> Errores
+[24-Oct-2023 03:35:49 UTC] Hello, errors!
+[24-Oct-2023 03:35:49 UTC] Errores::controller-> Errores

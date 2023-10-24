@@ -88,19 +88,19 @@
                     <div class="form-row">
                         <div class="form-group col-md-6">
                             <label for="inputState">Tipo Categoria</label>
-                            <select id="inputState" class="form-control">
+                            <select id="inputState" class="form-control" name="category">
                                 <option selected></option>
                                 <?php
                                    foreach ($category as $item){
                                 ?>
-                                <option value="<?php echo $item['tipo'] ?>"><?php echo $item['tipo'] ?></option>
+                                <option value="<?php echo $item['id'] ?>"><?php echo $item['tipo'] ?></option>
 
                                 <?php }?>
                             </select>
                         </div>
                         <div class="form-group col-md-6">
                             <label for="inputPassword4">Cantidad</label>
-                            <input type="text" class="form-control" id="inputPassword4" placeholder="$1.000.000">
+                            <input type="text" class="form-control" id="inputPassword4" placeholder="$1.000.000" name="cantidad">
                         </div>
                     </div>
                     <div class="btn-bills">
@@ -116,7 +116,7 @@
                     <div class="panel-body">
                         <i class="fa fa-bar-chart-o fa-5x"></i>
                         <h3>Ingresos</h3>
-                        <h4><?php  echo $count;?></h4>
+                        <h4></h4>
                     </div>
                     <div class="panel-footer back-footer-blue">
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#miModalVerIngresos" >Ver ingresos</button>
@@ -132,7 +132,7 @@
                     <div class="panel-body">
                         <i class="fa fa-bar-chart-o fa-5x"></i>
                         <h3>Gastos</h3>
-                        <h4><?php  echo $count;?></h4>
+                        <h4></h4>
                     </div>
                     <div class="panel-footer back-footer-blue">
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#miModalVerGastos" >Ver gastos</button>
@@ -147,7 +147,7 @@
                     <div class="panel-body">
                         <i class="fa fa-bar-chart-o fa-5x"></i>
                         <h3>Estado cuenta</h3>
-                        <h4><?php  echo $count;?></h4>
+                        <h4></h4>
                     </div>
                     <div class="panel-footer back-footer-blue">
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#miModalVerEstado" >Ver estado cuenta</button>

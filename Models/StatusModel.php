@@ -9,7 +9,7 @@ class StatusModel extends Model
 
     public function showCategory(){
         try{
-            $query= $this->query('SELECT tipo FROM category');
+            $query= $this->query('SELECT id,tipo FROM category');
             $category = [];
             while($item = $query->fetch(PDO::FETCH_ASSOC) ){
                 $category[] = $item;
@@ -19,14 +19,23 @@ class StatusModel extends Model
             error_log('Mostrando categorias' . $e->getMessage());
         }
     }
-    public function createBillModel(){
+    public function createBillModel($category,$cantidad,$user){
         try{
             $query = $this->prepare('INSERT INTO bills(id_category,Cantidad,id_user) VALUES(:id_category,:cantidad,:id_user) ');
             $query->execute([
-               'id_category' => $category
+               'id_category' => $category,
+                'cantidad' => $cantidad,
+                'id_user' => $user
             ]);
-        }catch (PDOException $e){
 
+            if($query >0){
+                return true;
+            }else{
+                return false;
+            }
+
+        }catch (PDOException $e){
+            error_log('Modelo de gastos' . $e->getMessage());
         }
     }
 

@@ -109,6 +109,7 @@
 
                 </form>
             </div>
+<!--        // TODO: Modals of register-->
 
         <div class="modal_div">
             <div>
@@ -168,49 +169,55 @@
             <div class="modal-content">
                 <!-- Contenido del modal -->
                 <div class="modal-header">
-                    <h5 class="modal-title">Crear usuario</h5>
-                    <form action="<?php echo constant('URL'); ?>admin/createUser" method="POST">
+                    <h5 class="modal-title">Ingresos</h5>
 
-                        <div class="field-wrap">
-                            <label>Email Address<span class="req">*</span>
-                            </label>
-                            <input type="text" autocomplete="off" name="username"/>
-                        </div>
+                    <table class="table table-striped table-bordered table-hover">
+                        <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Fecha ingreso</th>
+                            <th>Descripcion</th>
+                            <th>Categoria</th>
+                            <th>Cantidad</th>
+                            <th></th>
+                        </tr>
+                        <?php
+                        $elementsPage = 3;
+                        //TODO: this is a version for replace the opertator ternario
+                        $page = isset($_GET['pagina']) ? intval($_GET['pagina']) : 1;
 
-                        <div class="field-wrap">
-                            <label>Set A Password<span class="req">*</span>
-                            </label>
-                            <input type="password"  autocomplete="off" name="password"/>
-                        </div>
+                        $indexBeguin = ($page - 1) * $elementsPage;
+                        $usersFinally = array_slice($users,$indexBeguin,$elementsPage);
 
-                        <div class="field-wrap">
-                            <label>Set A Role<span class="req">*</span>
-                            </label>
-                            <select name="role">
-                                <option value="" selected></option>
-                                <option value="user" >User</option>
-                                <option value="admin" >Admin</option>
+                        //                            print_r($usersFinally);
+                        $totalElementos = count($users);
+                        $totalPaginas = ceil($totalElementos / $elementsPage);
 
-                            </select>
-                        </div>
-                        <div class="field-wrap">
-                            <label>Set A Phone Number<span class="req">*</span>
-                            </label>
-                            <input type="number"  autocomplete="off" name="phone"/>
-                        </div>
-                        <div class="field-wrap">
-                            <label>Set A Name of User<span class="req">*</span>
-                            </label>
-                            <input type="text"  autocomplete="off" name="user_name"/>
-                        </div>
 
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                            <button type="submit" class="btn btn-primary">Guardar cambios</button>
 
-                        </div>
 
-                    </form>
+                        ?>
+                        </thead>
+                        <tbody id="table-body">
+                        <?php
+                        foreach ($usersFinally as $item){
+                            ?>
+                            <tr>
+                                <td> <?php echo $item['id'] ?></td>
+                                <td><?php echo $item['username'] ?></td>
+                                <td><?php echo $item['role'] ?></td>
+                                <td><?php echo $item['telefono'] ?></td>
+                                <td><?php echo $item['photo'] ?></td>
+                                <td><?php echo $item['name'] ?></td>
+                                <td data-data='{"id":"<?php echo $item['id'] ?>","username":"<?php echo $item['username'] ?>","role":"<?php echo $item['role'] ?>", "telefono":"<?php echo $item['telefono'] ?>","photo":"<?php echo $item['photo'] ?>","name":"<?php echo $item['name'] ?>","password":"<?php echo $item['password'] ?>"}'>
+                                    <button type="button" class="btn btn-primary edit-button" data-toggle="modal" data-target="#miModalEditar" onclick="mostrarId(this)">Editar</button>
+                                </td>
+                            </tr>
+                        <?php } ?>
+
+
+                        </tbody>
+                    </table>
                 </div>
 
             </div>

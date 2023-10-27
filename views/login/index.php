@@ -15,9 +15,9 @@
           <form action="<?php echo constant('URL'); ?>loguin/authenticate" method="post">
 
             <div class="field-wrap">
-              <label>Email Address<span class="req">*</span>
-              </label>
-              <input type="email"autocomplete="off" name="username"/>
+<!--              <label>Email Address<span class="req">*</span>-->
+<!--              </label>-->
+              <input type="email"autocomplete="off" name="username" placeholder="Email Address *"/>
             </div>
 
             <div class="field-wrap">

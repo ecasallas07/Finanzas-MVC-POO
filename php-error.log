@@ -19727,3 +19727,334 @@ Stack trace:
   thrown in C:\laragon\www\Finanzas\Models\StatusModel.php on line 72
 [27-Oct-2023 03:35:57 UTC] Hello, errors!
 [27-Oct-2023 03:35:57 UTC] Errores::controller-> Errores
+[27-Oct-2023 21:59:56 UTC] Hello, errors!
+[27-Oct-2023 21:59:56 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[27-Oct-2023 21:59:56 UTC] sessionController-> validateSession()
+[27-Oct-2023 21:59:56 UTC] sessionController::isPublic(): currentURL => 
+[27-Oct-2023 21:59:56 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[27-Oct-2023 21:59:56 UTC] Error de loguin
+[27-Oct-2023 21:59:57 UTC] Hello, errors!
+[27-Oct-2023 21:59:57 UTC] Errores::controller-> Errores
+[27-Oct-2023 22:00:26 UTC] Hello, errors!
+[27-Oct-2023 22:00:26 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[27-Oct-2023 22:00:26 UTC] sessionController-> validateSession()
+[27-Oct-2023 22:00:26 UTC] sessionController::isPublic(): currentURL => 
+[27-Oct-2023 22:00:26 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[27-Oct-2023 22:00:26 UTC] Error de loguin
+[27-Oct-2023 22:00:26 UTC] Hello, errors!
+[27-Oct-2023 22:00:26 UTC] Errores::controller-> Errores
+[27-Oct-2023 22:00:31 UTC] Hello, errors!
+[27-Oct-2023 22:00:31 UTC] sessionController-> validateSession()
+[27-Oct-2023 22:00:31 UTC] Session controller -> getCurrentPage: /loguin/authenticate, url => authenticate
+[27-Oct-2023 22:00:31 UTC] sessionController::isPublic(): currentURL => authenticate
+[27-Oct-2023 22:00:31 UTC] Error de loguin
+[27-Oct-2023 22:00:31 UTC] login: inicio
+[27-Oct-2023 22:00:31 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 135
+[27-Oct-2023 22:00:31 UTC] login: user id 11
+[27-Oct-2023 22:00:31 UTC] login: success
+[27-Oct-2023 22:00:31 UTC] Login::authenticate() passed
+[27-Oct-2023 22:00:31 UTC] Hello, errors!
+[27-Oct-2023 22:00:31 UTC] sessionController-> validateSession()
+[27-Oct-2023 22:00:31 UTC] Session controller-> getUserSession Data  11
+[27-Oct-2023 22:00:31 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[27-Oct-2023 22:00:31 UTC] sessionController::isPublic(): currentURL => admin
+[27-Oct-2023 22:00:31 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[27-Oct-2023 22:00:31 UTC] Session controller-> getUserSession Data  11
+[27-Oct-2023 22:00:31 UTC] Get users model=>9
+[27-Oct-2023 22:00:31 UTC] Total de usuarios -> funcion
+[27-Oct-2023 22:00:31 UTC] Usuarios totales render ->9
+[27-Oct-2023 22:00:31 UTC] sessionController-> validateSession()
+[27-Oct-2023 22:00:31 UTC] Session controller-> getUserSession Data  11
+[27-Oct-2023 22:00:31 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[27-Oct-2023 22:00:31 UTC] sessionController::isPublic(): currentURL => admin
+[27-Oct-2023 22:00:31 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[27-Oct-2023 22:00:31 UTC] Users Controller ->showUsers
+[27-Oct-2023 22:00:31 UTC] Session controller-> getUserSession Data  11
+[27-Oct-2023 22:00:31 UTC] Session controller-> getUserSession Data  11
+[27-Oct-2023 22:00:32 UTC] Hello, errors!
+[27-Oct-2023 22:00:32 UTC] Errores::controller-> Errores
+[27-Oct-2023 22:00:34 UTC] Hello, errors!
+[27-Oct-2023 22:00:34 UTC] sessionController-> validateSession()
+[27-Oct-2023 22:00:34 UTC] Session controller-> getUserSession Data  11
+[27-Oct-2023 22:00:34 UTC] sessionController::isPublic(): currentURL => 
+[27-Oct-2023 22:00:34 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[27-Oct-2023 22:00:34 UTC] Session controller-> getUserSession Data  11
+[27-Oct-2023 22:00:34 UTC] Error al mostrar datosSQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM income INNER JOIN category ON category.id = income.id_category WHERE id_use' at line 1
+[27-Oct-2023 22:00:35 UTC] Session controller-> getUserSession Data  11
+[27-Oct-2023 22:00:35 UTC] PHP Fatal error:  Uncaught TypeError: iterator_to_array(): Argument #1 ($iterator) must be of type Traversable, array given in C:\laragon\www\Finanzas\Models\StatusModel.php:72
+Stack trace:
+#0 C:\laragon\www\Finanzas\Models\StatusModel.php(72): iterator_to_array(Array)
+#1 C:\laragon\www\Finanzas\controllers\Status.php(17): StatusModel->viewBills(11)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Status->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\Models\StatusModel.php on line 72
+[27-Oct-2023 22:00:35 UTC] Hello, errors!
+[27-Oct-2023 22:00:35 UTC] Errores::controller-> Errores
+[27-Oct-2023 22:50:25 UTC] Hello, errors!
+[27-Oct-2023 22:50:25 UTC] sessionController-> validateSession()
+[27-Oct-2023 22:50:25 UTC] Session controller-> getUserSession Data  11
+[27-Oct-2023 22:50:25 UTC] sessionController::isPublic(): currentURL => 
+[27-Oct-2023 22:50:25 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[27-Oct-2023 22:50:25 UTC] Session controller-> getUserSession Data  11
+[27-Oct-2023 22:50:25 UTC] Error al mostrar datosSQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM income INNER JOIN category ON category.id = income.id_category WHERE id_use' at line 1
+[27-Oct-2023 22:50:25 UTC] Session controller-> getUserSession Data  11
+[27-Oct-2023 22:50:25 UTC] PHP Fatal error:  Uncaught TypeError: iterator_to_array(): Argument #1 ($iterator) must be of type Traversable, array given in C:\laragon\www\Finanzas\Models\StatusModel.php:72
+Stack trace:
+#0 C:\laragon\www\Finanzas\Models\StatusModel.php(72): iterator_to_array(Array)
+#1 C:\laragon\www\Finanzas\controllers\Status.php(17): StatusModel->viewBills(11)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Status->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\Models\StatusModel.php on line 72
+[27-Oct-2023 22:50:26 UTC] Hello, errors!
+[27-Oct-2023 22:50:26 UTC] Errores::controller-> Errores
+[27-Oct-2023 23:13:41 UTC] Hello, errors!
+[27-Oct-2023 23:13:41 UTC] sessionController-> validateSession()
+[27-Oct-2023 23:13:41 UTC] Session controller-> getUserSession Data  11
+[27-Oct-2023 23:13:41 UTC] sessionController::isPublic(): currentURL => 
+[27-Oct-2023 23:13:41 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[27-Oct-2023 23:13:41 UTC] Session controller-> getUserSession Data  11
+[27-Oct-2023 23:13:41 UTC] Error al mostrar datosSQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM income INNER JOIN category ON category.id = income.id_category WHERE id_use' at line 1
+[27-Oct-2023 23:13:41 UTC] Session controller-> getUserSession Data  11
+[27-Oct-2023 23:13:41 UTC] PHP Fatal error:  Uncaught TypeError: iterator_to_array(): Argument #1 ($iterator) must be of type Traversable, array given in C:\laragon\www\Finanzas\Models\StatusModel.php:72
+Stack trace:
+#0 C:\laragon\www\Finanzas\Models\StatusModel.php(72): iterator_to_array(Array)
+#1 C:\laragon\www\Finanzas\controllers\Status.php(17): StatusModel->viewBills(11)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Status->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\Models\StatusModel.php on line 72
+[27-Oct-2023 23:13:41 UTC] Hello, errors!
+[27-Oct-2023 23:13:41 UTC] Errores::controller-> Errores
+[28-Oct-2023 00:50:37 UTC] Hello, errors!
+[28-Oct-2023 00:50:37 UTC] sessionController-> validateSession()
+[28-Oct-2023 00:50:37 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 00:50:37 UTC] sessionController::isPublic(): currentURL => 
+[28-Oct-2023 00:50:37 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[28-Oct-2023 00:50:37 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 00:50:37 UTC] Error al mostrar datosSQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM income INNER JOIN category ON category.id = income.id_category WHERE id_use' at line 1
+[28-Oct-2023 00:50:37 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 00:50:37 UTC] PHP Fatal error:  Uncaught TypeError: iterator_to_array(): Argument #1 ($iterator) must be of type Traversable, array given in C:\laragon\www\Finanzas\Models\StatusModel.php:72
+Stack trace:
+#0 C:\laragon\www\Finanzas\Models\StatusModel.php(72): iterator_to_array(Array)
+#1 C:\laragon\www\Finanzas\controllers\Status.php(17): StatusModel->viewBills(11)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Status->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\Models\StatusModel.php on line 72
+[28-Oct-2023 00:50:38 UTC] Hello, errors!
+[28-Oct-2023 00:50:38 UTC] Errores::controller-> Errores
+[28-Oct-2023 01:04:31 UTC] Hello, errors!
+[28-Oct-2023 01:04:31 UTC] sessionController-> validateSession()
+[28-Oct-2023 01:04:31 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 01:04:31 UTC] sessionController::isPublic(): currentURL => 
+[28-Oct-2023 01:04:31 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[28-Oct-2023 01:04:31 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 01:04:31 UTC] Error al mostrar datosSQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM income INNER JOIN category ON category.id = income.id_category WHERE id_use' at line 1
+[28-Oct-2023 01:04:32 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 01:04:32 UTC] PHP Fatal error:  Uncaught TypeError: iterator_to_array(): Argument #1 ($iterator) must be of type Traversable, array given in C:\laragon\www\Finanzas\Models\StatusModel.php:72
+Stack trace:
+#0 C:\laragon\www\Finanzas\Models\StatusModel.php(72): iterator_to_array(Array)
+#1 C:\laragon\www\Finanzas\controllers\Status.php(17): StatusModel->viewBills(11)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Status->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\Models\StatusModel.php on line 72
+[28-Oct-2023 01:04:32 UTC] Hello, errors!
+[28-Oct-2023 01:04:32 UTC] Errores::controller-> Errores
+[28-Oct-2023 03:15:34 UTC] Hello, errors!
+[28-Oct-2023 03:15:34 UTC] sessionController-> validateSession()
+[28-Oct-2023 03:15:34 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:15:34 UTC] sessionController::isPublic(): currentURL => 
+[28-Oct-2023 03:15:34 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[28-Oct-2023 03:15:35 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:15:35 UTC] Error al mostrar datosSQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM income INNER JOIN category ON category.id = income.id_category WHERE id_use' at line 1
+[28-Oct-2023 03:15:35 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:15:35 UTC] PHP Fatal error:  Uncaught TypeError: iterator_to_array(): Argument #1 ($iterator) must be of type Traversable, array given in C:\laragon\www\Finanzas\Models\StatusModel.php:72
+Stack trace:
+#0 C:\laragon\www\Finanzas\Models\StatusModel.php(72): iterator_to_array(Array)
+#1 C:\laragon\www\Finanzas\controllers\Status.php(17): StatusModel->viewBills(11)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Status->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\Models\StatusModel.php on line 72
+[28-Oct-2023 03:15:35 UTC] Hello, errors!
+[28-Oct-2023 03:15:35 UTC] Errores::controller-> Errores
+[28-Oct-2023 03:33:12 UTC] Hello, errors!
+[28-Oct-2023 03:33:12 UTC] sessionController-> validateSession()
+[28-Oct-2023 03:33:12 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:33:12 UTC] sessionController::isPublic(): currentURL => 
+[28-Oct-2023 03:33:12 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[28-Oct-2023 03:33:12 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:33:12 UTC] Error al mostrar datosSQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM income INNER JOIN category ON category.id = income.id_category WHERE id_use' at line 1
+[28-Oct-2023 03:33:13 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:33:13 UTC] PHP Fatal error:  Uncaught TypeError: iterator_to_array(): Argument #1 ($iterator) must be of type Traversable, array given in C:\laragon\www\Finanzas\Models\StatusModel.php:72
+Stack trace:
+#0 C:\laragon\www\Finanzas\Models\StatusModel.php(72): iterator_to_array(Array)
+#1 C:\laragon\www\Finanzas\controllers\Status.php(17): StatusModel->viewBills(11)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Status->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\Models\StatusModel.php on line 72
+[28-Oct-2023 03:33:13 UTC] Hello, errors!
+[28-Oct-2023 03:33:13 UTC] Errores::controller-> Errores
+[28-Oct-2023 03:33:13 UTC] Hello, errors!
+[28-Oct-2023 03:33:13 UTC] sessionController-> validateSession()
+[28-Oct-2023 03:33:13 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:33:13 UTC] sessionController::isPublic(): currentURL => 
+[28-Oct-2023 03:33:13 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[28-Oct-2023 03:33:14 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:33:14 UTC] Error al mostrar datosSQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM income INNER JOIN category ON category.id = income.id_category WHERE id_use' at line 1
+[28-Oct-2023 03:33:14 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:33:14 UTC] PHP Fatal error:  Uncaught TypeError: iterator_to_array(): Argument #1 ($iterator) must be of type Traversable, array given in C:\laragon\www\Finanzas\Models\StatusModel.php:72
+Stack trace:
+#0 C:\laragon\www\Finanzas\Models\StatusModel.php(72): iterator_to_array(Array)
+#1 C:\laragon\www\Finanzas\controllers\Status.php(17): StatusModel->viewBills(11)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Status->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\Models\StatusModel.php on line 72
+[28-Oct-2023 03:33:14 UTC] Hello, errors!
+[28-Oct-2023 03:33:14 UTC] Errores::controller-> Errores
+[28-Oct-2023 03:33:14 UTC] Hello, errors!
+[28-Oct-2023 03:33:14 UTC] sessionController-> validateSession()
+[28-Oct-2023 03:33:14 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:33:14 UTC] sessionController::isPublic(): currentURL => 
+[28-Oct-2023 03:33:14 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[28-Oct-2023 03:33:14 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:33:14 UTC] Error al mostrar datosSQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM income INNER JOIN category ON category.id = income.id_category WHERE id_use' at line 1
+[28-Oct-2023 03:33:14 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:33:14 UTC] PHP Fatal error:  Uncaught TypeError: iterator_to_array(): Argument #1 ($iterator) must be of type Traversable, array given in C:\laragon\www\Finanzas\Models\StatusModel.php:72
+Stack trace:
+#0 C:\laragon\www\Finanzas\Models\StatusModel.php(72): iterator_to_array(Array)
+#1 C:\laragon\www\Finanzas\controllers\Status.php(17): StatusModel->viewBills(11)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Status->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\Models\StatusModel.php on line 72
+[28-Oct-2023 03:33:14 UTC] Hello, errors!
+[28-Oct-2023 03:33:14 UTC] Errores::controller-> Errores
+[28-Oct-2023 03:33:15 UTC] Hello, errors!
+[28-Oct-2023 03:33:15 UTC] sessionController-> validateSession()
+[28-Oct-2023 03:33:15 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:33:15 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[28-Oct-2023 03:33:15 UTC] sessionController::isPublic(): currentURL => admin
+[28-Oct-2023 03:33:15 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[28-Oct-2023 03:33:15 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:33:15 UTC] Get users model=>9
+[28-Oct-2023 03:33:15 UTC] Total de usuarios -> funcion
+[28-Oct-2023 03:33:15 UTC] Usuarios totales render ->9
+[28-Oct-2023 03:33:15 UTC] sessionController-> validateSession()
+[28-Oct-2023 03:33:15 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:33:15 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[28-Oct-2023 03:33:15 UTC] sessionController::isPublic(): currentURL => admin
+[28-Oct-2023 03:33:15 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[28-Oct-2023 03:33:15 UTC] Users Controller ->showUsers
+[28-Oct-2023 03:33:15 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:33:15 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:33:16 UTC] Hello, errors!
+[28-Oct-2023 03:33:16 UTC] Errores::controller-> Errores
+[28-Oct-2023 03:33:17 UTC] Hello, errors!
+[28-Oct-2023 03:33:17 UTC] sessionController-> validateSession()
+[28-Oct-2023 03:33:17 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:33:17 UTC] sessionController::isPublic(): currentURL => 
+[28-Oct-2023 03:33:17 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[28-Oct-2023 03:33:17 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:33:17 UTC] Error al mostrar datosSQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM income INNER JOIN category ON category.id = income.id_category WHERE id_use' at line 1
+[28-Oct-2023 03:33:17 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:33:17 UTC] PHP Fatal error:  Uncaught TypeError: iterator_to_array(): Argument #1 ($iterator) must be of type Traversable, array given in C:\laragon\www\Finanzas\Models\StatusModel.php:72
+Stack trace:
+#0 C:\laragon\www\Finanzas\Models\StatusModel.php(72): iterator_to_array(Array)
+#1 C:\laragon\www\Finanzas\controllers\Status.php(17): StatusModel->viewBills(11)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Status->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\Models\StatusModel.php on line 72
+[28-Oct-2023 03:33:17 UTC] Hello, errors!
+[28-Oct-2023 03:33:17 UTC] Errores::controller-> Errores
+[28-Oct-2023 03:37:18 UTC] Hello, errors!
+[28-Oct-2023 03:37:18 UTC] sessionController-> validateSession()
+[28-Oct-2023 03:37:19 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:37:19 UTC] sessionController::isPublic(): currentURL => 
+[28-Oct-2023 03:37:19 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[28-Oct-2023 03:37:19 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:37:19 UTC] Error al mostrar datosSQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM income INNER JOIN category ON category.id = income.id_category WHERE id_use' at line 1
+[28-Oct-2023 03:37:19 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:37:19 UTC] PHP Fatal error:  Uncaught TypeError: iterator_to_array(): Argument #1 ($iterator) must be of type Traversable, array given in C:\laragon\www\Finanzas\Models\StatusModel.php:72
+Stack trace:
+#0 C:\laragon\www\Finanzas\Models\StatusModel.php(72): iterator_to_array(Array)
+#1 C:\laragon\www\Finanzas\controllers\Status.php(17): StatusModel->viewBills(11)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Status->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\Models\StatusModel.php on line 72
+[28-Oct-2023 03:37:19 UTC] Hello, errors!
+[28-Oct-2023 03:37:19 UTC] Errores::controller-> Errores
+[28-Oct-2023 03:37:43 UTC] Hello, errors!
+[28-Oct-2023 03:37:43 UTC] sessionController-> validateSession()
+[28-Oct-2023 03:37:43 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:37:43 UTC] sessionController::isPublic(): currentURL => 
+[28-Oct-2023 03:37:43 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[28-Oct-2023 03:37:43 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:37:43 UTC] Error al mostrar datosSQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM income INNER JOIN category ON category.id = income.id_category WHERE id_use' at line 1
+[28-Oct-2023 03:37:43 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:37:43 UTC] PHP Fatal error:  Uncaught TypeError: iterator_to_array(): Argument #1 ($iterator) must be of type Traversable, array given in C:\laragon\www\Finanzas\Models\StatusModel.php:72
+Stack trace:
+#0 C:\laragon\www\Finanzas\Models\StatusModel.php(72): iterator_to_array(Array)
+#1 C:\laragon\www\Finanzas\controllers\Status.php(17): StatusModel->viewBills(11)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Status->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\Models\StatusModel.php on line 72
+[28-Oct-2023 03:37:44 UTC] Hello, errors!
+[28-Oct-2023 03:37:44 UTC] Errores::controller-> Errores
+[28-Oct-2023 03:38:16 UTC] Hello, errors!
+[28-Oct-2023 03:38:16 UTC] sessionController-> validateSession()
+[28-Oct-2023 03:38:16 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:38:16 UTC] sessionController::isPublic(): currentURL => 
+[28-Oct-2023 03:38:16 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[28-Oct-2023 03:38:16 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:38:16 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:38:16 UTC] PHP Fatal error:  Uncaught TypeError: iterator_to_array(): Argument #1 ($iterator) must be of type Traversable, array given in C:\laragon\www\Finanzas\Models\StatusModel.php:72
+Stack trace:
+#0 C:\laragon\www\Finanzas\Models\StatusModel.php(72): iterator_to_array(Array)
+#1 C:\laragon\www\Finanzas\controllers\Status.php(17): StatusModel->viewBills(11)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Status->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\Models\StatusModel.php on line 72
+[28-Oct-2023 03:38:16 UTC] Hello, errors!
+[28-Oct-2023 03:38:16 UTC] Errores::controller-> Errores
+[28-Oct-2023 03:44:31 UTC] Hello, errors!
+[28-Oct-2023 03:44:31 UTC] sessionController-> validateSession()
+[28-Oct-2023 03:44:31 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:44:31 UTC] sessionController::isPublic(): currentURL => 
+[28-Oct-2023 03:44:31 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[28-Oct-2023 03:44:31 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:44:32 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:44:32 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:44:32 UTC] sessionController-> validateSession()
+[28-Oct-2023 03:44:32 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:44:32 UTC] sessionController::isPublic(): currentURL => 
+[28-Oct-2023 03:44:32 UTC] Users Controller ->showUsers
+[28-Oct-2023 03:44:32 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:44:32 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:44:32 UTC] Hello, errors!
+[28-Oct-2023 03:44:32 UTC] Errores::controller-> Errores
+[28-Oct-2023 03:50:34 UTC] Hello, errors!
+[28-Oct-2023 03:50:34 UTC] sessionController-> validateSession()
+[28-Oct-2023 03:50:34 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:50:34 UTC] sessionController::isPublic(): currentURL => 
+[28-Oct-2023 03:50:34 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[28-Oct-2023 03:50:34 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:50:34 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:50:34 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:50:34 UTC] sessionController-> validateSession()
+[28-Oct-2023 03:50:35 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:50:35 UTC] sessionController::isPublic(): currentURL => 
+[28-Oct-2023 03:50:35 UTC] Users Controller ->showUsers
+[28-Oct-2023 03:50:35 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:50:35 UTC] Session controller-> getUserSession Data  11
+[28-Oct-2023 03:50:35 UTC] Hello, errors!
+[28-Oct-2023 03:50:35 UTC] Errores::controller-> Errores

@@ -15,10 +15,12 @@ class Status extends SessionController
         $category = $this->categoryList();
         $income = $this->showIncome();
         $bills = $model->viewBills($this->getUserSessionData()->getId());
+        $valuesAcount = $this->statusAcount();
         $this->view->render('admin/status',[
             'category' => $category,
             'income' => $income,
-            'bills' => $bills
+            'bills' => $bills,
+            'status' => $valuesAcount
             ]);
     }
 
@@ -47,6 +49,14 @@ class Status extends SessionController
         }
     }
 
+    public function createIncome(){
+        if($this->existPost([''])){
+
+        }else{
+
+        }
+    }
+
     public function showIncome(){
         try {
             $model = new StatusModel();
@@ -62,7 +72,7 @@ class Status extends SessionController
     public function statusAcount(){
         try{
             $model = new StatusModel();
-            $data= $model->statusCount();
+            $data= $model->statusCount($this->getUserSessionData()->getId());
             $totalBills = $data['gastos'];
             $totalIncome = $data['ingresos'];
 
@@ -72,8 +82,14 @@ class Status extends SessionController
                 $save = $totalIncome - $totalBills;
             }
 
+            if(isset($dbt) && !empty($dbt)){
+                error_log('EXISTEN DEUDAS' . $dbt);
+                return ['totalGastos'=>$totalBills,'totalIngresos' => $totalBills, 'deudas' => $dbt];
+            }else if(isset($save) && !empty($save)){
+                error_log('EXISTEN AHORROS' .$save);
+                return ['totalGastos'=>$totalBills,'totalIngresos' => $totalBills, 'ahorros' => $save];
+            }
 
-            $result =['totalGastos'=>$totalBills,'totalIngresos' => $totalBills];
 
         }catch (PDOException $e){
             error_log('Error de estado de cuenta ' . $e->getMessage());

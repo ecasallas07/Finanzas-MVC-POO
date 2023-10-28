@@ -1,5 +1,8 @@
 <?php
     $category = $this->d['category'];
+    $income = $this->d['income'];
+    $bills = $this->d['bills'];
+    $acount = $this->d['status'];
 ?>
 
 <!DOCTYPE html>
@@ -77,9 +80,11 @@
         <div class="row">
             <div class="col-md-12">
                 <h2>Estados de cuenta</h2>
+                <?php print_r($acount); ?>
             </div>
         </div>
         <div class="row">
+
 
     <!--        Register gastos -->
             <div class="form_div" ">
@@ -187,10 +192,10 @@
                         $page = isset($_GET['pagina']) ? intval($_GET['pagina']) : 1;
 
                         $indexBeguin = ($page - 1) * $elementsPage;
-                        $usersFinally = array_slice($users,$indexBeguin,$elementsPage);
+                        $incomeFinally = array_slice($income,$indexBeguin,$elementsPage);
 
                         //                            print_r($usersFinally);
-                        $totalElementos = count($users);
+                        $totalElementos = count($income);
                         $totalPaginas = ceil($totalElementos / $elementsPage);
 
 
@@ -199,21 +204,19 @@
                         ?>
                         </thead>
                         <tbody id="table-body">
-                        <?php
-                        foreach ($usersFinally as $item){
-                            ?>
-                            <tr>
-                                <td> <?php echo $item['id'] ?></td>
-                                <td><?php echo $item['username'] ?></td>
-                                <td><?php echo $item['role'] ?></td>
-                                <td><?php echo $item['telefono'] ?></td>
-                                <td><?php echo $item['photo'] ?></td>
-                                <td><?php echo $item['name'] ?></td>
-                                <td data-data='{"id":"<?php echo $item['id'] ?>","username":"<?php echo $item['username'] ?>","role":"<?php echo $item['role'] ?>", "telefono":"<?php echo $item['telefono'] ?>","photo":"<?php echo $item['photo'] ?>","name":"<?php echo $item['name'] ?>","password":"<?php echo $item['password'] ?>"}'>
-                                    <button type="button" class="btn btn-primary edit-button" data-toggle="modal" data-target="#miModalEditar" onclick="mostrarId(this)">Editar</button>
-                                </td>
-                            </tr>
-                        <?php } ?>
+<!--                        --><?php
+//                        foreach ($incomeFinally as $item){
+//                            ?>
+<!--                            <tr>-->
+<!--                                <td> --><?php //echo $item->fecha_ingreso ?><!--</td>-->
+<!--                                <td>--><?php //echo $item->description ?><!--</td>-->
+<!--                                <td>--><?php //echo $item-> ?><!--</td>-->
+<!--                                <td>--><?php //echo $item-> ?><!--</td>-->
+<!--                                <td data-data='{"id":"--><?php //echo $item['id'] ?><!--","username":"--><?php //echo $item['username'] ?><!--","role":"--><?php //echo $item['role'] ?><!--", "telefono":"--><?php //echo $item['telefono'] ?><!--","photo":"--><?php //echo $item['photo'] ?><!--","name":"--><?php //echo $item['name'] ?><!--","password":"--><?php //echo $item['password'] ?><!--"}'>-->
+<!--                                    <button type="button" class="btn btn-primary edit-button" data-toggle="modal" data-target="#miModalEditar" onclick="mostrarId(this)">Editar</button>-->
+<!--                                </td>-->
+<!--                            </tr>-->
+<!--                        --><?php //} ?>
 
 
                         </tbody>
@@ -234,9 +237,9 @@
                     <form action="<?php echo constant('URL'); ?>admin/createUser" method="POST">
 
                         <div class="field-wrap">
-                            <label>Email Address<span class="req">*</span>
+                            <label>Descripcion<span class="req">*</span>
                             </label>
-                            <input type="text" autocomplete="off" name="username"/>
+                            <textarea type="text" class="form-control" id="textarea" name="descripcion"  placeholder="Separadas por coma (,)" rows="2" cols="50"></textarea>
                         </div>
 
                         <div class="field-wrap">
@@ -246,7 +249,7 @@
                         </div>
 
                         <div class="field-wrap">
-                            <label>Set A Role<span class="req">*</span>
+                            <label><span class="req">*</span>
                             </label>
                             <select name="role">
                                 <option value="" selected></option>
@@ -255,20 +258,9 @@
 
                             </select>
                         </div>
-                        <div class="field-wrap">
-                            <label>Set A Phone Number<span class="req">*</span>
-                            </label>
-                            <input type="number"  autocomplete="off" name="phone"/>
-                        </div>
-                        <div class="field-wrap">
-                            <label>Set A Name of User<span class="req">*</span>
-                            </label>
-                            <input type="text"  autocomplete="off" name="user_name"/>
-                        </div>
-
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                            <button type="submit" class="btn btn-primary">Guardar cambios</button>
+                            <button type="submit" class="btn btn-primary">Crear Ingreso</button>
 
                         </div>
 

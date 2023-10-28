@@ -3,9 +3,11 @@
 class StatusModel extends Model
 {
 
-    private $date_beguin;
+    private $cantidad;
     private $description;
     private $id_category;
+
+    private $id_user;
     public function __construct()
     {
         parent::__construct();
@@ -45,8 +47,14 @@ class StatusModel extends Model
 
     public function createIncomeModel(){
         try{
-            $query = $this->prepare();
-            $query->execute();
+            $query = $this->prepare('INSERT INTO income(id_category,description,id_user,cantidad) VALUES (:id_category,:description,:id_user,:cantidad');
+            $query->execute([
+                'id_category'=>$this->id_category,
+                'description' => $this->description,
+                'id_user' => $this->id_user,
+                'cantidad' => $this->cantidad
+
+            ]);
 
         }catch (PDOException $e){
             error_log('Modelo de ingresos no funciona'. $e->getMessage());
@@ -54,7 +62,7 @@ class StatusModel extends Model
     }
 
     public function viewIncome($id_user){
-        $query = $this->prepare('SELECT income.*, category.tipo,  FROM income INNER JOIN category ON category.id = income.id_category WHERE id_user = :id');
+        $query = $this->prepare('SELECT income.*, category.tipo  FROM income INNER JOIN category ON category.id = income.id_category WHERE id_user = :id');
         $query->execute(['id'=>$id_user]);
         $income = [];
 //        TODO: Diferencias entre el uso de fetch y fetchAll, es qque fetch devueve una sola fila a la vez y fetchAll las devuelve todas en un array
@@ -68,8 +76,12 @@ class StatusModel extends Model
     public function viewBills($id_user){
         $query = $this->prepare('SELECT  bills.*, category.tipo FROM bills INNER JOIN category ON  category.id = bills.id_category WHERE id_user = :id ');
         $query->execute(['id' => $id_user]);
+        if($query){
+            return  iterator_to_array($query,PDO::FETCH_OBJ);
+        }
+        return false;
 
-        return iterator_to_array($query->fetchAll(PDO::FETCH_OBJ));
+
 
     }
 
@@ -85,5 +97,24 @@ class StatusModel extends Model
         return ['gastos' => $sumBills, 'ingresos' => $sumIncome ];
 
     }
+
+
+//    TODO: Getters and setters  for the atributes of income
+
+    public function setIdCategory($category){
+        $this->id_category = $category;
+    }
+    public function setDescription($description){
+        $this->description = $description;
+    }
+
+    public function setIdUser($user){
+        $this->id_user = $user;
+    }
+
+    public function setCantidad($cantidad){
+        $this->cantidad = $cantidad;
+    }
+
 
 }

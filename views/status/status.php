@@ -76,7 +76,7 @@
 </head>
 <body>
 <div id="wrapper">
-    <?php require 'header.php';?>
+    <?php require './views/admin/header.php';?>
     <div id="page-wrapper">
         <div class="row">
             <div class="col-md-12">

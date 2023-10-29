@@ -8,6 +8,11 @@ class StatusModel extends Model
     private $id_category;
 
     private $id_user;
+
+    private $totalBills;
+    private $totalIncome;
+    private $maxIncome;
+    private $maxBills;
     public function __construct()
     {
         parent::__construct();
@@ -25,13 +30,14 @@ class StatusModel extends Model
             error_log('Mostrando categorias' . $e->getMessage());
         }
     }
-    public function createBillModel($category,$cantidad,$user){
+    public function createBillModel($category,$cantidad,$user,$descripcion){
         try{
-            $query = $this->prepare('INSERT INTO bills(id_category,cantidad,id_user) VALUES(:id_category,:cantidad,:id_user) ');
+            $query = $this->prepare('INSERT INTO bills(id_category,cantidad,id_user,description) VALUES(:id_category,:cantidad,:id_user,:descripcion) ');
             $query->execute([
-               'id_category' => $category,
+                'id_category' => $category,
                 'cantidad' => $cantidad,
-                'id_user' => $user
+                'id_user' => $user,
+                'descripcion' => $descripcion
             ]);
 
             if($query->rowCount() >0){
@@ -47,7 +53,7 @@ class StatusModel extends Model
 
     public function createIncomeModel(){
         try{
-            $query = $this->prepare('INSERT INTO income(id_category,description,id_user,cantidad) VALUES (:id_category,:description,:id_user,:cantidad');
+            $query = $this->prepare('INSERT INTO income(id_category,description,id_user,cantidad) VALUES (:id_category,:description,:id_user,:cantidad)');
             $query->execute([
                 'id_category'=>$this->id_category,
                 'description' => $this->description,
@@ -55,6 +61,13 @@ class StatusModel extends Model
                 'cantidad' => $this->cantidad
 
             ]);
+
+            if($query){
+                return true;
+            }else{
+                return  false;
+            }
+
 
         }catch (PDOException $e){
             error_log('Modelo de ingresos no funciona'. $e->getMessage());
@@ -86,16 +99,24 @@ class StatusModel extends Model
     }
 
     public function statusCount($id_user){
-        $bills= $this->prepare('SELECT SUM(cantidad) FROM bills WHERE id = :id');
+
+        $bills= $this->prepare('SELECT SUM(cantidad) FROM bills WHERE id_user = :id ');
         $bills->execute(['id'=>$id_user]);
-        $income = $this->prepare('SELECT SUM(cantidad) FROM income WHERE id =:id') ;
+        $income = $this->prepare('SELECT SUM(cantidad) FROM income WHERE id_user =:id ') ;
         $income->execute(['id'=>$id_user]);
+        $maxIncome = $this->prepare('SELECT descripcion, cantidad, tipo FROM income INNER JOIN category ON income.id_category = category.id  WHERE cantidad = (SELECT MAX(cantidad) FROM income) AND id_user = :id');
+        $maxIncome->execute(['id' => $id_user]);
+        $maxBills = $this->prepare('SELECT descripcion, cantidad, tipo FROM bills INNER JOIN category ON bills.id_category = category.id  WHERE cantidad = (SELECT MAX(cantidad) FROM bills) AND id_user = :id');
+        $maxBills->execute(['id' => $id_user]);
 
-        $sumBills = $bills->fetchColumn();
-        $sumIncome= $income->fetchColumn();
-
-        return ['gastos' => $sumBills, 'ingresos' => $sumIncome ];
-
+            $sumBills = $bills->fetchColumn();
+            $sumIncome= $income->fetchColumn();
+            $incomeInfo = $maxIncome->fetch(PDO::FETCH_OBJ);
+            $billsInfo = $maxBills->fetch(PDO::FETCH_OBJ);
+            $this->setMaxIncome($incomeInfo);
+            $this->setMaxBills($billsInfo);
+            $this->setBills($sumBills);
+            $this->setIncome($sumIncome);
     }
 
 
@@ -112,9 +133,57 @@ class StatusModel extends Model
         $this->id_user = $user;
     }
 
-    public function setCantidad($cantidad){
+    public function setBills($bills){
+        $this->totalBills = $bills;
+    }
+    public function setIncome($income){
+        $this->totalIncome = $income;
+    }
+
+
+    public function getCantidad(){
+        return $this->cantidad;
+    }
+
+    public function getIdCategory(){
+        return $this->id_category;
+    }
+    public function getDescription(){
+        return $this->description;
+    }
+
+    public function getIdUser(){
+        return $this->id_user;
+    }
+
+    public function getBills(){
+        return $this->totalBills;
+    }
+    public function getIncome(){
+        return $this->totalIncome;
+    }
+
+
+    public function setCantidad($cantidad)
+    {
         $this->cantidad = $cantidad;
     }
 
+    private function setMaxIncome($incomeInfo)
+    {
+        $this->maxIncome = $incomeInfo;
+    }
+
+    private function setMaxBills($billsInfo)
+    {
+        $this->maxBills = $billsInfo;
+    }
+
+    public function getMaxIncome(){
+        return $this->maxIncome;
+    }
+    public function getMaxBills(){
+        return $this->maxBills;
+    }
 
 }

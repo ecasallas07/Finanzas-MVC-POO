@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="<?php echo constant('URL'); ?>public/css/default.css">
     <link rel="stylesheet" href="<?php echo constant('URL'); ?>public/css/dashboard.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://kit.fontawesome.com/33a54e7afe.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -53,38 +54,38 @@
 
             </li>
             <li>
-                <a href="<?php echo constant('URL'); ?>Admin"><i class="fa fa-table "></i>Admin</a>
+                <a href="<?php echo constant('URL'); ?>Admin"><i class="fa-solid fa-elevator"></i>Admin</a>
             </li>
 
             <li>
-                <a href="#"><i class="fa fa-edit option-active"></i>Perfil<span class="fa arrow"></span></a>
+                <a href="#"><i class="fa-solid fa-person-rays"></i>Perfil<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
 <!--                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#miModalNotifications" ><h3>Notifications</h3></button>-->
-                        <a href="#" data-toggle="modal" data-target="#miModalNotifications">Notifications</a>
+                        <a href="#" data-toggle="modal" data-target="#miModalNotifications"><i class="fa-solid fa-person-chalkboard"></i> Notifications</a>
                     </li>
                     <li>
-                        <a href="Users" data-toggle="modal" data-target="#miModalMensajes">Mensaje</a>
+                        <a href="Users" data-toggle="modal" data-target="#miModalMensajes"> <i class="fa-solid fa-envelope-circle-check"></i> Mensaje</a>
                     </li>
                 </ul>
             </li>
 
             <li>
-                <a href="<?php echo constant('URL'); ?>Users"><i class="fa fa-table "></i>Users</a>
+                <a href="<?php echo constant('URL'); ?>Users"><i class="fa-solid fa-users-line"></i>Users</a>
             </li>
             <li>
-                <a href="<?php echo constant('URL'); ?>Status"><i class="fa fa-edit "></i>Estados de cuenta </a>
+                <a href="<?php echo constant('URL'); ?>Status"><i class="fa-solid fa-money-bill-trend-up"></i>Estados de cuenta </a>
             </li>
 
             <li>
                 <a href="#"><i class="fa fa-qrcode "></i>Calendario</a>
             </li>
             <li>
-                <a href="#"><i class="fa fa-bar-chart-o"></i>Categorias de Gastos</a>
+                <a href="<?php echo constant('URL');?>Category"><i class="fa-solid fa-boxes-packing"></i>Categorias de Gastos</a>
             </li>
 
             <li>
-                <a href="#"><i class="fa fa-edit "></i>Proyectos </a>
+                <a href="#"><i class="fa-solid fa-hands-holding-circle"></i>Proyectos </a>
             </li>
 
         </ul>
@@ -100,7 +101,7 @@
             <div class="modal-content">
                 <!-- Contenido del modal -->
                 <div class="modal-header">
-                    <h5 class="modal-title">Notificaciones</h5>
+                    <h5 class="modal-title"><i class="fa-solid fa-person-chalkboard"></i> Notificaciones</h5>
                 </div>
 
                         <?php
@@ -128,7 +129,7 @@
 
 
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar Notificaiones</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar Notificaciones</button>
 
 
                     </div>
@@ -146,7 +147,7 @@
             <div class="modal-content">
                 <!-- Contenido del modal -->
                 <div class="modal-header">
-                    <h5 class="modal-title">Crear Mensaje</h5>
+                    <h5 class="modal-title"><i class="fa-solid fa-envelope-circle-check"></i> Crear Mensaje</h5>
                     <form action="<?php echo constant('URL'); ?>Users/sendMessage" method="POST">
 
                         <div class="field-wrap">
@@ -197,6 +198,9 @@
 <script src="../../public/javascript/jquery.metisMenu.js"></script>
 <!-- CUSTOM SCRIPTS -->
 <script src="../../public/javascript/custom.js"></script>
+
+
+
 
 </body>
 </html>

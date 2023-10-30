@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<?php require 'views/header.php'; ?>
+<?php require 'views/admin/header.php'; ?>
 <div class="error-container">
     <div class="error-info">
         <h1 class="error404">404</h1>

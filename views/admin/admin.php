@@ -38,7 +38,7 @@ $adminTable = $this->d['admin'];
             <div id="page-inner">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2>Admin Dashboard</h2>
+                        <h2><i class="fa-solid fa-elevator"></i> Admin Dashboard</h2>
                     </div>
                 </div>
                 <!-- /. ROW  -->
@@ -48,7 +48,7 @@ $adminTable = $this->d['admin'];
                         <h5>Usuarios</h5>
                         <div class="panel panel-primary text-center no-boder bg-color-blue">
                             <div class="panel-body">
-                                <i class="fa fa-bar-chart-o fa-5x"></i>
+                                <i class="fa-solid fa-users-rectangle fa-5x"></i>
                                 <h3>Cantidad de usuarios</h3>
                                 <h4><?php  echo $count;?></h4>
                             </div>
@@ -63,7 +63,7 @@ $adminTable = $this->d['admin'];
                         <h5>Tablas</h5>
                         <div class="panel panel-primary text-center no-boder bg-color-blue">
                             <div class="panel-body">
-                                <i class="fa fa-bar-chart-o fa-5x"></i>
+                                <i class="fa-solid fa-file-circle-plus fa-5x"></i>
                                 <h3>Cantidad de Tablas</h3>
                             </div>
                             <div class="panel-footer back-footer-blue">
@@ -77,7 +77,7 @@ $adminTable = $this->d['admin'];
                             <h5>Administradores</h5>
                             <div class="panel panel-primary text-center no-boder bg-color-blue">
                                 <div class="panel-body">
-                                    <i class="fa fa-bar-chart-o fa-5x"></i>
+                                    <i class="fa-solid fa-arrows-down-to-people fa-5x"></i>
                                     <h3>Cantidad de Adminins</h3>
                                 </div>
                                 <div class="panel-footer back-footer-blue">
@@ -90,7 +90,7 @@ $adminTable = $this->d['admin'];
                             <h5>Categorias</h5>
                             <div class="panel panel-primary text-center no-boder bg-color-blue">
                                 <div class="panel-body">
-                                    <i class="fa fa-bar-chart-o fa-5x"></i>
+                                    <i class="fa-solid fa-boxes-packing fa-5x"></i>
                                     <h3>Cantidad de Categorias</h3>
                                 </div>
                                 <div class="panel-footer back-footer-blue">
@@ -396,6 +396,8 @@ $adminTable = $this->d['admin'];
     <script src="../../public/javascript/jquery.metisMenu.js"></script>
       <!-- CUSTOM SCRIPTS -->
     <script src="../../public/javascript/custom.js"></script>
+
+    <script src="https://kit.fontawesome.com/33a54e7afe.js" crossorigin="anonymous"></script>
 
 </body>
 </html>

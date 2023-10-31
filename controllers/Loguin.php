@@ -2,8 +2,10 @@
 
 require_once './libs/Controller.php';
 require_once './Models/LoginModel.php';
+require_once './classes/errors.php';
+require_once './classes/success.php';
 
-//TODO: Extendemos de ssion controller porque session controller ya tiene como herencia a controller
+//TODO: Extendemos de sesion controller porque session controller ya tiene como herencia a controller
 class Loguin extends SessionController
 {
     function __construct(){

@@ -48,7 +48,7 @@ $users = $this->d['info'];
                 </div>
                 <hr/>
 
-                <div class="row">
+                <div class="row"style="display: flex !important;">
                     <div class="col-md-6">
                         <h5>Usuario registrados</h5>
                         <table class="table table-striped table-bordered table-hover">
@@ -136,23 +136,25 @@ $users = $this->d['info'];
                     </div>
 
 
-                </div>
+                    <div style="text-align: center !important; width: 400px !important; margin: 2px auto">
+                        <div class="col-md-3 col-sm-3 col-xs-6">
+                            <div class="panel panel-primary text-center no-boder bg-color-blue">
+                                <div class="panel-body">
+                                    <i class="fas fa-user-times fa-5x"></i>
+                                    <button style="border-radius: 50px !important;" type="button" class="btn bg-color-blue" data-toggle="modal" data-target="#miModalDelete" ><h3>Eliminar Usuarios</h3></button>
 
-                <div class="row">
-                    <div class="col-md-3 col-sm-3 col-xs-6">
-                        <h5>Eliminar Usuarios</h5>
-                        <div class="panel panel-primary text-center no-boder bg-color-blue">
-                            <div class="panel-body">
-                                <i class="fa fa-bar-chart-o fa-5x"></i>
-                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#miModalDelete" ><h3>Eliminar Usuarios</h3></button>
-
-                                <h4></h4>
-                            </div>
-                            <div class="panel-footer back-footer-blue">
+                                    <h4></h4>
+                                </div>
+                                <div class="panel-footer back-footer-blue">
+                                </div>
                             </div>
                         </div>
                     </div>
+
+
                 </div>
+
+
 
 <!--                TODO : Modal for user edit-->
                 <div class="modal" id="miModalEditar">

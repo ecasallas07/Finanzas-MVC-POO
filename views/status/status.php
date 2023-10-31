@@ -24,6 +24,10 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 
     <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">-->
+    <script src="sweetalert2.all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
 
     <style>
         .form_div{
@@ -80,7 +84,7 @@
     <div id="page-wrapper">
         <div class="row">
             <div class="col-md-12">
-                <h2>Estados de cuenta</h2>
+                <h2><i class="fa-solid fa-money-bill-trend-up"></i> Estados de cuenta</h2>
             </div>
         </div>
         <div class="row">
@@ -260,6 +264,9 @@
                         </nav>
                     </div>
                 </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
 
             </div>
         </div>
@@ -395,6 +402,9 @@
                         </nav>
                     </div>
                 </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
 
             </div>
         </div>
@@ -453,12 +463,14 @@
                             <td>El ingreso <?php echo $acount['maxInfoIncome']->descripcion ?>, por la cantidad de <span style="font-weight: bold"><?php echo $acount['maxInfoIncome']->cantidad ?></span> de la categoria  <?php echo $acount['maxInfoIncome']->tipo ?>  </td>
                         </tr>
 
-
                         </tbody>
                     </table>
                 </div>
-
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
             </div>
+
         </div>
     </div>
 
@@ -474,5 +486,44 @@
     <script src="../../public/javascript/jquery.metisMenu.js"></script>
     <!-- CUSTOM SCRIPTS -->
     <script src="../../public/javascript/custom.js"></script>
+
+<script>
+    // Verifica si hay mensajes de éxito en la URL
+    window.onload = function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        console.log(urlParams.has('delete'));
+        if (urlParams.has('success')) {
+
+
+            // Muestra una alerta de éxito
+            Swal.fire({
+                title: 'Operación Exitosa',
+                text: 'Se realizo correctamente la accion',
+                icon: 'success',
+                confirmButtonText: 'OK'
+            }).then(function () {
+                // Redirige al usuario a otra página si es necesario
+                window.location.href = 'Status';
+            });
+        }
+
+
+
+
+        if(urlParams.has('error')){
+            Swal.fire({
+                title: 'Error',
+                text: 'Algo salio mal',
+                icon: 'error',
+                confirmButtonText: 'OK'
+            }).then(function () {
+                // Redirige al usuario a otra página si es necesario
+                window.location.href = 'Status';
+            });
+
+        }
+    };
+
+</script>
 </body>
 </html>

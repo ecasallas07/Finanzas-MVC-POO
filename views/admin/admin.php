@@ -26,6 +26,8 @@ $adminTable = $this->d['admin'];
    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 
 <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.all.min.js"></script>
     <script src="sweetalert2.min.js"></script>
     <link rel="stylesheet" href="sweetalert2.min.css">
 </head>
@@ -282,106 +284,11 @@ $adminTable = $this->d['admin'];
 
                 <!-- /. ROW  -->
                 <hr />
-                <div class="row">
-                    <div class="col-md-6">
-                        <h5>Top Administradores</h5>
-                        <table class="table table-striped table-bordered table-hover">
-                            <thead>
-                            <tr>
-                                <th>#</th>
-                                <th>Username</th>
-                                <th>Role</th>
-                                <th>Phone</th>
-                                <th>Photo</th>
-                                <th>Name</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <?php
-                                foreach ($adminTable as $row){
-
-
-                            ?>
-                            <tr>
-                                <td><?php echo $row->id;?></td>
-                                <td><?php echo $row->username;?></td>
-                                <td><?php echo $row->role;?></td>
-                                <td><?php echo $row->telefono;?></td>
-                                <td><?php echo $row->photo;?></td>
-                                <td><?php echo $row->name;?></td>
-                            </tr>
-                            <?php }?>
-
-                            </tbody>
-                        </table>
-
-                    </div>
-
-                    <div class="col-md-4">
-                        <label>Click to see blank page</label>
-                        <a href="admin.php" target="_blank" class="btn btn-danger btn-lg btn-block">VISITAR PAGINA WEB</a>
-                    </div>
-                </div>
-                <!-- /. ROW  -->
-                <hr />
-
-
-                <div class="row">
-                    <div class="col-md-12">
-                        <h5>Articulos</h5>
-                        <ul class="nav nav-tabs">
-                            <li class="active"><a href="#home" data-toggle="tab">Tecnologia</a>
-                            </li>
-                            <li class=""><a href="#profile" data-toggle="tab">Finanzas</a>
-                            </li>
-                            <li class=""><a href="#messages" data-toggle="tab">Politica</a>
-                            </li>
-
-                        </ul>
-                        <div class="tab-content">
-                            <div class="tab-pane fade active in" id="home">
-                                <h4>Home Tab</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit eserunt mollit anim id est laborum.
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit eserunt mollit anim id est laborum.
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit eserunt mollit anim id est laborum.
-                                </p>
-                            </div>
-                            <div class="tab-pane fade" id="profile">
-                                <h4>Profile Tab</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit eserunt mollit anim id est laborum.
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit eserunt mollit anim id est laborum.
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit eserunt mollit anim id est laborum.
-                                </p>
-
-                            </div>
-                            <div class="tab-pane fade" id="messages">
-                                <h4>Messages Tab</h4>
-                                <p >
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit eserunt mollit anim id est laborum.
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit eserunt mollit anim id est laborum.
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit eserunt mollit anim id est laborum.
-                                </p>
-
-                            </div>
-
-                        </div>
-                    </div>
-
+                <div class="col-md-4" style="text-align: center !important; width: 400px !important;margin: auto">
+                    <label>Click to see blank page</label>
+                    <a href="admin.php" target="_blank" class="btn btn-danger btn-lg btn-block">VISITAR PAGINA WEB</a>
                 </div>
 
-                <!-- /. ROW  -->
-                <hr />
-                <div class="row">
-                    <div class="col-md-12">
-                        <h5>Information</h5>
-                        This is a type of bare admin that means you can customize your own admin using this admin structured  template . For More Examples of bootstrap elements or components please visit official bootstrap website <a href="http://getbootstrap.com" target="_blank">getbootstrap.com</a>
-                        . And if you want full template please download <a href="http://www.binarytheme.com/bootstrap-free-admin-dashboard-template/" target="_blank" >FREE BCORE ADMIN </a>&nbsp;,&nbsp;  <a href="http://www.binarytheme.com/free-bootstrap-admin-template-siminta/" target="_blank" >FREE SIMINTA ADMIN</a> and <a href="http://binarycart.com/" target="_blank" >FREE BINARY ADMIN</a>.
-
-                    </div>
-                </div>
-                <!-- /. ROW  -->
 
             </div>
             <!-- /. PAGE INNER  -->
@@ -414,7 +321,6 @@ $adminTable = $this->d['admin'];
                     icon: 'success',
                     confirmButtonText: 'OK'
                 }).then(function () {
-                    // Redirige al usuario a otra página si es necesario
                     window.location.href = 'Project';
                 });
             }
@@ -425,20 +331,18 @@ $adminTable = $this->d['admin'];
                     icon: 'error',
                     confirmButtonText: 'OK'
                 }).then(function () {
-                    // Redirige al usuario a otra página si es necesario
-                    window.location.href = 'Project';
+                    window.location.href = 'Admin';
                 });
 
             }
             if(urlParams.has('isset')){
                 Swal.fire({
-                    title: 'Operación Exitosa',
-                    text: 'Ingrese los datos',
+                    title: 'Error',
+                    text: 'Algo salio mal!',
                     icon: 'error',
                     confirmButtonText: 'OK'
                 }).then(function () {
-                    // Redirige al usuario a otra página si es necesario
-                    window.location.href = 'Project';
+                    window.location.href = 'Admin';
                 });
 
             }

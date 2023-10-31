@@ -1,5 +1,6 @@
 <?php
 
+require_once 'UserModel.php';
 class AdminModel extends Model implements IModel
 {
     private $countUsers;
@@ -325,7 +326,10 @@ class AdminModel extends Model implements IModel
         $this->username = $username;
     }
     public function setPassword($password){
-        $this->password = $password;
+        $this->password = $this->getHashedPassword($password);
+    }
+    private function getHashedPassword($password){
+        return password_hash($password,PASSWORD_DEFAULT,['cost' => 10]);
     }
     public function setRole($role){
         $this->role = $role;

@@ -85,7 +85,7 @@
             </li>
 
             <li>
-                <a href="#"><i class="fa-solid fa-hands-holding-circle"></i>Proyectos </a>
+                <a href="<?php echo constant('URL');?>Project"><i class="fa-solid fa-hands-holding-circle"></i>Proyectos </a>
             </li>
 
         </ul>

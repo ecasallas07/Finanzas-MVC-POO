@@ -28,11 +28,35 @@
 
     <script src="sweetalert2.min.js"></script>
     <link rel="stylesheet" href="sweetalert2.min.css">
+    <style>
+        .user-dropdown-content {
+            display: none; /* Inicialmente oculto */
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .user-dropdown-content a {
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        /* Mostrar el menú cuando la clase "show" está presente */
+        .user-dropdown-content.show {
+            display: block;
+        }
+        .nav-elements{
+            justify-content: space-between !important;
+        }
+    </style>
 </head>
 <body>
 
 <div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="adjust-nav">
+    <div class="adjust-nav nav-elements">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
                 <span class="icon-bar"></span>
@@ -41,9 +65,16 @@
             </button>
             <a class="navbar-brand" href="#"><i class="fa fa-square-o "></i>&nbsp;FINANZAS-ECASA</a>
         </div>
-        <div class="navbar-collapse collapse">
-
-            <h5 class="text-right text-muted "><?php echo $model->getUserSessionData()->getName(); ?></h5>
+        <div class="user-dropdown">
+            <button class="text-right text-muted" id="userDropdownButton">
+                <?php echo $model->getUserSessionData()->getName(); ?>
+                <i class="fas fa-user-tie"></i>
+            </button>
+            <div class="user-dropdown-content" id="userDropdownContent">
+                <a href="#">Perfil</a>
+                <a href="#">Configuración</a>
+                <a href="<?php echo constant('URL'); ?>Logout">Cerrar Sesión</a>
+            </div>
         </div>
 
     </div>
@@ -56,9 +87,11 @@
                 <img src="<?php echo constant('URL'); ?>public/img/find_user.png" class="img-responsive" />
 
             </li>
+            <?php if($model->getUserSessionData()->getRole() == 'admin'): ?>
             <li>
                 <a href="<?php echo constant('URL'); ?>Admin"><i class="fa-solid fa-elevator"></i>Admin</a>
             </li>
+            <?php endif; ?>
 
             <li>
                 <a href="#"><i class="fa-solid fa-person-rays"></i>Perfil<span class="fa arrow"></span></a>
@@ -72,10 +105,11 @@
                     </li>
                 </ul>
             </li>
-
-            <li>
-                <a href="<?php echo constant('URL'); ?>Users"><i class="fa-solid fa-users-line"></i>Users</a>
-            </li>
+            <?php if($model->getUserSessionData()->getRole() == 'admin'): ?>
+                <li>
+                    <a href="<?php echo constant('URL'); ?>Users"><i class="fa-solid fa-users-line"></i>Users</a>
+                </li>
+            <?php endif; ?>
             <li>
                 <a href="<?php echo constant('URL'); ?>Status"><i class="fa-solid fa-money-bill-trend-up"></i>Estados de cuenta </a>
             </li>
@@ -202,8 +236,24 @@
 <!-- CUSTOM SCRIPTS -->
 <script src="../../public/javascript/custom.js"></script>
 
+<script>
+    // Obtener elementos del DOM
+    const userDropdownButton = document.getElementById('userDropdownButton');
+    const userDropdownContent = document.getElementById('userDropdownContent');
 
 
+    // Mostrar/ocultar el menú desplegable al hacer clic en el botón
+    userDropdownButton.addEventListener('click', function () {
+        userDropdownContent.classList.toggle('show');
+    });
+
+    // Ocultar el menú desplegable si se hace clic fuera de él
+    window.addEventListener('click', function (event) {
+        if (event.target !== userDropdownButton && event.target !== userDropdownContent) {
+            userDropdownContent.classList.remove('show');
+        }
+    });
+</script>
 
 </body>
 </html>

@@ -11,15 +11,10 @@
       "role": ""
     },
     {
-      "site": "dashboard",
+      "site": "status",
       "access": "private",
       "role": "user"
 
-    },
-    {
-      "site": "home",
-      "access": "private",
-      "role": "user"
     },
     {
       "site": "user",
@@ -33,7 +28,7 @@
     }
    ],
   "default-sites": {
-      "user": "dashboard",
+      "user": "status",
       "admin": "admin"
   }
 

@@ -28718,3 +28718,1075 @@ Stack trace:
 [31-Oct-2023 19:55:57 UTC] Errores::controller-> Errores
 [31-Oct-2023 19:55:57 UTC] Hello, errors!
 [31-Oct-2023 19:55:57 UTC] Errores::controller-> Errores
+[31-Oct-2023 19:57:58 UTC] Hello, errors!
+[31-Oct-2023 19:57:58 UTC] sessionController-> validateSession()
+[31-Oct-2023 19:57:58 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 19:57:58 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 19:57:58 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 19:57:58 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 19:57:58 UTC] sessionController-> validateSession()
+[31-Oct-2023 19:57:58 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 19:57:58 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 19:57:58 UTC] Users Controller ->showUsers
+[31-Oct-2023 19:57:58 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 19:57:58 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 19:57:58 UTC] Hello, errors!
+[31-Oct-2023 19:57:58 UTC] Hello, errors!
+[31-Oct-2023 19:57:58 UTC] Hello, errors!
+[31-Oct-2023 19:57:58 UTC] Errores::controller-> Errores
+[31-Oct-2023 19:57:58 UTC] Errores::controller-> Errores
+[31-Oct-2023 19:57:58 UTC] Errores::controller-> Errores
+[31-Oct-2023 19:57:58 UTC] Hello, errors!
+[31-Oct-2023 19:57:58 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:02:42 UTC] Hello, errors!
+[31-Oct-2023 20:02:42 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:02:42 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:02:42 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:02:42 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 20:02:42 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:02:42 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:02:42 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:02:42 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:02:42 UTC] Users Controller ->showUsers
+[31-Oct-2023 20:02:42 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:02:42 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:02:42 UTC] Hello, errors!
+[31-Oct-2023 20:02:42 UTC] Hello, errors!
+[31-Oct-2023 20:02:42 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:02:42 UTC] Hello, errors!
+[31-Oct-2023 20:02:42 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:02:42 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:02:42 UTC] Hello, errors!
+[31-Oct-2023 20:02:42 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:03:15 UTC] Hello, errors!
+[31-Oct-2023 20:03:15 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:03:15 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:03:15 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:03:15 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 20:03:15 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:03:15 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:03:15 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:03:15 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:03:15 UTC] Users Controller ->showUsers
+[31-Oct-2023 20:03:15 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:03:16 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:03:16 UTC] Hello, errors!
+[31-Oct-2023 20:03:16 UTC] Hello, errors!
+[31-Oct-2023 20:03:16 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:03:16 UTC] Hello, errors!
+[31-Oct-2023 20:03:16 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:03:16 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:03:16 UTC] Hello, errors!
+[31-Oct-2023 20:03:16 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:03:22 UTC] Hello, errors!
+[31-Oct-2023 20:03:22 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:03:23 UTC] Hello, errors!
+[31-Oct-2023 20:03:23 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:03:23 UTC] Hello, errors!
+[31-Oct-2023 20:03:23 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:04:19 UTC] Hello, errors!
+[31-Oct-2023 20:04:19 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:04:19 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:04:19 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[31-Oct-2023 20:04:19 UTC] sessionController::isPublic(): currentURL => dashboard
+[31-Oct-2023 20:04:19 UTC] Session controller -> getCurrentPage: //dashboard, url => dashboard
+[31-Oct-2023 20:04:19 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:04:19 UTC] Dashboard::constructor() bicaqemizo@mailinator.com
+[31-Oct-2023 20:04:19 UTC] Hello, errors!
+[31-Oct-2023 20:04:19 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:04:20 UTC] Hello, errors!
+[31-Oct-2023 20:04:20 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:06:21 UTC] Hello, errors!
+[31-Oct-2023 20:06:21 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:06:21 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:06:21 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:06:21 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 20:06:21 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:06:21 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:06:21 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:06:21 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:06:21 UTC] Users Controller ->showUsers
+[31-Oct-2023 20:06:21 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:06:21 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:06:21 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:06:21 UTC] Hello, errors!
+[31-Oct-2023 20:06:21 UTC] Hello, errors!
+[31-Oct-2023 20:06:21 UTC] Hello, errors!
+[31-Oct-2023 20:06:21 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:06:21 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:06:21 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:06:22 UTC] Hello, errors!
+[31-Oct-2023 20:06:22 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:07:44 UTC] Hello, errors!
+[31-Oct-2023 20:07:44 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:07:44 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:07:44 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:07:44 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 20:07:44 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:07:44 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:07:44 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:07:44 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:07:44 UTC] Users Controller ->showUsers
+[31-Oct-2023 20:07:44 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:07:44 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:07:44 UTC] Hello, errors!
+[31-Oct-2023 20:07:44 UTC] Hello, errors!
+[31-Oct-2023 20:07:44 UTC] Hello, errors!
+[31-Oct-2023 20:07:44 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:07:44 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:07:44 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:07:45 UTC] Hello, errors!
+[31-Oct-2023 20:07:45 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:08:07 UTC] Hello, errors!
+[31-Oct-2023 20:08:07 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:08:07 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:08:07 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:08:07 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 20:08:07 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:08:07 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:08:07 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:08:07 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:08:07 UTC] Users Controller ->showUsers
+[31-Oct-2023 20:08:07 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:08:07 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:08:07 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:08:07 UTC] Hello, errors!
+[31-Oct-2023 20:08:07 UTC] Hello, errors!
+[31-Oct-2023 20:08:07 UTC] Hello, errors!
+[31-Oct-2023 20:08:07 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:08:07 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:08:07 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:08:08 UTC] Hello, errors!
+[31-Oct-2023 20:08:08 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:16:25 UTC] Hello, errors!
+[31-Oct-2023 20:16:25 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:16:25 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:16:25 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:16:25 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 20:16:25 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:16:25 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:16:25 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:16:25 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:16:25 UTC] Users Controller ->showUsers
+[31-Oct-2023 20:16:25 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:16:25 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:16:25 UTC] Hello, errors!
+[31-Oct-2023 20:16:25 UTC] Hello, errors!
+[31-Oct-2023 20:16:25 UTC] Hello, errors!
+[31-Oct-2023 20:16:25 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:16:25 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:16:25 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:16:26 UTC] Hello, errors!
+[31-Oct-2023 20:16:26 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:27:25 UTC] Hello, errors!
+[31-Oct-2023 20:27:25 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:27:25 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:27:25 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:27:25 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 20:27:25 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:27:25 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:27:25 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:27:25 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:27:25 UTC] Users Controller ->showUsers
+[31-Oct-2023 20:27:25 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:27:25 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:27:25 UTC] Hello, errors!
+[31-Oct-2023 20:27:25 UTC] Hello, errors!
+[31-Oct-2023 20:27:25 UTC] Hello, errors!
+[31-Oct-2023 20:27:25 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:27:25 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:27:25 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:27:26 UTC] Hello, errors!
+[31-Oct-2023 20:27:26 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:27:27 UTC] Hello, errors!
+[31-Oct-2023 20:27:27 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:27:29 UTC] Hello, errors!
+[31-Oct-2023 20:27:29 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:27:29 UTC] Hello, errors!
+[31-Oct-2023 20:27:29 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:27:31 UTC] Hello, errors!
+[31-Oct-2023 20:27:31 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:27:31 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:27:31 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:27:31 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 20:27:31 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:27:31 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:27:31 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:27:31 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:27:31 UTC] Users Controller ->showUsers
+[31-Oct-2023 20:27:31 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:27:31 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:27:32 UTC] Hello, errors!
+[31-Oct-2023 20:27:32 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:41:29 UTC] Hello, errors!
+[31-Oct-2023 20:41:29 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:41:29 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:41:29 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:41:29 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 20:41:29 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:41:29 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:41:29 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:41:29 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:41:29 UTC] Users Controller ->showUsers
+[31-Oct-2023 20:41:29 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:41:29 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:41:29 UTC] Hello, errors!
+[31-Oct-2023 20:41:29 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:41:29 UTC] Hello, errors!
+[31-Oct-2023 20:41:29 UTC] Hello, errors!
+[31-Oct-2023 20:41:29 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:41:29 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:41:30 UTC] Hello, errors!
+[31-Oct-2023 20:41:30 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:41:30 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:41:30 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:41:30 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 20:41:30 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:41:30 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:41:30 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:41:30 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:41:30 UTC] Users Controller ->showUsers
+[31-Oct-2023 20:41:30 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:41:30 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:41:30 UTC] Hello, errors!
+[31-Oct-2023 20:41:30 UTC] Hello, errors!
+[31-Oct-2023 20:41:30 UTC] Hello, errors!
+[31-Oct-2023 20:41:30 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:41:30 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:41:30 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:41:30 UTC] Hello, errors!
+[31-Oct-2023 20:41:30 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:44:25 UTC] Hello, errors!
+[31-Oct-2023 20:44:25 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:44:25 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:44:25 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:44:25 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 20:44:25 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:44:25 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:44:25 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:44:25 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:44:25 UTC] Users Controller ->showUsers
+[31-Oct-2023 20:44:25 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:44:25 UTC] Hello, errors!
+[31-Oct-2023 20:44:25 UTC] Hello, errors!
+[31-Oct-2023 20:44:25 UTC] Hello, errors!
+[31-Oct-2023 20:44:25 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:44:25 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:44:25 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:44:26 UTC] Hello, errors!
+[31-Oct-2023 20:44:26 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:44:32 UTC] Hello, errors!
+[31-Oct-2023 20:44:32 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:44:33 UTC] Hello, errors!
+[31-Oct-2023 20:44:33 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:44:33 UTC] Hello, errors!
+[31-Oct-2023 20:44:33 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:45:06 UTC] Hello, errors!
+[31-Oct-2023 20:45:06 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:45:06 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:45:06 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:45:06 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 20:45:06 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:45:06 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:45:06 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:45:06 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:45:06 UTC] Users Controller ->showUsers
+[31-Oct-2023 20:45:06 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:45:06 UTC] Hello, errors!
+[31-Oct-2023 20:45:06 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:45:06 UTC] Hello, errors!
+[31-Oct-2023 20:45:06 UTC] Hello, errors!
+[31-Oct-2023 20:45:06 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:45:07 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:45:07 UTC] Hello, errors!
+[31-Oct-2023 20:45:07 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:45:07 UTC] Hello, errors!
+[31-Oct-2023 20:45:07 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:45:07 UTC] Hello, errors!
+[31-Oct-2023 20:45:07 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:46:11 UTC] Hello, errors!
+[31-Oct-2023 20:46:11 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:46:11 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:46:11 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:46:11 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 20:46:11 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:46:11 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:46:11 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:46:11 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:46:11 UTC] Users Controller ->showUsers
+[31-Oct-2023 20:46:11 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:46:11 UTC] Hello, errors!
+[31-Oct-2023 20:46:11 UTC] Hello, errors!
+[31-Oct-2023 20:46:11 UTC] Hello, errors!
+[31-Oct-2023 20:46:11 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:46:11 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:46:11 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:46:11 UTC] Hello, errors!
+[31-Oct-2023 20:46:11 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:46:11 UTC] Hello, errors!
+[31-Oct-2023 20:46:11 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:46:12 UTC] Hello, errors!
+[31-Oct-2023 20:46:12 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:49:21 UTC] Hello, errors!
+[31-Oct-2023 20:49:21 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:49:21 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:49:21 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:49:21 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 20:49:21 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:49:21 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:49:21 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:49:21 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:49:21 UTC] Users Controller ->showUsers
+[31-Oct-2023 20:49:21 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:49:21 UTC] Hello, errors!
+[31-Oct-2023 20:49:21 UTC] Hello, errors!
+[31-Oct-2023 20:49:21 UTC] Hello, errors!
+[31-Oct-2023 20:49:21 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:49:21 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:49:21 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:49:21 UTC] Hello, errors!
+[31-Oct-2023 20:49:21 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:49:21 UTC] Hello, errors!
+[31-Oct-2023 20:49:21 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:49:22 UTC] Hello, errors!
+[31-Oct-2023 20:49:22 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:49:57 UTC] Hello, errors!
+[31-Oct-2023 20:49:57 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:49:57 UTC] Hello, errors!
+[31-Oct-2023 20:49:57 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:49:57 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:49:57 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 20:49:57 UTC] Hello, errors!
+[31-Oct-2023 20:49:57 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:49:58 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:49:58 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:49:58 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:49:58 UTC] Users Controller ->showUsers
+[31-Oct-2023 20:49:58 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:49:58 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:49:58 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:49:58 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:49:58 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 20:49:58 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:49:58 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:49:58 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:49:58 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:49:58 UTC] Users Controller ->showUsers
+[31-Oct-2023 20:49:58 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:49:58 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:49:58 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:49:58 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:49:58 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 20:49:58 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:49:58 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:49:58 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:49:58 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:49:58 UTC] Users Controller ->showUsers
+[31-Oct-2023 20:49:58 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:49:58 UTC] Hello, errors!
+[31-Oct-2023 20:49:58 UTC] Hello, errors!
+[31-Oct-2023 20:49:58 UTC] Hello, errors!
+[31-Oct-2023 20:49:58 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:49:58 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:49:58 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:49:58 UTC] Hello, errors!
+[31-Oct-2023 20:49:58 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:49:58 UTC] Hello, errors!
+[31-Oct-2023 20:49:58 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:49:59 UTC] Hello, errors!
+[31-Oct-2023 20:49:59 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:50:31 UTC] Hello, errors!
+[31-Oct-2023 20:50:31 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:50:31 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:50:31 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:50:31 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 20:50:31 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:50:31 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:50:31 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:50:31 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:50:31 UTC] Users Controller ->showUsers
+[31-Oct-2023 20:50:31 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:50:31 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:50:31 UTC] Hello, errors!
+[31-Oct-2023 20:50:31 UTC] Hello, errors!
+[31-Oct-2023 20:50:31 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:50:31 UTC] Hello, errors!
+[31-Oct-2023 20:50:31 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:50:31 UTC] Hello, errors!
+[31-Oct-2023 20:50:31 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:50:31 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:50:31 UTC] Hello, errors!
+[31-Oct-2023 20:50:31 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:50:32 UTC] Hello, errors!
+[31-Oct-2023 20:50:32 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:51:06 UTC] Hello, errors!
+[31-Oct-2023 20:51:06 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:51:06 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:51:06 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:51:06 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 20:51:06 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:51:06 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:51:06 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:51:06 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:51:06 UTC] Users Controller ->showUsers
+[31-Oct-2023 20:51:06 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:51:07 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:51:07 UTC] Hello, errors!
+[31-Oct-2023 20:51:07 UTC] Hello, errors!
+[31-Oct-2023 20:51:07 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:51:07 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:51:07 UTC] Hello, errors!
+[31-Oct-2023 20:51:07 UTC] Hello, errors!
+[31-Oct-2023 20:51:07 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:51:07 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:51:07 UTC] Hello, errors!
+[31-Oct-2023 20:51:07 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:51:07 UTC] Hello, errors!
+[31-Oct-2023 20:51:07 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:58:19 UTC] Hello, errors!
+[31-Oct-2023 20:58:19 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:58:19 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:58:19 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:58:19 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 20:58:20 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:58:20 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:58:20 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:58:20 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:58:20 UTC] Users Controller ->showUsers
+[31-Oct-2023 20:58:20 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:58:20 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:58:20 UTC] Hello, errors!
+[31-Oct-2023 20:58:20 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:58:20 UTC] Hello, errors!
+[31-Oct-2023 20:58:20 UTC] Hello, errors!
+[31-Oct-2023 20:58:20 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:58:20 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:58:20 UTC] Hello, errors!
+[31-Oct-2023 20:58:20 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:58:20 UTC] Hello, errors!
+[31-Oct-2023 20:58:20 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:58:21 UTC] Hello, errors!
+[31-Oct-2023 20:58:21 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:58:33 UTC] Hello, errors!
+[31-Oct-2023 20:58:33 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:58:34 UTC] Session controller-> getUserSession Data  11
+[31-Oct-2023 20:58:34 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:58:34 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 20:58:34 UTC] Hello, errors!
+[31-Oct-2023 20:58:34 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[31-Oct-2023 20:58:34 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:58:34 UTC] Session controller -> getCurrentPage: //, url => 
+[31-Oct-2023 20:58:34 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 20:58:34 UTC] Error de loguin
+[31-Oct-2023 20:58:34 UTC] Hello, errors!
+[31-Oct-2023 20:58:34 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:58:55 UTC] Hello, errors!
+[31-Oct-2023 20:58:55 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:58:55 UTC] Session controller -> getCurrentPage: /loguin/authenticate, url => authenticate
+[31-Oct-2023 20:58:55 UTC] sessionController::isPublic(): currentURL => authenticate
+[31-Oct-2023 20:58:55 UTC] Error de loguin
+[31-Oct-2023 20:58:55 UTC] login: inicio
+[31-Oct-2023 20:58:55 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 135
+[31-Oct-2023 20:58:55 UTC] login: user id 14
+[31-Oct-2023 20:58:55 UTC] login: success
+[31-Oct-2023 20:58:55 UTC] Login::authenticate() passed
+[31-Oct-2023 20:58:55 UTC] Hello, errors!
+[31-Oct-2023 20:58:55 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:58:55 UTC] Session controller-> getUserSession Data  14
+[31-Oct-2023 20:58:55 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[31-Oct-2023 20:58:55 UTC] sessionController::isPublic(): currentURL => admin
+[31-Oct-2023 20:58:55 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[31-Oct-2023 20:58:55 UTC] Session controller-> getUserSession Data  14
+[31-Oct-2023 20:58:55 UTC] Get users model=>9
+[31-Oct-2023 20:58:55 UTC] Total de usuarios -> funcion
+[31-Oct-2023 20:58:55 UTC] Usuarios totales render ->9
+[31-Oct-2023 20:58:55 UTC] sessionController-> validateSession()
+[31-Oct-2023 20:58:55 UTC] Session controller-> getUserSession Data  14
+[31-Oct-2023 20:58:55 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[31-Oct-2023 20:58:55 UTC] sessionController::isPublic(): currentURL => admin
+[31-Oct-2023 20:58:55 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[31-Oct-2023 20:58:55 UTC] Users Controller ->showUsers
+[31-Oct-2023 20:58:55 UTC] Session controller-> getUserSession Data  14
+[31-Oct-2023 20:58:55 UTC] Session controller-> getUserSession Data  14
+[31-Oct-2023 20:58:55 UTC] Hello, errors!
+[31-Oct-2023 20:58:55 UTC] Hello, errors!
+[31-Oct-2023 20:58:55 UTC] Hello, errors!
+[31-Oct-2023 20:58:55 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:58:55 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:58:55 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:58:55 UTC] Hello, errors!
+[31-Oct-2023 20:58:55 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:58:55 UTC] Hello, errors!
+[31-Oct-2023 20:58:55 UTC] Errores::controller-> Errores
+[31-Oct-2023 20:58:56 UTC] Hello, errors!
+[31-Oct-2023 20:58:56 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:00:35 UTC] Hello, errors!
+[31-Oct-2023 21:00:35 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:00:35 UTC] Session controller-> getUserSession Data  14
+[31-Oct-2023 21:00:35 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 21:00:35 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 21:00:35 UTC] Session controller-> getUserSession Data  14
+[31-Oct-2023 21:00:35 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:00:35 UTC] Session controller-> getUserSession Data  14
+[31-Oct-2023 21:00:35 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 21:00:35 UTC] Users Controller ->showUsers
+[31-Oct-2023 21:00:35 UTC] Session controller-> getUserSession Data  14
+[31-Oct-2023 21:00:35 UTC] Session controller-> getUserSession Data  14
+[31-Oct-2023 21:00:35 UTC] Hello, errors!
+[31-Oct-2023 21:00:35 UTC] Hello, errors!
+[31-Oct-2023 21:00:35 UTC] Hello, errors!
+[31-Oct-2023 21:00:35 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:00:35 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:00:35 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:00:35 UTC] Hello, errors!
+[31-Oct-2023 21:00:35 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:00:35 UTC] Hello, errors!
+[31-Oct-2023 21:00:35 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:00:36 UTC] Hello, errors!
+[31-Oct-2023 21:00:36 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:00:41 UTC] Hello, errors!
+[31-Oct-2023 21:00:41 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:00:42 UTC] Session controller-> getUserSession Data  14
+[31-Oct-2023 21:00:42 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 21:00:42 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 21:00:42 UTC] Hello, errors!
+[31-Oct-2023 21:00:42 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[31-Oct-2023 21:00:42 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:00:42 UTC] Session controller -> getCurrentPage: //, url => 
+[31-Oct-2023 21:00:42 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 21:00:42 UTC] Error de loguin
+[31-Oct-2023 21:00:42 UTC] Hello, errors!
+[31-Oct-2023 21:00:42 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:00:43 UTC] Hello, errors!
+[31-Oct-2023 21:00:43 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:00:43 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 21:00:43 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 21:00:45 UTC] Hello, errors!
+[31-Oct-2023 21:00:45 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:04:43 UTC] Hello, errors!
+[31-Oct-2023 21:04:43 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:04:43 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 21:04:43 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 21:04:44 UTC] Hello, errors!
+[31-Oct-2023 21:04:44 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:05:19 UTC] Hello, errors!
+[31-Oct-2023 21:05:19 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:05:19 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 21:05:19 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 21:05:19 UTC] Hello, errors!
+[31-Oct-2023 21:05:19 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:05:30 UTC] Hello, errors!
+[31-Oct-2023 21:05:30 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:05:30 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 21:05:30 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 21:05:31 UTC] Hello, errors!
+[31-Oct-2023 21:05:31 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:09:02 UTC] Hello, errors!
+[31-Oct-2023 21:09:02 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:09:02 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 21:09:02 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 21:09:02 UTC] Hello, errors!
+[31-Oct-2023 21:09:02 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:09:45 UTC] Hello, errors!
+[31-Oct-2023 21:09:45 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:09:45 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 21:09:45 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 21:09:45 UTC] Hello, errors!
+[31-Oct-2023 21:09:45 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:09:51 UTC] Hello, errors!
+[31-Oct-2023 21:09:51 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[31-Oct-2023 21:09:51 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:09:51 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 21:09:51 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 21:09:51 UTC] Error de loguin
+[31-Oct-2023 21:09:51 UTC] Hello, errors!
+[31-Oct-2023 21:09:51 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:16:44 UTC] Hello, errors!
+[31-Oct-2023 21:16:44 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[31-Oct-2023 21:16:44 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:16:44 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 21:16:44 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 21:16:44 UTC] Error de loguin
+[31-Oct-2023 21:16:44 UTC] Hello, errors!
+[31-Oct-2023 21:16:44 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:16:59 UTC] Hello, errors!
+[31-Oct-2023 21:16:59 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:16:59 UTC] Session controller -> getCurrentPage: /loguin/authenticate, url => authenticate
+[31-Oct-2023 21:16:59 UTC] sessionController::isPublic(): currentURL => authenticate
+[31-Oct-2023 21:16:59 UTC] Error de loguin
+[31-Oct-2023 21:16:59 UTC] login: inicio
+[31-Oct-2023 21:16:59 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 135
+[31-Oct-2023 21:16:59 UTC] login: user id 17
+[31-Oct-2023 21:16:59 UTC] login: success
+[31-Oct-2023 21:16:59 UTC] Login::authenticate() passed
+[31-Oct-2023 21:16:59 UTC] Hello, errors!
+[31-Oct-2023 21:16:59 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:16:59 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:16:59 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[31-Oct-2023 21:16:59 UTC] sessionController::isPublic(): currentURL => admin
+[31-Oct-2023 21:16:59 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[31-Oct-2023 21:16:59 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:16:59 UTC] Get users model=>9
+[31-Oct-2023 21:16:59 UTC] Total de usuarios -> funcion
+[31-Oct-2023 21:16:59 UTC] Usuarios totales render ->9
+[31-Oct-2023 21:16:59 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:16:59 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:16:59 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[31-Oct-2023 21:16:59 UTC] sessionController::isPublic(): currentURL => admin
+[31-Oct-2023 21:16:59 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[31-Oct-2023 21:16:59 UTC] Users Controller ->showUsers
+[31-Oct-2023 21:16:59 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:17:00 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:17:00 UTC] Hello, errors!
+[31-Oct-2023 21:17:00 UTC] Hello, errors!
+[31-Oct-2023 21:17:00 UTC] Hello, errors!
+[31-Oct-2023 21:17:00 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:17:00 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:17:00 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:17:00 UTC] Hello, errors!
+[31-Oct-2023 21:17:00 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:17:00 UTC] Hello, errors!
+[31-Oct-2023 21:17:00 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:17:00 UTC] Hello, errors!
+[31-Oct-2023 21:17:00 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:18:10 UTC] Hello, errors!
+[31-Oct-2023 21:18:10 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:18:10 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:18:10 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[31-Oct-2023 21:18:10 UTC] sessionController::isPublic(): currentURL => admin
+[31-Oct-2023 21:18:10 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[31-Oct-2023 21:18:10 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:18:10 UTC] Get users model=>9
+[31-Oct-2023 21:18:10 UTC] Total de usuarios -> funcion
+[31-Oct-2023 21:18:10 UTC] Usuarios totales render ->9
+[31-Oct-2023 21:18:10 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:18:10 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:18:10 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[31-Oct-2023 21:18:10 UTC] sessionController::isPublic(): currentURL => admin
+[31-Oct-2023 21:18:10 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[31-Oct-2023 21:18:10 UTC] Users Controller ->showUsers
+[31-Oct-2023 21:18:10 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:18:10 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:18:10 UTC] Hello, errors!
+[31-Oct-2023 21:18:10 UTC] Hello, errors!
+[31-Oct-2023 21:18:10 UTC] Hello, errors!
+[31-Oct-2023 21:18:10 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:18:10 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:18:10 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:18:10 UTC] Hello, errors!
+[31-Oct-2023 21:18:10 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:18:10 UTC] Hello, errors!
+[31-Oct-2023 21:18:10 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:18:11 UTC] Hello, errors!
+[31-Oct-2023 21:18:11 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:18:14 UTC] Hello, errors!
+[31-Oct-2023 21:18:14 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:18:14 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:18:14 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 21:18:14 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 21:18:14 UTC] Hello, errors!
+[31-Oct-2023 21:18:14 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[31-Oct-2023 21:18:14 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:18:14 UTC] Session controller -> getCurrentPage: //, url => 
+[31-Oct-2023 21:18:14 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 21:18:14 UTC] Error de loguin
+[31-Oct-2023 21:18:14 UTC] Hello, errors!
+[31-Oct-2023 21:18:14 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:18:24 UTC] Hello, errors!
+[31-Oct-2023 21:18:24 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:18:24 UTC] Session controller -> getCurrentPage: /loguin/authenticate, url => authenticate
+[31-Oct-2023 21:18:24 UTC] sessionController::isPublic(): currentURL => authenticate
+[31-Oct-2023 21:18:24 UTC] Error de loguin
+[31-Oct-2023 21:18:24 UTC] login: inicio
+[31-Oct-2023 21:18:24 UTC] PHP Warning:  Undefined array key "phone" in C:\laragon\www\Finanzas\Models\UserModel.php on line 135
+[31-Oct-2023 21:18:24 UTC] login: user id 17
+[31-Oct-2023 21:18:24 UTC] login: success
+[31-Oct-2023 21:18:24 UTC] Login::authenticate() passed
+[31-Oct-2023 21:18:24 UTC] Hello, errors!
+[31-Oct-2023 21:18:24 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:18:24 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:18:24 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[31-Oct-2023 21:18:24 UTC] sessionController::isPublic(): currentURL => admin
+[31-Oct-2023 21:18:24 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[31-Oct-2023 21:18:24 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:18:24 UTC] Get users model=>9
+[31-Oct-2023 21:18:24 UTC] Total de usuarios -> funcion
+[31-Oct-2023 21:18:24 UTC] Usuarios totales render ->9
+[31-Oct-2023 21:18:24 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:18:24 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:18:24 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[31-Oct-2023 21:18:24 UTC] sessionController::isPublic(): currentURL => admin
+[31-Oct-2023 21:18:24 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[31-Oct-2023 21:18:24 UTC] Users Controller ->showUsers
+[31-Oct-2023 21:18:24 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:18:24 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:18:24 UTC] Hello, errors!
+[31-Oct-2023 21:18:24 UTC] Hello, errors!
+[31-Oct-2023 21:18:24 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:18:24 UTC] Hello, errors!
+[31-Oct-2023 21:18:24 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:18:24 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:18:24 UTC] Hello, errors!
+[31-Oct-2023 21:18:24 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:18:24 UTC] Hello, errors!
+[31-Oct-2023 21:18:24 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:18:24 UTC] Hello, errors!
+[31-Oct-2023 21:18:24 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:19:53 UTC] Hello, errors!
+[31-Oct-2023 21:19:53 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:19:53 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:19:53 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[31-Oct-2023 21:19:53 UTC] sessionController::isPublic(): currentURL => admin
+[31-Oct-2023 21:19:53 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[31-Oct-2023 21:19:53 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:19:53 UTC] Get users model=>9
+[31-Oct-2023 21:19:53 UTC] Total de usuarios -> funcion
+[31-Oct-2023 21:19:53 UTC] Usuarios totales render ->9
+[31-Oct-2023 21:19:53 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:19:53 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:19:53 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[31-Oct-2023 21:19:53 UTC] sessionController::isPublic(): currentURL => admin
+[31-Oct-2023 21:19:53 UTC] Session controller -> getCurrentPage: //admin, url => admin
+[31-Oct-2023 21:19:53 UTC] Users Controller ->showUsers
+[31-Oct-2023 21:19:53 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:19:53 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:19:53 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:19:53 UTC] Hello, errors!
+[31-Oct-2023 21:19:53 UTC] Hello, errors!
+[31-Oct-2023 21:19:53 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:19:53 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:19:53 UTC] Hello, errors!
+[31-Oct-2023 21:19:53 UTC] Hello, errors!
+[31-Oct-2023 21:19:53 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:19:53 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:19:54 UTC] Hello, errors!
+[31-Oct-2023 21:19:54 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:19:54 UTC] Hello, errors!
+[31-Oct-2023 21:19:54 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:19:55 UTC] Hello, errors!
+[31-Oct-2023 21:19:55 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:19:55 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:19:55 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 21:19:55 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 21:19:55 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:19:55 UTC] Get users model=>9
+[31-Oct-2023 21:19:55 UTC] Total de usuarios -> funcion
+[31-Oct-2023 21:19:55 UTC] Usuarios totales render ->9
+[31-Oct-2023 21:19:55 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:19:55 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:19:55 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 21:19:55 UTC] Users Controller ->showUsers
+[31-Oct-2023 21:19:56 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:19:56 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:19:56 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:19:56 UTC] Hello, errors!
+[31-Oct-2023 21:19:56 UTC] Hello, errors!
+[31-Oct-2023 21:19:56 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:19:56 UTC] Hello, errors!
+[31-Oct-2023 21:19:56 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:19:56 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:19:56 UTC] Hello, errors!
+[31-Oct-2023 21:19:56 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:19:56 UTC] Hello, errors!
+[31-Oct-2023 21:19:56 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:19:56 UTC] Hello, errors!
+[31-Oct-2023 21:19:56 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:19:58 UTC] Hello, errors!
+[31-Oct-2023 21:19:58 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:19:58 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:19:58 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 21:19:58 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 21:19:58 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:19:58 UTC] Get users model=>9
+[31-Oct-2023 21:19:58 UTC] Total de usuarios -> funcion
+[31-Oct-2023 21:19:58 UTC] Usuarios totales render ->9
+[31-Oct-2023 21:19:58 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:19:58 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:19:58 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 21:19:58 UTC] Users Controller ->showUsers
+[31-Oct-2023 21:19:58 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:19:58 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:19:58 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:19:58 UTC] Hello, errors!
+[31-Oct-2023 21:19:58 UTC] Hello, errors!
+[31-Oct-2023 21:19:58 UTC] Hello, errors!
+[31-Oct-2023 21:19:58 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:19:58 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:19:58 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:19:58 UTC] Hello, errors!
+[31-Oct-2023 21:19:58 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:19:58 UTC] Hello, errors!
+[31-Oct-2023 21:19:58 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:19:59 UTC] Hello, errors!
+[31-Oct-2023 21:19:59 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:02 UTC] Hello, errors!
+[31-Oct-2023 21:20:02 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:20:02 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:02 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 21:20:02 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 21:20:02 UTC] Users Controller ->showUsers
+[31-Oct-2023 21:20:02 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:20:02 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:02 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 21:20:02 UTC] Users Controller ->showUsers
+[31-Oct-2023 21:20:02 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:02 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:02 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:02 UTC] Hello, errors!
+[31-Oct-2023 21:20:02 UTC] Hello, errors!
+[31-Oct-2023 21:20:02 UTC] Hello, errors!
+[31-Oct-2023 21:20:02 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:02 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:02 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:02 UTC] Hello, errors!
+[31-Oct-2023 21:20:02 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:02 UTC] Hello, errors!
+[31-Oct-2023 21:20:02 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:03 UTC] Hello, errors!
+[31-Oct-2023 21:20:03 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:06 UTC] Hello, errors!
+[31-Oct-2023 21:20:06 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:20:06 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:06 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 21:20:06 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 21:20:06 UTC] Users Controller ->showUsers
+[31-Oct-2023 21:20:06 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:20:06 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:06 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 21:20:06 UTC] Users Controller ->showUsers
+[31-Oct-2023 21:20:06 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:06 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:06 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:06 UTC] Hello, errors!
+[31-Oct-2023 21:20:06 UTC] Hello, errors!
+[31-Oct-2023 21:20:06 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:06 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:06 UTC] Hello, errors!
+[31-Oct-2023 21:20:06 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:06 UTC] Hello, errors!
+[31-Oct-2023 21:20:06 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:06 UTC] Hello, errors!
+[31-Oct-2023 21:20:06 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:06 UTC] Hello, errors!
+[31-Oct-2023 21:20:06 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:11 UTC] Hello, errors!
+[31-Oct-2023 21:20:11 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:20:12 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:12 UTC] Session controller -> getCurrentPage: /Users/updateAdminUsers, url => updateAdminUsers
+[31-Oct-2023 21:20:12 UTC] sessionController::isPublic(): currentURL => updateAdminUsers
+[31-Oct-2023 21:20:12 UTC] Session controller -> getCurrentPage: /Users/updateAdminUsers, url => updateAdminUsers
+[31-Oct-2023 21:20:12 UTC] Se actualizaron correctamente los usuarios17
+[31-Oct-2023 21:20:12 UTC] Hello, errors!
+[31-Oct-2023 21:20:12 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:20:12 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:12 UTC] Session controller -> getCurrentPage: //Users?edit=8281e04ed52ccfc13820d0f6acb0985a, url => Users?edit=8281e04ed52ccfc13820d0f6acb0985a
+[31-Oct-2023 21:20:12 UTC] sessionController::isPublic(): currentURL => Users?edit=8281e04ed52ccfc13820d0f6acb0985a
+[31-Oct-2023 21:20:12 UTC] Session controller -> getCurrentPage: //Users?edit=8281e04ed52ccfc13820d0f6acb0985a, url => Users?edit=8281e04ed52ccfc13820d0f6acb0985a
+[31-Oct-2023 21:20:12 UTC] Users Controller ->showUsers
+[31-Oct-2023 21:20:12 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:20:12 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:12 UTC] Session controller -> getCurrentPage: //Users?edit=8281e04ed52ccfc13820d0f6acb0985a, url => Users?edit=8281e04ed52ccfc13820d0f6acb0985a
+[31-Oct-2023 21:20:12 UTC] sessionController::isPublic(): currentURL => Users?edit=8281e04ed52ccfc13820d0f6acb0985a
+[31-Oct-2023 21:20:12 UTC] Session controller -> getCurrentPage: //Users?edit=8281e04ed52ccfc13820d0f6acb0985a, url => Users?edit=8281e04ed52ccfc13820d0f6acb0985a
+[31-Oct-2023 21:20:12 UTC] Users Controller ->showUsers
+[31-Oct-2023 21:20:12 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:12 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:12 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:12 UTC] Hello, errors!
+[31-Oct-2023 21:20:12 UTC] Hello, errors!
+[31-Oct-2023 21:20:12 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:12 UTC] Hello, errors!
+[31-Oct-2023 21:20:12 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:12 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:12 UTC] Hello, errors!
+[31-Oct-2023 21:20:12 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:12 UTC] Hello, errors!
+[31-Oct-2023 21:20:12 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:13 UTC] Hello, errors!
+[31-Oct-2023 21:20:13 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:14 UTC] Hello, errors!
+[31-Oct-2023 21:20:14 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:20:14 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:14 UTC] Session controller -> getCurrentPage: //Users, url => Users
+[31-Oct-2023 21:20:14 UTC] sessionController::isPublic(): currentURL => Users
+[31-Oct-2023 21:20:14 UTC] Session controller -> getCurrentPage: //Users, url => Users
+[31-Oct-2023 21:20:14 UTC] Users Controller ->showUsers
+[31-Oct-2023 21:20:14 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:20:14 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:14 UTC] Session controller -> getCurrentPage: //Users, url => Users
+[31-Oct-2023 21:20:14 UTC] sessionController::isPublic(): currentURL => Users
+[31-Oct-2023 21:20:14 UTC] Session controller -> getCurrentPage: //Users, url => Users
+[31-Oct-2023 21:20:14 UTC] Users Controller ->showUsers
+[31-Oct-2023 21:20:14 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:14 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:14 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:14 UTC] Hello, errors!
+[31-Oct-2023 21:20:14 UTC] Hello, errors!
+[31-Oct-2023 21:20:14 UTC] Hello, errors!
+[31-Oct-2023 21:20:14 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:14 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:14 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:14 UTC] Hello, errors!
+[31-Oct-2023 21:20:14 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:14 UTC] Hello, errors!
+[31-Oct-2023 21:20:14 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:14 UTC] Hello, errors!
+[31-Oct-2023 21:20:14 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:15 UTC] Hello, errors!
+[31-Oct-2023 21:20:15 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:20:15 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:15 UTC] Session controller -> getCurrentPage: //Users?pagina=3, url => Users?pagina=3
+[31-Oct-2023 21:20:15 UTC] sessionController::isPublic(): currentURL => Users?pagina=3
+[31-Oct-2023 21:20:15 UTC] Session controller -> getCurrentPage: //Users?pagina=3, url => Users?pagina=3
+[31-Oct-2023 21:20:15 UTC] Users Controller ->showUsers
+[31-Oct-2023 21:20:15 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:20:15 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:15 UTC] Session controller -> getCurrentPage: //Users?pagina=3, url => Users?pagina=3
+[31-Oct-2023 21:20:15 UTC] sessionController::isPublic(): currentURL => Users?pagina=3
+[31-Oct-2023 21:20:15 UTC] Session controller -> getCurrentPage: //Users?pagina=3, url => Users?pagina=3
+[31-Oct-2023 21:20:15 UTC] Users Controller ->showUsers
+[31-Oct-2023 21:20:16 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:16 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:16 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:16 UTC] Hello, errors!
+[31-Oct-2023 21:20:16 UTC] Hello, errors!
+[31-Oct-2023 21:20:16 UTC] Hello, errors!
+[31-Oct-2023 21:20:16 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:16 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:16 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:16 UTC] Hello, errors!
+[31-Oct-2023 21:20:16 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:16 UTC] Hello, errors!
+[31-Oct-2023 21:20:16 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:16 UTC] Hello, errors!
+[31-Oct-2023 21:20:16 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:51 UTC] Hello, errors!
+[31-Oct-2023 21:20:51 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:20:51 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:51 UTC] Session controller -> getCurrentPage: //Users?pagina=3, url => Users?pagina=3
+[31-Oct-2023 21:20:51 UTC] sessionController::isPublic(): currentURL => Users?pagina=3
+[31-Oct-2023 21:20:51 UTC] Session controller -> getCurrentPage: //Users?pagina=3, url => Users?pagina=3
+[31-Oct-2023 21:20:51 UTC] Users Controller ->showUsers
+[31-Oct-2023 21:20:51 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:20:51 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:51 UTC] Session controller -> getCurrentPage: //Users?pagina=3, url => Users?pagina=3
+[31-Oct-2023 21:20:51 UTC] sessionController::isPublic(): currentURL => Users?pagina=3
+[31-Oct-2023 21:20:51 UTC] Session controller -> getCurrentPage: //Users?pagina=3, url => Users?pagina=3
+[31-Oct-2023 21:20:51 UTC] Users Controller ->showUsers
+[31-Oct-2023 21:20:51 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:51 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:51 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:51 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:20:51 UTC] Hello, errors!
+[31-Oct-2023 21:20:51 UTC] Hello, errors!
+[31-Oct-2023 21:20:51 UTC] Hello, errors!
+[31-Oct-2023 21:20:51 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:51 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:51 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:51 UTC] Hello, errors!
+[31-Oct-2023 21:20:51 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:51 UTC] Hello, errors!
+[31-Oct-2023 21:20:51 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:52 UTC] Hello, errors!
+[31-Oct-2023 21:20:52 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:20:59 UTC] Hello, errors!
+[31-Oct-2023 21:20:59 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:21:00 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:21:00 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 21:21:00 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 21:21:00 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:21:00 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:21:00 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:21:00 UTC] ENTRO AQUI 01
+[31-Oct-2023 21:21:00 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:21:00 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:21:00 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 21:21:00 UTC] Users Controller ->showUsers
+[31-Oct-2023 21:21:00 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:21:00 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:21:00 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:21:00 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:21:00 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\laragon\www\Finanzas\views\status\status.php on line 431
+[31-Oct-2023 21:21:00 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\laragon\www\Finanzas\views\status\status.php on line 435
+[31-Oct-2023 21:21:00 UTC] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, null given in C:\laragon\www\Finanzas\views\status\status.php:438
+Stack trace:
+#0 C:\laragon\www\Finanzas\libs\View.php(16): require()
+#1 C:\laragon\www\Finanzas\controllers\Status.php(23): View->render('status/status', Array)
+#2 C:\laragon\www\Finanzas\libs\App.php(53): Status->render()
+#3 C:\laragon\www\Finanzas\index.php(29): App->__construct()
+#4 {main}
+  thrown in C:\laragon\www\Finanzas\views\status\status.php on line 438
+[31-Oct-2023 21:21:00 UTC] Hello, errors!
+[31-Oct-2023 21:21:00 UTC] Hello, errors!
+[31-Oct-2023 21:21:00 UTC] Hello, errors!
+[31-Oct-2023 21:21:00 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:21:00 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:21:00 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:21:00 UTC] Hello, errors!
+[31-Oct-2023 21:21:00 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:21:00 UTC] Hello, errors!
+[31-Oct-2023 21:21:00 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:21:01 UTC] Hello, errors!
+[31-Oct-2023 21:21:01 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:21:03 UTC] Hello, errors!
+[31-Oct-2023 21:21:03 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:21:03 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:21:03 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 21:21:03 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 21:21:03 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:21:04 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:21:04 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 21:21:04 UTC] Users Controller ->showUsers
+[31-Oct-2023 21:21:04 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:21:04 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:21:04 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:21:04 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:21:04 UTC] Hello, errors!
+[31-Oct-2023 21:21:04 UTC] Hello, errors!
+[31-Oct-2023 21:21:04 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:21:04 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:21:04 UTC] Hello, errors!
+[31-Oct-2023 21:21:04 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:21:04 UTC] Hello, errors!
+[31-Oct-2023 21:21:04 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:21:04 UTC] Hello, errors!
+[31-Oct-2023 21:21:04 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:21:05 UTC] Hello, errors!
+[31-Oct-2023 21:21:05 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:21:06 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:21:06 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 21:21:06 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 21:21:06 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:21:06 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:21:06 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:21:06 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 21:21:06 UTC] Users Controller ->showUsers
+[31-Oct-2023 21:21:06 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:21:06 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:21:06 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:21:06 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:21:06 UTC] Hello, errors!
+[31-Oct-2023 21:21:06 UTC] Hello, errors!
+[31-Oct-2023 21:21:06 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:21:06 UTC] Hello, errors!
+[31-Oct-2023 21:21:06 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:21:06 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:21:06 UTC] Hello, errors!
+[31-Oct-2023 21:21:06 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:21:06 UTC] Hello, errors!
+[31-Oct-2023 21:21:06 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:21:06 UTC] Hello, errors!
+[31-Oct-2023 21:21:06 UTC] Errores::controller-> Errores
+[31-Oct-2023 21:21:12 UTC] Hello, errors!
+[31-Oct-2023 21:21:12 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:21:12 UTC] Session controller-> getUserSession Data  17
+[31-Oct-2023 21:21:12 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 21:21:12 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\Finanzas\classes\SessionController.php on line 97
+[31-Oct-2023 21:21:12 UTC] Hello, errors!
+[31-Oct-2023 21:21:12 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Finanzas\libs\App.php on line 11
+[31-Oct-2023 21:21:12 UTC] sessionController-> validateSession()
+[31-Oct-2023 21:21:12 UTC] Session controller -> getCurrentPage: //, url => 
+[31-Oct-2023 21:21:12 UTC] sessionController::isPublic(): currentURL => 
+[31-Oct-2023 21:21:12 UTC] Error de loguin
+[31-Oct-2023 21:21:12 UTC] Hello, errors!
+[31-Oct-2023 21:21:12 UTC] Errores::controller-> Errores

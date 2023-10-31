@@ -15,36 +15,26 @@
                 <form action="<?php echo constant('URL'); ?>signup/newUser" method="POST">
 
                     <div class="field-wrap">
-                        <label>Email Address<span class="req">*</span>
-                        </label>
-                        <input type="email" autocomplete="off" name="username"/>
+                        <input type="email" autocomplete="off" name="username" placeholder="Email Address *"/>
                     </div>
 
                     <div class="field-wrap">
-                        <label>Set A Password<span class="req">*</span>
-                        </label>
-                        <input type="password"  autocomplete="off" name="password"/>
+                        <input type="password"  autocomplete="off" name="password" placeholder="Set A Password *"/>
                     </div>
 
                     <div class="field-wrap">
-                        <label>Set A Role<span class="req">*</span>
-                        </label>
                         <select name="role">
-                            <option value="" selected></option>
+                            <option value="" selected>Set A Role</option>
                             <option value="user" >User</option>
                             <option value="admin" >Admin</option>
 
                         </select>
                     </div>
                     <div class="field-wrap">
-                        <label>Set A Phone Number<span class="req">*</span>
-                        </label>
-                        <input type="number"  autocomplete="off" name="phone"/>
+                        <input type="number"  autocomplete="off" name="phone" placeholder="Set A Phone Number *"/>
                     </div>
                     <div class="field-wrap">
-                        <label>Set A Name of User<span class="req">*</span>
-                        </label>
-                        <input type="text"  autocomplete="off" name="user_name"/>
+                        <input type="text"  autocomplete="off" name="user_name" placeholder="Set A Name of User *"/>
                     </div>
 
                     <button type="submit" class="button button-block"/>Get Started</button>

@@ -25,6 +25,9 @@
     <link rel="stylesheet" href="<?php echo constant('URL'); ?>public/css/dashboard.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src="https://kit.fontawesome.com/33a54e7afe.js" crossorigin="anonymous"></script>
+
+    <script src="sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
 </head>
 <body>
 

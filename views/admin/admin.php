@@ -26,6 +26,8 @@ $adminTable = $this->d['admin'];
    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 
 <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">-->
+    <script src="sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
 </head>
 <body>
 
@@ -398,6 +400,50 @@ $adminTable = $this->d['admin'];
     <script src="../../public/javascript/custom.js"></script>
 
     <script src="https://kit.fontawesome.com/33a54e7afe.js" crossorigin="anonymous"></script>
+    <script>
+        // Verifica si hay mensajes de éxito en la URL
+        window.onload = function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.has('success')) {
+                const successMessage = urlParams.get('success');
+
+                // Muestra una alerta de éxito
+                Swal.fire({
+                    title: 'Operación Exitosa',
+                    text: 'Se creo exitosamente el elemento deseado',
+                    icon: 'success',
+                    confirmButtonText: 'OK'
+                }).then(function () {
+                    // Redirige al usuario a otra página si es necesario
+                    window.location.href = 'Project';
+                });
+            }
+            if(urlParams.has('error')){
+                Swal.fire({
+                    title: 'Operación Exitosa',
+                    text: 'No se creo el proyecto',
+                    icon: 'error',
+                    confirmButtonText: 'OK'
+                }).then(function () {
+                    // Redirige al usuario a otra página si es necesario
+                    window.location.href = 'Project';
+                });
+
+            }
+            if(urlParams.has('isset')){
+                Swal.fire({
+                    title: 'Operación Exitosa',
+                    text: 'Ingrese los datos',
+                    icon: 'error',
+                    confirmButtonText: 'OK'
+                }).then(function () {
+                    // Redirige al usuario a otra página si es necesario
+                    window.location.href = 'Project';
+                });
+
+            }
+        };
+    </script>
 
 </body>
 </html>

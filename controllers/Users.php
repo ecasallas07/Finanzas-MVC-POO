@@ -50,7 +50,7 @@ class Users extends SessionController
 
             if($model->updateUsers($id)){
                 error_log('Se actualizaron correctamente los usuarios'. $id);
-                $this->redirect('Users', ['success' => Success::SUCCESS_SIGNUP_NEWUSER]);
+                $this->redirect('Users', ['edit' => Success::SUCCESS_SIGNUP_NEWUSER]);
             }else{
                 error_log('No se actualizaon correctamente los usuarios');
                 $this->redirect('Users', ['success' => Errors::ERROR_SIGNUP_NEWUSER_EMPTY]);
@@ -65,12 +65,12 @@ class Users extends SessionController
     }
 
     public function deleteUsers(){
-        if($this->existPost(['name'])){
-            $name = $this->getPost('name');
+        if($this->existPost(['delete'])){
+            $name = $this->getPost('delete');
             $model = new AdminModel();
             if($model->deleteUsersModel($name)){
                 error_log('Se elimino correctamente lel usuario'. $name);
-                $this->redirect('Users', ['success' => Success::SUCCESS_SIGNUP_NEWUSER]);
+                $this->redirect('Users', ['deleteExit' => Success::SUCCESS_SIGNUP_NEWUSER]);
             }else{
                 error_log('No se eliminaron correctamente'. $name);
                 $this->redirect('Users', ['error' => Errors::ERROR_SIGNUP_NEWUSER]);

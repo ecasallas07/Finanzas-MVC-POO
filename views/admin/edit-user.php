@@ -29,6 +29,11 @@ $users = $this->d['info'];
     <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="expires" content="0">
     <meta http-equiv="pragma" content="no-cache">
+
+    <script src="sweetalert2.all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
 </head>
 <body>
     <div id="wrapper">
@@ -211,17 +216,17 @@ $users = $this->d['info'];
                         <div class="modal-content">
                             <!-- Contenido del modal -->
                             <div class="modal-header">
-                                <h5 class="modal-title">Crear usuario</h5>
-                                <form action="<?php echo constant('URL'); ?>Users/deleteUsers" method="POST">
+                                <h5 class="modal-title">Eliminar usuario</h5>
 
+                                <form id="deleteUserForm" action="<?php echo constant('URL'); ?>Users/deleteUsers" method="POST">
 
                                     <div class="field-wrap">
                                         <label>Select User for delete<span class="req">*</span>
                                         </label>
 
-                                        <select name="name" id="role" value="">
+                                        <select name="delete" id="delete">
 
-                                            <option value="" selected></option>
+                                            <option selected></option>
                                             <?php
 
                                             foreach ($users as $item) {
@@ -269,7 +274,63 @@ $users = $this->d['info'];
 
         }
 
+            // Verifica si hay mensajes de éxito en la URL
+            window.onload = function() {
+                const urlParams = new URLSearchParams(window.location.search);
+                console.log(urlParams.has('delete'));
+                if (urlParams.has('edit')) {
 
+
+                    // Muestra una alerta de éxito
+                    Swal.fire({
+                    title: 'Operación Exitosa',
+                    text: 'Se modifico exitosamente el usuario',
+                    icon: 'success',
+                    confirmButtonText: 'OK'
+                    }).then(function () {
+                        // Redirige al usuario a otra página si es necesario
+                        window.location.href = 'Users';
+                    });
+                }
+
+
+
+
+                if(urlParams.has('deleteExit')){
+                Swal.fire({
+                title: 'Operación Exitosa',
+                text: 'Se elimino correctamente',
+                icon: 'success',
+                confirmButtonText: 'OK'
+                }).then(function () {
+                    // Redirige al usuario a otra página si es necesario
+                    window.location.href = 'Project';
+                });
+
+                }
+            };
+
+
+        document.getElementById('deleteUserForm').addEventListener('submit', function (e) {
+            // Evita el envío por defecto del formulario para manejarlo con JavaScript
+            e.preventDefault();
+            Swal.fire({
+                title: 'Estas seguro?',
+                text: "¡No podrás revertir esto!",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Si, eliminarlo'
+            }).then((result) => {
+                if (result.isConfirmed) {
+
+                    const form = document.getElementById('deleteUserForm');
+                    form.submit();
+
+                }
+            })
+        })
 
 
 
